@@ -134,10 +134,8 @@ StartupEvents.registry("item", event => {
         .texture("kubejs:item/heavy_plating/monium")
 
     // Magnetron
-    if (doHarderProcessing) {
-        event.create("magnetron")
-            .texture("kubejs:item/magnetron")
-    }
+    event.create("magnetron")
+        .texture("kubejs:item/magnetron")
 
     // Spacefaring Items
     event.create("radiation_layer")
@@ -387,10 +385,8 @@ StartupEvents.registry("item", event => {
         .texture("kubejs:item/mod/thermal/clathrate/resonant_clathrate")
 
     // Ender Spore
-    if (!doHNN) {
-        event.create("ender_spore")
-            .texture("kubejs:item/ender_spore")
-    }
+    event.create("ender_spore")
+        .texture("kubejs:item/ender_spore")
 
     // Thermal Augments
     event.create("redstone_transmission_coil")

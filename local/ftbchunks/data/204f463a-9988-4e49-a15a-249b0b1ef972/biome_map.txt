@@ -3,3 +3,4 @@
 #4F1 minecraft:ocean
 #3DC minecraft:plains
 #5FF minecraft:river
+#774 minecraft:sunflower_plains

@@ -1,6 +1,100 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:packagedauto:recipe_holder",
+    "item:patchouli:guide_book{\"patchouli:book\":\"packagedauto:guide\"}",
+    "item:packagedauto:package_component",
+    "item:packagedauto:me_package_component",
+    "item:better_angel_ring:angel_ring",
+    "item:enderio:basic_item_filter",
+    "item:enderio:enderios",
+    "item:enderio:clear_glass_p",
+    "item:packagedauto:distributor_marker",
+    "item:waterframes:tv_box",
+    {
+      "type": "jemi",
+      "uid": "particle:electron_antineutrino"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:higgs_boson"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:muon_antineutrino"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:top_quark"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:antistrange_quark"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:tau_antineutrino"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:glueball"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:gluon"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:helion"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:triton"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:proton"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:neutron"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:deuteron"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:alpha"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:antialpha"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:antitriton"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:boron_ion"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:antimuon"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:calcium_48_ion"
+    },
+    "item:gtceu:flawless_anatase_gem",
+    "item:gtceu:raw_andradite",
+    "item:gtceu:raw_uvarovite",
+    "item:gtceu:raw_zincite",
+    "item:gtceu:raw_borax",
+    "item:gtceu:raw_rutile",
+    "item:gtceu:raw_lazurite",
+    "item:gtceu:raw_azurite",
     "item:gtceu:zirconium_dust",
     "item:nuclearcraft:hard_carbon_dust",
     {
@@ -183,7 +277,6 @@
     "item:gtceu:raw_columbite",
     "item:gtceu:raw_anorthite",
     "item:gtceu:raw_dilithium",
-    "item:gtceu:raw_azurite",
     "item:gtceu:small_darmstadtium_gear",
     {
       "type": "item",

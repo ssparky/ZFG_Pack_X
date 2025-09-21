@@ -1,33 +1,33 @@
-[11:18:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[11:18:52] [INIT] Loaded plugins:
-[11:18:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:18:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:18:52] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
-[11:18:52] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[11:18:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[11:18:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[11:18:52] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[11:18:52] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
-[11:18:52] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[11:18:52] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[11:18:52] [INIT] - com.almostreliable.morejs.Plugin
-[11:18:52] [INIT] - dev.thestaticvoid.capejs.kubejs.CapeJSPlugin
-[11:18:52] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[11:18:52] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[11:18:52] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[11:18:52] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[11:18:52] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[11:18:52] [INFO] Loaded script client_scripts:_initial.js in 0.001 s
-[11:18:52] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
-[11:18:52] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
-[11:18:52] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
-[11:18:52] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
-[11:18:52] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[11:18:52] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[11:18:52] [INFO] Loaded script client_scripts:mods/RPC.js in 0.0 s
-[11:18:52] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[11:18:52] [INFO] Loaded script client_scripts:tooltips.js in 0.003 s
-[11:18:52] [INFO] Loaded script client_scripts:_packmode.js in 0.0 s
-[11:18:52] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
-[11:18:52] [INFO] Loaded 11/11 KubeJS client scripts in 0.027 s with 0 errors and 0 warnings
-[11:19:01] [INFO] Client resource reload complete!
+[12:45:03] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[12:45:03] [INIT] Loaded plugins:
+[12:45:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[12:45:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[12:45:03] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[12:45:03] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[12:45:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[12:45:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[12:45:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[12:45:03] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[12:45:03] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[12:45:03] [INIT] - com.almostreliable.morejs.Plugin
+[12:45:03] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[12:45:03] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[12:45:03] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[12:45:03] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[12:45:03] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[12:45:03] [INFO] Loaded script client_scripts:_initial.js in 0.001 s
+[12:45:03] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
+[12:45:03] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
+[12:45:03] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[12:45:03] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.001 s
+[12:45:03] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
+[12:45:03] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[12:45:03] [ERROR] ! mods/RPC.js#23: ReferenceError: "sdrp" is not defined.
+[12:45:03] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[12:45:03] [INFO] Loaded script client_scripts:tooltips.js in 0.002 s
+[12:45:03] [INFO] Loaded script client_scripts:_packmode.js in 0.001 s
+[12:45:03] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
+[12:45:03] [INFO] Loaded 10/11 KubeJS client scripts in 0.027 s with 0 errors and 0 warnings
+[12:45:10] [INFO] Client resource reload complete!
+[12:45:48] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
+[12:45:55] [ERROR] ! mods/RPC.js#17: Error in 'NetworkEvents.dataReceived': ReferenceError: "SDRP" is not defined.

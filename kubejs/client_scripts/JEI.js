@@ -18,20 +18,10 @@ JEIEvents.hideItems(event => {
 
     // snad
     event.hide("snad:soul_snad")
-    if (!doSnad) {
-        event.hide(["snad:snad", "snad:red_snad"])
-    }
-
-    // fluxbore
-    if (!doFluxbore) {
-        event.hide("thermal:flux_drill")
-    }
 
     // Simple Compacting Drawers (TEMPORARY UNTIL BUG FIXED)
-    if (doCompacting) {
-        event.hide("functionalstorage:simple_compacting_drawer")
-        event.hide("functionalstorage:framed_simple_compacting_drawer")
-    }
+    event.hide("functionalstorage:simple_compacting_drawer")
+    event.hide("functionalstorage:framed_simple_compacting_drawer")
 
     // Hide GT ores to prevent clutter
     GTMaterialRegistry.getRegisteredMaterials().forEach(id => {

@@ -58,12 +58,6 @@
     },
     "done": true
   },
-  "rehooked:recipes/misc/diamond_chain": {
-    "criteria": {
-      "blank": "2025-09-21 10:44:46 +0200"
-    },
-    "done": true
-  },
   "ae2wtlib:recipes/wireless_pattern_encoding_terminal": {
     "criteria": {
       "has_wt": "2025-09-21 10:44:46 +0200"
@@ -93,6 +87,18 @@
       "minecraft:plains": "2025-09-21 10:44:53 +0200"
     },
     "done": false
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-09-21 11:54:38 +0200"
+    },
+    "done": false
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-09-21 11:54:38 +0200"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

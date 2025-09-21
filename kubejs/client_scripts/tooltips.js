@@ -31,20 +31,11 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("kubejs:universal_navigator", Text.translatable("kubejs.universal_navigator.tooltip"))
 
     // Assembly line ordering
-    if (doAssemblyLineOrderingWarning) {
-        tooltip.add("gtceu:assembly_line", Text.translatable("gtceu.assembly_line.tooltip.expertmode"))
-    } else {
-        tooltip.add("gtceu:assembly_line", Text.translatable("gtceu.assembly_line.tooltip.normalandhardmode"))
-    }
+    tooltip.add("gtceu:assembly_line", Text.translatable("gtceu.assembly_line.tooltip.normalandhardmode"))
 
     // Meowni Plush
-    if (doMeowniPlush) {
-        tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.hardmode.1"))
-        tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.hardmode.2"))
-    } else {
-        tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.normal.1"))
-        tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.normal.2"))
-    }
+    tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.hardmode.1"))
+    tooltip.add("kubejs:meowni_plush", Text.translatable("kubejs.meowni_plush.tooltip.hardmode.2"))
 
     // Questbook
     tooltip.addAdvanced("ftbquests:book", (item, adv, text) => { text.add(2, Text.gray(Text.translatable("ftbquests.book.tooltip"))) })

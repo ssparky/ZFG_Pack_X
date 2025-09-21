@@ -749,60 +749,11 @@ ServerEvents.recipes(event => {
     // detonator, locked to mv
     event.replaceInput({ id: "thermal:tools/detonator" }, ["#forge:gears/signalum"], ["#gtceu:circuits/mv"])
 
-    // Fluxbore
+    // Fluxbore - thermal will be removed later anyway, so the replacement recipes have already been removed.
     event.remove([{ id: "thermal:drill_head" }, { id: "thermal:flux_drill" }])
-    if (doFluxbore) {
-        if (doHarderFluxBore) {
-            event.shaped("thermal:flux_drill", [
-                " A ",
-                "BCB",
-                "DED"
-            ], {
-                A: "gtceu:stainless_steel_drill_head",
-                B: "#forge:ingots/silver",
-                C: "gtceu:mv_power_unit",
-                D: "#forge:ingots/tin",
-                E: "gtceu:iron_gear"
-            }).id("kubejs:flux_drill");
-        } else {
-            event.shaped("thermal:flux_drill", [
-                " A ",
-                "BCB",
-                "DED"
-            ], {
-                A: "gtceu:vanadium_steel_drill_head",
-                B: "#forge:ingots/silver",
-                C: "gtceu:lv_power_unit",
-                D: "#forge:ingots/tin",
-                E: "gtceu:iron_gear"
-            }).id("kubejs:flux_drill");
-        }
-    }
-
     event.remove([{ id: "thermal:saw_blade" }, { id: "thermal:flux_saw" }])
-    event.shaped("thermal:flux_saw", [
-        " A ",
-        "BCB",
-        "DED"
-    ], {
-        A: "gtceu:vanadium_steel_buzz_saw_blade",
-        B: "#forge:ingots/silver",
-        C: "gtceu:lv_power_unit",
-        D: "#forge:ingots/tin",
-        E: "gtceu:iron_gear"
-    }).id("kubejs:flux_saw");
-
     event.remove({ id: "thermal:flux_capacitor" });
-    event.shaped("thermal:flux_capacitor", [
-        " A ",
-        "BCB",
-        "ADA"
-    ], {
-        A: "#forge:dusts/redstone",
-        B: "#forge:ingots/lead",
-        C: "#forge:ingots/copper",
-        D: "#forge:dusts/sulfur"
-    }).id("kubejs:flux_capacitor");
+
 
     // revert this change so it only requires redstone
     event.replaceInput({ id: "thermal:flux_magnet" }, ["thermal:rf_coil"], ["#forge:dusts/redstone"]);

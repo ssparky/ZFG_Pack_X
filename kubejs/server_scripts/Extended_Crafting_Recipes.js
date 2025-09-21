@@ -6,6 +6,7 @@
 
 ServerEvents.recipes(event => {
     // Angel Ring
+    event.recipes.remove({ id: "better_angel_ring:angel_ring" })
     event.recipes.extendedcrafting.shaped_table("better_angel_ring:angel_ring", [
         " AAA ",
         "A B A",

@@ -3,22 +3,11 @@
 ServerEvents.recipes(event => {
 
     // Snad
-    if (doSnad) {
-        if (doHarderRecipes) {
-            event.shapeless("snad:snad", ["2x kubejs:double_compressed_sand", "enderio:pulsating_crystal"]).id("snad:snad")
-            event.shapeless("snad:red_snad", ["2x kubejs:double_compressed_red_sand", "enderio:pulsating_crystal"]).id("snad:red_snad")
-        } else {
-            event.shapeless("snad:snad", ["2x kubejs:double_compressed_sand"]).id("snad:snad")
-            event.shapeless("snad:red_snad", ["2x kubejs:double_compressed_red_sand"]).id("snad:red_snad")
+    event.shapeless("snad:snad", ["2x kubejs:double_compressed_sand"]).id("snad:snad")
+    event.shapeless("snad:red_snad", ["2x kubejs:double_compressed_red_sand"]).id("snad:red_snad")
 
-            // If Snad is obtainable pre-autoclave, so must be the Vacuum Chest.
-            event.replaceInput({ id: "enderio:vacuum_chest" }, "enderio:pulsating_crystal", "gtceu:tin_rotor")
-        }
-    } else {
-        event.remove({ id: "snad:snad" })
-        event.remove({ id: "snad:red_snad" })
-    }
-
+    // If Snad is obtainable pre-autoclave, so must be the Vacuum Chest.
+    event.replaceInput({ id: "enderio:vacuum_chest" }, "enderio:pulsating_crystal", "gtceu:tin_rotor")
 
     // snaded sand snad
     compacting(event, "kubejs:compressed_sand", "minecraft:sand");
@@ -27,14 +16,6 @@ ServerEvents.recipes(event => {
     // red snaded red sand red snad
     compacting(event, "kubejs:compressed_red_sand", "minecraft:red_sand");
     compacting(event, "kubejs:double_compressed_red_sand", "kubejs:compressed_red_sand");
-
-    // Void Air (normal air)
-    event.recipes.gtceu.gas_collector("void_air")
-        .dimension("javd:void")
-        .outputFluids(Fluid.of("gtceu:air", 10000))
-        .circuit(4)
-        .EUt(16)
-        .duration(200)
 
     // Netherrack
     event.recipes.gtceu.chemical_reactor("dust_to_netherrack")
@@ -59,33 +40,31 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: "gtceu:wood_plate" }, "gtceu:wood_plate", "#minecraft:planks")
 
     // Processing for Ender Spores
-    if (!doHNN) {
-        event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "thermal:phytogro", "minecraft:experience_bottle"])
-        event.smelting("minecraft:ender_pearl", "kubejs:ender_spore")
+    event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "thermal:phytogro", "minecraft:experience_bottle"])
+    event.smelting("minecraft:ender_pearl", "kubejs:ender_spore")
 
-        event.custom({
-            "type": "thermal:insolator",
-            "ingredient": {
-                "item": "kubejs:ender_spore"
-            },
-            "result": [
-                {
-                    "item": "kubejs:ender_spore",
-                    "chance": 2.0
-                }
-            ],
-            "energy_mod": 3.0
-        })
+    event.custom({
+        "type": "thermal:insolator",
+        "ingredient": {
+            "item": "kubejs:ender_spore"
+        },
+        "result": [
+            {
+                "item": "kubejs:ender_spore",
+                "chance": 2.0
+            }
+        ],
+        "energy_mod": 3.0
+    })
 
-        event.recipes.gtceu.greenhouse("kubejs:greenhouse_boosted_ender_spore")
-            .circuit(2)
-            .notConsumable("kubejs:ender_spore")
-            .itemInputs("4x gtceu:fertilizer")
-            .inputFluids(Fluid.of("minecraft:water"))
-            .itemOutputs("8x kubejs:ender_spore")
-            .duration(640)
-            .EUt(120)
-    }
+    event.recipes.gtceu.greenhouse("kubejs:greenhouse_boosted_ender_spore")
+        .circuit(2)
+        .notConsumable("kubejs:ender_spore")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids(Fluid.of("minecraft:water"))
+        .itemOutputs("8x kubejs:ender_spore")
+        .duration(640)
+        .EUt(120)
 
     // Change recipes for LV and MV macerators
     event.shaped("gtceu:lv_macerator", [

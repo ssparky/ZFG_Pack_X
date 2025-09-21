@@ -163,7 +163,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     // Give Rutile an ore form
     let rutile_ore_prop = new $OreProperty(1, 1);
-    rutile_ore_prop.setOreByProducts(GTMaterials.Iron, GTMaterials.Titanium, GTMaterials.get("fluorite"))
+    rutile_ore_prop.setOreByProducts(GTMaterials.Iron, GTMaterials.Quartzite, GTMaterials.Rutile)
     GTMaterials.Rutile.setProperty($PropertyKey.ORE, rutile_ore_prop)
 
     // Give Uvarovite an ore form
@@ -182,10 +182,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Iron2Chloride.setMaterialARGB(0xC5E1A5)
 
     // HM-exclusive modifications
-    if (doHarderProcessing) {
-        // GTMaterials.Berkelium.setProperty(PropertyKey.INGOT, new $IngotProperty());
-        GTMaterials.RhodiumSulfate.setProperty($PropertyKey.DUST, new $DustProperty());
-    }
+    GTMaterials.Berkelium.setProperty(PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.RhodiumSulfate.setProperty($PropertyKey.DUST, new $DustProperty());
 })
 
 GTCEuStartupEvents.materialModification(event => {
