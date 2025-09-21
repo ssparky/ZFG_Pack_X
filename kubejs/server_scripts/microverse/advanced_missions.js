@@ -128,35 +128,19 @@ ServerEvents.recipes(event => {
 
     // T5MM missions
     microverse_mission(event, 5, 2).forEach(builder => {
-        if(!doHarderRecipes) {
-            builder
-                .itemInputs("16x kubejs:stabilized_plutonium")
-                .itemInputs("kubejs:advanced_drilling_kit")
-                .itemInputs("gtceu:hsse_drill_head")
-                .requiredMicroverse(1) // Normal
-                .itemOutputs(
-                    "64x gtceu:raw_cooperite",
-                    "32x gtceu:raw_cooperite",
-                    "64x gtceu:raw_naquadah",
-                    "64x gtceu:raw_naquadah",
-                    "24x gtceu:raw_kaemanite",
-                )
-                .damageRate(2)
-        } else {
-            builder
-                .itemInputs("16x kubejs:stabilized_plutonium")
-                .itemInputs("kubejs:advanced_drilling_kit")
-                .itemInputs("gtceu:hsse_drill_head")
-                .requiredMicroverse(1) // Normal
-                .itemOutputs(
-                    "36x gtceu:raw_pollucite",
-                    "32x gtceu:raw_cooperite",
-                    "64x gtceu:raw_snowchestite",
-                    "64x gtceu:raw_snowchestite",
-                    "24x gtceu:raw_kaemanite",
-                )
-                .damageRate(2)
-        }
+        builder
+            .itemInputs("16x kubejs:stabilized_plutonium")
+            .itemInputs("kubejs:advanced_drilling_kit")
+            .itemInputs("gtceu:hsse_drill_head")
+            .requiredMicroverse(1) // Normal
+            .itemOutputs(
+                "36x gtceu:raw_pollucite",
+                "32x gtceu:raw_cooperite",
+                "64x gtceu:raw_snowchestite",
+                "64x gtceu:raw_snowchestite",
+                "24x gtceu:raw_kaemanite",
+            )
+            .damageRate(2)
     })
 
     microverse_mission(event, 5, 2).forEach(builder => {
@@ -241,13 +225,13 @@ ServerEvents.recipes(event => {
         builder
             .itemInputs("32x kubejs:stabilized_plutonium")
             .itemInputs("8x kubejs:dragon_lair_data")
-            .damageRate((doHostileMicroverse ? -40 : 4))
+            .damageRate(-40)
             .itemOutputs(
                 "32x minecraft:dragon_egg",
                 "64x kubejs:ender_dragon_scale",
                 "32x minecraft:dragon_breath",
             )
-            .requiredMicroverse((doHostileMicroverse ? 2 : 1)) // Hostile : Normal
+            .requiredMicroverse(2) // Hostile : Normal
     })
 
     microverse_mission(event, 6, 2).forEach(builder => {

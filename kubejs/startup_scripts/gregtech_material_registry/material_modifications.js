@@ -105,16 +105,20 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // Radioactive materials that get liquid forms and/or a new color
     addFluid(GTMaterials.Berkelium, $FluidStorageKeys.LIQUID, 1259);
     GTMaterials.Berkelium.setMaterialARGB(0xa33f20);
+    GTMaterials.Berkelium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     addFluid(GTMaterials.Californium, $FluidStorageKeys.LIQUID, 1173);
     GTMaterials.Californium.setMaterialARGB(0x7d0222)
+    GTMaterials.Californium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     addFluid(GTMaterials.Neptunium, $FluidStorageKeys.LIQUID, 913);
     GTMaterials.Neptunium.setMaterialARGB(0x486d7b)
     GTMaterials.Neptunium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     addFluid(GTMaterials.Curium, $FluidStorageKeys.LIQUID, 1618);
     GTMaterials.Curium.setMaterialARGB(0x58307f)
+    GTMaterials.Curium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     addFluid(GTMaterials.NetherStar, $FluidStorageKeys.LIQUID, 1337);
     GTMaterials.Thorium.setMaterialARGB(0x273420)
     addFluid(GTMaterials.Actinium, $FluidStorageKeys.LIQUID, 1324);
+    GTMaterials.Einsteinium.setProperty($PropertyKey.INGOT, new $IngotProperty())
 
     // Other new colors
     GTMaterials.Scandium.setMaterialARGB(0x58f591);

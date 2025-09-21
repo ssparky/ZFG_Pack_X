@@ -168,26 +168,10 @@ global.itemNukeList = [
     "ironfurnaces:emerald_furnace",
     "ironfurnaces:item_linker",
 
-    // Iron Jetpacks
-    "ironjetpacks:advanced_coil",
-    "ironjetpacks:basic_coil",
-    "ironjetpacks:capacitor",
-    "ironjetpacks:cell",
-    "ironjetpacks:elite_coil",
-    "ironjetpacks:thruster",
-    "ironjetpacks:ultimate_coil",
-
-    // Just Another Void Dimension (JAVD)
-    "javd:portal_block",
-
     // KubeJS
     "kubejs:debug_ctm_block",
     "kubejs:corrupted_universe_data",
     "kubejs:shattered_universe_data",
-
-    // LaserIO
-    "laserio:logic_chip",
-    "laserio:logic_chip_raw",
 
     // Megacells
     "megacells:mega_crafting_accelerator",
@@ -257,10 +241,6 @@ global.itemNukeList = [
     "thermal:machine_brewer",
     "thermal:machine_crystallizer",
     "thermal:device_xp_condenser",
-
-    // Wireless Chargers
-    "wirelesschargers:basic_wireless_block_charger",
-    "wirelesschargers:advanced_wireless_block_charger",
 
     // NuclearCraft regexes
     /^nuclearcraft:turbine[\w_]*/,

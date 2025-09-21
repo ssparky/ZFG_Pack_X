@@ -19,15 +19,4 @@ ServerEvents.recipes(event => {
         .itemOutputs("8x gtceu:neptunium_palladium_aluminium_dust")
         .duration(25 * 20)
         .EUt(GTValues.VA[GTValues.EV])
-
-    if(!doHarderProcessing) {
-        event.recipes.gtceu.chemical_reactor("rarest_metal_mixture_separation")
-            .itemInputs("7x gtceu:rarest_metal_mixture_dust")
-            .inputFluids("gtceu:hydrochloric_acid 4000")
-            .itemOutputs("5x gtceu:iridium_metal_residue_dust")
-            .outputFluids("gtceu:acidic_osmium_solution 2000")
-            .outputFluids("gtceu:hydrogen 3000")
-            .duration(400)
-            .EUt(GTValues.VHA[GTValues.LuV])
-    }
 })

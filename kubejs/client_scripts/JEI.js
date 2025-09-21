@@ -51,11 +51,6 @@ JEIEvents.addItems(event => {
     // Add example AE2 facade after failing to hide all other facade permutations
     event.add(Item.of("ae2:facade", { item: "gtceu:infinity_block" }))
 
-    // Iron Jetpacks' Cells are hard to selectively remove due to NBT shenanigans
-    event.add(Item.of("ironjetpacks:cell", {Id: "ironjetpacks:hardened"}))
-    event.add(Item.of("ironjetpacks:cell", {Id: "ironjetpacks:reinforced"}))
-    event.add(Item.of("ironjetpacks:cell", {Id: "ironjetpacks:resonant"}))
-
     // NuclearCraft
     event.add(["nuclearcraft:tough_alloy_ingot", "nuclearcraft:hard_carbon_ingot", "nuclearcraft:ferroboron_ingot", "nuclearcraft:rhodochrosite_dust"])
 

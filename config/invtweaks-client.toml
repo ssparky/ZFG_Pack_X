@@ -93,10 +93,6 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
-		containerClass = "com.direwolf20.laserio.client.screens.*"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
 		containerClass = "com.stal111.forbidden_arcanus.client.gui.screen.*"
 		sortRange = ""
 

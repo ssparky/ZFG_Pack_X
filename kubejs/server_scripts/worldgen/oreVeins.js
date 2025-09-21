@@ -896,7 +896,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
 
-    let naqMaterial = !doHarderProcessing ? GTMaterials.Naquadah : GTMaterials.get("snowchestite")
+    let naqMaterial = GTMaterials.get("snowchestite")
     event.add("glacio/naquadah", vein => {
         vein.weight(30)
         vein.density(0.25)

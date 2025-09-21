@@ -10,3 +10,20 @@ mods/
 
 # Ignore vscode folder
 .vscode/
+
+# Ignore other folders
+saves/
+server-resource-packs/
+patchouli_books/
+screenshots/
+modernfix/
+logs/
+local/
+ldlib/
+journeymap/
+fancymenu_data/
+ESM/
+crash-reports/
+coremods/
+backups/
+.cache/

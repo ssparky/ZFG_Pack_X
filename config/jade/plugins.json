@@ -93,9 +93,6 @@
     "cable_info": true,
     "parallel_info": true
   },
-  "fulleng": {
-    "storage_monitor": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -107,9 +104,6 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
-  },
-  "telepastries": {
-    "bites": true
   },
   "functionalstorage": {
     "armory": true
@@ -160,10 +154,7 @@
     "hud": true,
     "hud.redstone": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "corpse": {
-    "corpse": true
+  "gravestone": {
+    "grave": true
   }
 }

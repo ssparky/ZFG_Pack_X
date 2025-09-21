@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(9001)
 
     event.recipes.gtceu.large_chemical_reactor("oxalic_acid_dihydrate")
-        .notConsumable(doHarderProcessing ? "gtceu:vanadium_pentoxide_dust" : "gtceu:vanadium_dust")
+        .notConsumable("gtceu:vanadium_pentoxide_dust")
         .itemInputs("minecraft:sugar")
         .inputFluids(Fluid.of("gtceu:nitric_acid", 12000), "minecraft:water")
         .itemOutputs("6x gtceu:oxalic_acid_dihydrate_dust")

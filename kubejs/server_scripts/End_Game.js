@@ -342,31 +342,6 @@ ServerEvents.recipes(event => {
 
     // ! Creative Items !//
 
-    // Creative Jetpack
-    event.recipes.extendedcrafting.shaped_table(Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:creative"}').weakNBT(), [
-        "  C   L  ",
-        " CCC LLL ",
-        " CVCFLEL ",
-        " CVCILEL ",
-        " CVCDLEL ",
-        " CVC LEL ",
-        " SSS HHH ",
-        "  N   R  ",
-        " NNN RRR "
-    ], {
-        C: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:conductive_iron"}').weakNBT(),
-        D: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:dark_soularium"}').weakNBT(),
-        E: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:resonant"}').weakNBT(),
-        F: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:fluxed"}').weakNBT(),
-        H: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:hardened"}').weakNBT(),
-        I: "gtceu:infinity_ingot",
-        L: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:leadstone"}').weakNBT(),
-        N: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:energetic"}').weakNBT(),
-        R: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:reinforced"}').weakNBT(),
-        S: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:electrical_steel"}').weakNBT(),
-        V: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:vibrant"}').weakNBT()
-    })
-
     // Creative Solar Panel
     event.recipes.extendedcrafting.shaped_table("solarflux:sp_custom_infinity", [
         "SNNNNNNNS",
@@ -506,7 +481,7 @@ ServerEvents.recipes(event => {
 
     // Shortcut recipes for thrusters
     event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster")
-        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x enderio:weather_crystal", "2x enderio:prescient_crystal", "laserio:energy_overclocker_card_tier_8", "kubejs:flight_control_unit")
+        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x enderio:weather_crystal", "2x enderio:prescient_crystal", "minecraft:bedrock", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
         .itemOutputs("kubejs:dark_soularium_thruster")
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])

@@ -128,12 +128,6 @@ key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
 key_mod.chiselsandbits.keys.key.zoom:key.keyboard.z
 key_mod.chiselsandbits.keys.reset-caches:key.keyboard.c
 key_key.hammerlib.render_item:key.keyboard.unknown
-key_keybind.ironjetpacks.engine:key.keyboard.v
-key_keybind.ironjetpacks.hover:key.keyboard.h
-key_keybind.ironjetpacks.ascend:key.keyboard.unknown
-key_keybind.ironjetpacks.descend:key.keyboard.unknown
-key_keybind.ironjetpacks.increment_throttle:key.keyboard.period
-key_keybind.ironjetpacks.decrement_throttle:key.keyboard.comma
 key_key.modernfix.config:key.keyboard.unknown
 key_key.shrink.shrink:key.keyboard.g
 key_zume.zoom:key.keyboard.z
@@ -226,8 +220,6 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_key.laserio.card_holder.open:key.keyboard.o
-key_key.laserio.card_holder.toggle_pulling:key.keyboard.o:SHIFT
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.findme.search:key.keyboard.y
 key_key.findme.pull_one:key.keyboard.keypad.0

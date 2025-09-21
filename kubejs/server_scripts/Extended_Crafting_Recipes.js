@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         " AAA "
     ], {
         A: "gtceu:rose_gold_ingot",
-        B: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:energetic"}').weakNBT(),
-        C: Item.of("ironjetpacks:jetpack", '{Id:"ironjetpacks:reinforced"}').weakNBT(),
+        B: "minecraft:bedrock",
+        C: "minecraft:bedrock", // TODO: change to appropriate ingredients, used to be jetpacks.
     }).id("kubejs:extended/angel_ring")
 })
