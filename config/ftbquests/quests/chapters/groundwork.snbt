@@ -5,7 +5,7 @@
 	group: "18F0ED1F9A002C08"
 	icon: "gtceu:advanced_integrated_circuit"
 	id: "0E9D23BEF4A86E57"
-	order_index: 2
+	order_index: 1
 	quest_links: [
 		{
 			id: "7471AD069CC1E5EC"

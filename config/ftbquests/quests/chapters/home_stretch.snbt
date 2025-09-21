@@ -5,7 +5,7 @@
 	group: "18F0ED1F9A002C08"
 	icon: "kubejs:extradimensional_processor_mainframe"
 	id: "457D17593A814D73"
-	order_index: 7
+	order_index: 6
 	quest_links: [
 		{
 			id: "54018A95BECC356C"

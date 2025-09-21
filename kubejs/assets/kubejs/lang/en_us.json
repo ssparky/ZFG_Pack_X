@@ -7,11 +7,6 @@
   "item.kubejs.smore_32": "Half-stack-o'-S'more TriacontadyoS'mingot",
   "item.kubejs.smore_64": "Stack-o'-S'more HexecontatessaraS'mingot",
 
-  "item.kubejs.moni_penny": "Monipenny §7[1]",
-  "item.kubejs.moni_nickel": "§eMoninickel §r§7[5]",
-  "item.kubejs.moni_quarter": "§bMoniquarter §r§7[25]",
-  "item.kubejs.moni_dollar": "§dMonidollar §r§7[100]",
-
   "item.kubejs.microminer_t1": "§eSteel Plated Micro Miner [Tier One]",
   "item.kubejs.microminer_t1.desc": "§7§oHarvests Titanium and other light metals from asteroids in the microverse.",
   "item.kubejs.microminer_t2": "§eTitanium Plated Micro Miner [Tier Two]",
@@ -217,15 +212,6 @@
   "item.kubejs.dimensionally_stabilized_infinity_heavy_plating": "§dDimensionally Stabilized Infinity Heavy Plating",
   "item.kubejs.causality_exempt_monic_heavy_plating": "§1Causality Exempt Monic Heavy Plating",
   "item.kubejs.quantum_flux": "§dQuantum Flux",
-
-  "item.kubejs.wooden_widget": "Wooden Widget",
-  "item.kubejs.wooden_widget_left": "Wooden Widget Left Part",
-  "item.kubejs.wooden_widget_right": "Wooden Widget Right Part",
-  "item.kubejs.stone_widget": "Stone Widget",
-  "item.kubejs.stone_widget_up": "Stone Widget Up Side",
-  "item.kubejs.stone_widget_down": "Stone Widget Down Side",
-  "item.kubejs.alloy_widget": "Alloy Widget",
-  "item.kubejs.ender_widget": "Ender Widget",
 
   "item.kubejs.magnetron": "Magnetron",
 

@@ -1,0 +1,271 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:kubejs:magnetic_capacitor_dust",
+    "item:kubejs:grains_of_innocence",
+    "item:enderio:enticing_crystal",
+    "item:kubejs:photonic_soc_base",
+    "item:kubejs:photonic_soc_inert",
+    "item:kubejs:null_infused_circuit_board",
+    "item:kubejs:null_infused_printed_circuit_board",
+    "item:kubejs:extradimensional_processing_unit",
+    "item:kubejs:miniature_microverse_container",
+    "item:kubejs:microverse_containment_unit",
+    "item:kubejs:extradimensional_quantum_cpu_core",
+    "item:kubejs:extradimensional_crystal_cpu_core",
+    "item:kubejs:extradimensional_wetware_cpu_core",
+    "item:kubejs:extradimensional_optical_cpu_core",
+    "item:kubejs:optical_processor_mainframe",
+    "item:kubejs:optical_processor_computer",
+    {
+      "type": "item",
+      "id": "kubejs:optical_processor_assembly",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "kubejs:optical_processor",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "kubejs:optical_chip",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "kubejs:completed_optical_wafer",
+      "chance": 0.5
+    },
+    "item:kubejs:engraved_sapphire_wafer",
+    "item:kubejs:coated_sapphire_wafer",
+    "item:kubejs:incomplete_sapphire_wafer",
+    "item:kubejs:sapphire_wafer",
+    "item:kubejs:sapphire_boule",
+    {
+      "type": "fluid",
+      "id": "gtceu:monium",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ardite",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uu_matter",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "monilabs:sculk_bioalloy",
+      "amount": 1440
+    },
+    "item:kubejs:amalgamated_sculk",
+    {
+      "type": "fluid",
+      "id": "gtceu:hadal_sculk",
+      "amount": 2000
+    },
+    "item:kubejs:petri_dish_sculk",
+    {
+      "type": "fluid",
+      "id": "gtceu:sculk",
+      "amount": 288
+    },
+    {
+      "type": "item",
+      "id": "minecraft:sculk_catalyst",
+      "amount": 4
+    },
+    "item:gtceu:uhv_machine_casing",
+    "item:gtceu:uhv_machine_hull",
+    "item:gtceu:uhv_4096a_laser_target_hatch",
+    "item:gtceu:antimatter_collider",
+    "item:gtceu:antimatter_manipulator",
+    {
+      "type": "fluid",
+      "id": "kubejs:antimatter_fuel",
+      "amount": 10
+    },
+    "item:gtceu:omnic_synthesizer",
+    "item:gtceu:amethyst_lens",
+    "item:gtceu:lithium_niobate_lens",
+    "item:gtceu:darconite_ingot",
+    "item:gtceu:darconite_rod",
+    "item:gtceu:long_darconite_rod",
+    "item:gtceu:darconite_spring",
+    "item:gtceu:hot_necrosiderite_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_signalum",
+      "amount": 144
+    },
+    "item:gtceu:signalum_ingot",
+    "item:gtceu:signalum_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:signalum",
+      "amount": 144
+    },
+    "item:gtceu:signalum_nugget",
+    "item:gtceu:hyperdegenerate_darconite_foil",
+    {
+      "type": "item",
+      "id": "gtceu:small_hyperdegenerate_darconite_dust",
+      "amount": 4
+    },
+    "item:gtceu:hyperdegenerate_darconite_dust",
+    {
+      "type": "item",
+      "id": "gtceu:hyperdegenerate_darconite_ingot",
+      "amount": 9
+    },
+    "item:gtceu:hyperdegenerate_darconite_block",
+    "item:gtceu:hyperdegenerate_darconite_nugget",
+    {
+      "type": "fluid",
+      "id": "gtceu:hyperdegenerate_darconite",
+      "amount": 144
+    },
+    "item:gtceu:polyethyl_cyanoacrylate_plate",
+    "item:gtceu:polyether_ether_ketone_plate",
+    "item:gtceu:stolzite_lens",
+    "item:gtceu:stolzite_plate",
+    "item:gtceu:neptunium_palladium_aluminium_plate",
+    "item:gtceu:raw_dulysite",
+    "item:gtceu:raw_darmstadtite",
+    "item:gtceu:raw_stolzite",
+    "item:gtceu:raw_kaemanite",
+    "item:gtceu:raw_iridosmine",
+    "item:gtceu:raw_bismite",
+    "item:gtceu:raw_sperrylite",
+    {
+      "type": "item",
+      "id": "gtceu:wolframite_dust",
+      "amount": 2
+    },
+    "item:gtceu:raw_wolframite",
+    "item:gtceu:raw_laurite",
+    "item:gtceu:raw_briartite",
+    "item:gtceu:raw_gallite",
+    {
+      "type": "item",
+      "id": "gtceu:xenotime_dust",
+      "amount": 4
+    },
+    "item:gtceu:exquisite_xenotime_gem",
+    "item:gtceu:flawless_xenotime_gem",
+    "item:gtceu:xenotime_gem",
+    "item:gtceu:raw_xenotime",
+    "item:gtceu:raw_titanite",
+    "item:gtceu:raw_argentite",
+    "item:gtceu:raw_cuprorhodsite",
+    "item:gtceu:raw_carnotite",
+    "item:gtceu:raw_arsenopyrite",
+    "item:gtceu:raw_columbite",
+    "item:gtceu:raw_anorthite",
+    "item:gtceu:raw_dilithium",
+    "item:gtceu:raw_azurite",
+    "item:gtceu:small_darmstadtium_gear",
+    {
+      "type": "item",
+      "id": "gtceu:ardite_dust",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_manyullyn",
+      "amount": 144
+    },
+    "item:gtceu:manyullyn_ingot",
+    "item:gtceu:small_manyullyn_gear",
+    "item:gtceu:uev_hermetic_casing",
+    "item:monilabs:knowledge_transmission_array",
+    "item:monilabs:prismatic_focus",
+    {
+      "type": "item",
+      "id": "gtceu:coal_fly_ash_dust",
+      "amount": 6
+    },
+    "item:gtceu:fly_ash_aluminosilicate_dust",
+    {
+      "type": "item",
+      "id": "gtceu:salt_roasted_aluminosilicate_dust",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:aluminosilicate_leachate",
+      "amount": 2000
+    },
+    "item:gtceu:germanium_dust",
+    [
+      "item:gtceu:raw_briartite",
+      "#item:forge:ores/briartite"
+    ],
+    {
+      "type": "item",
+      "id": "gtceu:briartite_dust",
+      "amount": 8
+    },
+    "item:gtceu:germanium_disulfide_dust",
+    "item:kubejs:prism_pane",
+    "item:kubejs:lyso_ce_glass",
+    "item:kubejs:red_aligned_glass",
+    "item:kubejs:green_aligned_glass",
+    "item:kubejs:blue_aligned_glass",
+    "item:kubejs:prism_glass",
+    "item:gtceu:lyso_ce_dust",
+    "item:kubejs:supercritical_prismatic_core",
+    "item:kubejs:indigo_prismatic_core",
+    "item:kubejs:azure_prismatic_core",
+    "item:kubejs:teal_prismatic_core",
+    "item:kubejs:lime_prismatic_core",
+    "item:kubejs:orange_prismatic_core",
+    "item:kubejs:active_prismatic_core",
+    "item:kubejs:blue_prismatic_core",
+    "item:kubejs:cyan_prismatic_core",
+    "item:kubejs:green_prismatic_core",
+    "item:kubejs:yellow_prismatic_core",
+    "item:kubejs:red_prismatic_core",
+    "item:kubejs:inert_prismatic_core",
+    {
+      "type": "item",
+      "id": "kubejs:chromatically_reactive_shard",
+      "amount": 3
+    },
+    "item:kubejs:chromatically_reactive_cluster",
+    "item:gtceu:omnium_nugget",
+    "item:kubejs:stabilized_berkelium",
+    {
+      "type": "item",
+      "id": "gtceu:tiny_omnium_dust",
+      "amount": 9
+    },
+    "item:gtceu:omnium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:omnium",
+      "amount": 144
+    },
+    "item:gtceu:omnium_ingot",
+    "item:kubejs:chromatic_capacitor_magenta",
+    "item:kubejs:chromatic_capacitor_cyan",
+    "item:kubejs:chromatic_capacitor_green",
+    "item:kubejs:chromatic_capacitor_yellow",
+    "item:kubejs:chromatic_capacitor_red",
+    "item:kubejs:chromatic_capacitor_empty",
+    "item:kubejs:chromatic_stabilizer",
+    "item:kubejs:chromatically_inert_frame"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

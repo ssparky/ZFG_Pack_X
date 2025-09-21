@@ -1,0 +1,33 @@
+[10:42:30] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[10:42:30] [INIT] Loaded plugins:
+[10:42:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:42:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:42:30] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[10:42:30] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[10:42:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[10:42:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[10:42:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[10:42:30] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[10:42:30] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[10:42:30] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[10:42:30] [INIT] - com.almostreliable.morejs.Plugin
+[10:42:30] [INIT] - dev.thestaticvoid.capejs.kubejs.CapeJSPlugin
+[10:42:30] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[10:42:30] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[10:42:30] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[10:42:30] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[10:42:30] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[10:42:30] [INFO] Loaded script client_scripts:_initial.js in 0.0 s
+[10:42:30] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.0 s
+[10:42:30] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
+[10:42:30] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[10:42:30] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
+[10:42:30] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.001 s
+[10:42:30] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[10:42:31] [INFO] Loaded script client_scripts:mods/RPC.js in 0.001 s
+[10:42:31] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[10:42:31] [INFO] Loaded script client_scripts:tooltips.js in 0.002 s
+[10:42:31] [INFO] Loaded script client_scripts:_packmode.js in 0.0 s
+[10:42:31] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
+[10:42:31] [INFO] Loaded 11/11 KubeJS client scripts in 0.02 s with 0 errors and 0 warnings
+[10:42:37] [INFO] Client resource reload complete!

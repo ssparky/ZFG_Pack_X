@@ -118,8 +118,4 @@ ServerEvents.recipes(event => {
             .EUt(65520)
     }
 
-    if (!doMonicoins) {
-        event.remove({ id: "bountiful:crafting/bountyboard" })
-        event.remove({ id: "bountiful:crafting/decree" })
-    }
 })

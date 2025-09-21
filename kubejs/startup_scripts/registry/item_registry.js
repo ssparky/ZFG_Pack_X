@@ -133,45 +133,6 @@ StartupEvents.registry("item", event => {
         .displayName("§9Causality Exempt Monic Heavy Plating")
         .texture("kubejs:item/heavy_plating/monium")
 
-    // Monicoins
-    if (doMonicoins) {
-        event.create("moni_penny")
-            .texture("kubejs:item/coins/monimoney/penny")
-    }
-    event.create("moni_nickel")
-        .texture("kubejs:item/coins/monimoney/nickel")
-    event.create("moni_quarter")
-        .texture("kubejs:item/coins/monimoney/quarter")
-    event.create("moni_dollar")
-        .texture("kubejs:item/coins/monimoney/dollar")
-        .glow(true)
-
-    // Widgets
-    event.create("wooden_widget")
-        .texture("kubejs:item/coins/widget/wooden")
-        .displayName("Wooden Widget")
-    event.create("wooden_widget_left")
-        .texture("kubejs:item/coins/widget/wooden_left")
-        .displayName("Wooden Widget Left Part")
-    event.create("wooden_widget_right")
-        .displayName("Wooden Widget Right Part")
-        .texture("kubejs:item/coins/widget/wooden_right")
-    event.create("stone_widget")
-        .texture("kubejs:item/coins/widget/stone")
-        .displayName("Stone Widget")
-    event.create("stone_widget_up")
-        .texture("kubejs:item/coins/widget/stone_up")
-        .displayName("Stone Widget Up Side")
-    event.create("stone_widget_down")
-        .texture("kubejs:item/coins/widget/stone_down")
-        .displayName("Stone Widget Down Side")
-    event.create("alloy_widget")
-        .texture("kubejs:item/coins/widget/alloy")
-        .displayName("Alloy Widget")
-    event.create("ender_widget")
-        .texture("kubejs:item/coins/widget/ender")
-        .displayName("Ender Widget")
-
     // Magnetron
     if (doHarderProcessing) {
         event.create("magnetron")
