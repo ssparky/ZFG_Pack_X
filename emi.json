@@ -1,6 +1,22 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:gtceu:zirconium_dust",
+    "item:nuclearcraft:hard_carbon_dust",
+    {
+      "type": "jemi",
+      "uid": "particle:pion_naught"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:pion_plus"
+    },
+    {
+      "type": "jemi",
+      "uid": "particle:antiproton"
+    },
+    "item:nuclearcraft:antihydrogen",
+    "item:gtceu:raw_anatase",
     "item:kubejs:magnetic_capacitor_dust",
     "item:kubejs:grains_of_innocence",
     "item:enderio:enticing_crystal",

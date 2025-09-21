@@ -211,15 +211,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add(["gtceu:prospector.lv", "gtceu:prospector.hv", "gtceu:prospector.luv"], Text.translatable("gtceu.prospector.tooltip.1"));
     tooltip.add(["gtceu:prospector.lv", "gtceu:prospector.hv", "gtceu:prospector.luv"], Text.translatable("gtceu.prospector.tooltip.2"));
 
-    // TelePastries
-    const TelePastries = ["nether", "overworld", "end", "custom", "lost_city"]
-    TelePastries.forEach(dim => {
-        tooltip.addAdvanced(`telepastries:${dim}_cake`, (item, adv, text) => {
-            text.add(1, Text.translatable(`telepastries.${dim}_cake.tooltip.1`))
-            text.add(2, Text.translatable(`telepastries.${dim}_cake.tooltip.2`))
-        })
-    })
-
     // NuclearCraft
     tooltip.add("nuclearcraft:rhodochrosite_dust", "§eMnCO₃");
     tooltip.add("nuclearcraft:tough_alloy_ingot", "§eLiFeB");

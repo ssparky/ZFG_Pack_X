@@ -28,23 +28,11 @@ ServerEvents.recipes(event => {
     compacting(event, "kubejs:compressed_red_sand", "minecraft:red_sand");
     compacting(event, "kubejs:double_compressed_red_sand", "kubejs:compressed_red_sand");
 
-    // Glider
-    event.replaceInput({ id: "hangglider:glider_framework" }, "minecraft:iron_ingot", "gtceu:iron_rod")
-    event.replaceInput({ id: "gtceu:shaped/basic_circuit_board" }, "gtceu:copper_single_wire", "gtceu:fine_copper_wire")
-
     // Void Air (normal air)
     event.recipes.gtceu.gas_collector("void_air")
         .dimension("javd:void")
         .outputFluids(Fluid.of("gtceu:air", 10000))
         .circuit(4)
-        .EUt(16)
-        .duration(200)
-
-    // Lost Cities Air (normal air)
-    event.recipes.gtceu.gas_collector("lc_air")
-        .dimension("lostcities:lostcity")
-        .outputFluids(Fluid.of("gtceu:air", 10000))
-        .circuit(5)
         .EUt(16)
         .duration(200)
 

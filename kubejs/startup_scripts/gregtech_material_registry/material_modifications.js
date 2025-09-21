@@ -26,7 +26,48 @@ let addFluid = (mat, key, temp) => {
 
 GTCEuStartupEvents.registry("gtceu:material", event => {
     // Existing materials that get an item form
+    GTMaterials.Scandium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Selenium.setProperty($PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Rubidium.setProperty($PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Strontium.setProperty($PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Zirconium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Lutetium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Technetium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Tellurium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Praseodymium.setProperty($PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Promethium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Gadolinium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Dysprosium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Erbium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Thulium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Ytterbium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    
+    GTMaterials.Hafnium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Rhenium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Thallium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Polonium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Astatine.setProperty($PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Francium.setProperty($PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Radium.setProperty($PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Protactinium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Fermium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Mendelevium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+
+    GTMaterials.Nobelium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Lawrencium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Rutherfordium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Dubnium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Seaborgium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Bohrium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Hassium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Meitnerium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Roentgenium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Copernicium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Nihonium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Flerovium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Moscovium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Livermorium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Tennessine.setProperty($PropertyKey.DUST, new $DustProperty());
 
     GTMaterials.Actinium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Actinium.setMaterialARGB(0xaa3399)
@@ -75,6 +116,23 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Thorium.setMaterialARGB(0x273420)
     addFluid(GTMaterials.Actinium, $FluidStorageKeys.LIQUID, 1324);
 
+    // Other new colors
+    GTMaterials.Scandium.setMaterialARGB(0x58f591);
+    GTMaterials.Germanium.setMaterialARGB(0x525151);
+    GTMaterials.Selenium.setMaterialARGB(0x2a1f1f);
+    GTMaterials.Rubidium.setMaterialARGB(0xeb9b9b);
+    GTMaterials.Strontium.setMaterialARGB(0xdede98);
+    GTMaterials.Zirconium.setMaterialARGB(0xe1d7af);
+    GTMaterials.Technetium.setMaterialARGB(0xdab9de);
+    GTMaterials.Tellurium.setMaterialARGB(0xeb458e);
+    GTMaterials.Promethium.setMaterialARGB(0x84ffc1);
+    GTMaterials.Dysprosium.setMaterialARGB(0xebc891);
+    GTMaterials.Erbium.setMaterialARGB(0xdbebbe);
+    GTMaterials.Thulium.setMaterialARGB(0x3f525c);
+    GTMaterials.Ytterbium.setMaterialARGB(0xebede0);
+    GTMaterials.Seaborgium.setMaterialARGB(0x6fbfbf);
+    GTMaterials.Nihonium.setMaterialARGB(0xfad6f7);
+
     // Liquid Sculk
     let liquid_sculk_prop = new $FluidProperty();
     liquid_sculk_prop.getStorage().enqueueRegistration($FluidStorageKeys.LIQUID, new $FluidBuilder().temperature(310).customStill())
@@ -102,6 +160,21 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     let borax_ore_prop = new $OreProperty(1, 2);
     borax_ore_prop.setOreByProducts(GTMaterials.Salt, GTMaterials.Boron, GTMaterials.RockSalt)
     GTMaterials.Borax.setProperty($PropertyKey.ORE, borax_ore_prop)
+
+    // Give Rutile an ore form
+    let rutile_ore_prop = new $OreProperty(1, 1);
+    rutile_ore_prop.setOreByProducts(GTMaterials.Iron, GTMaterials.Titanium, GTMaterials.get("fluorite"))
+    GTMaterials.Rutile.setProperty($PropertyKey.ORE, rutile_ore_prop)
+
+    // Give Uvarovite an ore form
+    let uvarovite_ore_prop = new $OreProperty(2, 1);
+    uvarovite_ore_prop.setOreByProducts(GTMaterials.Calcium, GTMaterials.Chromium, GTMaterials.Silicon)
+    GTMaterials.Uvarovite.setProperty($PropertyKey.ORE, uvarovite_ore_prop)
+
+    // Give Andradite an ore form
+    let andradite_ore_prop = new $OreProperty(2, 1);
+    andradite_ore_prop.setOreByProducts(GTMaterials.Calcium, GTMaterials.Iron, GTMaterials.Silicon)
+    GTMaterials.Andradite.setProperty($PropertyKey.ORE, andradite_ore_prop)
 
     // Give Iron II Chloride a dust form to replace fluid & recolor to match IRL anhydride.
     // Removing the FluidProperty causes errors in GT's hard-coded recipes so we add the fluid to the nukelist instead

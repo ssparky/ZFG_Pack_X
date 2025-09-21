@@ -5,14 +5,12 @@
 GTCEuStartupEvents.registry("gtceu:material", event => {
 
     // Snowchestite is part of harder Naquadah Processing
-    if (doHarderProcessing) {
-        event.create("snowchestite")
-            .dust().ore()
-            .color(0x274c9f).iconSet("shiny")
-            .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-            .components("3x naquadah_oxide", "pyromorphite")
-            .addOreByproducts("chalcopyrite", "vanadium_magnetite", "naquadah_hydroxide")
-    }
+    event.create("snowchestite")
+        .dust().ore()
+        .color(0x274c9f).iconSet("shiny")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+        .components("3x naquadah_oxide", "pyromorphite")
+        .addOreByproducts("chalcopyrite", "vanadium_magnetite", "naquadah_hydroxide")
 
     // Earth
     event.create("azurite")
@@ -194,4 +192,22 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xF5EFC0)
         .components(GTMaterials.Duranium, GTMaterials.Chlorine.multiply(3))
         .addOreByproducts(GTMaterials.Sphalerite, GTMaterials.Duranium, GTMaterials.Europium)
+
+    // ZFG-Exclusive
+    event.create("anatase")
+        .gem().ore(2, 1)
+        .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
+        .color(0x0d0803).secondaryColor(0x062038)
+        .components(GTMaterials.Titanium.multiply(1), GTMaterials.Oxygen.multiply(2))
+        .addOreByproducts(GTMaterials.Magnetite, GTMaterials.Rutile, GTMaterials.Zirconium)
+        .washedIn(GTMaterials.Mercury)
+        .flags(GTMaterialFlags.GENERATE_LENS)
+    
+    event.create("black_opal")
+        .gem().ore(3, 1)
+        .iconSet(GTMaterialIconSet.OPAL)
+        .color(0x201457).secondaryColor(0xe00f4f)
+        .components(GTMaterials.Silicon.multiply(1), GTMaterials.Oxygen.multiply(2), GTMaterials.Water.multiply(1))
+        .formula("SiO2·H2O")
+        .addOreByproducts(GTMaterials.Opal, GTMaterials.Quartzite, GTMaterials.YellowLimonite)
 })

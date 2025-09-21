@@ -22,19 +22,6 @@
                     "name": "monifactory:chests/misc_loot"
                 }
             ]
-        },
-        {
-            "rolls": {
-                "type": "minecraft:binomial",
-                "n": 1,
-                "p": 0.2
-            },
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "lostcities:chests/lostcitychest"
-                }
-            ]
         }
     ]
 }

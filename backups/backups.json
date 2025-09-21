@@ -12,6 +12,19 @@
       "backupName": "automated",
       "backupFormat": "ZIP",
       "complete": true
+    },
+    {
+      "worldName": "TW1",
+      "createTime": 1758447000141,
+      "backupLocation": "C:\\Users\\Stefan\\AppData\\Roaming\\PrismLauncher\\instances\\ZFG X Dev\\minecraft\\backups\\2025-9-21_11-30-0.zip",
+      "size": 6771338,
+      "ratio": 0.7933709,
+      "sha1": "b951625dae0058027f995caf1abeab93f1b789e6",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
     }
   ]
 }

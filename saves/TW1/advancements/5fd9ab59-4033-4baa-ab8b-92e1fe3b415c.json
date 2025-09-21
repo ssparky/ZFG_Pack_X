@@ -11,12 +11,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-09-21 10:44:52 +0200"
-    },
-    "done": true
-  },
   "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_encoding": {
     "criteria": {
       "has_wpt": "2025-09-21 10:44:46 +0200"
@@ -34,12 +28,6 @@
     "criteria": {
       "has_wit": "2025-09-21 10:44:46 +0200",
       "has_wct": "2025-09-21 10:44:46 +0200"
-    },
-    "done": true
-  },
-  "rehooked:recipes/misc/wood_chain": {
-    "criteria": {
-      "blank": "2025-09-21 10:44:46 +0200"
     },
     "done": true
   },
@@ -76,12 +64,6 @@
     },
     "done": true
   },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2025-09-21 10:44:52 +0200"
-    },
-    "done": true
-  },
   "ae2wtlib:recipes/wireless_pattern_encoding_terminal": {
     "criteria": {
       "has_wt": "2025-09-21 10:44:46 +0200"
@@ -91,6 +73,18 @@
   "ironfurnaces:coal": {
     "criteria": {
       "rainbowcoal": "2025-09-21 10:44:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-21 10:44:52 +0200"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-09-21 10:44:52 +0200"
     },
     "done": true
   },

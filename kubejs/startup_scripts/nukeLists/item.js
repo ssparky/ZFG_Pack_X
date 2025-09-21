@@ -218,11 +218,6 @@ global.itemNukeList = [
     "systeams:numismatic_boiler",
     "systeams:steamiestest_ball",
 
-    // Telepastries
-    "telepastries:custom_cake2",
-    "telepastries:custom_cake3",
-    "telepastries:twilight_cake",
-
     // Thermal Series
     "thermal:apatite",
     "thermal:bitumen",
