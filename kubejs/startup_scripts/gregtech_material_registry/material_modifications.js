@@ -105,7 +105,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // Radioactive materials that get liquid forms and/or a new color
     addFluid(GTMaterials.Berkelium, $FluidStorageKeys.LIQUID, 1259);
     GTMaterials.Berkelium.setMaterialARGB(0xa33f20);
-    GTMaterials.Berkelium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+    //GTMaterials.Berkelium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     addFluid(GTMaterials.Californium, $FluidStorageKeys.LIQUID, 1173);
     GTMaterials.Californium.setMaterialARGB(0x7d0222)
     GTMaterials.Californium.setProperty($PropertyKey.INGOT, new $IngotProperty())

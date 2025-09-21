@@ -35,23 +35,22 @@ ServerEvents.recipes(event => {
     })
 
     // HNN MATTERS
-    if (doHNN) {
-        event.recipes.gtceu.extractor("overworld_fluid")
-            .itemInputs("hostilenetworks:overworld_prediction")
-            .outputFluids(Fluid.of("enderio:xp_juice", 200))
-            .duration(40)
-            .EUt(32)
-        event.recipes.gtceu.extractor("nether_experience_fluid")
-            .itemInputs("hostilenetworks:nether_prediction")
-            .outputFluids(Fluid.of("enderio:xp_juice", 400))
-            .duration(80)
-            .EUt(32)
-        event.recipes.gtceu.extractor("ender_experience_fluid")
-            .itemInputs("hostilenetworks:end_prediction")
-            .outputFluids(Fluid.of("enderio:xp_juice", 500))
-            .duration(100)
-            .EUt(32)
-    }
+    event.recipes.gtceu.extractor("overworld_fluid")
+        .itemInputs("hostilenetworks:overworld_prediction")
+        .outputFluids(Fluid.of("enderio:xp_juice", 200))
+        .duration(40)
+        .EUt(32)
+    event.recipes.gtceu.extractor("nether_experience_fluid")
+        .itemInputs("hostilenetworks:nether_prediction")
+        .outputFluids(Fluid.of("enderio:xp_juice", 400))
+        .duration(80)
+        .EUt(32)
+    event.recipes.gtceu.extractor("ender_experience_fluid")
+        .itemInputs("hostilenetworks:end_prediction")
+        .outputFluids(Fluid.of("enderio:xp_juice", 500))
+        .duration(100)
+        .EUt(32)
+
 
     event.recipes.gtceu.fluid_solidifier("one_experience_solid")
         .itemOutputs("kubejs:solidified_experience")
@@ -76,16 +75,14 @@ ServerEvents.recipes(event => {
         .duration(20)
         .EUt(30)
 
-    if (doHNN) {
-        event.shaped("kubejs:quantum_flux", [
-            " B ",
-            "BAB",
-            " B "
-        ], {
-            A: "enderio:pulsating_crystal",
-            B: "hostilenetworks:end_prediction"
-        })
-    }
+    event.shaped("kubejs:quantum_flux", [
+        " B ",
+        "BAB",
+        " B "
+    ], {
+        A: "enderio:pulsating_crystal",
+        B: "hostilenetworks:end_prediction"
+    })
 
     // Remove Hot MV ingots (And molten fluid counterpart)
     event.remove([

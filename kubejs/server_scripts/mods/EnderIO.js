@@ -185,19 +185,6 @@ ServerEvents.recipes(event => {
     }).id("kubejs:enchanter")
 
     // Custom enchanter books
-    event.custom(
-        {
-            "type": "enderio:enchanting",
-            "cost_multiplier": 1,
-            "enchantment": "ensorcellation:air_affinity",
-            "input": {
-                "count": 1,
-                "ingredient": {
-                    "item": "quark:bottled_cloud"
-                }
-            }
-        })
-
     if (Platform.isLoaded("ulvcovm")) {
         event.custom(
             {

@@ -26,9 +26,20 @@ ESM/
 crash-reports/
 coremods/
 backups/
+backups/*
 .cache/
 saves/*
+gtceu/
+figura/
 
+# Ignore files outside of folders
+emi.json
+patchouli_data.json
+usercache.json
+usernamecache.json
+
+
+# Complete mess
 backups/backups.json
 local/ftbchunks/data/204f463a-9988-4e49-a15a-249b0b1ef972/biome_map.txt
 local/ftbchunks/data/204f463a-9988-4e49-a15a-249b0b1ef972/block_map.txt

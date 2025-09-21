@@ -18,6 +18,7 @@
 #E9734A gtceu:chalcopyrite_ore
 #76FDF5 minecraft:cherry_leaves
 #AA9109 minecraft:chiseled_stone_bricks
+#8E6704 gtceu:citrine_block
 #7FDE54 minecraft:clay
 #FE4F0A minecraft:coarse_dirt
 #058353 minecraft:cobblestone
@@ -91,6 +92,7 @@
 #02F1DC minecraft:quartz_block
 #431C61 minecraft:quartz_stairs
 #868785 minecraft:rail
+#F93C4B gtceu:raw_black_opal_block
 #ADD217 gtceu:realgar_ore
 #10287D gtceu:red_garnet_indicator
 #25660E gtceu:red_granite
@@ -99,6 +101,7 @@
 #24BE64 minecraft:redstone_torch
 #FEDDE0 gtceu:salt_indicator
 #86FC77 minecraft:sand
+#90DBC4 gtceu:sand_black_opal_ore
 #7E2654 minecraft:sandstone
 #080F4C gtceu:sapphire_indicator
 #468B47 ae2:sky_stone_block
@@ -111,6 +114,7 @@
 #A88E8E minecraft:stripped_oak_wood
 #5CF3F1 minecraft:sugar_cane
 #ACC8AE gtceu:talc_indicator
+#6EC61D minecraft:tripwire
 #1C0619 waystones:waystone
 #B5D07E minecraft:white_stained_glass
 #1B60CF minecraft:white_tulip
