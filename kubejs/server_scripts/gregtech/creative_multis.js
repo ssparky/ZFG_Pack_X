@@ -31,17 +31,9 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:naquadah_superfuel 325")
         .duration(20)
 
-    if (doQuantumCoolant) {
-        event.recipes.gtceu.creative_data_multi("kubejs:infinite_research_hm_em")
-            .inputFluids("gtmutils:quantum_coolant 1080")
-            .EUt(GTValues.VA[GTValues.UHV])
-            .CWUt(144)
-            .duration(20)
-    } else {
-        event.recipes.gtceu.creative_data_multi("kubejs:infinite_research_nm")
-            .inputFluids("gtceu:pcb_coolant 1080")
-            .EUt(GTValues.VA[GTValues.UHV])
-            .CWUt(144)
-            .duration(20)
-    }
+    event.recipes.gtceu.creative_data_multi("kubejs:infinite_research_hm_em")
+        .inputFluids("gtmutils:quantum_coolant 1080")
+        .EUt(GTValues.VA[GTValues.UHV])
+        .CWUt(144)
+        .duration(20)
 })

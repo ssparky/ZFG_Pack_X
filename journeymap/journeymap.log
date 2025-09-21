@@ -48,3 +48,5 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, v
 [12:45:57] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW1\waypoints
 [12:45:57] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW1\overworld. Memory: 8192MB total, 4790MB free 
 [12:46:28] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[13:24:50] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\mp\offline\minecraft:overworld
+[13:24:50] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs

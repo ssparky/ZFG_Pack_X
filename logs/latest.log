@@ -13995,3 +13995,75 @@ net.creeperhost.ftbbackups.repack.blue.endless.jankson.api.SyntaxError: Expected
 [21Sep2025 13:18:54.703] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
 [21Sep2025 13:18:55.752] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
 [21Sep2025 13:20:18.851] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/134, l='ServerLevel[TW1]', x=376.03, y=70.56, z=97.70] died, message: 'Farmer was slain by Zombie'
+[21Sep2025 13:24:49.998] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Sep2025 13:24:50.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:overworld
+[21Sep2025 13:24:50.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mars_orbit
+[21Sep2025 13:24:50.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:glacio
+[21Sep2025 13:24:50.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mars
+[21Sep2025 13:24:50.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:earth_orbit
+[21Sep2025 13:24:50.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:the_nether
+[21Sep2025 13:24:50.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mercury
+[21Sep2025 13:24:50.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:moon
+[21Sep2025 13:24:50.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:glacio_orbit
+[21Sep2025 13:24:50.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:the_end
+[21Sep2025 13:24:50.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:venus
+[21Sep2025 13:24:50.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:moon_orbit
+[21Sep2025 13:24:50.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mercury_orbit
+[21Sep2025 13:24:50.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:venus_orbit
+[21Sep2025 13:24:50.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ae2:spatial_storage
+[21Sep2025 13:24:50.290] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[21Sep2025 13:24:50.291] [Thread-182/INFO] [EMI/]: [EMI] Clearing data
+[21Sep2025 13:24:50.292] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[21Sep2025 13:24:50.292] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[21Sep2025 13:24:50.292] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[21Sep2025 13:24:50.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[21Sep2025 13:24:50.293] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[21Sep2025 13:24:50.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 572.2 ?s
+[21Sep2025 13:24:50.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ssparky33 lost connection: Disconnected
+[21Sep2025 13:24:50.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ssparky33 left the game
+[21Sep2025 13:24:50.319] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[21Sep2025 13:24:50.349] [Server thread/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Shutdown Complete
+[21Sep2025 13:24:50.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Sep2025 13:24:50.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Sep2025 13:24:50.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Sep2025 13:24:50.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:overworld
+[21Sep2025 13:24:50.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mars_orbit
+[21Sep2025 13:24:50.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:glacio
+[21Sep2025 13:24:50.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mars
+[21Sep2025 13:24:50.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:earth_orbit
+[21Sep2025 13:24:50.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:the_nether
+[21Sep2025 13:24:50.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mercury
+[21Sep2025 13:24:50.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:moon
+[21Sep2025 13:24:50.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:glacio_orbit
+[21Sep2025 13:24:50.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/minecraft:the_end
+[21Sep2025 13:24:50.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:venus
+[21Sep2025 13:24:50.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:moon_orbit
+[21Sep2025 13:24:50.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:mercury_orbit
+[21Sep2025 13:24:50.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ad_astra:venus_orbit
+[21Sep2025 13:24:50.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TW1]'/ae2:spatial_storage
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TW1): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[21Sep2025 13:24:50.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Sep2025 13:24:50.723] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Unloading EnderTank Data
+[21Sep2025 13:24:50.723] [Server thread/INFO] [shetiphian.endertanks.EnderTanks/]: Finished Unloading EnderTank Data
+[21Sep2025 13:24:50.726] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Unloading EnderChest Data
+[21Sep2025 13:24:50.726] [Server thread/INFO] [shetiphian.enderchests.EnderChests/]: Finished Unloading EnderChest Data
+[21Sep2025 13:24:50.809] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[21Sep2025 13:24:50.819] [Render thread/INFO] [HammerLib/]: Reset 1 configs to their client-side state.
+[21Sep2025 13:24:52.103] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[21Sep2025 13:24:52.103] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[21Sep2025 13:24:52.104] [Thread-204/INFO] [EMI/]: [EMI] Clearing data
+[21Sep2025 13:24:52.167] [Render thread/INFO] [FTB Chunks/]: Shutting down map thread

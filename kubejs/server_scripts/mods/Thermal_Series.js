@@ -347,31 +347,30 @@ ServerEvents.recipes(event => {
         E: "kubejs:redstone_transmission_coil"
     })
 
-    if (doBoilers) {
-        event.shaped("systeams:steam_dynamo", [
-            " A ",
-            "BCB",
-            "DED"
-        ], {
-            A: "kubejs:excitationcoil",
-            B: "gtceu:copper_plate",
-            C: "ironfurnaces:iron_furnace",
-            D: "gtceu:wrought_iron_gear",
-            E: "systeams:boiler_pipe"
-        })
+    event.shaped("systeams:steam_dynamo", [
+        " A ",
+        "BCB",
+        "DED"
+    ], {
+        A: "kubejs:excitationcoil",
+        B: "gtceu:copper_plate",
+        C: "ironfurnaces:iron_furnace",
+        D: "gtceu:wrought_iron_gear",
+        E: "systeams:boiler_pipe"
+    })
 
-        event.shapeless("systeams:stirling_boiler", ["steamdynamo:steam_dynamo", "systeams:boiler_pipe"])
-        event.shaped("systeams:boiler_pipe", [
-            " C ",
-            "ABA",
-            " D "
-        ], {
-            A: "gtceu:copper_plate",
-            B: "minecraft:bucket",
-            C: "gtceu:iron_gear",
-            D: "#enderio:fused_quartz"
-        })
-    }
+    event.shapeless("systeams:stirling_boiler", ["steamdynamo:steam_dynamo", "systeams:boiler_pipe"])
+    event.shaped("systeams:boiler_pipe", [
+        " C ",
+        "ABA",
+        " D "
+    ], {
+        A: "gtceu:copper_plate",
+        B: "minecraft:bucket",
+        C: "gtceu:iron_gear",
+        D: "#enderio:fused_quartz"
+    })
+
 
     event.shaped("thermal:dynamo_magmatic", [
         " A ",
