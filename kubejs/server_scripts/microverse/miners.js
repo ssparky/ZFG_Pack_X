@@ -93,8 +93,8 @@ ServerEvents.recipes(event => {
         A: "gtceu:ev_field_generator",
         B: "gtceu:mv_super_chest",
         F: "kubejs:signalum_micro_miner_core",
-        C: "nuclearcraft:fission_reactor_controller",
-        P: "nuclearcraft:fission_reactor_port",
+        C: "minecraft:bedrock", // TODO: replace. Was NCN Reactor controller, reactor port
+        P: "minecraft:bedrock",
         T: "kubejs:vibrant_thruster",
     })
 
@@ -114,8 +114,8 @@ ServerEvents.recipes(event => {
         A: "gtceu:mv_super_chest",
         F: "kubejs:enderium_micro_miner_core",
         B: "gtceu:iv_field_generator",
-        C: "nuclearcraft:fission_reactor_controller",
-        P: "nuclearcraft:fission_reactor_port",
+        C: "minecraft:bedrock", // TODO: replace, was NCN reactor controller, reactor port
+        P: "minecraft:bedrock",
         T: "kubejs:resonant_thruster"
     })
 

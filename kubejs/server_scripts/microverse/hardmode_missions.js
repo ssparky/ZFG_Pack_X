@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
             .itemInputs("64x gtceu:dilithium_gem")
             .itemInputs("kubejs:elite_drilling_kit")
             .itemInputs("gtceu:duranium_drill_head")
-            .itemInputs("4x nuclearcraft:plate_du")
+            .itemInputs("4x minecraft:bedrock") // TODO: replace with appropriate plate. Was NCN DU plate
             .itemInputs(
                 "6x gtceu:uranium_block",
                 "4x kubejs:warden_horn",

@@ -353,16 +353,10 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.chemical_bath("bathe_molten_aerotheum_to_aerotheum_dust")
         .inputFluids("kubejs:molten_aerotheum 250")
-        .notConsumable("nuclearcraft:supercold_ice_block")
+        .notConsumable("minecraft:blue_ice") // TODO: maybe replace? was NCN supercold ice
         .itemOutputs("kubejs:aerotheum_dust")
         .duration(100).EUt(7)
 
-    // Supercold ice replacement recipe
-    event.recipes.gtceu.vacuum_freezer("cryotheum_to_supercold_ice")
-        .itemInputs("minecraft:ice")
-        .inputFluids("kubejs:molten_cryotheum 1000")
-        .itemOutputs("nuclearcraft:supercold_ice_block")
-        .duration(600).EUt(1200)
 
     // Tributyl Phosphate
     event.recipes.gtceu.chemical_reactor("phosphorus_trichloride")

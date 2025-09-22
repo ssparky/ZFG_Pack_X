@@ -23,13 +23,6 @@ global.unificationExcludedItems = [
     "extendedcrafting:crystaltine_ingot",
     "extendedcrafting:crystaltine_nugget",
     "extendedcrafting:luminessence_block",
-    "nuclearcraft:beryllium_block",
-    "nuclearcraft:ferroboron_ingot",
-    "nuclearcraft:ferroboron_dust",
-    "nuclearcraft:graphite_block",
-    "nuclearcraft:hard_carbon_ingot",
-    "nuclearcraft:hard_carbon_dust",
-    "nuclearcraft:tough_alloy_ingot",
 ];
 
 /**
@@ -39,46 +32,3 @@ global.unificationExcludedItems = [
 global.unificationPattern = new RegExp(`^(?!(${global.unificationExcludedItems.join("|")})).*(nuclearcraft|thermal|enderio|ad_astra|extendedcrafting):((powdered_|raw_).*|.*(_block|_plate|_ingot|_nugget|_gear|_dust|_rod|_gem|_ore))`, "i")
 
 
-/**
- * All NuclearCraft fuels we don't want to remove
- */
-global.nuclearCraftFuelsToKeep = [
-    "nuclearcraft:depleted_fuel_americium_hea_242",
-    "nuclearcraft:depleted_fuel_americium_lea_242",
-    "nuclearcraft:depleted_fuel_neptunium_hen_236",
-    "nuclearcraft:depleted_fuel_neptunium_len_236",
-    "nuclearcraft:depleted_fuel_plutonium_hep_239",
-    "nuclearcraft:depleted_fuel_plutonium_hep_241",
-    "nuclearcraft:depleted_fuel_plutonium_lep_239",
-    "nuclearcraft:depleted_fuel_plutonium_lep_241",
-    "nuclearcraft:depleted_fuel_thorium_tbu",
-    "nuclearcraft:depleted_fuel_uranium_heu_233",
-    "nuclearcraft:depleted_fuel_uranium_heu_235",
-    "nuclearcraft:depleted_fuel_uranium_leu_233",
-    "nuclearcraft:depleted_fuel_uranium_leu_235",
-    "nuclearcraft:fuel_americium_hea_242",
-    "nuclearcraft:fuel_americium_lea_242",
-    "nuclearcraft:fuel_neptunium_hen_236",
-    "nuclearcraft:fuel_neptunium_len_236",
-    "nuclearcraft:fuel_plutonium_hep_239",
-    "nuclearcraft:fuel_plutonium_hep_239",
-    "nuclearcraft:fuel_plutonium_hep_241",
-    "nuclearcraft:fuel_plutonium_lep_239",
-    "nuclearcraft:fuel_plutonium_lep_241",
-    "nuclearcraft:fuel_thorium_tbu",
-    "nuclearcraft:fuel_uranium_heu_233",
-    "nuclearcraft:fuel_uranium_heu_235",
-    "nuclearcraft:fuel_uranium_leu_233",
-    "nuclearcraft:fuel_uranium_leu_235",
-]
-
-/**
- * A RegEx pattern that matches with NuclearCraft fuels and depleted fuels except the ones in the above list.
- */
-global.nuclearcraftFuelPattern = new RegExp(`^(?!(?:${global.nuclearCraftFuelsToKeep.join("|")})$).*nuclearcraft:(fuel|depleted_fuel).*`, "i")
-
-
-/**
- * A RegEx pattern that matches with all NuclearCraft isotopes.
- */
-global.nuclearcraftIsotopePattern = /^nuclearcraft:.*(_ni|_za|_ox)$/

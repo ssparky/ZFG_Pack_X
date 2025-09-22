@@ -1,6 +1,43 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:gtceu:stellarium_ingot",
+    "item:gtceu:melodium_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_neptunium_palladium_aluminium",
+      "amount": 0
+    },
+    "item:gtceu:neptunium_palladium_aluminium_ingot",
+    "item:gtceu:palladium_substation",
+    "item:gtmutils:pterb_machine",
+    "item:gtceu:prismalium_ingot",
+    "item:nuclearcraft:berkelium_248",
+    "item:nuclearcraft:berkelium_247",
+    "item:nuclearcraft:fuel_americium_lea_242",
+    "item:nuclearcraft:americium_243",
+    "item:nuclearcraft:americium_241",
+    "item:nuclearcraft:americium_242",
+    "item:gtceu:americium_ingot",
+    "item:nuclearcraft:plutonium_238",
+    {
+      "type": "fluid",
+      "id": "gtceu:neptunium_236",
+      "amount": 0
+    },
+    "item:gtceu:neptunium_236_ingot",
+    "item:gtceu:neptunium_ingot",
+    "item:gtceu:dragonsteel_block",
+    "item:gtceu:hot_twinite_ingot",
+    "item:gtceu:twinite_dust",
+    "item:gtceu:twinite_ingot",
+    "item:nuclearcraft:neptunium_237",
+    {
+      "type": "fluid",
+      "id": "gtceu:mana",
+      "amount": 0
+    },
+    "item:gtceu:aetherium_ingot",
     "item:ad_astra:earth_globe",
     "item:ad_astra:rocket_nose_cone",
     "item:ad_astra:wheel",
@@ -16,7 +53,6 @@
     "item:kubejs:fluxed_thruster",
     "item:kubejs:warp_engine",
     "item:kubejs:dark_soularium_thruster",
-    "item:thermal:upgrade_augment_4",
     "item:kubejs:extradimensional_optical_cpu_core",
     "item:itemfilters:id_regex",
     "item:create:andesite_alloy",

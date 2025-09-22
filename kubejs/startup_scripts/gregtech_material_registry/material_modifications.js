@@ -222,4 +222,15 @@ GTCEuStartupEvents.materialModification(event => {
 
     TagPrefix.block.setIgnored(GTMaterials.CertusQuartz, $AEBlocks.QUARTZ_BLOCK.asItem())
     TagPrefix.block.setIgnored(GTMaterials.get("fluix"), $AEBlocks.FLUIX_BLOCK.asItem())
+
+    // Modifying actinite symbols
+    GTMaterials.Neptunium.setFormula("Np²³⁷")
+    GTMaterials.Americium.setFormula("Am²⁴³")
+    GTMaterials.Curium.setFormula("Cm²⁴⁶")
+    GTMaterials.Berkelium.setFormula("Bk²⁴⁷")
+    GTMaterials.Californium.setFormula("Cf²⁵¹")
+    GTMaterials.Einsteinium.setFormula("Es²⁵²")
+    GTMaterials.Fermium.setFormula("Fm²⁵⁷")
+    GTMaterials.Mendelevium.setFormula("Md²⁵⁹")
+    GTMaterials.Nobelium.setFormula("No²⁵⁹")
 })

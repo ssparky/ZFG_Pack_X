@@ -35,11 +35,64 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .cableProperties(131072, 4, 0, true)
         .components("4x lead", "2x platinum", "blue_steel", "osmium", "tantalum", "mana")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+    event.create("twinite")
+        .ingot().fluid()
+        .color(0xf34bd4).secondaryColor(0xbb1fa4)
+        .iconSet("magic")
+        .blastTemp(7000, "highest", GTValues.VA[GTValues.ZPM], 1800)
+        .cableProperties(524288, 4, 0, true)
+        .components("4x titanium", "2x lumium", "2x trinium", "2x niobium", "1x duranium", "1x rhodium", "2x mana")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR)
+
+    event.create("shellite")
+        .ingot().fluid()
+        .color(0x8c41c5).secondaryColor(0x4a216d)
+        .iconSet("magic")
+        .blastTemp(8200, "highest", GTValues.VA[GTValues.UV], 2400)
+        .cableProperties(2097152, 4, 0, true)
+        .components("4x curium", "2x signalum", "4x calcite", "2x cadmium", "1x nihonium", "2x rubidium", "2x mana")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+    event.create("dragonsteel")
+        .ingot().fluid()
+        .color(0x4f41ab).secondaryColor(0x1d0482)
+        .iconSet("magic")
+        .blastTemp(8800, "highest", GTValues.VA[GTValues.UHV], 2600)
+        .cableProperties(8388608, 6, 0, true)
+        .components("4x mendelevium", "2x enderium", "4x black_bronze", "2x germanium", "2x tennessine", "2x mana")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR)
+
+    event.create("prismalium")
+        .ingot().fluid()
+        .color(0x3fd4aa).secondaryColor(0xabdfdc)
+        .iconSet("magic")
+        .blastTemp(9600, "highest", GTValues.VA[GTValues.UEV], 3000)
+        .cableProperties(33554432, 6, 0, true)
+        .components("4x silicon_dioxide", "2x rare_earth", "2x nobelium", "2x twinite", "4x promethium", "4x mana") // TODO: Glass and prismarine are placeholders!
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+    event.create("melodium")
+        .ingot().fluid()
+        .color(0xc486e0).secondaryColor(0x9b47c2)
+        .iconSet("magic")
+        .blastTemp(10200, "highest", GTValues.VA[GTValues.UIV], 3200)
+        .cableProperties(134217728, 6, 0, true)
+        .components("4x amethyst", "2x emerald", "2x shellite", "2x gadolinium", "2x copernicium", "4x mana") // TODO: replace emerald with taaffeite
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
+
+    event.create("stellarium")
+        .ingot().fluid()
+        .color(0xc6ddd9).secondaryColor(0x7c9995)
+        .iconSet("magic")
+        .blastTemp(12000, "highest", GTValues.VA[GTValues.UXV], 4000)
+        .cableProperties(536870912, 8, 0, true)
+        .components("3x stellite_100", "4x neutronium", "2x lutetium", "2x aetherium", "3x antimatter", "8x mana") // TODO: Neutronium is placeholder for gravistars 
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
+        .formula("(Fe4Cr3W2Mo)3❇4Lu2❂2∅3ᛗ8")
 })
 
-
 // EnderIO
-
 GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("dark_steel")
