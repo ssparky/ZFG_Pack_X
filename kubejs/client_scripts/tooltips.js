@@ -63,22 +63,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("enderio:cryolobus_conduit", Text.translatable("enderio.cryolobus_conduit.tooltip"))
     tooltip.add("enderio:sculk_superconductor_conduit", Text.translatable("enderio.sculk_superconductor_conduit.tooltip"))
 
-    tooltip.add("thermal:device_rock_gen", Text.translatable("thermal.device_rock_gen.tooltip"))
-    tooltip.add("thermal:device_water_gen", Text.translatable("thermal.device_water_gen.tooltip"))
-
-    tooltip.add(
-        [
-            "thermal:upgrade_augment_1",
-            "thermal:upgrade_augment_2",
-            "thermal:upgrade_augment_4",
-            "thermal:upgrade_augment_3",
-            "thermal:rf_coil_augment_advanced",
-            "thermal:rf_coil_storage_augment_advanced",
-            "thermal:rf_coil_xfer_augment_advanced",
-            "thermal:fluid_tank_augment_advanced"
-        ], Text.translatable("thermal.emi.tooltip")
-    )
-
     // Circuits
     tooltip.addAdvanced("kubejs:optical_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
     tooltip.addAdvanced("kubejs:optical_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
@@ -165,7 +149,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("gtceu:uev_uev_parallel_hatch", Text.translatable("gtceu.omega_parallel_hatch.desc"))
 
     // Assorted info & warnings for GT machines
-    tooltip.add(/^gtceu:.*a_energy_converter$/, Text.translatable("gtceu.energy_converter.tooltip"));
     tooltip.add("gtceu:basic_tape", Text.translatable("gtceu.basic_tape.tooltip"));
     tooltip.add("gtceu:nightvision_goggles", Text.translatable("gtceu.nightvision_goggles.tooltip"));
     tooltip.add(/^gtceu:.*_robot_arm$/, Text.translatable("gtceu:robot_arm.tooltip"))

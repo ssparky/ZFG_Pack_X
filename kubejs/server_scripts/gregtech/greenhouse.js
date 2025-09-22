@@ -86,7 +86,28 @@ ServerEvents.recipes(event => {
     Greenhouse("minecraft", "chorus_flower", 1280, ["32x minecraft:chorus_fruit"], 4)
     Greenhouse("minecraft", "warped_fungus", 1280, ["64x minecraft:warped_stem", "32x minecraft:warped_wart_block", "16x minecraft:shroomlight"], 4)
     Greenhouse("minecraft", "crimson_fungus", 1280, ["64x minecraft:crimson_stem", "32x minecraft:nether_wart_block", "16x minecraft:shroomlight"], 4)
-    Greenhouse("thermal", "rubberwood_sapling", 1280, ["64x thermal:rubberwood_log"], 4)
+    Greenhouse("natures_spirit", "redwood_sapling", 1280, ["64x natures_spirit:redwood_log"], 4)
+    Greenhouse("natures_spirit", "sugi_sapling", 1280, ["64x natures_spirit:sugi_log"], 4)
+    Greenhouse("natures_spirit", "purple_wisteria_sapling", 1280, ["64x natures_spirit:wisteria_log"], 4)
+    Greenhouse("natures_spirit", "white_wisteria_sapling", 1280, ["64x natures_spirit:wisteria_log"], 4)
+    Greenhouse("natures_spirit", "blue_wisteria_sapling", 1280, ["64x natures_spirit:wisteria_log"], 4)
+    Greenhouse("natures_spirit", "pink_wisteria_sapling", 1280, ["64x natures_spirit:wisteria_log"], 4)
+    Greenhouse("natures_spirit", "fir_sapling", 1280, ["64x natures_spirit:fir_log"], 4)
+    Greenhouse("natures_spirit", "willow_sapling", 1280, ["64x natures_spirit:willow_log"], 4)
+    Greenhouse("natures_spirit", "aspen_sapling", 1280, ["64x natures_spirit:aspen_log"], 4)
+    Greenhouse("natures_spirit", "red_maple_sapling", 1280, ["64x natures_spirit:maple_log"], 4)
+    Greenhouse("natures_spirit", "orange_maple_sapling", 1280, ["64x natures_spirit:maple_log"], 4)
+    Greenhouse("natures_spirit", "yellow_maple_sapling", 1280, ["64x natures_spirit:maple_log"], 4)
+    Greenhouse("natures_spirit", "cypress_sapling", 1280, ["64x natures_spirit:cypress_log"], 4)
+    Greenhouse("natures_spirit", "olive_sapling", 1280, ["64x natures_spirit:olive_log", "8x natures_spirit:olives"], 4)
+    Greenhouse("natures_spirit", "joshua_sapling", 1280, ["64x natures_spirit:joshua_log"], 4)
+    Greenhouse("natures_spirit", "ghaf_sapling", 1280, ["64x natures_spirit:ghaf_log"], 4)
+    Greenhouse("natures_spirit", "palo_verde_sapling", 1280, ["64x natures_spirit:palo_verde_log"], 4)
+    Greenhouse("natures_spirit", "cedar_sapling", 1280, ["64x natures_spirit:cedar_log"], 4)
+    Greenhouse("natures_spirit", "larch_sapling", 1280, ["64x natures_spirit:larch_log"], 4)
+    Greenhouse("natures_spirit", "mahogany_sapling", 1280, ["64x natures_spirit:mahogany_log"], 4)
+    Greenhouse("natures_spirit", "saxaul_sapling", 1280, ["64x natures_spirit:saxaul_log"], 4)
+    Greenhouse("natures_spirit", "coconut_sprout", 1280, ["64x natures_spirit:coconut_log", "4x natures_spirit:coconut"], 4)
 
     // //// Crops //////
     Greenhouse("minecraft", "sugar_cane", 640, ["32x minecraft:sugar_cane"], 0)
@@ -107,6 +128,7 @@ ServerEvents.recipes(event => {
     Greenhouse("minecraft", "nether_wart", 640, ["16x minecraft:nether_wart"], 0)
     Greenhouse("minecraft", "red_mushroom", 640, ["16x minecraft:red_mushroom"], 0)
     Greenhouse("minecraft", "brown_mushroom", 640, ["16x minecraft:brown_mushroom"], 0)
+    Greenhouse("natures_spirit", "shiitake_mushroom", 640, ["16x natures_spirit:shiitake_mushroom"], 0)
 
 
     // //// Flowers & Cosmetic Blocks //////
@@ -156,44 +178,53 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x grass_block")
         .duration(640)
         .EUt(80)
+
+    // Nature's Spirit Flowers
+    let NSflowers = [
+        "marigold",
+        "bluebell",
+        "tiger_lily",
+        "purple_wildflower",
+        "yellow_wildflower",
+        "red_heather",
+        "white_heather",
+        "purple_heather",
+        "anemone",
+        "dwarf_blossoms",
+        "protea",
+        "hibiscus",
+        "blue_iris",
+        "black_iris",
+        "ruby_blossoms",
+        "silverbush",
+        "alluaudia",
+        "cattail",
+        "green_bearberries",
+        "red_bearberries",
+        "purple_bearberries",
+        "green_bitter_sprouts",
+        "red_bitter_sprouts",
+        "purple_bitter_sprouts",
+        "lavender",
+        "blue_bulbs",
+        "carnation",
+        "gardenia",
+        "snapdragon",
+        "foxglove",
+        "begonia",
+        "ornate_succulent",
+        "drowsy_succulent",
+        "aureate_succulent",
+        "sage_succulent",
+        "foamy_succulent",
+        "imperial_succulent",
+        "regal_succulent",
+        "azolla"
+    ]
+    NSflowers.forEach(flower => {
+        Greenhouse("natures_spirit", flower, 640, [`48x natures_spirit:${flower}`], 0);
+    })
+    Greenhouse("natures_spirit", "helvola_flower", 640, ["32x natures_spirit:helvola_flower", "32x natures_spirit:helvola_pad"], 0);
+    Greenhouse("natures_spirit", "lotus_flower", 640, ["32x natures_spirit:lotus_flower", "32x natures_spirit:lotus_stem"], 0);
 })
 
-ServerEvents.recipes(event => {
-    event.custom({
-        type: "thermal:insolator",
-        "ingredient": {
-            "item": "gtceu:rubber_sapling"
-        },
-        "result": [
-            {
-                "item": "gtceu:rubber_log",
-                "chance": 6.0
-            },
-            {
-                "item": "gtceu:sticky_resin",
-                "chance": 1.25
-            },
-            {
-                "item": "gtceu:rubber_sapling",
-                "chance": 1.1
-            }
-        ],
-        "energy_mod": 3.0,
-        "water_mod": 3.0
-    }).id("kubejs:thermal/insolator/rubber_sapling")
-
-    event.custom({
-        type: "thermal:insolator",
-        "ingredient": {
-            "item": "minecraft:pink_petals",
-        },
-        "result": [
-            {
-                "item": "minecraft:pink_petals",
-                "chance": 2.0
-            }
-        ],
-        "energy_mod": 1.0,
-        "water_mod": 1.0
-    }).id("kubejs:thermal/insolator/pink_petals")
-})

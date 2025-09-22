@@ -96,18 +96,6 @@ ServerEvents.recipes(event => {
         P: "gtceu:iron_plate"
     })
 
-    event.shaped("thermal:dynamo_numismatic", [
-        " A ",
-        "BCB",
-        "DED"
-    ], {
-        A: "kubejs:excitationcoil",
-        B: "gtceu:vibrant_alloy_plate",
-        C: "ironfurnaces:diamond_furnace",
-        D: "enderio:vibrant_gear",
-        E: "kubejs:redstone_transmission_coil"
-    })
-
     // Make clay electrolysis an LV recipe
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_clay" })
     event.recipes.gtceu.electrolyzer("clay_electrolysis_lv")

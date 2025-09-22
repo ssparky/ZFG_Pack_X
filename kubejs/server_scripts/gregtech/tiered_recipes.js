@@ -221,12 +221,14 @@ function parseRecipe(recipe) {
                     newRecipe.notConsumable(Item.of(i.id, i.amount))
                 } else {
                     // @ts-ignore
-                    newRecipe.chancedInput(Item.of(i.id, i.amount), i.chance, i.tierChanceBoost)
+                    // newRecipe.chancedInput(Item.of(i.id, i.amount), i.chance, i.tierChanceBoost) //TODO: see if this can be fixed somehow
+                    newRecipe.itemInputs(`${i.amount}x ${i.id}`)
                 }
             }
         if(newOutputItems) for (let i of newOutputItems)
             // @ts-ignore
-            newRecipe = newRecipe.chancedOutput(ExtendedOutputItem.of(Item.of(i.id, i.amount)), i.chance, i.tierChanceBoost)
+            // newRecipe = newRecipe.chancedOutput(ExtendedOutputItem.of(Item.of(i.id, i.amount)), i.chance, i.tierChanceBoost) TODO: see above
+            newRecipe = newRecipe.itemOutputs(ExtendedOutputItem.of(Item.of(i.id, i.amount)))
 
         // Polyfilled spread operator 🙏
         if(newInputFluids)

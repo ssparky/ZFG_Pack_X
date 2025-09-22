@@ -53,9 +53,6 @@ JEIEvents.addItems(event => {
 
     // NuclearCraft
     event.add(["nuclearcraft:tough_alloy_ingot", "nuclearcraft:hard_carbon_ingot", "nuclearcraft:ferroboron_ingot", "nuclearcraft:rhodochrosite_dust"])
-
-    // Thermal
-    event.add("thermal:nuke_tnt")
 })
 
 JEIEvents.hideFluids(event => {
@@ -79,12 +76,6 @@ JEIEvents.hideFluids(event => {
 
     // Hide Ad Astra fluids
     Fluid.getTypes().filter(id=>id.includes("ad_astra")).forEach(id => event.hide(id))
-
-    // Hide Thermal fluids
-    event.hide("thermal:creosote")
-    event.hide("cofh_core:experience")
-    event.hide("thermal:glowstone")
-    event.hide("thermal:redstone")
 
     // Hide Soph Core fluids
     event.hide("sophisticatedcore:xp_still")

@@ -106,6 +106,18 @@
     },
     "done": false
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-21 17:24:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2025-09-21 17:24:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-09-21 17:24:22 +0200"
@@ -115,12 +127,6 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-09-21 17:24:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-09-21 17:24:20 +0200"
     },
     "done": true
   },
@@ -151,12 +157,6 @@
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-09-21 17:24:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:spider": "2025-09-21 17:24:20 +0200"
     },
     "done": true
   },

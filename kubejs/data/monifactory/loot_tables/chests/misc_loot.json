@@ -89,17 +89,6 @@
                             "tag": "{Charge:75000L}"
                         }
                     ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "thermal:rf_potato",
-                    "weight": 100,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Energy:70000}"
-                        }
-                    ]
                 }
             ]
         },

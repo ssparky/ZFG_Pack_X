@@ -1068,6 +1068,8 @@ ServerEvents.recipes(event => {
 
     // BetterP2P
     event.shapeless("betterp2p:advanced_memory_card", ["ae2:memory_card", "ae2:network_tool"])
+    // Faulty memory card
+    event.shapeless("mae2:faulty_card", ["ae2:memory_card", "#ae2:knife"])
 
     // Network Analyser
     event.remove({ id:"ae2netanalyser:analyser"})

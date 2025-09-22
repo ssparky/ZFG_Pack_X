@@ -9,24 +9,6 @@
             "category": "ironfurnaces:generator_smoking"
         },
         {
-            "category": "thermal:pulverizer"
-        },
-        {
-            "category": "thermal:gourmand_fuel"
-        },
-        {
-            "category": "thermal:disenchantement_fuel"
-        },
-        {
-            "category": "thermal:lapidary_fuel"
-        },
-        {
-            "category": "enderio:alloy_smelting"
-        },
-        {
-            "category": "thermal:furnace"
-        },
-        {
             "category": "ironfurnaces:generator_regular"
         },
         {
@@ -118,54 +100,11 @@
         },
         {
             "id": "/bucket/",
-            "category": "thermal:bottler"
-        },
-        {
-            "id": "/bucket/",
             "category": "emi:world_interaction"
         },
         {
             "id": "/repair/",
             "category": "emi:anvil_repairing"
-        },
-        {
-            "category": "thermal:smelter"
-        },
-        {
-            "category": "thermal:smelter_catalyst"
-        },
-        {
-            "category": "thermal:sawmill"
-        },
-        {
-            "category": "thermal:refinery"
-        },
-        {
-            "category": "thermal:pyrolyzer"
-        },
-        {
-            "category": "thermal:pulverizer_catalyst"
-        },
-        {
-            "category": "thermal:disenchantement_fuel"
-        },
-        {
-            "category": "thermal:crystallizer"
-        },
-        {
-            "category": "thermal:crucible"
-        },
-        {
-            "category": "thermal:chiller"
-        },
-        {
-            "category": "thermal:centrifuge"
-        },
-        {
-            "category": "thermal:brewer"
-        },
-        {
-            "category": "thermal:bottler"
         },
         {
             "category": "ae2:entropy"

@@ -40,22 +40,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: "gtceu:wood_plate" }, "gtceu:wood_plate", "#minecraft:planks")
 
     // Processing for Ender Spores
-    event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "thermal:phytogro", "minecraft:experience_bottle"])
+    event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "minecraft:bedrock", "minecraft:experience_bottle"]) // TODO: bedrock was phyto-gro
     event.smelting("minecraft:ender_pearl", "kubejs:ender_spore")
-
-    event.custom({
-        "type": "thermal:insolator",
-        "ingredient": {
-            "item": "kubejs:ender_spore"
-        },
-        "result": [
-            {
-                "item": "kubejs:ender_spore",
-                "chance": 2.0
-            }
-        ],
-        "energy_mod": 3.0
-    })
 
     event.recipes.gtceu.greenhouse("kubejs:greenhouse_boosted_ender_spore")
         .circuit(2)
@@ -231,12 +217,12 @@ ServerEvents.recipes(event => {
         "AFA"
     ], {
         A: "minecraft:quartz",
-        B: "thermal:blitz_rod",
-        C: "thermal:blizz_rod",
+        B: "kubejs:aerotheum_dust",
+        C: "kubejs:cryotheum_dust",
         D: "extendedcrafting:luminessence_block",
-        E: "minecraft:blaze_rod",
-        F: "thermal:basalz_rod"
-    })
+        E: "minecraft:blaze_powder",
+        F: "kubejs:petrotheum_dust"
+    }) // TODO: Optional, dusts were rods before. Would need to add rods with kjs
 
     event.shaped("minecraft:nether_star", [
         " A ",
@@ -567,13 +553,13 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.extractor("resonant_ender_from_pearl")
         .itemInputs("1x minecraft:ender_pearl")
-        .outputFluids(Fluid.of("thermal:ender", 250))
+        .outputFluids(Fluid.of("minecraft:milk", 250)) // TODO: add kjs liquid ender
         .duration(40)
         .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.fluid_solidifier("pearl_from_resonant_ender")
         .notConsumable("gtceu:ball_casting_mold")
-        .inputFluids(Fluid.of("thermal:ender", 250))
+        .inputFluids(Fluid.of("minecraft:milk", 250)) // Same here
         .itemOutputs("1x minecraft:ender_pearl")
         .duration(100)
         .EUt(GTValues.VHA[GTValues.LV])

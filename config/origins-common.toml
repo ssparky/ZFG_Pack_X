@@ -91,3 +91,44 @@
 		"origins:like_air" = true
 		enabled = true
 
+	[origins."dodo:dodo"]
+		enabled = true
+		"origins:slow_falling" = true
+		"dodo:fragile" = true
+		"dodo:small_stance" = true
+		"dodo:feathers" = true
+		"dodo:harvest" = true
+		"dodo:hurtsound" = true
+		"dodo:bird_diet" = true
+		"dodo:air_speed" = true
+		"dodo:fall_exhaust" = true
+		"dodo:weak_melee" = true
+		"dodo:launch_up" = true
+		"dodo:wet_feathers" = true
+
+	[origins."berserk:berserk"]
+		enabled = true
+		"berserk:melee_speed" = true
+		"berserk:double_jump" = true
+		"berserk:meat_eater" = true
+		"berserk:vampire" = true
+		"berserk:glass_cannon" = true
+		"berserk:dash" = true
+		"berserk:survive_death" = true
+
+	[origins."centaur:centaur"]
+		enabled = true
+		"centaur:robust" = true
+		"centaur:imposing" = true
+		"centaur:rideable" = true
+		"centaur:equine_diet" = true
+		"centaur:large_stance" = true
+		"centaur:melee_inaptitude" = true
+		"centaur:saddle_bags" = true
+		"centaur:weapon_specialty" = true
+		"centaur:no_flight" = true
+		"centaur:horse_kick" = true
+		"centaur:armor_recipe" = true
+		"centaur:kick_sense" = true
+		"centaur:bag_slow" = true
+

@@ -1,94 +1,90 @@
-[17:01:45] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[17:01:45] [INIT] Loaded plugins:
-[17:01:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:01:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:01:45] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
-[17:01:45] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[17:01:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[17:01:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[17:01:45] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[17:01:45] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[17:01:45] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[17:01:45] [INIT] - com.almostreliable.morejs.Plugin
-[17:01:45] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[17:01:45] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[17:01:45] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[17:01:45] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[17:01:45] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[17:01:45] [INFO] Loaded script startup_scripts:_initial.js in 0.025 s
-[17:01:45] [INFO] Loaded script startup_scripts:nukeLists/fluid.js in 0.005 s
-[17:01:45] [INFO] Loaded script startup_scripts:nukeLists/item.js in 0.004 s
-[17:01:45] [INFO] Loaded script startup_scripts:nukeLists/unificationPatterns.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:deprecation_pipeline.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/elements_and_material_sets.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/moni_originals.js in 0.002 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_misc.js in 0.002 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/other_mods.js in 0.002 s
-[17:01:45] [INFO] active_transformer.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.ActiveTransformerMachine'
-[17:01:45] [INFO] active_transformer.js#6: Loaded Java class 'com.gregtechceu.gtceu.utils.memoization.GTMemoizer'
-[17:01:45] [INFO] Loaded script startup_scripts:active_transformer.js in 0.006 s
-[17:01:45] [INFO] Loaded script startup_scripts:Custom_Conduits.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:deprecations.js in 0.004 s
-[17:01:45] [INFO] excrafting_schema.js#5: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
-[17:01:45] [INFO] excrafting_schema.js#6: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.minecraft.ShapedRecipeSchema'
-[17:01:45] [INFO] excrafting_schema.js#7: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.minecraft.ShapelessRecipeSchema'
-[17:01:45] [INFO] excrafting_schema.js#8: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.ItemComponents'
-[17:01:45] [INFO] excrafting_schema.js#9: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.NumberComponent'
-[17:01:45] [INFO] Loaded script startup_scripts:excrafting_schema.js in 0.011 s
-[17:01:45] [INFO] fusion_reactor_modifier.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList'
-[17:01:45] [INFO] fusion_reactor_modifier.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.EfficiencyModifier'
-[17:01:45] [INFO] Loaded script startup_scripts:fusion_reactor_modifier.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_eltz.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_germanium.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_misc.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_naquadah.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_platinum_group.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_kapton_k.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_naqfuel.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_peca.js in 0.001 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_peek.js in 0.0 s
-[17:01:45] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_rare_earth.js in 0.0 s
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey'
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty'
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#8: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys'
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#9: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidPipeProperties'
-[17:01:45] [INFO] gregtech_material_registry/material_modifications.js#10: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#11: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#12: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#13: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.FluidBuilder'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#14: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#17: Loaded Java class 'appeng.core.definitions.AEItems'
-[17:01:46] [INFO] gregtech_material_registry/material_modifications.js#18: Loaded Java class 'appeng.core.definitions.AEBlocks'
-[17:01:46] [INFO] Loaded script startup_scripts:gregtech_material_registry/material_modifications.js in 0.01 s
-[17:01:46] [INFO] Loaded script startup_scripts:gregtech_material_registry/ores.js in 0.0 s
-[17:01:46] [INFO] Loaded script startup_scripts:gregtech_material_registry/progression_tweaks.js in 0.0 s
-[17:01:46] [INFO] modify_items.js#6: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
-[17:01:46] [INFO] modify_items.js#8: Loaded Java class 'net.minecraft.world.item.Rarity'
-[17:01:46] [INFO] modify_items.js#9: Loaded Java class 'java.util.function.UnaryOperator'
-[17:01:46] [INFO] modify_items.js#10: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
-[17:01:46] [INFO] modify_items.js#11: Loaded Java class 'net.minecraft.network.chat.Style'
-[17:01:46] [INFO] Loaded script startup_scripts:modify_items.js in 0.014 s
-[17:01:46] [INFO] pterb_retier.js#6: Loaded Java class 'net.neganote.gtutilities.common.machine.multiblock.PTERBMachine'
-[17:01:46] [INFO] Loaded script startup_scripts:pterb_retier.js in 0.004 s
-[17:01:46] [INFO] Loaded script startup_scripts:registry/block_registry.js in 0.001 s
-[17:01:46] [INFO] Loaded script startup_scripts:registry/fluid_registry.js in 0.0 s
-[17:01:46] [INFO] Loaded script startup_scripts:registry/item_registry.js in 0.008 s
-[17:01:46] [INFO] registry/multiblock_registry.js#6: Loaded Java class 'dev.latvian.mods.kubejs.util.Tags'
-[17:01:46] [INFO] registry/multiblock_registry.js#7: Loaded Java class 'com.lowdragmc.lowdraglib.utils.LocalizationUtils'
-[17:01:46] [INFO] registry/multiblock_registry.js#8: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[17:01:46] [INFO] registry/multiblock_registry.js#9: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
-[17:01:46] [INFO] registry/multiblock_registry.js#10: Loaded Java class 'net.neganote.monilabs.client.gui.MoniGuiTextures'
-[17:01:46] [INFO] Loaded script startup_scripts:registry/multiblock_registry.js in 0.019 s
-[17:01:46] [INFO] registry/singleblock_registry.js#6: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine'
-[17:01:46] [INFO] Loaded script startup_scripts:registry/singleblock_registry.js in 0.001 s
-[17:01:46] [INFO] sterile_cleanroom_nuke.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.block.CleanroomFilterType'
-[17:01:46] [INFO] Loaded script startup_scripts:sterile_cleanroom_nuke.js in 0.001 s
-[17:01:46] [INFO] Loaded script startup_scripts:worldgen/dimension_marker.js in 0.0 s
-[17:01:46] [INFO] worldgen/oreVeins.js#5: Loaded Java class 'net.minecraft.tags.BlockTags'
-[17:01:46] [INFO] Loaded script startup_scripts:worldgen/oreVeins.js in 0.001 s
-[17:01:46] [INFO] Loaded script startup_scripts:worldgen/oreVeinsRemoval.js in 0.0 s
-[17:01:46] [INFO] Loaded script startup_scripts:gregtech_crafting_components.js in 0.001 s
-[17:01:46] [INFO] Loaded 39/39 KubeJS startup scripts in 0.901 s with 0 errors and 0 warnings
-[17:01:47] [INFO] registry/multiblock_registry.js#662: Loaded Java class 'com.gregtechceu.gtceu.common.data.GCYMRecipeTypes'
-[17:02:02] [INFO] pterb_retier.js#10: Loaded Java class 'net.neganote.gtutilities.common.machine.UtilMachines'
+[16:43:42] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[16:43:42] [INIT] Loaded plugins:
+[16:43:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:43:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:43:42] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[16:43:42] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[16:43:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:43:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:43:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:43:42] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[16:43:42] [INIT] - com.almostreliable.morejs.Plugin
+[16:43:42] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:43:42] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[16:43:42] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[16:43:42] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[16:43:42] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[16:43:44] [INFO] Loaded script startup_scripts:_initial.js in 0.062 s
+[16:43:44] [INFO] Loaded script startup_scripts:nukeLists/fluid.js in 0.008 s
+[16:43:44] [INFO] Loaded script startup_scripts:nukeLists/item.js in 0.006 s
+[16:43:44] [INFO] Loaded script startup_scripts:nukeLists/unificationPatterns.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:deprecation_pipeline.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/elements_and_material_sets.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/moni_originals.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_misc.js in 0.003 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/other_mods.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:active_transformer.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:Custom_Conduits.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:deprecations.js in 0.006 s
+[16:43:44] [INFO] excrafting_schema.js#5: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
+[16:43:44] [INFO] excrafting_schema.js#6: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.minecraft.ShapedRecipeSchema'
+[16:43:44] [INFO] excrafting_schema.js#7: Loaded Java class 'dev.latvian.mods.kubejs.recipe.schema.minecraft.ShapelessRecipeSchema'
+[16:43:44] [INFO] excrafting_schema.js#8: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.ItemComponents'
+[16:43:44] [INFO] excrafting_schema.js#9: Loaded Java class 'dev.latvian.mods.kubejs.recipe.component.NumberComponent'
+[16:43:44] [INFO] Loaded script startup_scripts:excrafting_schema.js in 0.023 s
+[16:43:44] [INFO] fusion_reactor_modifier.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList'
+[16:43:44] [INFO] fusion_reactor_modifier.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.EfficiencyModifier'
+[16:43:44] [INFO] Loaded script startup_scripts:fusion_reactor_modifier.js in 0.004 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_eltz.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_germanium.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_misc.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_naquadah.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_harder_platinum_group.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_kapton_k.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_naqfuel.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_peca.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_peek.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/chemline_rare_earth.js in 0.001 s
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#8: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#9: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidPipeProperties'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#10: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#11: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#12: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#13: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.FluidBuilder'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#14: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#17: Loaded Java class 'appeng.core.definitions.AEItems'
+[16:43:44] [INFO] gregtech_material_registry/material_modifications.js#18: Loaded Java class 'appeng.core.definitions.AEBlocks'
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/material_modifications.js in 0.015 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/progression_tweaks.js in 0.001 s
+[16:43:44] [INFO] modify_items.js#6: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[16:43:44] [INFO] modify_items.js#8: Loaded Java class 'net.minecraft.world.item.Rarity'
+[16:43:44] [INFO] modify_items.js#9: Loaded Java class 'java.util.function.UnaryOperator'
+[16:43:44] [INFO] modify_items.js#10: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[16:43:44] [INFO] modify_items.js#11: Loaded Java class 'net.minecraft.network.chat.Style'
+[16:43:44] [INFO] Loaded script startup_scripts:modify_items.js in 0.019 s
+[16:43:44] [INFO] Loaded script startup_scripts:pterb_retier.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:registry/block_registry.js in 0.003 s
+[16:43:44] [INFO] Loaded script startup_scripts:registry/fluid_registry.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:registry/item_registry.js in 0.006 s
+[16:43:44] [INFO] registry/multiblock_registry.js#6: Loaded Java class 'dev.latvian.mods.kubejs.util.Tags'
+[16:43:44] [INFO] registry/multiblock_registry.js#7: Loaded Java class 'com.lowdragmc.lowdraglib.utils.LocalizationUtils'
+[16:43:44] [INFO] registry/multiblock_registry.js#8: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[16:43:44] [INFO] registry/multiblock_registry.js#9: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
+[16:43:44] [INFO] registry/multiblock_registry.js#10: Loaded Java class 'net.neganote.monilabs.client.gui.MoniGuiTextures'
+[16:43:44] [INFO] Loaded script startup_scripts:registry/multiblock_registry.js in 0.041 s
+[16:43:44] [INFO] registry/singleblock_registry.js#6: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine'
+[16:43:44] [INFO] Loaded script startup_scripts:registry/singleblock_registry.js in 0.002 s
+[16:43:44] [INFO] sterile_cleanroom_nuke.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.block.CleanroomFilterType'
+[16:43:44] [INFO] Loaded script startup_scripts:sterile_cleanroom_nuke.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:worldgen/dimension_marker.js in 0.001 s
+[16:43:44] [INFO] worldgen/oreVeins.js#5: Loaded Java class 'net.minecraft.tags.BlockTags'
+[16:43:44] [INFO] Loaded script startup_scripts:worldgen/oreVeins.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:worldgen/oreVeinsRemoval.js in 0.001 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/ores.js in 0.002 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_material_registry/ore_modifications.js in 0.0 s
+[16:43:44] [INFO] Loaded script startup_scripts:gregtech_crafting_components.js in 0.002 s
+[16:43:44] [INFO] Loaded 40/40 KubeJS startup scripts in 1.771 s with 0 errors and 0 warnings
+[16:43:46] [INFO] registry/multiblock_registry.js#662: Loaded Java class 'com.gregtechceu.gtceu.common.data.GCYMRecipeTypes'

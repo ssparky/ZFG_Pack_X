@@ -52,9 +52,9 @@ ServerEvents.recipes(event => {
             .damageRate(-30)
             .itemOutputs(
                 "16x minecraft:blaze_rod",
-                "16x thermal:blizz_rod",
-                "16x thermal:blitz_rod",
-                "16x thermal:basalz_rod",
+                "16x kubejs:aerotheum_dust", // TODO: kjs rods if added
+                "16x kubejs:cryotheum_dust",
+                "16x kubejs:petrotheum_dust",
             )
             .requiredMicroverse(2) // Hostile : Normal
     })
@@ -208,6 +208,10 @@ ServerEvents.recipes(event => {
             )
             .damageRate(10)
             .itemOutputs(
+                "64x gtceu:raw_plutonium",
+                "64x gtceu:raw_plutonium",
+                "64x gtceu:raw_plutonium",
+                "64x gtceu:raw_plutonium",
                 "64x gtceu:raw_plutonium",
                 "64x gtceu:raw_plutonium",
             )

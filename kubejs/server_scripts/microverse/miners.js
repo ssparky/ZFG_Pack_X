@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:hv_field_generator",
         F: "kubejs:signalum_micro_miner_core",
         T: "kubejs:energetic_thruster",
-        D: "thermal:dynamo_compression"
+        D: "minecraft:bedrock" // TODO: was compression dynamo
     })
 
     // T5 Microminer
@@ -279,10 +279,10 @@ ServerEvents.recipes(event => {
         P: "gtceu:double_dark_steel_plate",
         A: "gtceu:mv_field_generator",
         C: "minecraft:crossbow",
-        Q: "thermal:potion_quiver",
+        Q: "minecraft:bedrock", // TODO: was potion quiver
         B: "gtceu:bronze_crate",
         T: "kubejs:hardened_thruster",
-        M: "thermal:dynamo_magmatic"
+        M: "minecraft:bedrock" // TODO: was magmatic dynamo
     })
 
     // T4.5  Microminer
@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
         A: "gtceu:hv_robot_arm",
         c: "kubejs:signalum_micro_miner_core",
         f: "gtceu:hv_field_generator",
-        d: "thermal:dynamo_compression",
+        d: "minecraft:bedrock", // TODO: was compression dynamo
         T: "kubejs:energetic_thruster"
     }).id("kubejs:microminer/t4half")
 

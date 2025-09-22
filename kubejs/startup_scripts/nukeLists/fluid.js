@@ -29,14 +29,6 @@ global.fluidNukeList = [
     "gtceu:molten_kanthal",
     "gtceu:iron_ii_chloride",   // Removing the FluidProperty causes errors in GT's hard-coded recipes
 
-    // Thermal Series
-    "cofh_core:experience",
-    "thermal:creosote",
-    "thermal:glowstone",
-    "thermal:redstone",
-    "thermal:crude_oil",
-    "thermal:heavy_oil",
-    "thermal:light_oil",
 
     // Sophisticated Core
     "sophisticatedcore:xp_still",

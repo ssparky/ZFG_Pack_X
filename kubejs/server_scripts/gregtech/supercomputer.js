@@ -37,7 +37,6 @@ ServerEvents.recipes(event => {
         .EUt(1966080)
     // //// Computer Recipes //////
 
-    supercomp("thermal/thermal_elemental", "overworld", 256)
     supercomp("shulker", "end", 128)
     supercomp("wither_skeleton", "nether", 256)
     supercomp("ender_dragon", "end", 1666)

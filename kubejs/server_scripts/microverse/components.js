@@ -296,20 +296,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(500)
 
-    // Believe it or not, this is not how a nuke is made.
-    event.recipes.gtceu.assembler("nuke_tnt_itnt")
-        .itemOutputs("thermal:nuke_tnt")
-        .itemInputs("gtceu:small_plutonium_241_dust", "2x gtceu:neutron_reflector", "gtceu:plutonium_ingot", "gtceu:uranium_block", "4x gtceu:aluminium_plate", "3x gtceu:industrial_tnt", "3x gtceu:dense_steel_plate")
-        .inputFluids("gtceu:deuterium 500")
-        .EUt(GTValues.VA[GTValues.LuV])
-        .duration(500)
-    event.recipes.gtceu.assembler("nuke_tnt_regular_tnt")
-        .itemOutputs("thermal:nuke_tnt")
-        .itemInputs("gtceu:small_plutonium_241_dust", "2x gtceu:neutron_reflector", "gtceu:plutonium_ingot", "gtceu:uranium_block", "4x gtceu:aluminium_plate", "12x minecraft:tnt", "3x gtceu:dense_steel_plate")
-        .inputFluids("gtceu:deuterium 500")
-        .EUt(GTValues.VA[GTValues.LuV])
-        .duration(500)
-
     // Potential ingredient additions: Bolts, Screws, Plates, Wires, circuits, frame boxes
     event.recipes.gtceu.assembly_line("gravitational_amplifier")
         .itemOutputs("kubejs:gravitational_amplifier")
@@ -334,7 +320,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("kubejs:universal_collapse_device")
         .itemInputs(
             "2x kubejs:gravitational_amplifier",
-            "16x thermal:nuke_tnt",
+            "16x minecraft:bedrock", // TODO: was thermal nuke before
             "16x kubejs:quantum_flux",
             "gtceu:uv_field_generator",
             "kubejs:universal_warp_core",
