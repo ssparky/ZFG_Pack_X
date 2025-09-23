@@ -243,6 +243,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("5x carbon", "4x hydrogen", "3x oxygen", "4x omnium")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
+    event.create("hydrobromic_acid")
+        .fluid()
+        .color(0x9E5229)
+        .components("1x hydrogen", "1x bromine")
+
 })
 
 // Optical Circuits

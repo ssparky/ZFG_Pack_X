@@ -195,4 +195,7 @@ GTCEuStartupEvents.registry("gtceu:material_icon_set", event => {
 
     // Only exists for a custom fluid texture?
     event.create("hyperdegenerate_matter").parent(GTMaterialIconSet.RADIOACTIVE)
+
+    // Ores
+    event.create("triangle").parent(GTMaterialIconSet.RUBY)
 })

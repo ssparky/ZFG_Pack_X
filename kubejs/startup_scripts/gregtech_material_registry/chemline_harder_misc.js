@@ -104,3 +104,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xF7F7E7).iconSet("dull")
         .components("lead", "silicon", "3x oxygen")
 })
+
+// No idea what this is for
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    event.create("manganese_acetate")
+        .fluid()
+        .color(0x4A6756)
+        .components("manganese", "4x carbon", "6x hydrogen", "4x oxygen")
+        .formula("Mn(CH3CO2)2")
+})

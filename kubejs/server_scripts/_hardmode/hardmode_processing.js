@@ -428,9 +428,9 @@ ServerEvents.recipes(event => {
         .duration(400).EUt(480);
 
     event.recipes.gtceu.chemical_reactor("manganese_acetate")
-        .itemInputs("gtceu:manganese_dust")
+        .itemInputs("gtceu:rhodochrosite_dust")
         .inputFluids("gtceu:acetic_acid 1000")
-        .outputFluids("gtceu:manganese_acetate 1000")
+        .outputFluids("gtceu:manganese_acetate 1000", "gtceu:carbon dioxide 1000", "minecraft:water 1000")
         .duration(60).EUt(480);
 
     event.recipes.gtceu.chemical_reactor("chloronitrobenzene")

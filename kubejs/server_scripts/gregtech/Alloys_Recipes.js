@@ -69,20 +69,20 @@ ServerEvents.recipes(event => {
         ["minecraft:soul_sand"],
         "gtceu:soularium", 6, GTValues.VA[GTValues.LV], true);
 
-    // alloySmeltingVariant(
-    //     ["4x #forge:dusts/steel", "4x #forge:ingots/steel"],
-    //     ["#forge:dusts/boron"],
-    //     "5x nuclearcraft:ferroboron", 15, GTValues.VA[GTValues.MV], true); // TODO: readd these three once KJS/gtceu ingot replacements registered
+    alloySmeltingVariant(
+        ["4x #forge:dusts/steel", "4x #forge:ingots/steel"],
+        ["#forge:dusts/boron"],
+        "5x gtceu:ferroboron", 15, GTValues.VA[GTValues.MV], true); // TODO: readd these three once KJS/gtceu ingot replacements registered
 
-    // alloySmeltingVariant(
-    //     ["#forge:ingots/ferroboron"],
-    //     ["#forge:dusts/lithium"],
-    //     "2x nuclearcraft:tough_alloy", 15, GTValues.VHA[GTValues.LV], false);
+    alloySmeltingVariant(
+        ["#forge:ingots/ferroboron"],
+        ["#forge:dusts/lithium"],
+        "2x gtceu:tough_alloy", 15, GTValues.VHA[GTValues.LV], false);
 
-    // alloySmeltingVariant(
-    //     ["#forge:dusts/diamond", "#forge:gems/diamond"],
-    //     ["3x #forge:dusts/steel", "3x #forge:ingots/steel"],
-    //     "nuclearcraft:hard_carbon", 15, GTValues.VA[GTValues.HV], true);
+    alloySmeltingVariant(
+        ["#forge:dusts/diamond", "#forge:gems/diamond"],
+        ["3x #forge:dusts/steel", "3x #forge:ingots/steel"],
+        "gtceu:hard_carbon", 15, GTValues.VA[GTValues.HV], true);
 
     event.remove({ output: "minecraft:netherite_ingot" })
     event.recipes.gtceu.alloy_smelter("kubejs:netherite_ingot")
@@ -215,6 +215,12 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:mana", 1000))
         .duration(400)
         .EUt(GTValues.VA[GTValues.LV])
+
+    event.recipes.gtceu.mixer("kubejs:soul_infused_dust")
+        .itemInputs("4x #minecraft:soul_fire_base_blocks", "2x gtceu:silver_dust", "1x gtceu:antimony_dust")
+        .itemOutputs("3x gtceu:soul_infused_dust")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
 })
 
 ServerEvents.recipes(event => {
@@ -253,4 +259,91 @@ ServerEvents.recipes(event => {
     addInputItems(/^gtceu:alloy_blast_smelter\/signalum/, [{item: "kubejs:destabilized_clathrate", count: 1}])
     addInputItems(/^gtceu:alloy_blast_smelter\/lumium/, [{item: "extendedcrafting:luminessence", count: 2}, {item: "kubejs:energized_clathrate", count: 1}])
     addInputItems(/^gtceu:alloy_blast_smelter\/enderium/, [{item: "kubejs:resonant_clathrate", count: 1}])
+
+    // Customize the already custom ABS recipes :)))
+    event.remove({ id: "gtceu:alloy_blast_smelter/twinite_gas"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/shellite_gas"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/dragonsteel_gas"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/prismalium_gas"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/stellarium_gas"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/melodium_gas"})
+
+    event.recipes.gtceu.alloy_blast_smelter("twinite_gas")
+        .blastFurnaceTemp(7000)
+        .duration(633.15*20)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .inputFluids("gtceu:mana 2000", "gtceu:xenon 140")
+        .itemInputs("4x gtceu:titanium_dust", "2x gtceu:lumium_dust", "2x gtceu:trinium_dust", "2x gtceu:niobium_dust", "1x gtceu:duranium_dust", "1x gtceu:rhodium_dust")
+        .outputFluids("gtceu:molten_twinite 2016")
+        .circuit(17)
+    event.recipes.gtceu.alloy_blast_smelter("shellite_gas")
+        .blastFurnaceTemp(8200)
+        .duration(1025.1*20) // TODO: these times seem a little long perhaps...
+        .EUt(GTValues.VA[GTValues.UV])
+        .inputFluids("gtceu:mana 2000", "gtceu:xenon 170")
+        .itemInputs("4x gtceu:curium_dust", "2x gtceu:signalum_dust", "4x gtceu:calcite_dust", "2x gtceu:cadmium_dust", "1x gtceu:nihonium_dust", "2x gtceu:rubidium_dust")
+        .outputFluids("gtceu:molten_shellite 2448")
+        .circuit(17)
+    event.recipes.gtceu.alloy_blast_smelter("dragonsteel_gas")
+        .blastFurnaceTemp(8800)
+        .duration(1045.2*20)
+        .EUt(GTValues.VA[GTValues.UHV])
+        .inputFluids("gtceu:mana 2000", "gtceu:radon 140")
+        .itemInputs("4x gtceu:mendelevium_dust", "2x gtceu:enderium_dust", "4x gtceu:black_bronze_dust", "2x gtceu:germanium_dust", "2x gtceu:tennessine_dust")
+        .outputFluids("gtceu:molten_dragonsteel 2304")
+        .circuit(16)
+    event.recipes.gtceu.alloy_blast_smelter("prismalium_gas")
+        .blastFurnaceTemp(9600)
+        .duration(1356.75*20)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .inputFluids("gtceu:mana 4000", "gtceu:radon 180")
+        .itemInputs("12x kubejs:prism_pane", "4x minecraft:prismarine_shard", "2x gtceu:nobelium_dust", "2x gtceu:twinite_dust", "4x gtceu:promethium_dust")
+        .outputFluids("gtceu:molten_prismalium 4032")
+        .circuit(16)
+    event.recipes.gtceu.alloy_blast_smelter("melodium_gas")
+        .blastFurnaceTemp(10200)
+        .duration(1286.4*20)
+        .EUt(GTValues.VA[GTValues.UIV])
+        .inputFluids("gtceu:mana 4000", "gtceu:oganesson 160")
+        .itemInputs("4x gtceu:amethyst_dust", "2x gtceu:taaffeite_dust", "2x gtceu:shellite_dust", "2x gtceu:gadolinium_dust", "2x gtceu:copernicium_dust")
+        .outputFluids("gtceu:molten_melodium 2304")
+        .circuit(16)
+    event.recipes.gtceu.alloy_blast_smelter("stellarium_gas")
+        .blastFurnaceTemp(12000)
+        .duration(2211*20)
+        .EUt(GTValues.VA[GTValues.UXV])
+        .inputFluids("gtceu:mana 8000", "gtceu:oganesson 220", "kubejs:refined_fermionic_antimatter 432")
+        .itemInputs("3x gtceu:stellite_100_dust", "4x gtceu:gravi_star", "2x gtceu:lutetium_dust", "2x gtceu:aetherium_dust")
+        .outputFluids("gtceu:molten_stellarium 3168")
+        .circuit(16)
+
+    // Cant forget the non-gas recipes for the later ones!
+    event.remove({ id: "gtceu:alloy_blast_smelter/prismalium"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/stellarium"})
+    event.remove({ id: "gtceu:alloy_blast_smelter/melodium"})
+
+    event.recipes.gtceu.alloy_blast_smelter("prismalium")
+        .blastFurnaceTemp(9600)
+        .duration(3150*20)
+        .EUt(GTValues.VA[GTValues.UEV])
+        .inputFluids("gtceu:mana 4000")
+        .itemInputs("12x kubejs:prism_pane", "4x minecraft:prismarine_shard", "2x gtceu:nobelium_dust", "2x gtceu:twinite_dust", "4x gtceu:promethium_dust")
+        .outputFluids("gtceu:molten_prismalium 4032")
+        .circuit(6)
+    event.recipes.gtceu.alloy_blast_smelter("melodium")
+        .blastFurnaceTemp(10200)
+        .duration(1920*20)
+        .EUt(GTValues.VA[GTValues.UIV])
+        .inputFluids("gtceu:mana 4000")
+        .itemInputs("4x gtceu:amethyst_dust", "2x gtceu:taaffeite_dust", "2x gtceu:shellite_dust", "2x gtceu:gadolinium_dust", "2x gtceu:copernicium_dust")
+        .outputFluids("gtceu:molten_melodium 2304")
+        .circuit(6)
+    event.recipes.gtceu.alloy_blast_smelter("stellarium")
+        .blastFurnaceTemp(12000)
+        .duration(3300*20)
+        .EUt(GTValues.VA[GTValues.UXV])
+        .inputFluids("gtceu:mana 8000", "kubejs:refined_fermionic_antimatter 432")
+        .itemInputs("3x gtceu:stellite_100_dust", "4x gtceu:gravi_star", "2x gtceu:lutetium_dust", "2x gtceu:aetherium_dust")
+        .outputFluids("gtceu:molten_stellarium 3168")
+        .circuit(6)
 })

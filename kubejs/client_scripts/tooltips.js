@@ -215,14 +215,6 @@ ItemEvents.tooltip(tooltip => {
     })
     tooltip.add("chisel_chipped_integration:drill", Text.translatable("chipped.drill.tooltip"))
 
-    // Note about PEX crafter speed
-    tooltip.add([
-        "packagedexcrafting:advanced_crafter",
-        "packagedexcrafting:elite_crafter",
-        "packagedexcrafting:ultimate_crafter",
-        "packagedexexcrafting:epic_crafter"
-    ], Text.translatable("packagedexcrafting.crafterspeed.tooltip"))
-
     // Tempad
     if (Platform.isLoaded("tempad")) {
         tooltip.add("tempad:tempad", Text.translatable("tempad.tempad.tooltip"))

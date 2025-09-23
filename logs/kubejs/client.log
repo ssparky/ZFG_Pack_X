@@ -1,30 +1,32 @@
-[20:25:47] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[20:25:47] [INIT] Loaded plugins:
-[20:25:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:25:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:25:47] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
-[20:25:47] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[20:25:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[20:25:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[20:25:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[20:25:47] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[20:25:47] [INIT] - com.almostreliable.morejs.Plugin
-[20:25:47] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[20:25:47] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[20:25:47] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[20:25:47] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[20:25:47] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[20:25:47] [INFO] Loaded script client_scripts:_initial.js in 0.002 s
-[20:25:47] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
-[20:25:47] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
-[20:25:47] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
-[20:25:47] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
-[20:25:47] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[20:25:47] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[20:25:47] [ERROR] ! mods/RPC.js#23: ReferenceError: "sdrp" is not defined.
-[20:25:47] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[20:25:47] [INFO] Loaded script client_scripts:tooltips.js in 0.003 s
-[20:25:47] [INFO] Loaded script client_scripts:nukelists.js in 0.001 s
-[20:25:47] [INFO] Loaded 9/10 KubeJS client scripts in 0.037 s with 0 errors and 0 warnings
-[20:25:55] [INFO] Client resource reload complete!
-[20:27:13] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
+[16:44:03] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[16:44:03] [INIT] Loaded plugins:
+[16:44:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:44:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:44:03] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[16:44:03] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[16:44:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:44:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:44:03] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:44:03] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[16:44:03] [INIT] - com.almostreliable.morejs.Plugin
+[16:44:03] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:44:03] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[16:44:03] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[16:44:03] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[16:44:03] [INFO] Loaded script client_scripts:_initial.js in 0.002 s
+[16:44:03] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
+[16:44:03] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
+[16:44:03] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[16:44:03] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
+[16:44:03] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
+[16:44:03] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.001 s
+[16:44:03] [ERROR] ! mods/RPC.js#23: ReferenceError: "sdrp" is not defined.
+[16:44:03] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[16:44:03] [INFO] Loaded script client_scripts:tooltips.js in 0.005 s
+[16:44:03] [INFO] Loaded script client_scripts:nukelists.js in 0.001 s
+[16:44:03] [INFO] Loaded 9/10 KubeJS client scripts in 0.053 s with 0 errors and 0 warnings
+[16:44:13] [INFO] Client resource reload complete!
+[16:45:13] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
+[16:45:22] [ERROR] ! JEI.js#59: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[16:48:21] [ERROR] ! JEI.js#59: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[16:50:22] [ERROR] ! JEI.js#59: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.

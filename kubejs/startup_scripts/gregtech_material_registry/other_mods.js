@@ -7,6 +7,13 @@
 // Thermal
 
 GTCEuStartupEvents.registry("gtceu:material", event => {
+    event.create("soul_infused")
+        .ingot().fluid()
+        .color(0xDC693C).secondaryColor(0x80501E)
+        .iconSet("magic")
+        .cableProperties(32, 1, 0, true)
+        .components("1x stone", "2x silver", "1x antimony")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create("lumium")
         .ingot().fluid()
@@ -69,7 +76,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .blastTemp(9600, "highest", GTValues.VA[GTValues.UEV], 3000)
         .cableProperties(33554432, 6, 0, true)
-        .components("4x silicon_dioxide", "2x rare_earth", "2x nobelium", "2x twinite", "4x promethium", "4x mana") // TODO: Glass and prismarine are placeholders!
+        .components("12x rare_earth", "4x nether_quartz", "2x nobelium", "2x twinite", "4x promethium", "4x mana") // TODO: Glass and prismarine are placeholders!
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create("melodium")
@@ -78,7 +85,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .blastTemp(10200, "highest", GTValues.VA[GTValues.UIV], 3200)
         .cableProperties(134217728, 6, 0, true)
-        .components("4x amethyst", "2x emerald", "2x shellite", "2x gadolinium", "2x copernicium", "4x mana") // TODO: replace emerald with taaffeite
+        .components("4x amethyst", "2x taaffeite", "2x shellite", "2x gadolinium", "2x copernicium", "4x mana") // TODO: replace emerald with taaffeite
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create("stellarium")
@@ -270,6 +277,34 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet(GTMaterialIconSet.CERTUS)
         .flags(GTMaterialFlags.GENERATE_PLATE)
         .components("charged_certus_quartz", "redstone", "nether_quartz")
+})
+
+// NCN
+
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    event.create("hard_carbon")
+        .ingot().fluid()
+        .color(0x224B55).secondaryColor(0x0F1312)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME)
+        .components("3x steel", "1x diamond")
+    event.create("ferroboron")
+        .ingot().fluid()
+        .color(0x4F4A4A).secondaryColor(0x1E1D1D)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE)
+        .components("4x steel", "1x boron")
+    event.create("tough_alloy")
+        .ingot().fluid()
+        .color(0x140B1A).secondaryColor(0x0E0D0D)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE)
+        .components("1x ferroboron", "1x lithium")
+    event.create("rhodochrosite")
+        .dust()
+        .color(0x9C3232).secondaryColor(0xBCA2A2)
+        .iconSet(GTMaterialIconSet.DULL)
+        .components('1x manganese', '1x carbon', '3x oxygen')
 })
 
 

@@ -33,23 +33,5 @@ global.fluidNukeList = [
     // Sophisticated Core
     "sophisticatedcore:xp_still",
 
-    // Systeams
-    "systeams:steamier",
-    "systeams:steamiest",
-    "systeams:steamiester",
-    "systeams:steamiestest",
-
 ]
 
-StartupEvents.postInit(event => {
-
-    // Add depleted fuels, or else fission reactors won't run
-    NCFluidsToKeep = NCFluidsToKeep.concat(NCFluids.filter(id => id.includes("depleted_fuel")))
-
-    // Add flowing fluid variants to the list of fluids to keep
-    NCFluidsToKeep.forEach(fluid => { NCFluidsToKeep.push(`${fluid}_flowing`) })
-
-    // Remove used fluids from the full list of NC fluids
-    let NCFluidsToRemove = NCFluids.filter((el) => !NCFluidsToKeep.includes(el))
-
-})

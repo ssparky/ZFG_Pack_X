@@ -754,4 +754,50 @@ StartupEvents.registry("item", event => {
     event.create("prism_pane")
         .texture("kubejs:item/lines/prismac/psoc/prism_pane")
         .displayName("P.R.I.S.M. Glass Pane")
+
+    // NCN replacement fuel pellets
+    const fuels = [
+        ["thorium_230", "Thorium 230", "#4A5346"],
+        ["thorium_232", "Thorium 232", "#25411b"],
+        ["uranium_233", "Uranium 233", "#23BA23"],
+        ["uranium_235", "Uranium 235", "#46FA46"],
+        ["uranium_238", "Uranium 238", "#1d891d"],
+        ["neptunium_236", "Neptunium 236", "#3C6598"],
+        ["neptunium_237", "Neptunium 237", "#486d7b"],
+        ["plutonium_238", "Plutonium 238", "#A20404"],
+        ["plutonium_239", "Plutonium 239", "#ba2727"],
+        ["plutonium_241", "Plutonium 241", "#ff4c4c"],
+        ["plutonium_242", "Plutonium 242", "#D75E5E"],
+        ["americium_241", "Americium 241", "#145F51"],
+        ["americium_242", "Americium 242", "#308D7C"],
+        ["americium_243", "Americium 243", "#287869"],
+        ["curium_243", "Curium 243", "#240840"],
+        ["curium_245", "Curium 245", "#38145D"],
+        ["curium_246", "Curium 246", "#58307f"],
+        ["curium_247", "Curium 247", "#60229E"],
+        ["berkelium_247", "Berkelium 247", "#a33f20"],
+        ["berkelium_248", "Berkelium 248", "#8E2A0C"],
+        ["californium_249", "Californium 249", "#B50B38"],
+        ["californium_250", "Californium 250", "#550218"],
+        ["californium_251", "Californium 251", "#7d0222"],
+        ["californium_252", "Californium 252", "#62031C"],
+        ["einsteinium_252", "Einsteinium 252", "#CE9F00"],
+        ["einsteinium_253", "Einsteinium 253", "#A07C05"],
+        ["einsteinium_254", "Einsteinium 254", "#F0BB0C"],
+        ["fermium_255", "Fermium 255", "#B180D4"],
+        ["fermium_257", "Fermium 257", "#c99fe7"],
+        ["mendelevium_259", "Mendelevium 259", "#1D4ACF"],
+        ["nobelium_259", "Nobelium 259", "#3e4758"]
+    ]
+
+    for (const [id, name, baseColor] of fuels) {
+        event.create(`${id}_fuel_pellet`)
+            .texture("kubejs:item/nuclear/fuel_pellet")
+            .displayName(`${name} Fuel Pellet`)
+            .color(0, baseColor);
+        event.create(`depleted_${id}_fuel_pellet`)
+            .texture("kubejs:item/nuclear/fuel_pellet_depleted")
+            .displayName(`Depleted ${name} Fuel Pellet`)
+            .color(0, baseColor);
+    }
 })

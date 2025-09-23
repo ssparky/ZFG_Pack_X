@@ -68,6 +68,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Moscovium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Livermorium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Tennessine.setProperty($PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Oganesson.setProperty($PropertyKey.DUST, new $DustProperty());
 
     GTMaterials.Actinium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Actinium.setMaterialARGB(0xaa3399)
@@ -119,6 +120,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Thorium.setMaterialARGB(0x273420)
     addFluid(GTMaterials.Actinium, $FluidStorageKeys.LIQUID, 1324);
     GTMaterials.Einsteinium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+
+    addFluid(GTMaterials.Oganesson, $FluidStorageKeys.LIQUID, 1029);
+    GTMaterials.Oganesson.setMaterialARGB(0x272727)
 
     // Other new colors
     GTMaterials.Scandium.setMaterialARGB(0x58f591);
@@ -224,6 +228,7 @@ GTCEuStartupEvents.materialModification(event => {
     TagPrefix.block.setIgnored(GTMaterials.get("fluix"), $AEBlocks.FLUIX_BLOCK.asItem())
 
     // Modifying actinite symbols
+    GTMaterials.Thorium.setFormula("Th²³⁰")
     GTMaterials.Neptunium.setFormula("Np²³⁷")
     GTMaterials.Americium.setFormula("Am²⁴³")
     GTMaterials.Curium.setFormula("Cm²⁴⁶")

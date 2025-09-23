@@ -236,7 +236,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create('chambersite')
         .gem().ore(1, 1)
-        .iconSet(GTMaterialIconSet.RUBY) // TODO: custom triangular iconset
+        .iconSet(GTMaterialIconSet.RUBY) // TODO: custom triangular iconSet
         .color(0x7e5c9e).secondaryColor(0x291140)
         .components(GTMaterials.Manganese.multiply(3), GTMaterials.Boron.multiply(7), GTMaterials.Oxygen.multiply(13), GTMaterials.Chlorine.multiply(1))
         .addOreByproducts(GTMaterials.RockSalt, GTMaterials.Salt, GTMaterials.Borax)
@@ -271,4 +271,275 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xa1bd57).secondaryColor(0x6c8038)
         .components(GTMaterials.Calcium.multiply(2), GTMaterials.Thorium.multiply(1), GTMaterials.Silicon.multiply(8), GTMaterials.Oxygen.multiply(20))
         .addOreByproducts(GTMaterials.Magnetite, GTMaterials.Lead, GTMaterials.Uraninite)
+
+    event.create('fergusonite')
+        .dust().ore(1, 1)
+        .iconSet(GTMaterialIconSet.DULL)
+        .color(0x706b55).secondaryColor(0xb09569)
+        .components("1x yttrium", '1x rare_earth', "1x niobium", "4x oxygen")
+        .addOreByproducts("scandium", "tantalite", "thorium", "scheelite")
+        .formula("(Y,?)NbO4")
+
+    event.create('gadolinite')
+        .dust().ore(1, 1)
+        .iconSet(GTMaterialIconSet.DULL)
+        .color(0x80634f).secondaryColor(0x212833)
+        .components("2x rare_earth", "1x iron", "2x beryllium", "2x silicon", "10 oxygen")
+        .addOreByproducts("beryllium_oxide", "thorium", "gadolinium", "monazite")
+        .formula("(Ce,La,Nd,Y)2FeBe2Si2O10")
+        .washedIn(GTMaterials.get("hexafluorosilicic_acid"))
+
+    event.create('germanite')
+        .dust().ore(1, 1)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .color(0x788c94).secondaryColor(0x595552)
+        .components("26x copper", "4x germanium", "4x iron", "32x sulfur")
+        .addOreByproducts("molybdenite", "realgar", "gallium", "briartite")
+        .washedIn("sodium_persulfate")
+
+    event.create("hawleyite")
+        .dust().ore(1, 1)
+        .color(0xf0d61c).secondaryColor(0xd4db3d)
+        .iconSet(GTMaterialIconSet.SAND)
+        .components("1x cadmium, 1x sulfur").formula("CdS")
+        .addOreByproducts("sphalerite", "cadmium", "gallium")
+        .washedIn(GTMaterials.get("hydrobromic_acid"))
+        .oreSmeltInto("cadmium")
+
+    event.create("hexagonite")
+        .gem().ore(2, 1)
+        .color(0xd4c7d6).secondaryColor(0x963d78)
+        .iconSet(GTMaterialIconSet.LAPIS)
+        .components("2x calcium", "5x magnesium", "8x silicon", "24x oxygen", "2x hydrogen")
+        .formula("Ca2Mg5(Si8O22)(OH)2")
+        .addOreByproducts("magnesite", "zincite", "manganese", "zincite")
+
+    event.create("bromoargyrite")
+        .dust()
+        .color(0xB02E14).secondaryColor(0x665b54)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .components("1x silver", "1x bromine")
+
+    event.create("iodargyrite")
+        .dust().ore(1, 1)
+        .color(0xb05214).secondaryColor(0x665b54)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .components("1x silver", "1x iodine")
+        .addOreByproducts("galena", "silver", "bromoargyrite")
+        .washedIn("hydrobromic_acid")
+        .oreSmeltInto("silver")
+
+    event.create("legrandite")
+        .gem().ore(1, 1)
+        .color(0xf7dd1a).secondaryColor(0xccad4d)
+        .iconSet(GTMaterialIconSet.LAPIS)
+        .components("2x zinc", "1x arsenic", "5x oxygen", "1x hydrogen", "1x water")
+        .formula("Zn2(AsO4)(OH) * (H2O)")
+        .addOreByproducts("goethite", "pyrite", "realgar")
+        .oreSmeltInto("zinc")
+
+    event.create("lorandite")
+        .dust().ore(1, 1)
+        .color(0xe81348).secondaryColor(0xa11538)
+        .iconSet(GTMaterialIconSet.CERTUS)
+        .components("1x thallium", "1x arsenic", "2x sulfur")
+        .addOreByproducts("realgar", "cinnabar", "gold", "stibnite")
+        .washedIn("mercury")
+
+    event.create("madocite")
+        .dust().ore(1, 1)
+        .color(0xa0b593).secondaryColor(0x535452)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .components("17x lead", "16x antimony", "16x arsenic", "41x sulfur")
+        .formula("Pb17(Sb,As)16S41")
+        .addOreByproducts("sphalerite", "stibnite", "pyrite", "selenium")
+        .washedIn("mercury")
+
+    event.create("manganite")
+        .gem().ore(1, 1)
+        .color(0x2a3026).secondaryColor(0x070d04)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .components("1x manganese", "2x oxygen", "1x hydrogen")
+        .formula("MnO(OH)")
+        .addOreByproducts("goethite", "pyrolusite", "barite")
+        .oreSmeltInto("manganese")
+        .flags(GTMaterialFlags.GENERATE_LENS)
+
+    event.create("melonite")
+        .dust().ore(1, 1)
+        .color(0xc2af28).secondaryColor(0x4d4a3c)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .components("1x nickel", "2x tellurium")
+        .washedIn("mercury")
+        .oreSmeltInto("nickel")
+        .addOreByproducts("pentlandite", "nickel", "sperrylite", "platinum")
+
+    event.create("microcline")
+        .dust().ore(1, 1)
+        .color(0xf7e1e6).secondaryColor(0xc79887)
+        .iconSet(GTMaterialIconSet.LAPIS)
+        .components("1x potassium", "1x aluminium", "3x silicon", "8x oxygen")
+        .addOreByproducts("alunite", "rubidium", "thallium")
+
+    event.create("mohite")
+        .dust().ore(1, 1)
+        .color(0x505D57).secondaryColor(0x818150)
+        .iconSet(GTMaterialIconSet.DULL)
+        .components("2x copper", "1x tin", "3x sulfur")
+        .washedIn("mercury")
+        .oreSmeltInto("bronze")
+        .addOreByproducts("tetrahedrite", "cassiterite", "chalcocite", "bronze")
+
+    event.create('moissanite')
+
+    event.create('nambulite')
+
+    event.create('rubellite')
+
+    event.create('russellite')
+
+    event.create('samarskite-yb')
+
+    event.create('schizolite')
+
+    event.create('selenite')
+
+    event.create('spinel')
+
+    event.create('stibiotantalite')
+
+    event.create('suanite')
+
+    event.create('tarapacaite')
+
+    event.create('teallite')
+
+    event.create('thortveitite')
+
+    event.create('triphyllite')
+
+    event.create('tungstite')
+
+    event.create('tusionite')
+
+    event.create('ulexite')
+
+    event.create('ullmannite')
+
+    event.create('umangite')
+
+    event.create('vanadinite')
+
+    event.create('wodginite')
+
+    event.create('xilingolite')
+
+    event.create('euclase')
+
+    event.create('bazzite')
+
+    event.create('aquamarine')
+
+    event.create('celestine')
+
+    event.create('strontianite')
+
+    event.create('aragonite')
+
+    event.create('indite')
+
+    event.create('cadmoindite')
+
+    event.create('calomel')
+
+    event.create('coccinite')
+
+    event.create('zircon')
+
+    event.create('datolite')
+
+    event.create('dzhalindite')
+
+    event.create('ferberite')
+
+    event.create('fluoroapatite')
+
+    event.create('zincochromite')
+
+    event.create('guyanaite')
+
+    event.create('heptasartorite')
+
+    event.create('herderite')
+
+    event.create('hubnerite')
+
+    event.create('rheniite')
+
+    event.create('lindgrenite')
+
+    event.create('torbernite')
+
+    event.create('turquoise')
+
+    event.create('vivianite')
+
+    event.create('phosphosiderite')
+
+    event.create('kolbeckite')
+
+    event.create('labyrinthite')
+
+    event.create('manganvesuvianite')
+
+    event.create('temagamite')
+    
+    event.create('merenskyite')
+
+    event.create('morganite')
+
+    event.create('pezzottaite')
+
+    event.create('milarite')
+
+    event.create('mixite')
+
+    event.create('mottramite')
+
+    event.create('musgravite')
+
+    event.create('witherite')
+
+    event.create('otavite')
+
+    event.create('phosphophyllite')
+
+    event.create('purpurite')
+
+    event.create('red_beryl')
+
+    event.create('rhodplumsite')
+
+    event.create('taaffeite')
+        .gem().ore()
+        .iconSet(GTMaterialIconSet.EMERALD)
+        .color(0x9247C0).secondaryColor(0x8F3997)
+        .components("1x beryllium", "1x magnesium", "4x aluminium", "8x oxygen")
+        .addOreByproducts("spinel", "chrysoberyl", "musgravite", "beryllium")
+        .flags(GTMaterialFlags.GENERATE_LENS, GTMaterialFlags.CRYSTALLIZABLE)
+
+    event.create('triplite')
+
+    event.create('vayrynenite')
+
+    event.create('villiaumite')
+
+    event.create('wakefieldite')
+
+    event.create('xanthoconite')
+
+    event.create('zavaritskite')
+
+    event.create('zoisite')
+
 })

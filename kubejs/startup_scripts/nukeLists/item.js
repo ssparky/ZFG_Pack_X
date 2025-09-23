@@ -179,11 +179,6 @@ global.itemNukeList = [
     /^megacells:.*mega_pattern_provider$/,
     /^megacells:sky_steel/,
 
-    // PackagedExCrafting
-    "packagedexcrafting:basic_crafter",
-    "packagedexcrafting:ender_crafter",
-    "packagedexcrafting:flux_crafter",
-
     // Solar Flux
     /^solarflux:.*_upgrade$/,
     /^solarflux:.*_glass$/,

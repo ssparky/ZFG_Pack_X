@@ -815,4 +815,11 @@ ServerEvents.recipes(event => {
         .itemOutputs("2x gtceu:saltpeter_dust", "gtceu:sulfur_dust", "3x gtceu:carbon_dust")
         .duration(110)
         .EUt(GTValues.VA[GTValues.MV])
+
+    // NCN Rhodochrosite crafting
+    event.recipes.gtceu.chemical_reactor("rhodochrosite_from_calcite")
+        .itemInputs("1x gtceu:manganese_dust", "1x gtceu:calcite_dust")
+        .itemOutputs("1x gtceu:rhodochrosite_dust", "1x gtceu:calcium_dust")
+        .duration(70)
+        .EUt(GTValues.VHA[GTValues.HV])
 })

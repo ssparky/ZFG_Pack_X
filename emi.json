@@ -1,7 +1,197 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "gtceu:bromine",
+      "amount": 1000
+    },
+    "item:gtceu:bromoargyrite_dust",
+    "item:gtceu:raw_legrandite",
+    "item:gtceu:raw_manganite",
+    "item:gtceu:raw_brookite",
+    "item:gtceu:raw_gadolinite",
+    "item:gtceu:raw_fergusonite",
+    "item:gtceu:raw_anatase",
+    "item:gtceu:raw_hexagonite",
+    "item:gtceu:raw_gypsum",
+    "item:gtceu:raw_nether_quartz",
+    "item:gtceu:raw_hawleyite",
+    "item:gtceu:raw_black_opal",
+    "item:gtceu:raw_cryolite",
+    "item:gtceu:raw_anorthite",
+    "item:gtceu:raw_microcline",
+    "item:gtceu:raw_lorandite",
+    "item:gtceu:raw_stolzite",
+    "item:gtceu:raw_arsenopyrite",
+    "item:gtceu:raw_briartite",
+    "item:gtceu:raw_citrine",
+    "item:gtceu:raw_madocite",
+    "item:gtceu:raw_taaffeite",
+    "item:gtceu:raw_chambersite",
+    "item:gtceu:raw_melonite",
+    "item:gtceu:raw_argentite",
+    "item:gtceu:raw_sperrylite",
+    "item:gtceu:raw_pollucite",
+    "item:gtceu:raw_chromite",
+    "item:gtceu:raw_iodargyrite",
+    "item:gtceu:raw_germanite",
+    "item:gtceu:raw_mohite",
+    "item:gtceu:raw_columbite",
+    "item:gtceu:raw_xenotime",
+    "item:kubejs:depleted_americium_243_fuel_pellet",
+    "item:kubejs:depleted_americium_242_fuel_pellet",
+    "item:kubejs:depleted_americium_241_fuel_pellet",
+    "item:kubejs:depleted_plutonium_242_fuel_pellet",
+    "item:kubejs:depleted_plutonium_241_fuel_pellet",
+    "item:kubejs:depleted_plutonium_239_fuel_pellet",
+    "item:kubejs:depleted_plutonium_238_fuel_pellet",
+    "item:kubejs:depleted_neptunium_237_fuel_pellet",
+    "item:kubejs:depleted_neptunium_236_fuel_pellet",
+    "item:kubejs:depleted_uranium_238_fuel_pellet",
+    "item:kubejs:depleted_uranium_235_fuel_pellet",
+    "item:kubejs:depleted_uranium_233_fuel_pellet",
+    "item:kubejs:depleted_thorium_232_fuel_pellet",
+    "item:kubejs:depleted_thorium_230_fuel_pellet",
+    "item:kubejs:nobelium_259_fuel_pellet",
+    "item:kubejs:mendelevium_259_fuel_pellet",
+    "item:kubejs:fermium_257_fuel_pellet",
+    "item:kubejs:fermium_255_fuel_pellet",
+    "item:kubejs:einsteinium_254_fuel_pellet",
+    "item:kubejs:einsteinium_253_fuel_pellet",
+    "item:kubejs:einsteinium_252_fuel_pellet",
+    "item:kubejs:californium_252_fuel_pellet",
+    "item:kubejs:californium_251_fuel_pellet",
+    "item:kubejs:californium_250_fuel_pellet",
+    "item:kubejs:californium_249_fuel_pellet",
+    "item:kubejs:berkelium_248_fuel_pellet",
+    "item:kubejs:berkelium_247_fuel_pellet",
+    "item:kubejs:curium_247_fuel_pellet",
+    "item:kubejs:curium_246_fuel_pellet",
+    "item:kubejs:curium_245_fuel_pellet",
+    "item:kubejs:curium_243_fuel_pellet",
+    "item:kubejs:americium_243_fuel_pellet",
+    "item:kubejs:americium_242_fuel_pellet",
+    "item:kubejs:americium_241_fuel_pellet",
+    "item:kubejs:plutonium_242_fuel_pellet",
+    "item:kubejs:plutonium_241_fuel_pellet",
+    "item:kubejs:plutonium_239_fuel_pellet",
+    "item:kubejs:plutonium_238_fuel_pellet",
+    "item:kubejs:neptunium_237_fuel_pellet",
+    "item:kubejs:neptunium_236_fuel_pellet",
+    "item:kubejs:uranium_238_fuel_pellet",
+    "item:kubejs:uranium_235_fuel_pellet",
+    "item:kubejs:uranium_233_fuel_pellet",
+    "item:kubejs:thorium_232_fuel_pellet",
+    "item:kubejs:thorium_230_fuel_pellet",
+    "item:gtceu:protactinium_nugget",
+    "item:gtceu:raw_snowchestite",
+    "item:gtceu:raw_carnotite",
+    "item:gtceu:raw_cavansite",
+    "item:gtceu:raw_chrysoberyl",
+    "item:gtceu:raw_bismite",
+    "item:gtceu:raw_titanite",
+    "item:gtceu:raw_wolframite",
+    "item:gtceu:raw_ekanite",
+    "item:gtceu:raw_gallite",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_dragonsteel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_prismalium",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_melodium",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_stellarium",
+      "amount": 0
+    },
+    "item:gtceu:oganesson_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:oganesson",
+      "amount": 160
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_shellite",
+      "amount": 0
+    },
+    "item:gtceu:soul_infused_ingot",
+    "item:gtceu:soularium_ingot",
+    "item:gtceu:soul_infused_dust",
     "item:gtceu:stellarium_ingot",
+    {
+      "type": "fluid",
+      "id": "kubejs:hadronic_antimatter",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:refined_hadronic_antimatter",
+      "amount": 72
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:fermionic_antimatter",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "kubejs:protomatter",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:refined_fermionic_antimatter",
+      "amount": 0
+    },
+    "item:minecraft:prismarine_shard",
+    "item:kubejs:prism_pane",
+    {
+      "type": "fluid",
+      "id": "gtceu:soul_infused",
+      "amount": 0
+    },
+    "item:gtceu:soul_infused_block",
+    "item:gtceu:quintessence_infuser",
+    "item:enderio:soul_binder",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_twinite",
+      "amount": 0
+    },
+    "item:steamadditions:steam_foundry",
+    "item:steamadditions:steam_separator",
+    "item:railways:yellow_conductor_cap",
+    "item:railways:track_crimson",
+    "item:gtceu:twinite_double_wire",
+    "item:gtceu:twinite_dust",
+    "item:gtceu:hot_twinite_ingot",
+    "item:gtceu:rhodochrosite_dust",
+    "item:gtceu:hard_carbon_dust",
+    "item:gtceu:hard_carbon_ingot",
+    "item:gtceu:dense_tough_alloy_plate",
+    "item:gtceu:tough_alloy_ingot",
+    "item:gtceu:tough_alloy_dust",
+    "item:gtceu:ferroboron_ingot",
+    "item:gtceu:ferroboron_dust",
+    {
+      "type": "item",
+      "id": "gtceu:hard_carbon_frame",
+      "amount": 2
+    },
+    "item:gtceu:hard_carbon_rod",
+    "item:gtceu:manganese_dust",
+    "item:gtceu:calcite_dust",
     "item:gtceu:melodium_ingot",
     {
       "type": "fluid",
@@ -12,14 +202,7 @@
     "item:gtceu:palladium_substation",
     "item:gtmutils:pterb_machine",
     "item:gtceu:prismalium_ingot",
-    "item:nuclearcraft:berkelium_248",
-    "item:nuclearcraft:berkelium_247",
-    "item:nuclearcraft:fuel_americium_lea_242",
-    "item:nuclearcraft:americium_243",
-    "item:nuclearcraft:americium_241",
-    "item:nuclearcraft:americium_242",
     "item:gtceu:americium_ingot",
-    "item:nuclearcraft:plutonium_238",
     {
       "type": "fluid",
       "id": "gtceu:neptunium_236",
@@ -28,10 +211,7 @@
     "item:gtceu:neptunium_236_ingot",
     "item:gtceu:neptunium_ingot",
     "item:gtceu:dragonsteel_block",
-    "item:gtceu:hot_twinite_ingot",
-    "item:gtceu:twinite_dust",
     "item:gtceu:twinite_ingot",
-    "item:nuclearcraft:neptunium_237",
     {
       "type": "fluid",
       "id": "gtceu:mana",
@@ -68,7 +248,6 @@
     "item:framedblocks:framed_double_slope",
     "item:framedblocks:framed_flat_inv_double_slope_panel_corner",
     "item:framedblocks:framed_small_double_corner_slope_panel",
-    "item:nuclearcraft:empty_detector",
     "item:monilabs:knowledge_transmission_array",
     "#item:gtceu:tools/crafting_hammers",
     "item:gtceu:iron_plate",
@@ -171,7 +350,6 @@
     "item:gtceu:greenhouse",
     "item:gtceu:atmospheric_accumulator",
     "item:gtceu:implosion_collider",
-    "item:gtceu:quintessence_infuser",
     "item:gtceu:discharger",
     "item:gtceu:large_naquadah_reactor",
     "item:gtceu:naquadah_reactor",
@@ -201,7 +379,6 @@
     "item:gtceu:nano_processor_assembly",
     "item:gtceu:nano_processor",
     "item:mae2:faulty_card",
-    "item:gtceu:raw_cavansite",
     {
       "type": "fluid",
       "id": "gtceu:eltz-enriched_helium",
@@ -241,17 +418,10 @@
       "id": "gtceu:hexafluorosilicic_acid",
       "amount": 0
     },
-    "item:gtceu:raw_snowchestite",
-    "item:gtceu:raw_titanite",
-    "item:gtceu:raw_gallite",
-    "item:gtceu:raw_briartite",
-    "item:gtceu:raw_wolframite",
     "item:gtceu:vanadium_steel_buzz_saw_blade",
     "item:gtceu:small_vanadium_gallium_spring",
     "item:gtceu:vanadium_pentoxide_dust",
     "item:gtceu:vanadium_gallium_bolt",
-    "item:gtceu:raw_citrine",
-    "item:gtceu:raw_chrysoberyl",
     "item:mae2:cloud_chamber",
     "item:gtceu:citrine_dust",
     {
@@ -277,15 +447,8 @@
     },
     "item:gtceu:citrine_plate",
     "item:gtceu:citrine_lens",
-    "item:gtceu:raw_ekanite",
-    "item:gtceu:raw_cryolite",
-    "item:gtceu:raw_chambersite",
-    "item:gtceu:raw_brookite",
     "item:gtceu:raw_darmstadtite",
-    "item:gtceu:raw_black_opal",
-    "item:gtceu:raw_anatase",
     "item:gtceu:raw_dulysite",
-    "item:gtceu:raw_stolzite",
     "item:gtceu:raw_red_garnet",
     "item:gtceu:raw_kaemanite",
     "item:gtceu:raw_calcite",
@@ -294,7 +457,6 @@
     "item:gtceu:raw_kyanite",
     "item:gtceu:raw_granitic_mineral_sand",
     "item:gtceu:raw_realgar",
-    "item:gtceu:raw_carnotite",
     "item:gtceu:pyromorphite_dust",
     "item:packagedauto:recipe_holder",
     "item:patchouli:guide_book{\"patchouli:book\":\"packagedauto:guide\"}",
@@ -306,82 +468,6 @@
     "item:enderio:clear_glass_p",
     "item:packagedauto:distributor_marker",
     "item:waterframes:tv_box",
-    {
-      "type": "jemi",
-      "uid": "particle:electron_antineutrino"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:higgs_boson"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:muon_antineutrino"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:top_quark"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:antistrange_quark"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:tau_antineutrino"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:glueball"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:gluon"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:helion"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:triton"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:proton"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:neutron"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:deuteron"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:alpha"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:antialpha"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:antitriton"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:boron_ion"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:antimuon"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:calcium_48_ion"
-    },
     "item:gtceu:flawless_anatase_gem",
     "item:gtceu:raw_andradite",
     "item:gtceu:raw_uvarovite",
@@ -391,20 +477,6 @@
     "item:gtceu:raw_lazurite",
     "item:gtceu:raw_azurite",
     "item:gtceu:zirconium_dust",
-    "item:nuclearcraft:hard_carbon_dust",
-    {
-      "type": "jemi",
-      "uid": "particle:pion_naught"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:pion_plus"
-    },
-    {
-      "type": "jemi",
-      "uid": "particle:antiproton"
-    },
-    "item:nuclearcraft:antihydrogen",
     "item:kubejs:magnetic_capacitor_dust",
     "item:kubejs:grains_of_innocence",
     "item:enderio:enticing_crystal",
@@ -534,8 +606,6 @@
     "item:gtceu:stolzite_plate",
     "item:gtceu:neptunium_palladium_aluminium_plate",
     "item:gtceu:raw_iridosmine",
-    "item:gtceu:raw_bismite",
-    "item:gtceu:raw_sperrylite",
     {
       "type": "item",
       "id": "gtceu:wolframite_dust",
@@ -550,12 +620,7 @@
     "item:gtceu:exquisite_xenotime_gem",
     "item:gtceu:flawless_xenotime_gem",
     "item:gtceu:xenotime_gem",
-    "item:gtceu:raw_xenotime",
-    "item:gtceu:raw_argentite",
     "item:gtceu:raw_cuprorhodsite",
-    "item:gtceu:raw_arsenopyrite",
-    "item:gtceu:raw_columbite",
-    "item:gtceu:raw_anorthite",
     "item:gtceu:raw_dilithium",
     "item:gtceu:small_darmstadtium_gear",
     {
@@ -599,7 +664,6 @@
       "amount": 8
     },
     "item:gtceu:germanium_disulfide_dust",
-    "item:kubejs:prism_pane",
     "item:kubejs:lyso_ce_glass",
     "item:kubejs:red_aligned_glass",
     "item:kubejs:green_aligned_glass",
