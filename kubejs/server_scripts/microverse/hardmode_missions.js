@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
             .inputFluids("minecraft:lava 12000")
             .damageRate(-30)
             .itemOutputs(
-                "16x enderio:enderman_head",
+                // "16x enderio:enderman_head",
                 "16x minecraft:ender_pearl",
                 "16x minecraft:ender_pearl",
                 "16x minecraft:shulker_shell", // shulker pearls aren"t in the pack

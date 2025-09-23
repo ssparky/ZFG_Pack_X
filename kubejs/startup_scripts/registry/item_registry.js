@@ -388,13 +388,6 @@ StartupEvents.registry("item", event => {
     event.create("ender_spore")
         .texture("kubejs:item/ender_spore")
 
-    // EnderIO Capacitors
-    // TODO: GIVE CAPACITORS LORE AND NBT FOR THEM TO WORK
-    event.create("compressed_octadic_capacitor")
-        .texture("kubejs:item/mod/enderio/compressed_octadic_capacitor")
-    event.create("double_compressed_octadic_capacitor")
-        .texture("kubejs:item/mod/enderio/double_compressed_octadic_capacitor")
-
     // Extra Utilities 2
     event.create("resonating_crystal")
         .texture("kubejs:item/mod/extrautils2/resonating_crystal")

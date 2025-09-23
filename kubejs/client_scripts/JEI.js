@@ -12,10 +12,6 @@ JEIEvents.hideItems(event => {
     event.hide("ae2:facade")
     event.hide(/ae2:facade/)
 
-    // Hide excess permutations of EnderIO Clear glass, Fused Quartz
-    event.hide(/enderio:clear_glass_.*_.*/)
-    event.hide(/enderio:fused_quartz_.*_.*/)
-
     // snad
     event.hide("snad:soul_snad")
 

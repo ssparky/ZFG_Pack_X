@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         A: "kubejs:dark_soularium_casing",
         L: "#gtceu:circuits/zpm",
         G: "gtceu:zpm_field_generator",
-        B: "enderio:soul_binder"
+        B: "minecraft:bedrock" // TODO: was EIO Soul binder (replace with GT implementation when done)
     }).id("kubejs:shaped/quintessence_infuser")
 
     // Warding Dark Soularium Casing Recipe
@@ -27,21 +27,21 @@ ServerEvents.recipes(event => {
         .duration(50)
         .EUt(16)
 
-    function Soulbinding(id, mob, input2, EUt, fluid, output) {
-        event.recipes.gtceu.quintessence_infuser(`${id}_${mob}`)
-            .itemInputs(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${mob}"}}}}`).weakNBT())
-            .itemInputs(Item.of(input2))
-            .inputFluids(Fluid.of("enderio:xp_juice", fluid))
-            .itemOutputs(output)
-            .duration(150)
-            .EUt(EUt)
-    }
+    // function Soulbinding(id, mob, input2, EUt, fluid, output) { // TODO: this whole thing once we have soul binding GT-ified
+    //     event.recipes.gtceu.quintessence_infuser(`${id}_${mob}`)
+    //         .itemInputs(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${mob}"}}}}`).weakNBT())
+    //         .itemInputs(Item.of(input2))
+    //         .inputFluids(Fluid.of("enderio:xp_juice", fluid))
+    //         .itemOutputs(output)
+    //         .duration(150)
+    //         .EUt(EUt)
+    // }
 
 
-    Soulbinding("enderio:prescient_crystal", "shulker", "enderio:vibrant_crystal", 170, 2240, ["enderio:prescient_crystal", "enderio:empty_soul_vial"])
-    Soulbinding("enderio:ender_crystal", "enderman", "enderio:vibrant_crystal", 128, 1440, ["enderio:ender_crystal", "enderio:empty_soul_vial"])
-    Soulbinding("enderio:enticing_crystal", "villager", "minecraft:emerald", 100, 800, ["enderio:enticing_crystal", "enderio:empty_soul_vial"])
-    Soulbinding("enderio:frank_n_zombie", "zombie", "enderio:z_logic_controller", 128, 800, ["enderio:frank_n_zombie", "enderio:empty_soul_vial"])
-    Soulbinding("enderio:sentient_ender", "witch", "enderio:ender_resonator", 128, 800, ["enderio:sentient_ender", "enderio:empty_soul_vial"])
+    // Soulbinding("enderio:prescient_crystal", "shulker", "enderio:vibrant_crystal", 170, 2240, ["enderio:prescient_crystal", "enderio:empty_soul_vial"])
+    // Soulbinding("enderio:ender_crystal", "enderman", "enderio:vibrant_crystal", 128, 1440, ["enderio:ender_crystal", "enderio:empty_soul_vial"])
+    // Soulbinding("enderio:enticing_crystal", "villager", "minecraft:emerald", 100, 800, ["enderio:enticing_crystal", "enderio:empty_soul_vial"])
+    // Soulbinding("enderio:frank_n_zombie", "zombie", "enderio:z_logic_controller", 128, 800, ["enderio:frank_n_zombie", "enderio:empty_soul_vial"])
+    // Soulbinding("enderio:sentient_ender", "witch", "enderio:ender_resonator", 128, 800, ["enderio:sentient_ender", "enderio:empty_soul_vial"])
 
 })

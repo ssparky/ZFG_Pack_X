@@ -47,13 +47,13 @@ ServerEvents.recipes(event => {
         B: "kubejs:solidified_experience"
     })
 
-    event.shaped("enderio:enderman_head", [
-        " A ",
-        "ABA",
-        " A "
-    ], {
-        A: "minecraft:ender_pearl",
-        B: "minecraft:skeleton_skull"
-    })
+    // event.shaped("enderio:enderman_head", [
+    //     " A ",
+    //     "ABA",
+    //     " A "
+    // ], {
+    //     A: "minecraft:ender_pearl",
+    //     B: "minecraft:skeleton_skull"
+    // })
 
 })

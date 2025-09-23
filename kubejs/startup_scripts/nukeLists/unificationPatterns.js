@@ -10,15 +10,6 @@
  * All gears, blocks, ingots, nuggets, etc. we don't want to remove
  */
 global.unificationExcludedItems = [
-    "enderio:dark_bimetal_gear",
-    "enderio:energized_gear",
-    "enderio:iron_gear",
-    "enderio:reinforced_obsidian_block",
-    "enderio:stone_gear",
-    "enderio:vibrant_gear",
-    "enderio:wood_gear",
-    "enderio:infinity_rod",
-    "enderio:experience_rod",
     "extendedcrafting:crystaltine_block",
     "extendedcrafting:crystaltine_ingot",
     "extendedcrafting:crystaltine_nugget",

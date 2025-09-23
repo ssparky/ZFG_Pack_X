@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         B: "minecraft:quartz_block",
         Q: "minecraft:quartz",
         C: "#gtceu:circuits/hv",
-        E: "enderio:octadic_capacitor"
+        E: "minecraft:bedrock" // TODO: was octadic capacitor
     })
 
     // Advanced Guidance
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
     explosives.forEach(explosive => {
         event.recipes.gtceu.assembler(`blasting_kit_${explosive[2]}`)
             .itemOutputs("kubejs:blasting_kit")
-            .itemInputs("3x gtceu:double_black_steel_plate", `${explosive[0]}x ${explosive[1]}:${explosive[2]}`, "3x #gtceu:circuits/lv", "2x #enderio:fused_quartz")
+            .itemInputs("3x gtceu:double_black_steel_plate", `${explosive[0]}x ${explosive[1]}:${explosive[2]}`, "3x #gtceu:circuits/lv", "2x minecraft:bedrock") // TODO: was EIO Fused quartz
             .inputFluids("gtceu:reinforced_epoxy_resin 576")
             .EUt(GTValues.VA[GTValues.EV])
             .duration(400)

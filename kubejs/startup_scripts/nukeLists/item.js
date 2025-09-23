@@ -46,38 +46,6 @@ global.itemNukeList = [
     // Chisels & Bits
     "chiselsandbits:block_bit",
 
-    // EnderIO
-    "enderio:alloy_smelter",
-    "enderio:clayed_glowstone",
-    "enderio:conductive_alloy_grinding_ball",
-    /^enderio:[\w_]*conduit/,
-    /^enderio:[\w_]+_capacitor_bank$/,
-    "enderio:confusing_powder",
-    "enderio:copper_alloy_grinding_ball",
-    "enderio:dark_steel_grinding_ball",
-    "enderio:end_steel_grinding_ball",
-    "enderio:energetic_alloy_grinding_ball",
-    "enderio:flour",
-    "enderio:industrial_insulation_block",
-    "enderio:nethercotta",
-    "enderio:organic_black_dye",
-    "enderio:organic_brown_dye",
-    "enderio:organic_green_dye",
-    "enderio:plant_matter_brown",
-    "enderio:plant_matter_green",
-    "enderio:primitive_alloy_smelter",
-    "enderio:pulsating_alloy_grinding_ball",
-    "enderio:redstone_alloy_grinding_ball",
-    "enderio:sag_mill",
-    "enderio:silicon",
-    "enderio:soul_powder",
-    "enderio:soularium_grinding_ball",
-    "enderio:stirling_generator",
-    "enderio:vibrant_alloy_grinding_ball",
-    /^enderio:painted_/,
-    /^enderio:powdered_/,
-    "enderio:infinity_rod",
-
     // Ender Storage
     // TODO: Need to add greggy recipes for these
     "endertanks:ender_bucket",

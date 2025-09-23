@@ -397,7 +397,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
-            .where("O", Predicates.blocks("enderio:reinforced_obsidian_block"))
+            .where("O", Predicates.blocks("minecraft:bedrock")) // TODO: was EIO Reinforced Obsidian
             .where("E", Predicates.blocks(GTBlocks.CASING_HSSE_STURDY.get()))
             .where("F", Predicates.frames(GTMaterials.BlackSteel))
             .where("M", Predicates.abilities(PartAbility.MUFFLER))
@@ -424,7 +424,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .aisle("CCCCC", "COOOC", "G#O#G", "G#O#G", "G#O#G", "C#O#C", "CCCCC")
             .aisle("#C@C#", "CCCCC", "HGGGH", "HGGGH", "HGGGH", "CCCCC", "#CCC#")
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
-            .where("H", Predicates.blocks("enderio:ensouled_chassis"))
+            .where("H", Predicates.blocks("minecraft:bedrock")) // TODO: was EIO Ensouled Chassis
             .where("O", Predicates.frames(GTMaterials.Tungsten))
             .where("G", Predicates.blocks(GTBlocks.FUSION_GLASS.get()))
             .where("P", Predicates.blocks(GTBlocks.CASING_TUNGSTENSTEEL_PIPE.get()))

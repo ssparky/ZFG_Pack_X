@@ -49,11 +49,6 @@ ServerEvents.tags("item", event => {
         event.add(`ad_astra:${mat}_blocks`, `gtceu:${remat}_block`)
     })
 
-    event.remove("forge:gears/wood", "enderio:wood_gear")
-    event.remove("forge:gears/stone", "enderio:stone_gear")
-    event.remove("forge:gears/iron", "enderio:iron_gear")
-    event.remove("forge:gears/dark_steel", "enderio:dark_bimetal_gear")
-
     // NOT pulsating iron ingot
     event.add("forge:dusts/pulsating", "kubejs:pulsating_dust")
 
@@ -66,9 +61,6 @@ ServerEvents.tags("item", event => {
 
     // generic unification
     event.add("forge:dusts", ["kubejs:pulsating_dust"])
-
-    // enderio!!!!
-    event.add("forge:heads", "enderio:enderman_head")
 
     event.add("forge:microminers", /kubejs:microminer_t/)
     event.add("forge:microminers", /kubejs:stabilized_microminer_t/)

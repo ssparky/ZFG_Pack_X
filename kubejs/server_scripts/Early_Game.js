@@ -58,13 +58,13 @@ ServerEvents.recipes(event => {
 
     // EIO Solar
     event.recipes.gtceu.alloy_smelter("photovoltaic_plate")
-        .itemInputs("2x enderio:photovoltaic_composite", "gtceu:electrical_steel_plate")
-        .itemOutputs("enderio:photovoltaic_plate")
+        .itemInputs("2x minecraft:bedrock", "gtceu:electrical_steel_plate") // TODO: was EIO photovoltaic composite
+        .itemOutputs("minecraft:command_block") // was EIO photovoltaic plate
         .duration(180)
         .EUt(16)
 
-    // Solar composite
-    event.shapeless("3x enderio:photovoltaic_composite", ["gtceu:lapis_dust", "gtceu:coal_dust", "gtceu:silicon_dust"]).id("enderio:photovoltaic_composite")
+    // Solar composite - TODO
+    // event.shapeless("3x enderio:photovoltaic_composite", ["gtceu:lapis_dust", "gtceu:coal_dust", "gtceu:silicon_dust"]).id("enderio:photovoltaic_composite")
 
     event.remove({ id: "gtceu:assembler/phenolic_board" })
     event.recipes.gtceu.chemical_reactor("phenolic_board")

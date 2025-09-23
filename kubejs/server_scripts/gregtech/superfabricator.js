@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
     fabricator("ender_dragon", 3, "4x kubejs:ender_dragon_scale")
     fabricator("enderman", 1, "6x minecraft:ender_pearl")
     fabricator("enderman", 2, "6x minecraft:emerald")
-    fabricator("enderman", 3, "2x enderio:enderman_head")
+    // fabricator("enderman", 3, "2x enderio:enderman_head")
     fabricator("enderman", 4, "kubejs:impossible_realm_data")
     fabricator("ghast", 1, "2x minecraft:ghast_tear")
     fabricator("ghast", 2, "12x gtceu:silver_ingot")

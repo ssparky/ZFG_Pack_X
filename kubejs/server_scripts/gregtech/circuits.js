@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "gtceu:wetware_printed_circuit_board" })
     event.recipes.gtceu.large_chemical_reactor("kubejs:wetware_printed_circuit_board_iron3")
         .itemInputs("gtceu:wetware_circuit_board", "24x minecraft:sculk_vein", "8x gtceu:stem_cells")
-        .inputFluids("gtceu:sodium_persulfate 3000", "gtceu:iron_iii_chloride 1500", "enderio:xp_juice 1000")
+        .inputFluids("gtceu:sodium_persulfate 3000", "gtceu:iron_iii_chloride 1500", "minecraft:milk 1000") // TODO: was EXP Juice
         .itemOutputs("gtceu:wetware_printed_circuit_board")
         .EUt(480)
         .duration(1800)

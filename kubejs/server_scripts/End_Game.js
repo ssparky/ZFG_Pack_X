@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor("stem_cells")
         .itemInputs("minecraft:dragon_egg")
         .chancedInput("minecraft:sculk_catalyst", 500, 0)
-        .inputFluids("gtceu:sterilized_growth_medium 500", "gtceu:bacteria 500", "enderio:xp_juice 2000")
+        .inputFluids("gtceu:sterilized_growth_medium 500", "gtceu:bacteria 500", "minecraft:milk 2000") // TODO: was EXP juice
         .itemOutputs("64x gtceu:stem_cells")
         .itemOutputsRanged("gtceu:stem_cells", 0, 64)
         .outputFluids("gtceu:bacterial_sludge 500")
@@ -480,8 +480,8 @@ ServerEvents.recipes(event => {
         )
 
     // Shortcut recipes for thrusters
-    event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster")
-        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x enderio:weather_crystal", "2x enderio:prescient_crystal", "minecraft:bedrock", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
+    event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster") // TODO: was EIO prescient and water crystals
+        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x minecraft:bedrock", "2x minecraft:bedrock", "minecraft:bedrock", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
         .itemOutputs("kubejs:dark_soularium_thruster")
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])

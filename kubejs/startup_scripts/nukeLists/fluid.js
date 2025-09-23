@@ -15,16 +15,6 @@ global.fluidNukeList = [
     "ad_astra:fuel",
     "ad_astra:cryo_fuel",
 
-    // Ender IO
-    "enderio:cloud_seed_concentrated",
-    "enderio:cloud_seed",
-    "enderio:fire_water",
-    "enderio:hootch",
-    "enderio:liquid_sunshine",
-    "enderio:nutrient_distillation",
-    "enderio:rocket_fuel",
-    "enderio:vapor_of_levity",
-
     // GregTech Modern
     "gtceu:molten_kanthal",
     "gtceu:iron_ii_chloride",   // Removing the FluidProperty causes errors in GT's hard-coded recipes

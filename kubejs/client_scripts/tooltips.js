@@ -52,17 +52,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("hostilenetworks:nether_prediction", Text.translatable("hostilenetworks.nether_prediction.tooltip"))
     tooltip.add("hostilenetworks:end_prediction", Text.translatable("hostilenetworks.end_prediction.tooltip"))
 
-    // Conduits
-    tooltip.add("enderio:conductive_conduit", Text.translatable("enderio.conductive_conduit.tooltip"))
-    tooltip.add("enderio:energetic_conduit", Text.translatable("enderio.energetic_conduit.tooltip"))
-    tooltip.add("enderio:vibrant_conduit", Text.translatable("enderio.vibrant_conduit.tooltip"))
-    tooltip.add("enderio:endsteel_conduit", Text.translatable("enderio.endsteel_conduit.tooltip"))
-    tooltip.add("enderio:lumium_conduit", Text.translatable("enderio.lumium_conduit.tooltip"))
-    tooltip.add("enderio:signalum_conduit", Text.translatable("enderio.signalum_conduit.tooltip"))
-    tooltip.add("enderio:enderium_conduit", Text.translatable("enderio.enderium_conduit.tooltip"))
-    tooltip.add("enderio:cryolobus_conduit", Text.translatable("enderio.cryolobus_conduit.tooltip"))
-    tooltip.add("enderio:sculk_superconductor_conduit", Text.translatable("enderio.sculk_superconductor_conduit.tooltip"))
-
     // Circuits
     tooltip.addAdvanced("kubejs:optical_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
     tooltip.addAdvanced("kubejs:optical_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
@@ -162,9 +151,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("ae2:facade", Text.gray(Text.translatable("ae2.facade.tooltip")));
     tooltip.add("ae2:memory_card", Text.gray(Text.translatable("ae2.memory_card.tooltip")));
     tooltip.add("betterp2p:advanced_memory_card", Text.gray(Text.translatable("betterp2p.advanced_memory_card.tooltip")));
-
-    // EIO Cap Banks
-    tooltip.add(/^enderio:.*_bank$/, Text.red(Text.translatable("enderio.cap_bank.tooltip")));
 
     // Misc
     tooltip.add("gtceu:infinity_ingot", Text.darkGray(Text.translatable("gtceu.infinity_ingot.tooltip")));

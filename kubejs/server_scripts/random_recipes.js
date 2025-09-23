@@ -6,9 +6,6 @@ ServerEvents.recipes(event => {
     event.shapeless("snad:snad", ["2x kubejs:double_compressed_sand"]).id("snad:snad")
     event.shapeless("snad:red_snad", ["2x kubejs:double_compressed_red_sand"]).id("snad:red_snad")
 
-    // If Snad is obtainable pre-autoclave, so must be the Vacuum Chest.
-    event.replaceInput({ id: "enderio:vacuum_chest" }, "enderio:pulsating_crystal", "gtceu:tin_rotor")
-
     // snaded sand snad
     compacting(event, "kubejs:compressed_sand", "minecraft:sand");
     compacting(event, "kubejs:double_compressed_sand", "kubejs:compressed_sand");
@@ -335,7 +332,7 @@ ServerEvents.recipes(event => {
         A: "minecraft:blaze_rod",
         B: "minecraft:white_wool",
         D: "minecraft:obsidian",
-        E: "enderio:pressurized_fluid_tank",
+        E: "minecraft:bedrock", // TODO: was EIO fluid tank
         F: "gtceu:ender_pearl_block"
     })
 
@@ -682,8 +679,8 @@ ServerEvents.recipes(event => {
     event.shapeless("4x minecraft:clay_ball", ["minecraft:clay"]);
 
     // Parallel Implosion Compressor
-    event.recipes.gtceu.assembly_line("gtceu:implosion_collider")
-        .itemInputs("4x enderio:reinforced_obsidian_block", "2x #gtceu:circuits/zpm", "gtceu:solid_machine_casing", "3x gtceu:niobium_nitride_double_cable", "2x gtceu:zpm_electric_piston")
+    event.recipes.gtceu.assembly_line("gtceu:implosion_collider") // TODO: was EIO Reinforced obsidian
+        .itemInputs("4x minecraft:bedrock", "2x #gtceu:circuits/zpm", "gtceu:solid_machine_casing", "3x gtceu:niobium_nitride_double_cable", "2x gtceu:zpm_electric_piston")
         .inputFluids("gtceu:soldering_alloy 1152", "gtceu:osmium 1152")
         .itemOutputs("gtceu:implosion_collider")
         .duration(900)

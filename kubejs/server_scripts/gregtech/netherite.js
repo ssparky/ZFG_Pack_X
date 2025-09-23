@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
     )
 
     event.recipes.gtceu.mixer("nether_conduit_dust")
-        .itemInputs("3x kubejs:pyrotheum_dust", "4x gtceu:netherrack_dust", "2x enderio:withering_powder")
+        .itemInputs("3x kubejs:pyrotheum_dust", "4x gtceu:netherrack_dust", "2x minecraft:bedrock") // TODO: was EIO Withering Powder
         .itemOutputs("9x gtceu:nether_conduit_dust")
         .duration(200)
         .EUt(GTValues.VA[GTValues.HV])
