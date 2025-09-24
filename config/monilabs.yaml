@@ -14,6 +14,6 @@ values:
   # The efficiency multiplier for the sculk vat. Would make it this many times less efficient at empty/full compared to half.
   sculkVatEfficiencyMultiplier: 8.0
 
-  # Fluid ID for Liquid Experience for the Sculk Vat. TODO: replace with some other mod's exp!
-  sculkVatExperienceFluidID: enderio:xp_juice
+  # Fluid ID for Liquid Experience for the Sculk Vat.
+  sculkVatExperienceFluidID: cofh_core:experience
 

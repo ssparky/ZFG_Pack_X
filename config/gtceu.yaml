@@ -6,11 +6,11 @@ recipes:
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
-  disableManualCompression: true
+  disableManualCompression: false
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: true
-  harderRods: true
+  harderRods: false
 
   # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
@@ -51,7 +51,7 @@ recipes:
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: true
-  hardAdvancedIronRecipes: true
+  hardAdvancedIronRecipes: false
 
   # Whether to make coloring blocks like Concrete or Glass harder.
   # Default: false
@@ -87,7 +87,7 @@ recipes:
 
   # Whether tools should have enchants or not. Like the flint sword getting fire aspect.
   # Default: false
-  enchantedTools: false
+  enchantedTools: true
 
   # Whether to enable macerator decomposition recycling
   # Default: true
@@ -179,7 +179,7 @@ worldgen:
 machines:
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: true
-  requireGTToolsForBlocks: true
+  requireGTToolsForBlocks: false
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
@@ -196,7 +196,7 @@ machines:
   # Whether machines or boilers damage the terrain when they explode.
   # Note machines and boilers always explode when overloaded with power or met with special conditions, regardless of this config.
   # Default: true
-  doesExplosionDamagesTerrain: true
+  doesExplosionDamagesTerrain: false
 
   # Enables Safe Active Transformers, removing their ability to explode if unformed while transmitting/receiving power.
   # Default: false
@@ -298,7 +298,7 @@ machines:
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
-  highTierContent: false
+  highTierContent: true
 
   # Whether the Assembly Line should require the item inputs to be in order.
   # Default: true
@@ -307,14 +307,14 @@ machines:
   # Whether the Assembly Line should require the fluid inputs to be in order.
   # (Requires Ordered Assembly Line Item Inputs to be enabled.)
   # Default: true
-  orderedAssemblyLineFluids: true
+  orderedAssemblyLineFluids: false
 
   # Default maximum parallel of steam multiblocks
   # Default: 8
   steamMultiParallelAmount: 8
 
   # Whether the Drums can input fluids from the output side (bottom).
-  allowDrumsInputFluidsFromOutputSide: false
+  allowDrumsInputFluidsFromOutputSide: true
 
   # Small Steam Boiler Options
   smallBoilers:
@@ -524,7 +524,7 @@ tools:
 gameplay:
   # Enable hazardous materials
   # Default: true
-  hazardsEnabled: true
+  hazardsEnabled: false
 
   # Whether hazards are applied to all valid items, or just GT's.
   # true = all, false = GT only.
@@ -550,7 +550,7 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: false
+    enableFEConverters: true
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
@@ -571,7 +571,7 @@ compat:
 
     # The energy consumption of ME Hatch/Bus.
     # Default: 4.0AE/t
-    meHatchEnergyUsage: 4.0
+    meHatchEnergyUsage: 1.0
 
   # Config options regarding GTCEu compatibility with minimap mods
   minimap:
@@ -627,7 +627,7 @@ compat:
     # Allowed values:
     # - VERTICAL
     # - HORIZONTAL
-    direction: VERTICAL
+    direction: HORIZONTAL
 
     # How horizontally far away from the anchor to place the buttons
     # Default: 20
@@ -664,7 +664,7 @@ dev:
 
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
-  debugWorldgen: false
+  debugWorldgen: true
 
   # Generate ores in superflat worlds?
   # Default: false

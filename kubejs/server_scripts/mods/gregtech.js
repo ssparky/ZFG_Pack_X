@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.extractor("one_experience_fluid")
         .itemInputs("kubejs:solidified_experience")
-        .outputFluids(Fluid.of("enderio:xp_juice", 140))
+        .outputFluids(Fluid.of("cofh_core:experience", 140))
         .duration(80)
         .EUt(32)
 
@@ -37,27 +37,20 @@ ServerEvents.recipes(event => {
     // HNN MATTERS
     event.recipes.gtceu.extractor("overworld_fluid")
         .itemInputs("hostilenetworks:overworld_prediction")
-        .outputFluids(Fluid.of("enderio:xp_juice", 200))
+        .outputFluids(Fluid.of("cofh_core:experience", 200))
         .duration(40)
         .EUt(32)
     event.recipes.gtceu.extractor("nether_experience_fluid")
         .itemInputs("hostilenetworks:nether_prediction")
-        .outputFluids(Fluid.of("enderio:xp_juice", 400))
+        .outputFluids(Fluid.of("cofh_core:experience", 400))
         .duration(80)
         .EUt(32)
     event.recipes.gtceu.extractor("ender_experience_fluid")
         .itemInputs("hostilenetworks:end_prediction")
-        .outputFluids(Fluid.of("enderio:xp_juice", 500))
+        .outputFluids(Fluid.of("cofh_core:experience", 500))
         .duration(100)
         .EUt(32)
 
-
-    event.recipes.gtceu.fluid_solidifier("one_experience_solid")
-        .itemOutputs("kubejs:solidified_experience")
-        .inputFluids(Fluid.of("enderio:xp_juice", 140))
-        .notConsumable("gtceu:ball_casting_mold")
-        .duration(500)
-        .EUt(16)
 
     // NETHER STAR RECIPES
     event.remove({ id: "hostilenetworks:living_matter/extraterrestrial/nether_star" })

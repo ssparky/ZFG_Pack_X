@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.large_chemical_reactor("sculk_catalyst")
         .notConsumable("minecraft:sculk_catalyst")
         .itemInputs("1x #chipped:deepslate", "1x minecraft:bone_block")
-        .inputFluids("gtceu:sculk 288", "minecraft:milk 1000", "gtceu:plutonium 36") // TODO: was EXP Juice
+        .inputFluids("gtceu:sculk 288", "cofh_core:experience 1000", "gtceu:plutonium 36")
         .itemOutputs("1x minecraft:sculk_catalyst")
         .duration(250)
         .EUt(GTValues.VA[GTValues.EV])
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.large_chemical_reactor("sculk_catalyst_boosted")
         .notConsumable("minecraft:sculk_catalyst")
         .itemInputs("4x #chipped:deepslate", "3x minecraft:bone_block")
-        .inputFluids("gtceu:sculk 576", "minecraft:milk 2000", "gtceu:berkelium 36") // TODO: was EXP Juice
+        .inputFluids("gtceu:sculk 576", "cofh_core:experience 2000", "gtceu:berkelium 36")
         .itemOutputs("4x minecraft:sculk_catalyst")
         .duration(1000)
         .EUt(GTValues.VA[GTValues.EV])

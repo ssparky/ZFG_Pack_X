@@ -31,6 +31,12 @@ backups/*
 saves/*
 gtceu/
 figura/
+tacz/
+playerdata_tmp/
+saves/
+schematics/
+texturepacks/
+tacz_backup/
 
 # Ignore files outside of folders
 emi.json

@@ -76,7 +76,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .blastTemp(9600, "highest", GTValues.VA[GTValues.UEV], 3000)
         .cableProperties(33554432, 6, 0, true)
-        .components("12x rare_earth", "4x nether_quartz", "2x nobelium", "2x twinite", "4x promethium", "4x mana") // TODO: Glass and prismarine are placeholders!
+        .components("12x rare_earth", "4x nether_quartz", "2x nobelium", "2x twinite", "4x promethium", "4x mana")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create("melodium")
@@ -85,7 +85,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .blastTemp(10200, "highest", GTValues.VA[GTValues.UIV], 3200)
         .cableProperties(134217728, 6, 0, true)
-        .components("4x amethyst", "2x taaffeite", "2x shellite", "2x gadolinium", "2x copernicium", "4x mana") // TODO: replace emerald with taaffeite
+        .components("4x amethyst", "2x taaffeite", "2x shellite", "2x gadolinium", "2x copernicium", "4x mana")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
 
     event.create("stellarium")
@@ -94,7 +94,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .blastTemp(12000, "highest", GTValues.VA[GTValues.UXV], 4000)
         .cableProperties(536870912, 8, 0, true)
-        .components("3x stellite_100", "4x neutronium", "2x lutetium", "2x aetherium", "3x antimatter", "8x mana") // TODO: Neutronium is placeholder for gravistars 
+        .components("3x stellite_100", "4x neutronium", "2x lutetium", "2x aetherium", "3x antimatter", "8x mana")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FINE_WIRE)
         .formula("(Fe4Cr3W2Mo)3❇4Lu2❂2∅3ᛗ8")
 })
@@ -292,13 +292,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot().fluid()
         .color(0x4F4A4A).secondaryColor(0x1E1D1D)
         .iconSet(GTMaterialIconSet.DULL)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR)
         .components("4x steel", "1x boron")
     event.create("tough_alloy")
         .ingot().fluid()
         .color(0x140B1A).secondaryColor(0x0E0D0D)
         .iconSet(GTMaterialIconSet.DULL)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_ROTOR)
         .components("1x ferroboron", "1x lithium")
     event.create("rhodochrosite")
         .dust()
@@ -337,6 +337,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .blastTemp(1100, "low")
         .components("6x electrum", "lumium", "signalum")
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR)
+        
 
     // Mythril isn't from any mod in specific to my knwoledge, but it's used mostly exclusively for crafting Thermal machines.
     // Also it was originally in thermal.js and I don't know where else I'd put it.

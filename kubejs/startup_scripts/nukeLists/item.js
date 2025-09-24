@@ -83,12 +83,6 @@ global.itemNukeList = [
     "gtceu:milk",
     "gtceu:steel_machine_casing",
     "gtceu:uv_world_accelerator",
-    /^gtceu:uiv/,
-    /^gtceu:uxv/,
-    /^gtceu:opv/,
-    /^gtmutils.uiv/,
-    /^gtmutils:uxv/,
-    /^gtmutils:opv/,
 
     // Hammerlib
     /^hammerlib:/,
@@ -152,9 +146,10 @@ global.itemNukeList = [
     /^solarflux:.*_glass$/,
     "solarflux:blazing_coating",
 
-    // Looking for removed Sophisticated Storage items?
-    // Look in configs/sophisticatedcore-common.toml.
-    // SophStorage offers a way to remove items from the registry with config.
+    // TaCZ
+    "tacz:gun_smith_table",
+    "tacz:workbench_c",
+    "tacz:workbench_a"
 
 ];
 

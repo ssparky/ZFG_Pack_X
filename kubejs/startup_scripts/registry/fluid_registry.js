@@ -28,6 +28,13 @@ StartupEvents.registry("fluid", event => {
         .stillTexture("kubejs:block/mod/thermal/elemental_dusts/aerotheum_still")
         .flowingTexture("kubejs:block/mod/thermal/elemental_dusts/aerotheum_flow");
 
+    event.create("liquid_ender")
+        .bucketColor(Color.rgba(0, 43, 63, 255)) //rgb(0 43 63)
+        .displayName("§dResonant Ender")
+        .stillTexture("kubejs:block/mod/thermal/liquid_ender_still")
+        .flowingTexture("kubejs:block/mod/thermal/liquid_ender_flow");
+
+
     // Antimatter
     const antimatter_types = ["bosonic", "hadronic", "fermionic"]
     antimatter_types.forEach(type => {

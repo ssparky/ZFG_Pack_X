@@ -3,7 +3,7 @@ features:
   sterileHatchEnabled: true
 
   # Whether the 64A energy converters are enabled.
-  converters64aEnabled: true
+  converters64aEnabled: false
 
   # Whether the Omni-breaker is enabled.
   omnibreakerEnabled: true
@@ -20,11 +20,11 @@ features:
 
   # Base amount of WAT coolant to drain every second.
   # (Setting both this amount and the IO multiplier to 0 disables the coolant mechanic.)
-  pterbCoolantBaseDrain: 0
+  pterbCoolantBaseDrain: 4
 
   # Multiplier over IO amount for additional coolant drain.
   # (Setting both this and the base drain amount to 0 disables the coolant mechanic.)
-  pterbCoolantIOMultiplier: 0.0
+  pterbCoolantIOMultiplier: 5.0E-6
 
   # Whether the coins/credits are enabled.
   coinsEnabled: false

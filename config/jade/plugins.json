@@ -134,6 +134,9 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "modularrouters": {
+    "router": true
+  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,

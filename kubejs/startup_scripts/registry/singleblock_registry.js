@@ -5,7 +5,7 @@
  */
 const $ParallelHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine")
 
-// GT Atomic Reconstructor recipe type
+// Singleblock recipe types
 GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("atomic_reconstruction")
         .category("reconstruction")
@@ -14,16 +14,50 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
         .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
+    
+    event.create("soul_binding")
+        .category("binding")
+        .setEUIO("in")
+        .setMaxIOSize(3, 1, 3, 1)
+        .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ELECTROLYZER)
+
+    event.create("polymerization")
+        .category("polymerizing")
+        .setEUIO("in")
+        .setMaxIOSize(2, 2, 2, 2)
+        .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ELECTROLYZER)
 })
 
-// GT Atomic Reconstructor machine
+// Singleblock machines
 GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("atomic_reconstructor", "simple")
-        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV)
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV)
         .definition((tier, builder) =>
             builder
                 .langValue(`${GTValues.VLVH[tier]} Atomic Reconstructor`)
                 .recipeType("atomic_reconstruction")
+                .workableTieredHullModel("gtceu:block/machines/reconstructor")
+        )
+
+    event.create("soul_binder", "simple")
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV)
+        .definition((tier, builder) =>
+            builder
+                .langValue(`${GTValues.VLVH[tier]} Soul Binder`)
+                .recipeType("soul_binding")
+                .workableTieredHullModel("gtceu:block/machines/reconstructor")
+        )
+
+    event.create("polymerization_chamber", "simple")
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV)
+        .definition((tier, builder) =>
+            builder
+                .langValue(`${GTValues.VLVH[tier]} Polymerization Chamber`)
+                .recipeType("polymerization")
                 .workableTieredHullModel("gtceu:block/machines/reconstructor")
         )
 })

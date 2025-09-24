@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.mixer("sculk_agar")
         .itemInputs("4x gtceu:potassium_cyanide_dust", "7x gtceu:biotite_dust", "9x gtceu:collagen_dust")
-        .inputFluids("minecraft:milk 1500", "gtceu:experience_attuned 288") // TODO: was EXP Juice
+        .inputFluids("cofh_core:experience 1500", "gtceu:experience_attuned 288") 
         .itemOutputs("32x gtceu:sculk_agar_dust")
         .duration(20 * 20)
         .EUt(GTValues.VA[GTValues.LV])

@@ -21,14 +21,14 @@ ServerEvents.recipes(event => {
     // Hatch recipes
     event.recipes.gtceu.assembler("sculk_xp_draining_hatch")
         .itemInputs("gtceu:ev_input_hatch", "2x gtceu:cryolobus_plate", "gtceu:luv_electric_pump", "2x gtceu:polybenzimidazole_normal_fluid_pipe")
-        .inputFluids("minecraft:milk 2000") // TODO: was EXP Juice
+        .inputFluids("cofh_core:experience 2000")
         .itemOutputs("monilabs:sculk_xp_draining_hatch")
         .duration(20 * 10)
         .EUt(GTValues.VA[GTValues.LuV])
 
     event.recipes.gtceu.assembler("sculk_xp_sensor_hatch")
         .itemInputs("gtceu:ev_machine_hull", "2x gtceu:cryolobus_plate", "gtceu:luv_sensor", "4x gtceu:red_alloy_screw")
-        .inputFluids("minecraft:milk 500") // TODO: was EXP Juice
+        .inputFluids("cofh_core:experience 500")
         .itemOutputs("monilabs:sculk_xp_sensor_hatch")
         .duration(20 * 10)
         .EUt(GTValues.VA[GTValues.LuV])

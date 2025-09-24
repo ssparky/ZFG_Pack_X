@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor("stem_cells")
         .itemInputs("minecraft:dragon_egg")
         .chancedInput("minecraft:sculk_catalyst", 500, 0)
-        .inputFluids("gtceu:sterilized_growth_medium 500", "gtceu:bacteria 500", "minecraft:milk 2000") // TODO: was EXP juice
+        .inputFluids("gtceu:sterilized_growth_medium 500", "gtceu:bacteria 500", "cofh_core:experience 2000")
         .itemOutputs("64x gtceu:stem_cells")
         .itemOutputsRanged("gtceu:stem_cells", 0, 64)
         .outputFluids("gtceu:bacterial_sludge 500")

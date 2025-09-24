@@ -320,4 +320,17 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xe8c474)
         .components("12x carbon", "27x hydrogen", "4x oxygen", "1x phosphorus")
         .formula("(C4H9O)3PO")
+
+    // Complete misc chems
+    event.create("bismuth_chloride")
+        .dust()
+        .color(0x42D776)
+        .iconSet(GTMaterialIconSet.DULL)
+        .components("1x bismuth", "3x chlorine")
+
+    event.create("potassium_chromate")
+        .dust()
+        .color(0xE2E218)
+        .iconSet(GTMaterialIconSet.FINE)
+        .components("2x potassium", "1x chromium", "4x oxygen")
 })

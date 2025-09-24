@@ -738,7 +738,10 @@
 				{
 					count: 12L
 					id: "181FE76CD595DF04"
-					item: { Count: 12, id: "enderio:ensouled_chassis" }
+					item: {
+						Count: 12
+						id: "enderio:ensouled_chassis"
+					}
 					type: "item"
 				}
 				{

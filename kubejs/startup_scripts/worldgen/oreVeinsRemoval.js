@@ -23,7 +23,10 @@ WorldgenEvents.remove(event => {
         "ad_astra:venus_coal_ore",
         "ad_astra:venus_gold_ore",
         "ad_astra:venus_diamond_ore",
-        "ad_astra:venus_calorite_ore"
+        "ad_astra:venus_calorite_ore",
+        "evenbetternether:nether_ruby_ore",
+        "evenbetternether:nether_pyrite_ore",
+        "evenbetternether:nether_lignite_ore"
     ])
 })
 

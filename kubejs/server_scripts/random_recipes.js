@@ -550,13 +550,13 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.extractor("resonant_ender_from_pearl")
         .itemInputs("1x minecraft:ender_pearl")
-        .outputFluids(Fluid.of("minecraft:milk", 250)) // TODO: add kjs liquid ender
+        .outputFluids(Fluid.of("kubejs:liquid_ender", 250)) // TODO: add kjs liquid ender
         .duration(40)
         .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.fluid_solidifier("pearl_from_resonant_ender")
         .notConsumable("gtceu:ball_casting_mold")
-        .inputFluids(Fluid.of("minecraft:milk", 250)) // Same here
+        .inputFluids(Fluid.of("kubejs:liquid_ender", 250)) // Same here
         .itemOutputs("1x minecraft:ender_pearl")
         .duration(100)
         .EUt(GTValues.VHA[GTValues.LV])
@@ -819,4 +819,13 @@ ServerEvents.recipes(event => {
         .itemOutputs("1x gtceu:rhodochrosite_dust", "1x gtceu:calcium_dust")
         .duration(70)
         .EUt(GTValues.VHA[GTValues.HV])
+
+    // Cant find the original EXP solification recipe, so replacing it here
+    event.remove({ id:"gtceu:fluid_solidifier/one_experience_solid"})
+    event.recipes.gtceu.fluid_solidifier("one_experience_solid")
+        .notConsumable("gtceu:ball_casting_mold")
+        .inputFluids("cofh_core:experience 140")
+        .itemOutputs("kubejs:solidified_experience")
+        .duration(25*20)
+        .EUt(16)
 })

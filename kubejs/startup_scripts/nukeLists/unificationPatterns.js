@@ -20,6 +20,6 @@ global.unificationExcludedItems = [
  * A RegEx pattern that matches with all gears, blocks, ingots, nuggets, and other often-unified items
  * from NuclearCraft, Thermal Series, EnderIO, Ad Astra, and ExtendedCrafting.
  */
-global.unificationPattern = new RegExp(`^(?!(${global.unificationExcludedItems.join("|")})).*(nuclearcraft|thermal|enderio|ad_astra|extendedcrafting):((powdered_|raw_).*|.*(_block|_plate|_ingot|_nugget|_gear|_dust|_rod|_gem|_ore))`, "i")
+global.unificationPattern = new RegExp(`^(?!(${global.unificationExcludedItems.join("|")})).*(ad_astra|extendedcrafting):((powdered_|raw_).*|.*(_block|_plate|_ingot|_nugget|_gear|_dust|_rod|_gem|_ore))`, "i")
 
 

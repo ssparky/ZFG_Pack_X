@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
     // Clathrates
     event.recipes.gtceu.chemical_reactor("resonant_clathrate")
         .itemInputs("minecraft:quartz")
-        .inputFluids(Fluid.of("minecraft:milk", 250)) // TODO: kjs liquid ender
+        .inputFluids(Fluid.of("kubejs:liquid_ender", 250))
         .itemOutputs("kubejs:resonant_clathrate")
         .duration(120)
         .EUt(75)

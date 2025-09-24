@@ -9,46 +9,46 @@ ServerEvents.recipes(event => {
 
     // Constructing pellets
     const fuelpellets = [
-        ["thorium", "thorium", "thorium_230"],
-        ["thorium_232", "thorium", "thorium_232"],
-        ["uranium_233", "uranium", "uranium_233"],
-        ["uranium_235", "uranium", "uranium_235"],
-        ["uranium", "uranium", "uranium_238"],
-        ["neptunium_236", "neptunium", "neptunium_236"],
-        ["neptunium", "neptunium", "neptunium_237"],
-        ["plutonium_238", "plutonium_242", "plutonium_238"],
-        ["plutonium", "plutonium_242", "plutonium_239"],
-        ["plutonium_241", "plutonium_242", "plutonium_241"],
-        ["plutonium_242", "plutonium_242", "plutonium_242"],
-        ["americium_241", "americium", "americium_241"],
-        ["americium_242", "americium", "americium_242"],
-        ["americium", "americium", "americium_243"],
-        ["curium_243", "curium", "curium_243"],
-        ["curium_245", "curium", "curium_245"],
-        ["curium", "curium", "curium_246"],
-        ["curium_247", "curium", "curium_247"],
-        ["berkelium", "berkelium", "berkelium_247"],
-        ["berkelium_248", "berkelium", "berkelium_248"],
-        ["californium_249", "californium_252", "californium_249"],
-        ["californium_250", "californium_252", "californium_250"],
-        ["californium", "californium_252", "californium_251"],
-        ["californium_252", "californium_252", "californium_252"],
-        ["einsteinium", "einsteinium", "einsteinium_252"],
-        ["einsteinium_253", "einsteinium", "einsteinium_253"],
-        ["einsteinium_254", "einsteinium", "einsteinium_254"],
-        ["fermium_255", "fermium", "fermium_255"],
-        ["fermium", "fermium", "fermium_257"],
-        ["mendelevium", "mendelevium", "mendelevium_259"],
-        ["nobelium", "nobelium", "nobelium_259"],
+        ["thorium", "thorium", "thorium_230", 9],
+        ["thorium_232", "thorium", "thorium_232", 7],
+        ["uranium_233", "uranium", "uranium_233", 7],
+        ["uranium_235", "uranium", "uranium_235", 7],
+        ["uranium", "uranium", "uranium_238", 9],
+        ["neptunium_236", "neptunium", "neptunium_236", 7],
+        ["neptunium", "neptunium", "neptunium_237", 9],
+        ["plutonium_238", "plutonium_242", "plutonium_238", 7],
+        ["plutonium", "plutonium_242", "plutonium_239", 7],
+        ["plutonium_241", "plutonium_242", "plutonium_241", 7],
+        ["plutonium_242", "plutonium_242", "plutonium_242", 9],
+        ["americium_241", "americium", "americium_241", 7],
+        ["americium_242", "americium", "americium_242", 7],
+        ["americium", "americium", "americium_243", 9],
+        ["curium_243", "curium", "curium_243", 7],
+        ["curium_245", "curium", "curium_245", 7],
+        ["curium", "curium", "curium_246", 9],
+        ["curium_247", "curium", "curium_247", 7],
+        ["berkelium", "berkelium", "berkelium_247", 9],
+        ["berkelium_248", "berkelium", "berkelium_248", 7],
+        ["californium_249", "californium_252", "californium_249", 7],
+        ["californium_250", "californium_252", "californium_250", 7],
+        ["californium", "californium_252", "californium_251", 7],
+        ["californium_252", "californium_252", "californium_252", 9],
+        ["einsteinium", "einsteinium", "einsteinium_252", 9],
+        ["einsteinium_253", "einsteinium", "einsteinium_253", 7],
+        ["einsteinium_254", "einsteinium", "einsteinium_254", 7],
+        ["fermium_255", "fermium", "fermium_255", 7],
+        ["fermium", "fermium", "fermium_257", 9],
+        ["mendelevium", "mendelevium", "mendelevium_259", 9],
+        ["nobelium", "nobelium", "nobelium_259", 9],
     ]
 
-    for (const [main, base, name] of fuelpellets) {
+    for (const [main, base, name, circuit] of fuelpellets) {
         event.recipes.gtceu.mixer(`${name}_fuel_mixing`)
             .itemInputs(`3x gtceu:${main}_dust`, `6x gtceu:${base}_dust`)
             .itemOutputs(`1x kubejs:${name}_fuel_pellet`)
             .duration(50)
             .EUt(256)
-            .circuit(7)
+            .circuit(circuit)
     }
     // Decomposing unspent pellets
     function decomp(name, fuel, ing1, ing2) {
@@ -219,7 +219,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VHA[GTValues.ZPM])
     event.recipes.gtceu.centrifuge("californium_252_fuel_pellet_decompdepleted")
         .itemInputs('kubejs:depleted_californium_252_fuel_pellet')
-        .itemOutputs('2x gtceu:californium_252_dust', '2x gtceu:einsteinium_dust', '4x gtceu:tiny_einsteinium_253_dust', '3x gtceu:tiny_eintsteinium_254_dust', '4x gtceu:tiny_actinium_dust')
+        .itemOutputs('2x gtceu:californium_252_dust', '2x gtceu:einsteinium_dust', '4x gtceu:tiny_einsteinium_253_dust', '3x gtceu:tiny_einsteinium_254_dust', '4x gtceu:tiny_actinium_dust')
         .duration(400)
         .EUt(GTValues.VHA[GTValues.ZPM])
     // Es (UV)

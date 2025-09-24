@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     //     event.recipes.gtceu.quintessence_infuser(`${id}_${mob}`)
     //         .itemInputs(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${mob}"}}}}`).weakNBT())
     //         .itemInputs(Item.of(input2))
-    //         .inputFluids(Fluid.of("enderio:xp_juice", fluid))
+    //         .inputFluids(Fluid.of("cofh_core:experience", fluid))
     //         .itemOutputs(output)
     //         .duration(150)
     //         .EUt(EUt)
