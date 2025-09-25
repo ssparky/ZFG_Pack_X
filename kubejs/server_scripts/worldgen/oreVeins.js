@@ -60,17 +60,19 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
     event.add("overworld/banded_iron_spherical", vein => {
-        vein.weight(70)
+        vein.weight(50)
         vein.density(0.9)
-        vein.clusterSize(45)
+        vein.clusterSize(35)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(10, 80)
-        vein.classicVeinGenerator(generator => generator
-            .primary(b => b.mat(GTMaterials.Hematite))
-            .secondary(b => b.mat(GTMaterials.YellowLimonite))
-            .between(b => b.mat(GTMaterials.Goethite))
-            .sporadic(b => b.mat(GTMaterials.Gold))
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(7).mat(GTMaterials.Hematite).size(1, 3))
+                .layer(l => l.weight(5).mat(GTMaterials.YellowLimonite).size(1, 2))
+                .layer(l => l.weight(5).mat(GTMaterials.Goethite).size(1, 2))
+                .layer(l => l.weight(3).mat(GTMaterials.Gold).size(1, 1))
+            )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.Hematite)
@@ -81,7 +83,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/wolframite", vein => {
         vein.weight(20)
         vein.density(0.7)
-        vein.clusterSize(35)
+        vein.clusterSize(25)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(10, 80)
@@ -119,7 +121,7 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
     event.add("overworld/green_beryl", vein => {
-        vein.weight(40)
+        vein.weight(20)
         vein.density(0.8)
         vein.clusterSize(20)
         vein.layer("deepslate")
@@ -141,9 +143,9 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
     event.add("overworld/triphyllite", vein => {
-        vein.weight(45)
+        vein.weight(55)
         vein.density(0.6)
-        vein.clusterSize(45)
+        vein.clusterSize(65)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(-10, 75)
@@ -163,7 +165,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/sulfur", vein => {
         vein.weight(50)
         vein.density(1.0)
-        vein.clusterSize(80)
+        vein.clusterSize(50)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(0, 50)
@@ -173,7 +175,7 @@ GTCEuServerEvents.oreVeins(event => {
             .oreBlock(GTMaterials.Pyrite, 2)
             .rareBlock(GTMaterials.get("hawleyite"), 1)
             .rareBlock(GTMaterials.get("xilingolite"), 2)
-            .veininessThreshold(0.001)
+            .veininessThreshold(0.003)
             .maxRichnessThreshold(0.1)
             .minRichness(0.5)
             .maxRichness(1.0)
@@ -187,15 +189,17 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/certus_quartz", vein => {
         vein.weight(30)
         vein.density(0.9)
-        vein.clusterSize(15)
+        vein.clusterSize(17)
         vein.layer("deepslate")
         vein.dimensions("minecraft:overworld")
-        vein.heightRangeUniform(-60, -30)
-        vein.classicVeinGenerator(generator => generator
-            .primary(b => b.mat(GTMaterials.CertusQuartz))
-            .secondary(b => b.mat(GTMaterials.Diamond))
-            .between(b => b.mat(GTMaterials.Mica))
-            .sporadic(b => b.mat(GTMaterials.get("moissanite")))
+        vein.heightRangeUniform(-60, -10)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(5).mat(GTMaterials.CertusQuartz).size(1, 2))
+                .layer(l => l.weight(3).mat(GTMaterials.Diamond).size(1, 2))
+                .layer(l => l.weight(5).mat(GTMaterials.Mica).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.get("moissanite")).size(1, 1))
+            )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.CertusQuartz)
@@ -206,7 +210,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/arseno_thallide", vein => {
         vein.weight(15)
         vein.density(0.8)
-        vein.clusterSize(25)
+        vein.clusterSize(35)
         vein.layer("deepslate")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(-50, 5)
@@ -255,17 +259,17 @@ GTCEuServerEvents.oreVeins(event => {
         vein.heightRangeUniform(-50, 0)
         vein.veinedVeinGenerator(generator => generator
             .oreBlock(GTMaterials.GarnetSand, 3)
-            .oreBlock(GTMaterials.RedGarnet, 2)
+            .oreBlock(GTMaterials.GarnetRed, 2)
             .oreBlock(GTMaterials.get("zoisite"), 2)
             .rareBlock(GTMaterials.get("nambulite"), 1)
-            .rareBlock(GTMaterials.YellowGarnet, 3)
+            .rareBlock(GTMaterials.GarnetYellow, 3)
             .veininessThreshold(0.001)
             .maxRichnessThreshold(0.1)
             .minRichness(0.6)
             .maxRichness(1.0)
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
-            .surfaceRock(GTMaterials.RedGarnet)
+            .surfaceRock(GTMaterials.GarnetRed)
             .placement("above")
         )
     })
@@ -277,11 +281,13 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(10, 50)
-        vein.classicVeinGenerator(generator => generator
-            .primary(b => b.mat(GTMaterials.Malachite))
-            .secondary(b => b.mat(GTMaterials.get("mixite")))
-            .between(b => b.mat(GTMaterials.Trona))
-            .sporadic(b => b.mat(GTMaterials.get("otavite")))
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(5).mat(GTMaterials.Malachite).size(1, 2))
+                .layer(l => l.weight(4).mat(GTMaterials.get("mixite")).size(1, 2))
+                .layer(l => l.weight(5).mat(GTMaterials.Trona).size(1, 3))
+                .layer(l => l.weight(3).mat(GTMaterials.get("otavite")).size(1, 1))
+            )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.get("mixite"))
@@ -292,7 +298,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/sulfurous_lead", vein => {
         vein.weight(45)
         vein.density(0.8)
-        vein.clusterSize(20)
+        vein.clusterSize(35)
         vein.layer("deepslate")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(-40, 5)
@@ -313,7 +319,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("overworld/poor_pgm", vein => {
         vein.weight(10)
         vein.density(0.6)
-        vein.clusterSize(10)
+        vein.clusterSize(18)
         vein.layer("deepslate")
         vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(-40, 0)
@@ -328,6 +334,200 @@ GTCEuServerEvents.oreVeins(event => {
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.Cooperite)
+            .placement("above")
+        )
+    })
+
+    // Nether veins
+    event.add("nether/nickel_sulfur", vein => {
+        vein.weight(60)
+        vein.density(1.0)
+        vein.clusterSize(50)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(-20, 120)
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.Sulfur, 3)
+            .oreBlock(GTMaterials.Chalcopyrite, 2)
+            .oreBlock(GTMaterials.Pentlandite, 2)
+            .rareBlock(GTMaterials.get("mohite"), 1)
+            .rareBlock(GTMaterials.get("ullmannite"), 3)
+            .veininessThreshold(0.01)
+            .maxRichnessThreshold(0.2)
+            .minRichness(0.7)
+            .maxRichness(1.0)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Pentlandite)
+            .placement("below")
+        )
+    })
+
+    event.add("nether/leaded_sulfur", vein => {
+        vein.weight(80)
+        vein.density(0.5)
+        vein.clusterSize(32)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(-10, 50)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(4).mat(GTMaterials.Sulfur).size(2, 4))
+                .layer(l => l.weight(3).mat(GTMaterials.Galena).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.get("xanthoconite")).size(1, 2))
+                .layer(l => l.weight(3).mat(GTMaterials.get("teallite")).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get("madocite")).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("teallite"))
+            .placement("above")
+        )
+    })
+
+    event.add("nether/red_beryl", vein => {
+        vein.weight(40)
+        vein.density(0.5)
+        vein.clusterSize(23)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(-60, 10)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(4).mat(GTMaterials.get("red_beryl")).size(2, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.get("morganite")).size(1, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.get("pezzottaite")).size(1, 2))
+                .layer(l => l.weight(3).mat(GTMaterials.get("milarite")).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get("vayrynenite")).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("red_beryl"))
+            .placement("above")
+        )
+    })
+
+    event.add("nether/aragonite", vein => {
+        vein.weight(60)
+        vein.density(0.75)
+        vein.clusterSize(100)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(20, 95)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.get("aragonite"), 5, 20, 95)
+            .withBlock(GTMaterials.Calcite, 3, 60, 95)
+            .withBlock(GTMaterials.get("witherite"), 3, 20, 55)
+            .withBlock(GTMaterials.get("strontianite"), 2, 20, 40)
+            .withBlock(GTMaterials.get("otavite"), 1, 40, 75)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("aragonite"))
+            .placement("below")
+        )
+    })
+
+    event.add("nether/chromium", vein => {
+        vein.weight(40)
+        vein.density(0.65)
+        vein.clusterSize(70)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(-40, 40)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Chromite, 5, -40, 20)
+            .withBlock(GTMaterials.get("zincochromite"), 4, -20, 40)
+            .withBlock(GTMaterials.get("spinel"), 4, -40, 40)
+            .withBlock(GTMaterials.get("guyanaite"), 2, -10, 30)
+            .withBlock(GTMaterials.Ruby, 2, -30, 10)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("zincochromite"))
+            .placement("above")
+        )
+    })
+
+    event.add("nether/selenium", vein => {
+        vein.weight(30)
+        vein.density(0.75)
+        vein.clusterSize(45)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(20, 100)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(4).mat(GTMaterials.get("selenite")).size(2, 3))
+                .layer(l => l.weight(3).mat(GTMaterials.GraniticMineralSand).size(2, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.get("umangite")).size(1, 2))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("selenite"))
+            .placement("below")
+        )
+    })
+
+    event.add("nether/mixed_molybdenum", vein => {
+        vein.weight(15)
+        vein.density(0.75)
+        vein.clusterSize(76)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(10, 70)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Quartzite, 5, 10, 70)
+            .withBlock(GTMaterials.Molybdenite, 4, 10, 40)
+            .withBlock(GTMaterials.Powellite, 3, 20, 50)
+            .withBlock(GTMaterials.get("lindgrenite"), 2, 40, 70)
+            .withBlock(GTMaterials.get("briartite"), 2, 10, 50)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Powellite)
+            .placement("below")
+        )
+    })
+
+    event.add("nether/red_garnet", vein => {
+        vein.weight(40)
+        vein.density(0.8)
+        vein.clusterSize(40)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(80, 120)
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.GarnetRed, 3)
+            .oreBlock(GTMaterials.Pyrope, 2)
+            .oreBlock(GTMaterials.Andratite, 2)
+            .rareBlock(GTMaterials.Spessartine, 3)
+            .veininessThreshold(0.02)
+            .maxRichnessThreshold(0.4)
+            .minRichness(0.5)
+            .maxRichness(1.0)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.GarnetRed)
+            .placement("below")
+        )
+    })
+
+    event.add("nether/spinel", vein => {
+        vein.weight(80)
+        vein.density(0.4)
+        vein.clusterSize(42)
+        vein.layer("netherrack")
+        vein.dimensions("minecraft:the_nether")
+        vein.heightRangeUniform(15, 45)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(4).mat(GTMaterials.get("spinel")).size(2, 3))
+                .layer(l => l.weight(3).mat(GTMaterials.Ruby).size(2, 2))
+                .layer(l => l.weight(3).mat(GTMaterials.Olivine).size(1, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.Cinnabar).size(1, 3))
+                .layer(l => l.weight(1).mat(GTMaterials.get("tarapacaite")).size(2, 2))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get("selenite"))
             .placement("above")
         )
     })
@@ -1221,6 +1421,11 @@ GTCEuServerEvents.oreVeins(event => {
     event.remove("gtceu:garnet_vein")
     event.remove("gtceu:nether_redstone_vein")
     event.remove("gtceu:beryllium_vein")
+
+    // Try extra hard
+    event.remove("gtceu:garnet")
+    event.remove("gtceu:nether_redstone")
+    event.remove("gtceu:beryllium")
 })
 
 

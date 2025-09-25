@@ -1,32 +1,39 @@
-[19:35:37] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:35:37] [INIT] Loaded plugins:
-[19:35:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:35:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:35:37] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[19:35:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:35:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[19:35:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:35:37] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[19:35:37] [INIT] - com.almostreliable.morejs.Plugin
-[19:35:37] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:35:37] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[19:35:37] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[19:35:37] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[19:35:37] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[19:35:37] [INFO] Loaded script client_scripts:_initial.js in 0.003 s
-[19:35:37] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
-[19:35:37] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
-[19:35:37] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
-[19:35:37] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
-[19:35:37] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[19:35:37] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[19:35:37] [ERROR] ! mods/RPC.js#23: ReferenceError: "sdrp" is not defined.
-[19:35:37] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[19:35:37] [INFO] Loaded script client_scripts:tooltips.js in 0.005 s
-[19:35:37] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
-[19:35:37] [INFO] Loaded 9/10 KubeJS client scripts in 0.043 s with 0 errors and 0 warnings
-[19:35:51] [INFO] Client resource reload complete!
-[19:37:04] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
-[19:37:10] [ERROR] ! deprecation_pipeline.js#12: Error in 'JEIEvents.hideItems': TypeError: Cannot convert undefined to an object.
-[19:37:10] [ERROR] ! deprecation_pipeline.js#36: Error in 'JEIEvents.hideFluids': TypeError: Cannot convert undefined to an object.
-[19:37:28] [ERROR] ! deprecation_pipeline.js#24: Error in 'ItemEvents.tooltip': TypeError: Cannot convert undefined to an object.
+[20:42:53] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:42:53] [INIT] Loaded plugins:
+[20:42:53] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:42:53] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:42:53] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:42:53] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:42:53] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:42:53] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:42:53] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[20:42:53] [INIT] - com.almostreliable.morejs.Plugin
+[20:42:53] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:42:53] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:42:53] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:42:53] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[20:42:53] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[20:42:53] [INFO] Loaded script client_scripts:_initial.js in 0.002 s
+[20:42:53] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.0 s
+[20:42:53] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
+[20:42:53] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[20:42:53] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
+[20:42:53] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
+[20:42:53] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[20:42:54] [ERROR] ! mods/RPC.js#23: ReferenceError: "sdrp" is not defined.
+[20:42:54] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[20:42:54] [INFO] Loaded script client_scripts:tooltips.js in 0.003 s
+[20:42:54] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
+[20:42:54] [INFO] Loaded 9/10 KubeJS client scripts in 0.047 s with 0 errors and 0 warnings
+[20:43:07] [INFO] Client resource reload complete!
+[20:44:32] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
+[20:44:38] [ERROR] ! deprecation_pipeline.js#12: Error in 'JEIEvents.hideItems': TypeError: Cannot convert undefined to an object.
+[20:44:38] [ERROR] ! deprecation_pipeline.js#36: Error in 'JEIEvents.hideFluids': TypeError: Cannot convert undefined to an object.
+[20:44:57] [ERROR] ! deprecation_pipeline.js#24: Error in 'ItemEvents.tooltip': TypeError: Cannot convert undefined to an object.
+[20:46:27] [ERROR] ! deprecation_pipeline.js#12: Error in 'JEIEvents.hideItems': TypeError: Cannot convert undefined to an object.
+[20:46:27] [ERROR] ! deprecation_pipeline.js#36: Error in 'JEIEvents.hideFluids': TypeError: Cannot convert undefined to an object.
+[21:04:51] [ERROR] ! mods/RPC.js#7: Error in 'ClientEvents.loggedIn': ReferenceError: "SDRP" is not defined.
+[21:04:54] [ERROR] ! deprecation_pipeline.js#12: Error in 'JEIEvents.hideItems': TypeError: Cannot convert undefined to an object.
+[21:04:54] [ERROR] ! deprecation_pipeline.js#36: Error in 'JEIEvents.hideFluids': TypeError: Cannot convert undefined to an object.
+[21:09:34] [ERROR] ! deprecation_pipeline.js#12: Error in 'JEIEvents.hideItems': TypeError: Cannot convert undefined to an object.
+[21:09:34] [ERROR] ! deprecation_pipeline.js#36: Error in 'JEIEvents.hideFluids': TypeError: Cannot convert undefined to an object.

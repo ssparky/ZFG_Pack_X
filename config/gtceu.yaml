@@ -125,7 +125,7 @@ worldgen:
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
-  sandOresFall: false
+  sandOresFall: true
 
   # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
   # Default: true
@@ -346,7 +346,7 @@ machines:
   largeBoilers:
     # The conversion rate between water and steam in Large Boilers.
     # Default: 160
-    steamPerWater: 160
+    steamPerWater: 200
 
     # The max temperature of the Large Bronze Boiler.
     # Default: 800
@@ -664,7 +664,7 @@ dev:
 
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
-  debugWorldgen: true
+  debugWorldgen: false
 
   # Generate ores in superflat worlds?
   # Default: false
