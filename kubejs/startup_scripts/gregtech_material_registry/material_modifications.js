@@ -1,3 +1,4 @@
+// priority: -20
 /**
  * Material Registry for various modifications to materials, mostly ones from base GregTech.
  */
@@ -239,3 +240,100 @@ GTCEuStartupEvents.materialModification(event => {
     GTMaterials.Mendelevium.setFormula("Md²⁵⁹")
     GTMaterials.Nobelium.setFormula("No²⁵⁹")
 })
+
+// Ore byproduct modification
+GTCEuStartupEvents.materialModification(event => {
+    const modOres = [
+        ['snowchestite', 'chalcopyrite', 'vanadium_magnetite', 'naquadah_hydroxide', 'kaemanite', null, null],
+        ["titanite", "calcium", "rutile", "fluorite", "rare_earth", "nitric_acid", null],
+        ["gallite", "chalcopyrite", "gallium", "gallium", "germanium_disulfide", "nitric_acid", null],
+        ["briartite", "copper", "sphalerite", "germanium_disulfide", "mercury", null],
+        ["wolframite", "iron", "manganese", "fluorite", "tungstite", "nitric_acid", null],
+        ['cavansite', 'certus_quartz', 'calcium', 'vanadium_pentoxide', 'vanadium_magnetite', null, null],
+        ['citrine', 'nether_quartz', 'yellow_limonite', 'yellow_limonite', 'amethyst', 'hexafluorosilicic_acid', null],
+        ['gadolinite', 'beryllium_oxide', "thorium", "monazite", "gadolinium", "hexafluorosilicic_acid", null],
+        ['germanite', "molybdenite", "realgar", "gallium", "briartite", "sodium_persulfate", "copper"],
+        ["hawleyite", "sphalerite", "cadmium", "sulfur", "gallium", "hydrobromic_acid", "cadmium"],
+        ["iodargyrite", "galena", "silver", "bromoargyrite", "bromoargyrite", "hydrobromic_acid", "silver"],
+        ['melonite', 'pentlandite', 'nickel', 'sperrylite', 'platinum', "mercury", "nickel"],
+        ["nambulite", "aragonite", "almandine", "grossular", "magnesite", "hexafluorosilicic_acid", null],
+        ["rubellite", "lepidolite", "chromite", "microcline", "molybdenite", "hexafluorosilicic_acid", null],
+        ["russellite", "cassiterite", "scheelite", "topaz", "tungstite", "mercury", "bismuth"],
+        ["schizolite", "spodumene", "sodalite", "lapis", "pollucite", "hexafluorosilicic_acid", null],
+        ["tarapacaite", "chromite", "potassium_chromate", "potassium_chromate", "chromium", null, null],
+        ["thortveitite", "scandium", "nether_quartz", "rare_earth", "praseodymium", "hexafluorosilicic_acid", "scandium"],
+        ["triphyllite", "phosphophyllite", "goethite", "manganese", "lithium", null, "iron"],
+        ["umangite", "chalcocite", "mohite", "selenium", "tellurium", "sodium_persulfate", "copper"],
+        ["vanadinite", "yellow_limonite", "galena", "ferberite", "hubnerite", "mercury", "lead"],
+        ["wodginite", "tantalite", "microcline", "niobium", "niobium", null, null],
+        ["xilingolite", "teallite", "sphalerite", "molybdenite", "xanthoconite", "mercury", "lead"],
+        ["euclase", "certus_quartz", "fluorite", "anatase", "anatase", null, null],
+        ["bazzite", "euclase", "hematite", "fluorite", "fluorite", null, null],
+        ["aquamarine", "pyrite", "euclase", "brookite", "brookite", null, null],
+        ["celestine", "selenite", "sulfur", "barite", "aragonite", null, null],
+        ["strontianite", "aragonite", "barite", "celestine", "calcite", null, null],
+        ["aragonite", "calcite", "strontianite", "witherite", "strontium", null, null],
+        ["indite", "spinel", "pyrite", "tellurium", "dzhalindite", "hydrobromic_acid", null],
+        ["cadmoindite", "spinel", "indite", "hawleyite", "cadmium", "hydrobromic_acid", null],
+        ["calomel", "cinnabar", "yellow_limonite", "coccinite", "tetrahedrite", "hydrobromic_acid", null],
+        ["coccinite", "pyrite", "calomel", "calomel", "iodine", "hydrobromic_acid", null],
+        ["zircon", "citrine", "anatase", "hafnium", "hafnium", null, "zirconium"],
+        ["datolite", "quartzite", "borax", "zircon", "zircon", null, null],
+        ["dzhalindite", "cassiterite", "tin", "indite", "cadmoindite", "hydrobromic_acid", "indium"],
+        ["ferberite", "magnetite", "hubnerite", "wolframite", "tungstite", "mercury", null],
+        ["fluoroapatite", "fluorite", "apatite", "monazite", "monazite", null, null],
+        ["zincochromite", "spinel", "chromite", "zincite", "uraninite", "sodium_persulfate", null],
+        ["guyanaite", "zincochromite", "graphite", "zircon", "chromite", "sodium_persulfate", null],
+        ["heptasartorite", "selenium", "tellurium", "lorandite", "cobaltite", "mercury", "lead"],
+        ["herderite", "fluoroapatite", "fluorite", "iodine", "iodine", null, null],
+        ["hubnerite", "pyrolusite", "ferberite", "wolframite", "brookite", "mercury", null],
+        ["rheniite", "sphalerite", "molybdenite", "laurite", "molybdenite", "mercury", null],
+        ["lindgrenite", "powellite", "molybdenite", "malachite", "rheniite", "sodium_persulfate", "copper"],
+        ["torbernite", "uraninite", "lindgrenite", "azurite", "plutonium", "sodium_persulfate", "copper"],
+        ["turquoise", "certus_quartz", "kyanite", "lindgrenite", "torbernite", "sodium_persulfate", null],
+        ["vivianite", "aragonite", "magnesite", "phosphosiderite", "manganese", null, "iron"],
+        ["phosphosiderite", "triphyllite", "turquoise", "vivianite", "phosphophyllite", null, "iron"],
+        ["kolbeckite", "yttrium", "phosphosiderite", "rare_earth", "rare_earth", null, "scandium"],
+        ["labyrinthite", "fluorite", "cerium", "rubidium", "thallium", "hexafluorosilicic_acid", null],
+        ["manganvesuvianite", "calcite", "grossular", "manganite", "strontianite", "hexafluorosilicic_acid", null],
+        ["temagamite", "melonite", "chalcopyrite", "galena", "silver", "nitric_acid", "lead"],
+        ["merenskyite", "chalcopyrite", "temagamite", "palladium", "sperrylite", "mercury", null],
+        ["morganite", "lepidolite", "euclase", "aquamarine", "aquamarine", null, null],
+        ["pezzottaite", "morganite", "manganese", "rubidium", "caesium", "hexafluorosilicic_acid", null],
+        ["milarite", "chrysoberyl", "emerald", "pezzottaite", "euclase", null, null],
+        ["mixite", "malachite", "monazite", "xenotime", "azurite", "sodium_persulfate", "copper"],
+        ["mottramite", "calcite", "vanadinite", "vanadium_magnetite", "russellite", "sodium_persulfate", null],
+        ["musgravite", "taaffeite", "morganite", "thorium", "beryllium", null, null],
+        ["witherite", "aragonite", "strontianite", "otavite", "barite", null, null],
+        ["otavite", "aragonite", "malachite", "witherite", "strontianite", "hydrobromic_acid", null],
+        ["phosphophyllite", "triphyllite", "chalcopyrite", "legrandite", "phosphosiderite", null, null],
+        ["purpurite", "phosphosiderite", "hematite", "amethyst", "triphyllite", null, "manganese"],
+        ["red_beryl", "emerald", "pyrolusite", "pezzottaite", "morganite", null, null],
+        ["rhodplumsite", "teallite", "sperrylite", "platinum", "ruthenium", "mercury", null],
+        ["taaffeite", "spinel", "chrysoberyl", "musgravite", "beryllium", null, null],
+        ["triplite", "red_garnet", "almandine", "phosphosiderite", "purpurite", null, null],
+        ["vayrynenite", "fluoroapatite", "red_beryl", "morganite", "phosphosiderite", null, null],
+        ["villaumite", "sodalite", "lazurite", "fluorite", "lapis", "hydrobromic_acid", null],
+        ["wakefieldite", "xenotime", "monazite", "cerium", "neodymium", "sodium_persulfate", null],
+        ["xanthoconite", "galena", "teallite", "arsenic", "sperrylite", "mercury", "silver"],
+        ["zavaritskite", "fluorite", "cassiterite", "gold", "bismite", null, "bismuth"],
+        ["zoisite", "gypsum", "hexagonite", "rubellite", "mixite", null, null]
+
+    ]
+    for (const [id, bp1, bp2, bp3, bp4, wash, smelt] of modOres) {
+        if (GTMaterials.get(id).hasProperty(PropertyKey.ORE)) {
+            GTMaterials.get(id).removeProperty(PropertyKey.ORE)
+        }
+        let temp_ore_prop = new $OreProperty()
+        temp_ore_prop.setOreByProducts(bp1, bp2, bp3, bp4)
+        if (wash != null) {
+            temp_ore_prop.setWashedIn(GTMaterials.get(wash))
+        }
+        if (smelt != null) {
+            temp_ore_prop.setDirectSmeltResult(smelt)
+        }
+        GTMaterials.get(id).setProperty($PropertyKey.ORE, temp_ore_prop)
+            
+    }
+})
+

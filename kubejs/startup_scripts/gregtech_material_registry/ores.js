@@ -219,20 +219,14 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components(GTMaterials.Titanium.multiply(1), GTMaterials.Oxygen.multiply(2))
         .addOreByproducts(GTMaterials.Hematite, GTMaterials.Niobium, GTMaterials.Tantalite)
         .washedIn(GTMaterials.Mercury)
-    
-    event.create("vanadium_pentoxide") // Move back to chemline_harder_misc.js if possible
-        .dust()
-        .color(0xffcf33).iconSet("rough")
-        .components("2x vanadium", "5x oxygen")
-    
+
     event.create('cavansite')
         .gem().ore(1, 1)
         .iconSet(GTMaterialIconSet.LAPIS)
         .color(0x1a99ff).secondaryColor(0x2bb8e3)
         .components(GTMaterials.Calcium.multiply(1), GTMaterials.Vanadium.multiply(1), GTMaterials.Silicon.multiply(4), GTMaterials.Oxygen.multiply(11), GTMaterials.Water.multiply(4))
         .formula("Ca(VO)Si4O10·4H2O")
-        .addOreByproducts("vanadium_pentoxide", "vanadium_pentoxide", "vanadium_pentoxide")
-        // .addOreByproducts(GTMaterials.CertusQuartz, GTMaterials.Calcium, "vanadium_pentoxide")
+        .addOreByproducts(GTMaterials.CertusQuartz, GTMaterials.Calcium, "vanadium_pentoxide")
 
     event.create('chambersite')
         .gem().ore(1, 1)

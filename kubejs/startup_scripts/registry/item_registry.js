@@ -793,4 +793,35 @@ StartupEvents.registry("item", event => {
             .displayName(`Depleted ${name} Fuel Pellet`)
             .color(0, baseColor);
     }
+
+    // TacZ ammo molds - TODO: make textures
+    const tacz_ammo = [
+        ["68x51_fury", "6.8x51mm Fury"],
+        ["9mm", "9mm"],
+        ["338_lapua", ".338 Lapua"],
+        ["308_winchester", ".308 Winchester"],
+        ["357_magnum", ".357 Magnum"],
+        ["46mm_ap", "4.6mm AP"],
+        ["57x28mm_ap", "5.7x28mm AP"],
+        ["45_acp", ".45 ACP"],
+        ["50_bmg", ".50 BMG"],
+        ["40mm_grenade", "40mm Grenade"],
+        ["12_gauge", "12 Gauge"],
+        ["30_06_springfield", ".30-06 Springfield"],
+        ["50_ae", ".50 AE"],
+        ["45_70", "45-70"],
+        ["rpg_7", "RPG-7"],
+        ["762x25mm_tokarev", "7.62x25mm Tokarev"],
+        ["556x45mm", "5.56x45mm"],
+        ["58mm_dbp87", "5.8mm DBP87"],
+        ["762x39mm", "7.62x39mm"],
+        ["762x54mm", "7.62x54mm"]
+    ]
+    
+    for (const [id, name] of tacz_ammo) {
+        event.create(`ammo_mold_${id}`)
+            .displayName(`${name} Ammunition Mold`)
+            .texture(`kubejs:item/tacz/ammo_mold_${id}`)
+    }
+
 })

@@ -54,7 +54,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
 // Vanadium Pentoxide
 GTCEuStartupEvents.registry("gtceu:material", event => {
-    
+    event.create("vanadium_pentoxide")
+        .dust()
+        .color(0xffcf33).iconSet("rough")
+        .components("2x vanadium", "5x oxygen")
 })
 
 // Harder Graphene Processing

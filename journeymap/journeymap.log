@@ -1,14 +1,14 @@
-[20:43:12] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:43:12] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:43:12] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[20:43:12] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:43:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: games.alejandrocoria.mapfrontiers.client.plugin.MapFrontiersPlugin
-[20:43:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
-[20:43:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: me.frankv.jmi.JMIJourneyMapPlugin
-[20:43:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.gregtechceu.gtceu.integration.map.journeymap.JourneyMapPlugin
-[20:43:12] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[20:43:12] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:43:12] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+[22:01:55] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:01:55] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[22:01:55] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[22:01:55] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:01:55] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: games.alejandrocoria.mapfrontiers.client.plugin.MapFrontiersPlugin
+[22:01:55] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
+[22:01:55] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: me.frankv.jmi.JMIJourneyMapPlugin
+[22:01:55] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.gregtechceu.gtceu.integration.map.journeymap.JourneyMapPlugin
+[22:01:55] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[22:01:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:01:55] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
 forge: 47.4.3
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -26,70 +26,31 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.1
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[20:43:12] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[20:43:12] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 233,36ms
-[20:43:26] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[20:43:26] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:43:26] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:43:26] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[20:43:26] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 191,36ms
-[20:44:21] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[20:44:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:44:42] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[20:44:42] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW2\waypoints
-[20:44:42] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW2\overworld. Memory: 9320MB total, 3301MB free 
-[20:44:42] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[21:00:31] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\mp\offline\minecraft:overworld
-[21:00:39] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[21:03:30] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[21:04:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:04:54] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:04:55] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\overworld. Memory: 12288MB total, 2790MB free 
-[21:08:12] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\minecraft:overworld
-[21:08:14] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:08:14] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:08:14] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\the_nether. Memory: 12288MB total, 1627MB free 
-[21:12:24] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\minecraft:the_nether
-[21:12:25] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:12:25] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:12:25] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra~moon. Memory: 12288MB total, 2965MB free 
-[21:12:46] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra:moon
-[21:12:47] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:12:47] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:12:47] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra~mars. Memory: 12288MB total, 2662MB free 
-[21:13:11] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra:mars
-[21:13:12] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:13:12] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:13:12] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra~venus. Memory: 12288MB total, 2499MB free 
-[21:13:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra:venus
-[21:13:36] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:13:36] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:13:36] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra~mercury. Memory: 12288MB total, 2140MB free 
-[21:14:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra:mercury
-[21:14:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:14:01] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:14:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra~glacio. Memory: 12288MB total, 2640MB free 
-[21:14:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for ad_astra:textures/entity_icon/mob/glacian_ram/glacian_ram.png
-[21:14:42] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\ad_astra:glacio
-[21:14:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:14:43] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\waypoints
-[21:14:43] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW3\overworld. Memory: 12288MB total, 1444MB free 
-[21:16:53] [Worker-Main-105/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
-[21:16:53] [Worker-Main-10/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
-[21:16:53] [Worker-Main-7/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
-[21:16:53] [Worker-Main-100/WARN] [StatTimer] pluginClientEvent_jmi is already running, cancelling first
-[21:16:53] [Worker-Main-99/WARN] [StatTimer] pluginClientEvent_jmi is not running.
-[21:16:53] [Worker-Main-1/WARN] [StatTimer] pluginClientEvent_jmi is not running.
-[21:16:53] [Worker-Main-3/WARN] [StatTimer] pluginClientEvent_jmi is not running.
-[21:16:53] [Worker-Main-105/WARN] [StatTimer] pluginClientEvent_jmi is not running.
-[21:27:58] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\mp\offline\minecraft:overworld
-[21:28:40] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[22:01:55] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[22:01:55] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 240,58ms
+[22:02:08] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[22:02:08] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[22:02:08] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[22:02:08] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[22:02:08] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 166,96ms
+[22:03:00] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:03:19] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:03:20] [Render thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW4\waypoints
+[22:03:20] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW4\the_nether. Memory: 9480MB total, 3953MB free 
+[22:03:20] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[22:03:32] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[22:10:48] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW4\minecraft:the_nether
+[22:10:49] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:10:49] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW4\waypoints
+[22:10:49] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\sp\TW4\the_end. Memory: 12288MB total, 1873MB free 
+[22:19:55] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Stefan\AppData\Roaming\PrismLauncher\instances\ZFG X Dev\minecraft\journeymap\data\mp\offline\minecraft:the_end
+[22:19:59] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
