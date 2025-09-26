@@ -1,9 +1,104 @@
 {
   "favorites": [],
   "lookup_history": [
-    "item:gtceu:raw_musgravite",
+    {
+      "type": "fluid",
+      "id": "gtceu:rare_earth_sulfate_solution",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:oxidized_re_sludge_dust",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_rare_earths",
+      "amount": 250
+    },
+    {
+      "type": "item",
+      "id": "gtceu:small_neodymium_dust",
+      "chance": 0.65
+    },
+    "item:gtceu:rare_earth_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:heavy_rare_earths",
+      "amount": 1000
+    },
+    "item:gtceu:europium_oxide_dust",
+    {
+      "type": "item",
+      "id": "gtceu:lutetium_fluoride_dust",
+      "amount": 8
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:lutetium_solution",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:terbium_solution",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:terbium_oxide_dust",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "gtceu:terbium_salt_dust",
+      "amount": 4
+    },
+    "item:gtceu:terbium_dust",
+    "item:gtceu:hot_terbium_ingot",
+    "item:gtceu:terbium_ingot",
+    "item:gtceu:terbium_ring",
+    "item:kubejs:complex_smd_inductor",
+    "item:gtceu:smd_capacitor",
+    "item:gtceu:smd_resistor",
+    "item:gtceu:smd_transistor",
+    "item:kubejs:complex_smd_diode",
+    "item:kubejs:complex_smd_capacitor",
+    "item:kubejs:complex_smd_resistor",
+    "item:kubejs:complex_smd_transistor",
+    "item:monilabs:crystal_matrix_dust",
+    "item:monilabs:hot_crystal_matrix_ingot",
+    "item:kubejs:adhered_matrix_mesh",
+    "item:kubejs:carbon_nanotubes",
+    "item:kubejs:grown_nanotube_substrate",
+    "item:kubejs:prepared_nanotube_substrate",
+    "item:kubejs:raw_nanotube_substrate",
+    "item:kubejs:nanotube_soot",
+    "item:monilabs:sculk_bioalloy_ingot",
+    "item:megacells:sky_steel_ingot",
+    "item:gtceu:ferroboron_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:niobium_nitride_plate",
+      "amount": 2
+    },
+    "item:gtceu:niobium_nitride_ingot",
+    "item:monilabs:crystal_matrix_block",
+    "item:kubejs:inert_nether_compound_ingot",
+    "item:extendedcrafting:crystaltine_component",
+    "item:extendedcrafting:crystaltine_ingot",
+    "item:create:experience_nugget",
+    "item:extendedcrafting:crystaltine_nugget",
+    "item:gtceu:aetherium_nugget",
+    "item:tacz:ammo{AmmoId:\"tacz:46x30\"}",
+    "item:tacz:ammo{AmmoId:\"tacz:357mag\"}",
+    "item:tacz:ammo{AmmoId:\"tacz:308\"}",
     "item:tacz:ammo{AmmoId:\"tacz:338\"}",
+    "item:tacz:ammo{AmmoId:\"tacz:9mm\"}",
     "item:tacz:ammo{AmmoId:\"tacz:68x51fury\"}",
+    "item:monilabs:sculk_bioalloy_round",
+    "item:gtceu:iron_round",
+    "item:gtceu:raw_stibiotantalite",
+    "item:gtceu:raw_musgravite",
     {
       "type": "fluid",
       "id": "gtceu:molten_darconite",
@@ -13,7 +108,6 @@
     "item:gtceu:hyperdegenerate_darconite_double_wire",
     "item:gtceu:hyperdegenerate_darconite_ingot",
     "item:gtceu:hyperdegenerate_darconite_foil",
-    "item:tacz:ammo{AmmoId:\"tacz:9mm\"}",
     "item:tacz:workbench_a{BlockId:\"tacz:ammo_workbench\"}",
     "item:tacz:gun_smith_table",
     "item:tacz:ammo_box{Level:0}",
@@ -28,7 +122,6 @@
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:15,GunFireMode:\"SEMI\",GunId:\"tacz:spr15hb\",HasBulletInBarrel:1b}",
     "item:tacz:attachment{AttachmentId:\"tacz:laser_nightstick\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:grip_magpul_afg_2\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:357mag\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:extended_mag_3\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:ammo_mod_fmj\"}",
     "item:tacz:ammo{AmmoId:\"tacz:762x39\"}",
@@ -41,8 +134,6 @@
     "item:tacz:ammo{AmmoId:\"tacz:50bmg\"}",
     "item:tacz:ammo{AmmoId:\"tacz:45acp\"}",
     "item:tacz:ammo{AmmoId:\"tacz:57x28\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:46x30\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:308\"}",
     "item:gtceu:labyrinthite_dust",
     "item:gtceu:raw_labyrinthite",
     "item:gtceu:raw_citrine",
@@ -113,26 +204,6 @@
     {
       "type": "fluid",
       "id": "gtceu:oxalic_acid_nickel_solution",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:rare_earth_sulfate_solution",
-      "amount": 1000
-    },
-    {
-      "type": "item",
-      "id": "gtceu:oxidized_re_sludge_dust",
-      "amount": 4
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:heavy_rare_earths",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:lutetium_solution",
       "amount": 0
     },
     "item:gtceu:tiny_cavansite_dust",
@@ -223,7 +294,6 @@
     "item:gtceu:raw_euclase",
     "item:gtceu:raw_thortveitite",
     "item:gtceu:raw_bismite",
-    "item:gtceu:raw_stibiotantalite",
     "item:gtceu:raw_hexagonite",
     "item:gtceu:raw_columbite",
     "item:gtceu:raw_selenite",
@@ -384,7 +454,6 @@
     },
     "item:kubejs:amalgamated_sculk",
     "item:monilabs:sculk_vat",
-    "item:create:experience_nugget",
     "item:kubejs:cryotheum_dust",
     "item:kubejs:resonant_clathrate",
     {
@@ -486,7 +555,6 @@
     "item:gtceu:dense_tough_alloy_plate",
     "item:gtceu:tough_alloy_ingot",
     "item:gtceu:tough_alloy_dust",
-    "item:gtceu:ferroboron_ingot",
     "item:gtceu:ferroboron_dust",
     {
       "type": "item",

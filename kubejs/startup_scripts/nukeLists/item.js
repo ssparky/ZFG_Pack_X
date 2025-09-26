@@ -46,11 +46,6 @@ global.itemNukeList = [
     // Chisels & Bits
     "chiselsandbits:block_bit",
 
-    // Ender Storage
-    // TODO: Need to add greggy recipes for these
-    "endertanks:ender_bucket",
-    "enderchests:ender_bag",
-
     // ExtendedAE
     "expatternprovider:silicon_block",
     "expatternprovider:circuit_cutter",
