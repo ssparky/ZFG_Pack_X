@@ -36,6 +36,10 @@ global.itemNukeList = [
     "ad_astra:steel_cable",
     "ad_astra:water_pump",
     /^ad_astra:.*_bucket$/,
+    "ad_astra:steel_nugget",
+    "ad_astra:steel_ingot",
+    "ad_astra:steel_plate",
+    "ad_astra:steel_rod",
 
     // Applied Energistics 2
     "ae2:vibration_chamber",
@@ -45,6 +49,16 @@ global.itemNukeList = [
 
     // Chisels & Bits
     "chiselsandbits:block_bit",
+
+    // Create
+    "create:raw_zinc",
+    "create:crushed_raw_zinc",
+    "create:zinc_ore",
+    "create:deepslate_zinc_ore",
+    "create:raw_zinc_block",
+    "createdeco:zinc_sheet",
+    "createdeco:zinc_coin",
+    "createdeco:zinc_coinstack",
 
     // ExtendedAE
     "expatternprovider:silicon_block",

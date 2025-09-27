@@ -7,87 +7,87 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     // Nuclear Isotopes
     event.create("thorium_232")
-        .ingot().fluid()
+        .ingot().fluid(2023)
         .element(GTElements.get("thorium-232"))
         .color(0x4A5346).secondaryColor(0x0D0F0D).iconSet("radioactive")
 
     event.create("uranium_233")
-        .ingot().fluid()
+        .ingot().fluid(1405)
         .element(GTElements.get("uranium-233"))
         .color(0x23BA23).secondaryColor(0x45463B).iconSet("radioactive")
 
     event.create("neptunium_236")
-        .ingot().fluid()
+        .ingot().fluid(914)
         .element(GTElements.get("neptunium-236"))
         .color(0x3C6598).iconSet("radioactive")
 
     event.create("plutonium_238")
-        .ingot().fluid()
+        .ingot().fluid(912)
         .element(GTElements.get("plutonium-238"))
         .color(0xA20404).secondaryColor(0x222730).iconSet("radioactive")
 
     event.create("plutonium_242")
-        .ingot().fluid()
+        .ingot().fluid(912)
         .element(GTElements.get("plutonium-242"))
         .color(0xD75E5E).secondaryColor(0x222730).iconSet("radioactive")
 
     event.create("americium_241")
-        .ingot().fluid()
+        .ingot().fluid(1449)
         .element(GTElements.get("americium-241"))
         .color(0x145F51).iconSet("radioactive")
 
     event.create("americium_242")
-        .ingot().fluid()
+        .ingot().fluid(1449)
         .element(GTElements.get("americium-242"))
         .color(0x308D7C).iconSet("radioactive")
 
     event.create("curium_243")
-        .ingot().fluid()
+        .ingot().fluid(1613)
         .element(GTElements.get("curium-243"))
         .color(0x240840).iconSet("radioactive")
 
     event.create("curium_245")
-        .ingot().fluid()
+        .ingot().fluid(1613)
         .element(GTElements.get("curium-245"))
         .color(0x38145D).iconSet("radioactive")
 
     event.create("curium_247")
-        .ingot().fluid()
+        .ingot().fluid(1613)
         .element(GTElements.get("curium-247"))
         .color(0x60229E).iconSet("radioactive")
 
     event.create("berkelium_248")
-        .ingot().fluid()
+        .ingot().fluid(1259)
         .element(GTElements.get("berkelium-248"))
         .color(0x8E2A0C).iconSet("radioactive")
 
     event.create("californium_249")
-        .ingot().fluid()
+        .ingot().fluid(1173)
         .element(GTElements.get("californium-249"))
         .color(0xB50B38).iconSet("radioactive")
 
     event.create("californium_250")
-        .ingot().fluid()
+        .ingot().fluid(1173)
         .element(GTElements.get("californium-250"))
         .color(0x550218).iconSet("radioactive")
 
     event.create("californium_252")
-        .ingot().fluid()
+        .ingot().fluid(1173)
         .element(GTElements.get("californium-252"))
         .color(0x62031C).iconSet("radioactive")
 
     event.create("einsteinium_253")
-        .ingot().fluid()
+        .ingot().fluid(1133)
         .element(GTElements.get("einsteinium-253"))
         .color(0xA07C05).iconSet("radioactive")
     
     event.create("einsteinium_254")
-        .ingot().fluid()
+        .ingot().fluid(1133)
         .element(GTElements.get("einsteinium-254"))
         .color(0xF0BB0C).iconSet("radioactive")
 
     event.create("fermium_255")
-        .ingot().fluid()
+        .ingot().fluid(1800)
         .element(GTElements.get("fermium-255"))
         .color(0xB180D4).iconSet("radioactive")
 
@@ -122,7 +122,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("cryolobus")
         .ingot().fluid()
         .element(GTElements.get("cryolobus"))
-        .color(0x022C34).iconSet("dull")
+        .color(0x035155).secondaryColor(0x04203d).iconSet("dull")
         .blastTemp(6800, "higher")
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME)
         .cableProperties(524288, 4, 0, true);
@@ -130,7 +130,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("cryococcus")
         .ingot().fluid()
         .element(GTElements.get("cryococcus"))
-        .color(0x088286).secondaryColor(0x022C34).iconSet("dull")
+        .color(0x009295).secondaryColor(0x07303b).iconSet("dull")
         .flags(GTMaterialFlags.NO_SMELTING, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME)
 
     event.create("sculk_superconductor")
@@ -144,9 +144,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // Prismatic Crucible Materials
 
     event.create("transcendental_matrix")
-        .ingot().fluid()
+        .ingot()
+        .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
         .color(0xffffff).secondaryColor(0x000000)
-        .iconSet("shiny")
+        .iconSet("transcendental_matrix")
         .element(GTElements.get("transcendental_matrix"))
         .flags(GTMaterialFlags.GENERATE_FOIL)
 

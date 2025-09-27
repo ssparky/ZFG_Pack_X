@@ -34,7 +34,8 @@ ItemEvents.modification(event => {
         "gtceu:dark_soularium_plate",
         "gtceu:double_dark_soularium_plate",
         "hostilenetworks:prediction",
-        /activated_netherite/
+        /activated_netherite/,
+        /dark_soularium/
     ]
 
 

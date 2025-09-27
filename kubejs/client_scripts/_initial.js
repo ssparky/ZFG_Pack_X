@@ -69,8 +69,11 @@ const TIER_ZPM = 7;
 const TIER_UV = 8;
 const TIER_UHV = 9;
 const TIER_UEV = 10;
-const TIER_MAX = 11;
-const TIER_END = 12;
+const TIER_UIV = 11;
+const TIER_UXV = 12;
+const TIER_OPV = 13;
+const TIER_MAX = 14;
+const TIER_END = 15;
 const TIER_ID_MAPPING = [
-    "ULV", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPM", "UV", "UHV", "UEV", "MAX", "END"
+    "ULV", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPM", "UV", "UHV", "UEV", "UIV", "UXV", "OpV", "MAX", "END"
 ]

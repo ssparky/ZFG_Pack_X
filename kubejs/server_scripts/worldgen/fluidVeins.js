@@ -10,30 +10,6 @@ const infernalVenusBarrensResourceKey = ResourceKey.create(Registries.BIOME, "ad
 
 GTCEuServerEvents.fluidVeins(event => {
 
-    // Void dim oil
-    event.add("kubejs:void/raw_oil", vein => {
-        vein.dimensions("javd:void")
-        vein.fluid(() => Fluid.of("gtceu:oil_medium").fluid)
-        vein.weight(100)
-        vein.minimumYield(200)
-        vein.maximumYield(250)
-        vein.depletionAmount(1)
-        vein.depletionChance(50)
-        vein.depletedYield(20)
-    })
-
-    event.add("kubejs:void/oil", vein => {
-        vein.dimensions("javd:void")
-        vein.fluid(() => Fluid.of("gtceu:oil").fluid)
-        vein.weight(20)
-        vein.minimumYield(200)
-        vein.maximumYield(250)
-        vein.depletionAmount(1)
-        vein.depletionChance(50)
-        vein.depletedYield(20)
-    })
-
-
     // Luna fluid veins
     event.add("kubejs:moon/deuterium", vein => {
         vein.dimensions("ad_astra:moon")

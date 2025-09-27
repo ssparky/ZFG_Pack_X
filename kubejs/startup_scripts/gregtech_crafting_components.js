@@ -105,12 +105,17 @@ GTCEuStartupEvents.craftingComponents(event => {
     event.setMaterialEntries("plate", {
         UHV: "plate:manyullyn",
         UEV: "plate:infinity",
+        UIV: "plate:aetherium",
+        // Also TODO ofc
         MAX: "plate:monium",
     })
 
     event.setMaterialEntries("hull_plate", {
         UHV: "plate:polybenzimidazole",
         UEV: "plate:polyethyl_cyanoacrylate",
+        UIV: "plate:polyethyl_cyanoacrylate",
+        UXV: "plate:polyethyl_cyanoacrylate",
+        OpV: "plate:polyethyl_cyanoacrylate", // TODO, obv
         MAX: "plate:polyethyl_cyanoacrylate"
     })
 

@@ -375,6 +375,8 @@
   "item.kubejs.uhv_tier_circuit": "UHV-Tier Circuit",
   "item.kubejs.uev_tier_circuit": "UEV-Tier Circuit",
   "item.kubejs.uiv_tier_circuit": "UIV-Tier Circuit",
+  "item.kubejs.uxv_tier_circuit": "UXV-Tier Circuit",
+  "item.kubejs.opv_tier_circuit": "OpV-Tier Circuit",
   "item.kubejs.max_tier_circuit": "MAX-Tier Circuit",
   "item.kubejs.optical_circuit.tooltip" : "Omnicapable Circuits!",
   "item.kubejs.extradimensional_circuit.tooltip" : "Powered by Microverses!",

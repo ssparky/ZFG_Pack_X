@@ -317,7 +317,14 @@ GTCEuStartupEvents.materialModification(event => {
         ["wakefieldite", "xenotime", "monazite", "cerium", "neodymium", "sodium_persulfate", null],
         ["xanthoconite", "galena", "teallite", "arsenic", "sperrylite", "mercury", "silver"],
         ["zavaritskite", "fluorite", "cassiterite", "gold", "bismite", null, "bismuth"],
-        ["zoisite", "gypsum", "hexagonite", "rubellite", "mixite", null, null]
+        ["zoisite", "gypsum", "hexagonite", "rubellite", "mixite", null, null],
+
+        // Vanilla GTCEu ores
+        ["lepidolite", "lithium", "caesium", "boron", "rubidium", "nitric_acid", null],
+        ["spodumene", "aluminium", "lithium", "rubidium", "caesium", null, null],
+        ["calcite", "aragonite", "strontium", "sodalite", "lazurite", null, null],
+        ["molybdenite", "molybdenum", "sulfur", "quartzite", "rheniite", "nitric_acid", "molybdenum"],
+        ["saltpeter", "saltpeter", "potassium", "salt", "thallium", "nitric_acid", null]
 
     ]
     for (const [id, bp1, bp2, bp3, bp4, wash, smelt] of modOres) {

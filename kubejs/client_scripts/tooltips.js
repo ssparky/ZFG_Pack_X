@@ -201,8 +201,4 @@ ItemEvents.tooltip(tooltip => {
     })
     tooltip.add("chisel_chipped_integration:drill", Text.translatable("chipped.drill.tooltip"))
 
-    // Tempad
-    if (Platform.isLoaded("tempad")) {
-        tooltip.add("tempad:tempad", Text.translatable("tempad.tempad.tooltip"))
-    }
 })
