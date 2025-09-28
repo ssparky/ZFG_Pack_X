@@ -319,18 +319,18 @@ StartupEvents.registry("item", event => {
             .color(1, elemColorSecondary);
     }
 
-    // Stabilized Elements - TODO: deprecate
+    // Stabilized Elements - TODO: deprecate?
     const stabilized_elements = [
-        ["berkelium", "#a33f20", "#87001c"]
-        ["neptunium", "#486d7b", "#003064"]
-        ["plutonium", "#ba2727", "#222730"]
+        ["berkelium", "#a33f20", "#87001c"],
+        ["neptunium", "#486d7b", "#003064"],
+        ["plutonium", "#ba2727", "#222730"],
         ["uranium", "#1d891d", "#33342c"],
         ["curium", "#58307f", "#221255"],
         ["californium", "#7d0222", "#410022"],
         ["americium", "#287869", "#083946"]
     ]
 
-    for (const [element, elemColor, elemColorSecondary] of stabilized_elements_elements) {
+    for (const [element, elemColor, elemColorSecondary] of stabilized_elements) {
         event.create(`stabilized_${element}`)
             .textureJson({ 
                 layer0: "kubejs:item/stabilized",
@@ -829,7 +829,7 @@ StartupEvents.registry("item", event => {
             .color(0, baseColor);
     }
 
-    // TacZ ammo molds - TODO: make textures
+    // TacZ ammo molds
     const tacz_ammo = [
         ["68x51_fury", "6.8x51mm Fury"],
         ["9mm", "9mm"],
@@ -863,4 +863,27 @@ StartupEvents.registry("item", event => {
             .displayName('Blank Ammunition Mold')
             .texture('kubejs:item/tacz/ammo_mold_blank')
 
+    // NCN plate replacements
+    event.create("heavy_radiation_shielding_plate")
+        .displayName("Heavy Radiation Shielding Plate")
+        .texture("kubejs:item/nuclear/heavy_plate")
+    event.create("du_radiation_shielding_plate")
+        .displayName("Depleted Uranium Radiation Shielding Plate")
+        .texture("kubejs:item/nuclear/du_plate")
+    event.create("elite_radiation_shielding_plate")
+        .displayName("Elite Radiation Shielding Plate")
+        .texture("kubejs:item/nuclear/elite_plate")
+
+    // KJS Withering powder
+    event.create("withering_powder")
+        .displayName("Withering Powder")
+        .texture("kubejs:item/lines/mob_guts/withering_powder")
+
+    // EIO Crystals
+    event.create("prescient_crystal")
+        .displayName("Prescient Crystal")
+        .texture("kubejs:item/prescient_crystal")
+    event.create("weather_crystal")
+        .displayName("Weather Crystal")
+        .texture("kubejs:item/weather_crystal")
 })

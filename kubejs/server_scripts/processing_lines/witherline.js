@@ -4,19 +4,19 @@
 ServerEvents.recipes(event => {
     event.recipes.gtceu.macerator("macerate_wither_bone")
         .itemInputs("kubejs:wither_bone")
-        .itemOutputs("2x minecraft:bedrock", "3x minecraft:bone_meal") // TODO: was withering powder
+        .itemOutputs("2x kubejs:withering_powder", "3x minecraft:bone_meal")
         .duration(100)
         .EUt(GTValues.VA[GTValues.LV])
         .category("gtceu:macerator_recycling")
     event.recipes.gtceu.macerator("macerate_wither_rose")
         .itemInputs("minecraft:wither_rose")
-        .chancedOutput("minecraft:bedrock", 200, 0) // TODO: was withering powder
+        .chancedOutput("kubejs:withering_powder", 200, 0)
         .duration(40)
         .EUt(GTValues.VA[GTValues.LV])
         .category("gtceu:macerator_recycling")
 
     event.recipes.gtceu.centrifuge("centrifuge_withering_powder")
-        .itemInputs("8x minecraft:bedrock") // TODO: was withering powder
+        .itemInputs("8x kubejs:withering_powder")
         .inputFluids("gtceu:formic_acid 2500")
         .itemOutputs("4x gtceu:coal_dust", "3x gtceu:stolzite_dust", "gtceu:arsenic_trioxide_dust")
         .chancedOutput("1x gtceu:biphenyl_dust", 5000, 0)

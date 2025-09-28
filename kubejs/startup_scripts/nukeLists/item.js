@@ -118,9 +118,6 @@ global.itemNukeList = [
     "ironfurnaces:upgrade_allthemodium",
     "ironfurnaces:upgrade_vibranium",
     "ironfurnaces:upgrade_unobtainium",
-
-    // TODO renable this again. why in the fuck did we disable this?
-    // No upgrade consumables to go from diamond to obsidian or iron to silver without re-enabling more furnaces
     "ironfurnaces:upgrade_iron",
     "ironfurnaces:upgrade_gold",
     "ironfurnaces:upgrade_diamond",

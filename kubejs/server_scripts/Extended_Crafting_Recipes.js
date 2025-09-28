@@ -8,14 +8,22 @@ ServerEvents.recipes(event => {
     // Angel Ring
     event.recipes.remove({ id: "better_angel_ring:angel_ring" })
     event.recipes.extendedcrafting.shaped_table("better_angel_ring:angel_ring", [
-        " AAA ",
-        "A B A",
-        "AC CA",
-        "A B A",
-        " AAA "
+        " ACA ",
+        "AEBHA",
+        "CF IC",
+        "AGDJA",
+        " ACA "
     ], {
         A: "gtceu:rose_gold_ingot",
-        B: "minecraft:bedrock",
-        C: "minecraft:bedrock", // TODO: change to appropriate ingredients, used to be jetpacks.
+        B: "gtceu:advanced_nanomuscle_chestplate",
+        C: "gtceu:gravitation_engine_unit",
+        D: "gtceu:advanced_quarktech_chestplate",
+        E: "kubejs:leadstone_thruster",
+        F: "kubejs:reinforced_thruster",
+        G: "kubejs:fluxed_thruster",
+        H: "kubejs:conductive_iron_thruster",
+        I: "kubejs:energetic_thruster",
+        J: "kubejs:dark_soularium_thruster"
+
     }).id("kubejs:extended/angel_ring")
 })

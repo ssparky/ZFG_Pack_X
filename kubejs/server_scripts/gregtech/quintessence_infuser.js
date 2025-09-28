@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         A: "kubejs:dark_soularium_casing",
         L: "#gtceu:circuits/zpm",
         G: "gtceu:zpm_field_generator",
-        B: "minecraft:bedrock" // TODO: was EIO Soul binder (replace with GT implementation when done)
+        B: "gtceu:luv_soul_binder"
     }).id("kubejs:shaped/quintessence_infuser")
 
     // Warding Dark Soularium Casing Recipe

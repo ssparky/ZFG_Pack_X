@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         B: "minecraft:quartz_block",
         Q: "minecraft:quartz",
         C: "#gtceu:circuits/hv",
-        E: "minecraft:bedrock" // TODO: was octadic capacitor
+        E: "#gtceu:batteries/hv"
     })
 
     // Advanced Guidance
@@ -283,7 +283,7 @@ ServerEvents.recipes(event => {
     explosives.forEach(explosive => {
         event.recipes.gtceu.assembler(`blasting_kit_${explosive[2]}`)
             .itemOutputs("kubejs:blasting_kit")
-            .itemInputs("3x gtceu:double_black_steel_plate", `${explosive[0]}x ${explosive[1]}:${explosive[2]}`, "3x #gtceu:circuits/lv", "2x minecraft:bedrock") // TODO: was EIO Fused quartz
+            .itemInputs("3x gtceu:double_black_steel_plate", `${explosive[0]}x ${explosive[1]}:${explosive[2]}`, "3x #gtceu:circuits/lv", "2x ae2:quartz_glass")
             .inputFluids("gtceu:reinforced_epoxy_resin 576")
             .EUt(GTValues.VA[GTValues.EV])
             .duration(400)
@@ -320,7 +320,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("kubejs:universal_collapse_device")
         .itemInputs(
             "2x kubejs:gravitational_amplifier",
-            "16x minecraft:bedrock", // TODO: was thermal nuke before
+            "32x gtceu:industrial_tnt",
             "16x kubejs:quantum_flux",
             "gtceu:uv_field_generator",
             "kubejs:universal_warp_core",

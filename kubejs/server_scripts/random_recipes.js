@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: "gtceu:wood_plate" }, "gtceu:wood_plate", "#minecraft:planks")
 
     // Processing for Ender Spores
-    event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "minecraft:bedrock", "minecraft:experience_bottle"]) // TODO: bedrock was phyto-gro
+    event.shapeless("kubejs:ender_spore", ["minecraft:chorus_flower", "minecraft:ender_pearl", "gtceu:fertilizer", "minecraft:experience_bottle"])
     event.smelting("minecraft:ender_pearl", "kubejs:ender_spore")
 
     event.recipes.gtceu.greenhouse("kubejs:greenhouse_boosted_ender_spore")
@@ -117,21 +117,6 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("kubejs:molten_cryotheum", 250))
         .duration(600)
         .EUt(1920)
-
-    // Alternative hv cutter
-    event.shaped("gtceu:hv_cutter", [
-        "WCG",
-        "DHS",
-        "CGM"
-    ], {
-        W: "gtceu:gold_single_cable",
-        C: "#gtceu:circuits/hv",
-        G: "gtceu:tempered_glass",
-        D: "gtceu:hv_conveyor_module",
-        H: "gtceu:hv_machine_hull",
-        S: "gtceu:end_steel_gear", // TODO: FIX (likely requires registering end steel as a tool material, and idk how to do that)
-        M: "gtceu:hv_electric_motor"
-    })
 
     // Atmospheric Accumulator
     event.shaped("gtceu:atmospheric_accumulator", [
@@ -520,13 +505,13 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.extractor("resonant_ender_from_pearl")
         .itemInputs("1x minecraft:ender_pearl")
-        .outputFluids(Fluid.of("kubejs:liquid_ender", 250)) // TODO: add kjs liquid ender
+        .outputFluids(Fluid.of("kubejs:liquid_ender", 250))
         .duration(40)
         .EUt(GTValues.VA[GTValues.LV])
 
     event.recipes.gtceu.fluid_solidifier("pearl_from_resonant_ender")
         .notConsumable("gtceu:ball_casting_mold")
-        .inputFluids(Fluid.of("kubejs:liquid_ender", 250)) // Same here
+        .inputFluids(Fluid.of("kubejs:liquid_ender", 250))
         .itemOutputs("1x minecraft:ender_pearl")
         .duration(100)
         .EUt(GTValues.VHA[GTValues.LV])
@@ -649,8 +634,8 @@ ServerEvents.recipes(event => {
     event.shapeless("4x minecraft:clay_ball", ["minecraft:clay"]);
 
     // Parallel Implosion Compressor
-    event.recipes.gtceu.assembly_line("gtceu:implosion_collider") // TODO: was EIO Reinforced obsidian
-        .itemInputs("4x minecraft:bedrock", "2x #gtceu:circuits/zpm", "gtceu:solid_machine_casing", "3x gtceu:niobium_nitride_double_cable", "2x gtceu:zpm_electric_piston")
+    event.recipes.gtceu.assembly_line("gtceu:implosion_collider")
+        .itemInputs("8x gtceu:dense_obsidian_plate", "2x #gtceu:circuits/zpm", "gtceu:solid_machine_casing", "3x gtceu:niobium_nitride_double_cable", "2x gtceu:zpm_electric_piston")
         .inputFluids("gtceu:soldering_alloy 1152", "gtceu:osmium 1152")
         .itemOutputs("gtceu:implosion_collider")
         .duration(900)
@@ -784,9 +769,17 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV])
 
     // NCN Rhodochrosite crafting
-    event.recipes.gtceu.chemical_reactor("rhodochrosite_from_calcite")
-        .itemInputs("1x gtceu:manganese_dust", "1x gtceu:calcite_dust")
-        .itemOutputs("1x gtceu:rhodochrosite_dust", "1x gtceu:calcium_dust")
+    event.recipes.gtceu.chemical_reactor("manganese_nitrate_from_manganese")
+        .itemInputs("1x gtceu:manganese_dioxide_dust")
+        .inputFluids("gtceu:nitrogen_dioxide 1000", "gtceu:distilled_water 2000")
+        .itemOutputs("3x gtceu:manganese_nitrate_dust")
+        .duration(320)
+        .EUt(GTValues.VHA[GTValues.MV])
+
+    event.recipes.gtceu.chemical_reactor("rhodochrosite_from_mangnitrate")
+        .itemInputs("1x gtceu:manganese_nitrate_dust")
+        .inputFluids("gtceu:ammonia 1000", "gtceu:carbon_dioxide 1000")
+        .itemOutputs("1x gtceu:rhodochrosite_dust", "1x gtceu:ammonium_nitrate_dust")
         .duration(70)
         .EUt(GTValues.VHA[GTValues.HV])
 
@@ -798,4 +791,36 @@ ServerEvents.recipes(event => {
         .itemOutputs("kubejs:solidified_experience")
         .duration(25*20)
         .EUt(16)
+
+    // NCN plates
+    event.shaped("kubejs:heavy_radiation_shielding_plate", [
+        "BAB",
+        "ACA",
+        "BAB"
+    ], {
+        A: "gtceu:dense_tough_alloy_plate",
+        B: "gtceu:yttrium_barium_cuprate_plate",
+        C: "gtceu:lead_dust"
+    }).id("kubejs:ncn_heavy_plate")
+    event.shaped("kubejs:du_radiation_shielding_plate", [
+        "BAB",
+        "ACA",
+        "BAB"
+    ], {
+        A: "gtceu:double_uranium_plate",
+        B: "gtceu:hard_carbon_rod",
+        C: "kubejs:heavy_radiation_shielding_plate"
+    }).id("kubejs:ncn_du_plate")
+    event.shaped("kubejs:elite_radiation_shielding_plate", [
+        "BAB",
+        "ACA",
+        "BAB"
+    ], {
+        A: "gtceu:rhodochrosite_dust",
+        B: "gtceu:trinaquadalloy_plate",
+        C: "kubejs:du_radiation_shielding_plate"
+    }).id("kubejs:elite_heavy_plate")
+
+    // EIO Crystals - TODO: add recipes for prescient and weather crystals
+
 })

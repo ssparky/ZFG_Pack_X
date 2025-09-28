@@ -17,7 +17,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("azurite")
         .dust().ore(2, 3)
         .iconSet(GTMaterialIconSet.SHINY)
-        .color(0x162eba).secondaryColor(0x053f2b)
+        .color(0x19A3A3).secondaryColor(0x0A2F4E)
         .components(GTMaterials.Copper.multiply(3), GTMaterials.Carbon.multiply(2), GTMaterials.Oxygen.multiply(8), GTMaterials.Hydrogen.multiply(2))
         .formula("Cu3(CO3)2(OH)2")
         .addOreByproducts(GTMaterials.Calcite, GTMaterials.CalciumHydroxide, GTMaterials.Barite, GTMaterials.Malachite)

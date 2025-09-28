@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
     alloySmeltingVariant(
         ["4x #forge:dusts/steel", "4x #forge:ingots/steel"],
         ["#forge:dusts/boron"],
-        "5x gtceu:ferroboron", 15, GTValues.VA[GTValues.MV], true); // TODO: readd these three once KJS/gtceu ingot replacements registered
+        "5x gtceu:ferroboron", 15, GTValues.VA[GTValues.MV], true);
 
     alloySmeltingVariant(
         ["#forge:ingots/ferroboron"],
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: "minecraft:netherite_ingot" })
     event.recipes.gtceu.alloy_smelter("kubejs:netherite_ingot")
-        .itemInputs("4x #forge:ingots/gold", "4x minecraft:netherite_scrap") // was flipped
+        .itemInputs("4x #forge:ingots/gold", "4x minecraft:netherite_scrap")
         .itemOutputs("1x minecraft:netherite_ingot")
         .duration(100)
         .EUt(GTValues.VA[GTValues.LV])

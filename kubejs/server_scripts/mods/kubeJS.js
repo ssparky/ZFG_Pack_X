@@ -17,33 +17,33 @@ ServerEvents.recipes(event => {
         .fusionStartEU(400000000)
 
     solidify("stabilized_berkelium", Fluid.of("gtceu:berkelium", 144), "8x kubejs:stabilized_berkelium");
-    solidify("stabilized_berkelium", Fluid.of("gtceu:berkelium_248", 144), "8x kubejs:stabilized_berkelium");
+    solidify("stabilized_berkelium_248", Fluid.of("gtceu:berkelium_248", 144), "8x kubejs:stabilized_berkelium");
 
     solidify("stabilized_neptunium", Fluid.of("gtceu:neptunium", 144), "2x kubejs:stabilized_neptunium");
-    solidify("stabilized_neptunium", Fluid.of("gtceu:neptunium_236", 144), "2x kubejs:stabilized_neptunium");
+    solidify("stabilized_neptunium_236", Fluid.of("gtceu:neptunium_236", 144), "2x kubejs:stabilized_neptunium");
 
     solidify("stabilized_plutonium", Fluid.of("gtceu:plutonium", 144), "2x kubejs:stabilized_plutonium");
     solidify("stabilized_plutonium_241", Fluid.of("gtceu:plutonium_241", 144), "4x kubejs:stabilized_plutonium");
-    solidify("stabilized_plutonium_241", Fluid.of("gtceu:plutonium_238", 144), "4x kubejs:stabilized_plutonium");
-    solidify("stabilized_plutonium_241", Fluid.of("gtceu:plutonium_242", 144), "4x kubejs:stabilized_plutonium");
+    solidify("stabilized_plutonium_238", Fluid.of("gtceu:plutonium_238", 144), "4x kubejs:stabilized_plutonium");
+    solidify("stabilized_plutonium_242", Fluid.of("gtceu:plutonium_242", 144), "4x kubejs:stabilized_plutonium");
 
     solidify("stabilized_uranium", Fluid.of("gtceu:uranium", 144), "kubejs:stabilized_uranium");
     solidify("stabilized_uranium_235", Fluid.of("gtceu:uranium_235", 144), "2x kubejs:stabilized_uranium");
-    solidify("stabilized_uranium_235", Fluid.of("gtceu:uranium_233", 144), "2x kubejs:stabilized_uranium");
+    solidify("stabilized_uranium_233", Fluid.of("gtceu:uranium_233", 144), "2x kubejs:stabilized_uranium");
 
     solidify("stabilized_curium", Fluid.of("gtceu:curium", 144), "6x kubejs:stabilized_curium");
-    solidify("stabilized_curium", Fluid.of("gtceu:curium_243", 144), "6x kubejs:stabilized_curium");
-    solidify("stabilized_curium", Fluid.of("gtceu:curium_245", 144), "6x kubejs:stabilized_curium");
-    solidify("stabilized_curium", Fluid.of("gtceu:curium_247", 144), "6x kubejs:stabilized_curium");
+    solidify("stabilized_curium_243", Fluid.of("gtceu:curium_243", 144), "6x kubejs:stabilized_curium");
+    solidify("stabilized_curium_245", Fluid.of("gtceu:curium_245", 144), "6x kubejs:stabilized_curium");
+    solidify("stabilized_curium_247", Fluid.of("gtceu:curium_247", 144), "6x kubejs:stabilized_curium");
 
     solidify("stabilized_californium", Fluid.of("gtceu:californium", 144), "8x kubejs:stabilized_californium");
-    solidify("stabilized_californium", Fluid.of("gtceu:californium_249", 144), "8x kubejs:stabilized_californium");
-    solidify("stabilized_californium", Fluid.of("gtceu:californium_250", 144), "8x kubejs:stabilized_californium");
-    solidify("stabilized_californium", Fluid.of("gtceu:californium_252", 144), "8x kubejs:stabilized_californium");
+    solidify("stabilized_californium_249", Fluid.of("gtceu:californium_249", 144), "8x kubejs:stabilized_californium");
+    solidify("stabilized_californium_250", Fluid.of("gtceu:californium_250", 144), "8x kubejs:stabilized_californium");
+    solidify("stabilized_californium_252", Fluid.of("gtceu:californium_252", 144), "8x kubejs:stabilized_californium");
 
     solidify("stabilized_americium", Fluid.of("gtceu:americium", 144), "4x kubejs:stabilized_americium");
-    solidify("stabilized_americium", Fluid.of("gtceu:americium_241", 144), "4x kubejs:stabilized_americium");
-    solidify("stabilized_americium", Fluid.of("gtceu:americium_242", 144), "4x kubejs:stabilized_americium");
+    solidify("stabilized_americium_241", Fluid.of("gtceu:americium_241", 144), "4x kubejs:stabilized_americium");
+    solidify("stabilized_americium_242", Fluid.of("gtceu:americium_242", 144), "4x kubejs:stabilized_americium");
 
     solidify("solidified_argon", Fluid.of("gtceu:argon"), "kubejs:solidified_argon");
     solidify("solidified_chlorine", Fluid.of("gtceu:chlorine"), "kubejs:solidified_chlorine");

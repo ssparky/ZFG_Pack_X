@@ -5,19 +5,19 @@
 ServerEvents.recipes(event => {
 
     event.recipes.gtceu.assembler("neutron_emitter_plutonium")
-        .itemInputs("1x minecraft:bedrock", "1x gtceu:dense_rhodium_plated_palladium_plate",) // TODO: appropriate plate. Was: NC Heavy Plate
+        .itemInputs("1x kubejs:heavy_radiation_shielding_plate", "1x gtceu:dense_rhodium_plated_palladium_plate",)
         .inputFluids("gtceu:americium 432")
         .itemOutputs("kubejs:neutron_emitter")
         .duration(1600)
         .EUt(GTValues.VA[GTValues.UV])
     event.recipes.gtceu.assembler("neutron_emitter_curium")
-        .itemInputs("1x minecraft:bedrock", "1x gtceu:dense_rhodium_plated_palladium_plate",) // TODO: appropriate plate. Was: NC Heavy Plate
+        .itemInputs("1x kubejs:heavy_radiation_shielding_plate", "1x gtceu:dense_rhodium_plated_palladium_plate",)
         .inputFluids("gtceu:curium 288")
         .itemOutputs("kubejs:neutron_emitter")
         .duration(1000)
         .EUt(GTValues.VA[GTValues.UV])
     event.recipes.gtceu.assembler("neutron_emitter_californium")
-        .itemInputs("1x minecraft:bedrock", "1x gtceu:dense_rhodium_plated_palladium_plate",) // TODO: appropriate plate. Was: NC Heavy Plate
+        .itemInputs("1x kubejs:heavy_radiation_shielding_plate", "1x gtceu:dense_rhodium_plated_palladium_plate",)
         .inputFluids("gtceu:californium 144")
         .itemOutputs("kubejs:neutron_emitter")
         .duration(1200)
@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
         B: "kubejs:stabilized_berkelium",
         C: "kubejs:stabilized_californium",
         F: "gtceu:zpm_field_generator",
-        P: "minecraft:bedrock", // TODO: was NCN elite plate
+        P: "kubejs:elite_radiation_shielding_plate", 
         Z: "#gtceu:circuits/zpm"
     })
 
@@ -480,14 +480,14 @@ ServerEvents.recipes(event => {
         )
 
     // Shortcut recipes for thrusters
-    event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster") // TODO: was EIO prescient and water crystals
-        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x minecraft:bedrock", "2x minecraft:bedrock", "minecraft:bedrock", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
+    event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster")
+        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x kubejs:prescient_crystal", "2x kubejs:weather_crystal", "kubejs:vibrant_thruster", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
         .itemOutputs("kubejs:dark_soularium_thruster")
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu.assembler("kubejs:assembler_flux_thruster")
-        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "minecraft:bedrock", "minecraft:bedrock", "kubejs:glowstone_elevation_unit") // TODO: Replace bedrock with apprioriate replacements, was thermal parts
+        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "kubejs:resonant_thruster", "kubejs:reinforced_thruster", "kubejs:glowstone_elevation_unit") // TODO: Replace bedrock with apprioriate replacements, was thermal parts
         .itemOutputs("kubejs:fluxed_thruster")
         .duration(70)
         .EUt(GTValues.VA[GTValues.IV])

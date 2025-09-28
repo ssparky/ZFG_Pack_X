@@ -43,9 +43,9 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .stationResearch(b => b.researchStack(Item.of("gtceu:naquadah_reactor")).EUt(GTValues.VA[GTValues.UV]).CWUt(128, 512000))
 
-    // Refinery Recipe - TODO: replace bedrock with appr plate, was NCN elite plate
+    // Refinery Recipe
     event.recipes.gtceu.assembly_line("kubejs:naquadah_refinery")
-        .itemInputs("gtceu:large_mixer", "4x #gtceu:circuits/uv", "8x minecraft:bedrock", "4x gtceu:zpm_field_generator", "4x gtceu:uv_hermetic_casing", "2x kubejs:empty_fuel_rod", "2x gtceu:zpm_electric_pump", "2x gtceu:duranium_huge_fluid_pipe", "4x kubejs:cryotheum_coolant_unit", "16x gtceu:double_tritanium_plate")
+        .itemInputs("gtceu:large_mixer", "4x #gtceu:circuits/uv", "8x kubejs:elite_radiation_shielding_plate", "4x gtceu:zpm_field_generator", "4x gtceu:uv_hermetic_casing", "2x kubejs:empty_fuel_rod", "2x gtceu:zpm_electric_pump", "2x gtceu:duranium_huge_fluid_pipe", "4x kubejs:cryotheum_coolant_unit", "16x gtceu:double_tritanium_plate")
         .inputFluids("gtceu:omnium 1152", "gtceu:advanced_soldering_alloy 1152", "gtceu:polybenzimidazole 2304")
         .itemOutputs("gtceu:naquadah_refinery")
         .duration(1500)

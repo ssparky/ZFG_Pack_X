@@ -5,7 +5,7 @@ if (Platform.isLoaded("fluxnetworks")) {
     console.log("Flux Networks found, loading compat scripts...");
 
     ServerEvents.recipes(event => {
-        event.replaceInput({ id: "fluxnetworks:fluxconfigurator" }, "minecraft:obsidian", "enderio:infinity_rod");
+        event.replaceInput({ id: "fluxnetworks:fluxconfigurator" }, "minecraft:obsidian", "gtceu:ferroboron_rod");
 
         // Flux Dust
         event.recipes.gtceu.chemical_bath("fluxnetworks:flux_dust")
@@ -30,7 +30,7 @@ if (Platform.isLoaded("fluxnetworks")) {
         event.remove({ id: "fluxnetworks:fluxcore" })
         event.recipes.gtceu.assembler("fluxnetworks:fluxcore")
             .itemOutputs("2x fluxnetworks:flux_core")
-            .itemInputs("1x minecraft:ender_eye", "4x enderio:reinforced_obsidian_block", "4x fluxnetworks:flux_dust", "1x gtceu:luv_sensor", "1x gtceu:luv_emitter", "4x laserio:energy_overclocker_card_tier_8")
+            .itemInputs("1x minecraft:ender_eye", "4x gtceu:dense_obsidian_plate", "4x fluxnetworks:flux_dust", "1x gtceu:luv_sensor", "1x gtceu:luv_emitter", "4x gtceu:double_enderium_wire")
             .EUt(GTValues.VA[GTValues.LuV])
             .duration(200)
 
@@ -59,7 +59,7 @@ if (Platform.isLoaded("fluxnetworks")) {
         ], {
             R: "gtceu:enriched_naquadah_rod",
             G: "#forge:glass_panes",
-            C: "thermal:energy_cell",
+            C: "gtceu:lapotronic_energy_orb_cluster",
             B: "fluxnetworks:flux_block"
         }).id("fluxnetworks:basicfluxstorage")
         event.shaped("fluxnetworks:herculean_flux_storage", [

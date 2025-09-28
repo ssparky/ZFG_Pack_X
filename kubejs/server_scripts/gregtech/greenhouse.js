@@ -111,7 +111,6 @@ ServerEvents.recipes(event => {
 
     // //// Crops //////
     Greenhouse("minecraft", "sugar_cane", 640, ["32x minecraft:sugar_cane"], 0)
-    // TODO: Increase water requirement for Kelp
     Greenhouse("minecraft", "kelp", 640, ["32x minecraft:kelp"], 0)
     Greenhouse("minecraft", "bamboo", 640, ["48x minecraft:bamboo"], 0)
     Greenhouse("minecraft", "cactus", 640, ["32x minecraft:cactus"], 0)

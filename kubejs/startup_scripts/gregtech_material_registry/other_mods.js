@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet("magic")
         .cableProperties(32, 1, 0, true)
         .components("1x stone", "2x silver", "1x antimony")
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FRAME)
 
     event.create("lumium")
         .ingot().fluid()
@@ -302,7 +302,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("1x ferroboron", "1x lithium")
     event.create("rhodochrosite")
         .dust()
-        .color(0x9C3232).secondaryColor(0xBCA2A2)
+        .color(0xB975A6).secondaryColor(0x702740)
         .iconSet(GTMaterialIconSet.DULL)
         .components('1x manganese', '1x carbon', '3x oxygen')
 })

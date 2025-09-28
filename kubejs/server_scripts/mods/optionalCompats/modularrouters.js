@@ -21,10 +21,10 @@ if (Platform.isLoaded("modularrouters")) {
         ], {
             P: "gtceu:dark_steel_plate",
             C: "#gtceu:circuits/lv",
-            B: "enderio:dark_steel_bars"
+            B: "minecraft:iron_bars"
         })
 
-        event.replaceInput(/modularrouters:(sender|puller)_module_2(_x4)?/, "minecraft:ender_pearl", "enderio:pulsating_crystal")
+        event.replaceInput(/modularrouters:(sender|puller)_module_2(_x4)?/, "minecraft:ender_pearl", "gtceu:double_pulsating_alloy_plate")
 
         replaceMultiple("modularrouters:energy_output_module", [
             ["minecraft:gold_ingot", "gtceu:vibrant_alloy_single_wire"],
@@ -37,7 +37,7 @@ if (Platform.isLoaded("modularrouters")) {
         ])
 
         replaceMultiple("modularrouters:speed_upgrade", [
-            ["minecraft:gold_ingot", "thermal:redstone_servo"],
+            ["minecraft:gold_ingot", "kubejs:resonating_crystal"],
             ["minecraft:gold_nugget", "gtceu:electrum_plate"]
         ])
 
