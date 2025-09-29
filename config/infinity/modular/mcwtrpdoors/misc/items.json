@@ -1,0 +1,768 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:acacia_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:birch_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cherry_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:crimson_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:dark_oak_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:jungle_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mangrove_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:metal_full_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:metal_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:metal_warning_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:oak_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_bamboo"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_barred"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_beach"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_blossom"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_classic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_cottage"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_four_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_mystic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_paper"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_swamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_tropical"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:print_whispering"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_mystic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:spruce_whispering_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_bamboo_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_bark_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_barn_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_barred_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_barrel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_beach_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_blossom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_classic_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_cottage_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_four_panel_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_glass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_ranch_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_swamp_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_tropical_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:warped_whispering_trapdoor"
+		}
+	]
+}

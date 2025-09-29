@@ -1,0 +1,148 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:alluaudia_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:aspen_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:cedar_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:chalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:chalk_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:chalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:chert_ore_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:coconut_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:cypress_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:fir_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:ghaf_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:joshua_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin_brick_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:kaolin_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:larch_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:mahogany_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:maple_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:olive_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:palo_verde_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:redwood_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:saxaul_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:shiitake_mushroom_grow_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:stripped_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:stripped_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:succulent_horizontal_placement_override"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:succulent_vertical_placement_override"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:succulents"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:sugi_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:turnip_root_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:turnip_stem_grows_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:willow_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "natures_spirit:wisteria_logs"
+		}
+	]
+}

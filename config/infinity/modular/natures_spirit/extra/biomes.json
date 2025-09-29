@@ -1,0 +1,361 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:alpine_clearings"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:alpine_highlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:arid_highlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10923581,
+				"Name": "natures_spirit:arid_savanna"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:aspen_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 4952858,
+				"Name": "natures_spirit:bamboo_wetlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -5331926,
+				"Name": "natures_spirit:blooming_dunes"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 7386187,
+				"Name": "natures_spirit:blooming_highlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 8567370,
+				"Name": "natures_spirit:blooming_sugi_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 11448170,
+				"Name": "natures_spirit:boreal_taiga"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -7427801,
+				"Name": "natures_spirit:carnation_fields"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -7820512,
+				"Name": "natures_spirit:cedar_thicket"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 9940541,
+				"Name": "natures_spirit:chaparral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:coniferous_covert"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -7427801,
+				"Name": "natures_spirit:cypress_fields"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -5331926,
+				"Name": "natures_spirit:drylands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:dusty_slopes"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -9591957,
+				"Name": "natures_spirit:fir_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -10833630,
+				"Name": "natures_spirit:floral_ridges"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -8213474,
+				"Name": "natures_spirit:flowering_shrubland"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:golden_wilds"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:heather_fields"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -8082652,
+				"Name": "natures_spirit:lavender_fields"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -5331926,
+				"Name": "natures_spirit:lively_dunes"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:maple_woodlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:marigold_meadows"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 7181858,
+				"Name": "natures_spirit:marsh"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 9940541,
+				"Name": "natures_spirit:oak_savanna"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:prairie"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:red_peaks"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -9591211,
+				"Name": "natures_spirit:redwood_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10923581,
+				"Name": "natures_spirit:scorched_dunes"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 9745483,
+				"Name": "natures_spirit:shrubby_highlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -8213474,
+				"Name": "natures_spirit:shrubland"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:sleeted_slopes"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:snowcapped_red_peaks"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -10444421,
+				"Name": "natures_spirit:snowy_fir_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -10444421,
+				"Name": "natures_spirit:snowy_redwood_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -10178026,
+				"Name": "natures_spirit:sparse_tropical_woods"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -5331926,
+				"Name": "natures_spirit:stratified_desert"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 8567370,
+				"Name": "natures_spirit:sugi_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -13125111,
+				"Name": "natures_spirit:tropical_basin"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -8934609,
+				"Name": "natures_spirit:tropical_shores"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -13125111,
+				"Name": "natures_spirit:tropical_woods"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 10399058,
+				"Name": "natures_spirit:tundra"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 8567370,
+				"Name": "natures_spirit:white_cliffs"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 8567370,
+				"Name": "natures_spirit:windswept_sugi_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -10833630,
+				"Name": "natures_spirit:wisteria_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -6969052,
+				"Name": "natures_spirit:wooded_drylands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 9745483,
+				"Name": "natures_spirit:woody_highlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": -6837980,
+				"Name": "natures_spirit:xeric_plains"
+			}
+		}
+	]
+}

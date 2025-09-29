@@ -27,6 +27,23 @@ if (Platform.isLoaded("create")) {
         event.remove({ id: "gtceu:shaped/hv_kinetic_mixer" })
         event.remove({ id: "gtceu:shaped/ev_kinetic_mixer" })
 
+        // zinc chain
+        event.remove({ id: "create:crafting/appliances/chain_from_zinc"})
+        event.shaped("3x minecraft:chain", [
+            " A ",
+            "BA ",
+            " A ",
+        ], {
+            A: "gtceu:zinc_ring",
+            B: "#gtceu:tools/crafting_wrenches"
+        }).id("kubejs:gt_create_zinc_chain")
+        event.recipes.gtceu.assembler("chain_zinc")
+            .itemInputs("3x gtceu:zinc_ring")
+            .itemOutputs("3x minecraft:chain")
+            .circuit(1)
+            .duration(40)
+            .EUt(10)
+
         // belts made with rubber
         let kelpRecipes = [
             "create:crafting/kinetics/belt_connector",

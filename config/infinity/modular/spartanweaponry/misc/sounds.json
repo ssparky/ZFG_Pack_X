@@ -1,0 +1,84 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:boomerang_bounce"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:boomerang_fly"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:boomerang_hit_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:boomerang_hit_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:boomerang_throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:dagger_hit_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:hammer_slams_into_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:javelin_hit_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:javelin_hit_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:javelin_throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:oil_applied"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_knife_hit_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_knife_hit_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_knife_throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_weapon_hit_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_weapon_loyalty_return"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:throwing_weapon_throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:tomahawk_hit_ground"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:tomahawk_hit_mob"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:tomahawk_throw"
+		}
+	]
+}

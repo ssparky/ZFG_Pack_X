@@ -79,14 +79,14 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
 
-    // Quintessence Infuser
-    event.create("quintessence_infuser")
-        .category("multiblock")
-        .setEUIO("in")
-        .setMaxIOSize(2, 2, 1, 0)
-        .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
-        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_XP, FillDirection.DOWN_TO_UP)
-        .setSound(GTSoundEntries.CENTRIFUGE)
+    // // Quintessence Infuser
+    // event.create("quintessence_infuser")
+    //     .category("multiblock")
+    //     .setEUIO("in")
+    //     .setMaxIOSize(2, 2, 1, 0)
+    //     .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
+    //     .setProgressBar(MoniGuiTextures.PROGRESS_BAR_XP, FillDirection.DOWN_TO_UP)
+    //     .setSound(GTSoundEntries.CENTRIFUGE)
 
     // Rock Cycle Simulator
     event.create("rock_cycle_simulator")
@@ -409,12 +409,12 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .where("#", Predicates.any())
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/multiblock/implosion_compressor")
+            "gtceu:block/machines/soul_binder")
 
     // Quintessence Infuser
     event.create("quintessence_infuser", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeTypes("quintessence_infuser")
+        .recipeTypes("soul_binding")
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
         .appearanceBlock(() => Block.getBlock("kubejs:dark_soularium_casing"))
         .pattern(definition => FactoryBlockPattern.start()

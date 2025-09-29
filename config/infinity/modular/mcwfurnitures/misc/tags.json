@@ -1,0 +1,116 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:bookshelf_cupboard"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:bookshelf_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:covered_desk"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:cupboard_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:desk"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:double_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:double_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:double_wardrobe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:end_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:glass_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:large_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:lower_bookshelf_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:lower_triple_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:modern_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:modern_desk"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:modern_wardrobe"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:stool_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:striped_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:table"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:triple_drawer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfurnitures:wadrobe"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "kubejs:music.max_verstappen"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:music.mining_coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:music.placing_blocks"
+		}
+	]
+}

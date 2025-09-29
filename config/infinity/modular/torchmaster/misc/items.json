@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "torchmaster:dreadlamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "torchmaster:feral_flare_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "torchmaster:frozen_pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "torchmaster:megatorch"
+		}
+	]
+}

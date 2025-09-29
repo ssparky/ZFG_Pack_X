@@ -1,0 +1,322 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_awning"
+				},
+				{
+					"Name": "redeco:light_gray_awning"
+				},
+				{
+					"Name": "redeco:gray_awning"
+				},
+				{
+					"Name": "redeco:black_awning"
+				},
+				{
+					"Name": "redeco:brown_awning"
+				},
+				{
+					"Name": "redeco:red_awning"
+				},
+				{
+					"Name": "redeco:orange_awning"
+				},
+				{
+					"Name": "redeco:yellow_awning"
+				},
+				{
+					"Name": "redeco:lime_awning"
+				},
+				{
+					"Name": "redeco:green_awning"
+				},
+				{
+					"Name": "redeco:light_blue_awning"
+				},
+				{
+					"Name": "redeco:blue_awning"
+				},
+				{
+					"Name": "redeco:cyan_awning"
+				},
+				{
+					"Name": "redeco:purple_awning"
+				},
+				{
+					"Name": "redeco:magenta_awning"
+				},
+				{
+					"Name": "redeco:pink_awning"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_cushion"
+				},
+				{
+					"Name": "redeco:light_gray_cushion"
+				},
+				{
+					"Name": "redeco:gray_cushion"
+				},
+				{
+					"Name": "redeco:black_cushion"
+				},
+				{
+					"Name": "redeco:brown_cushion"
+				},
+				{
+					"Name": "redeco:red_cushion"
+				},
+				{
+					"Name": "redeco:orange_cushion"
+				},
+				{
+					"Name": "redeco:yellow_cushion"
+				},
+				{
+					"Name": "redeco:lime_cushion"
+				},
+				{
+					"Name": "redeco:green_cushion"
+				},
+				{
+					"Name": "redeco:light_blue_cushion"
+				},
+				{
+					"Name": "redeco:blue_cushion"
+				},
+				{
+					"Name": "redeco:cyan_cushion"
+				},
+				{
+					"Name": "redeco:purple_cushion"
+				},
+				{
+					"Name": "redeco:magenta_cushion"
+				},
+				{
+					"Name": "redeco:pink_cushion"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_lamp"
+				},
+				{
+					"Name": "redeco:light_gray_lamp"
+				},
+				{
+					"Name": "redeco:gray_lamp"
+				},
+				{
+					"Name": "redeco:black_lamp"
+				},
+				{
+					"Name": "redeco:brown_lamp"
+				},
+				{
+					"Name": "redeco:red_lamp"
+				},
+				{
+					"Name": "redeco:orange_lamp"
+				},
+				{
+					"Name": "redeco:yellow_lamp"
+				},
+				{
+					"Name": "redeco:lime_lamp"
+				},
+				{
+					"Name": "redeco:green_lamp"
+				},
+				{
+					"Name": "redeco:light_blue_lamp"
+				},
+				{
+					"Name": "redeco:blue_lamp"
+				},
+				{
+					"Name": "redeco:cyan_lamp"
+				},
+				{
+					"Name": "redeco:purple_lamp"
+				},
+				{
+					"Name": "redeco:magenta_lamp"
+				},
+				{
+					"Name": "redeco:pink_lamp"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_ottoman"
+				},
+				{
+					"Name": "redeco:light_gray_ottoman"
+				},
+				{
+					"Name": "redeco:gray_ottoman"
+				},
+				{
+					"Name": "redeco:black_ottoman"
+				},
+				{
+					"Name": "redeco:brown_ottoman"
+				},
+				{
+					"Name": "redeco:red_ottoman"
+				},
+				{
+					"Name": "redeco:orange_ottoman"
+				},
+				{
+					"Name": "redeco:yellow_ottoman"
+				},
+				{
+					"Name": "redeco:lime_ottoman"
+				},
+				{
+					"Name": "redeco:green_ottoman"
+				},
+				{
+					"Name": "redeco:light_blue_ottoman"
+				},
+				{
+					"Name": "redeco:blue_ottoman"
+				},
+				{
+					"Name": "redeco:cyan_ottoman"
+				},
+				{
+					"Name": "redeco:purple_ottoman"
+				},
+				{
+					"Name": "redeco:magenta_ottoman"
+				},
+				{
+					"Name": "redeco:pink_ottoman"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_pet_bed"
+				},
+				{
+					"Name": "redeco:light_gray_pet_bed"
+				},
+				{
+					"Name": "redeco:gray_pet_bed"
+				},
+				{
+					"Name": "redeco:black_pet_bed"
+				},
+				{
+					"Name": "redeco:brown_pet_bed"
+				},
+				{
+					"Name": "redeco:red_pet_bed"
+				},
+				{
+					"Name": "redeco:orange_pet_bed"
+				},
+				{
+					"Name": "redeco:yellow_pet_bed"
+				},
+				{
+					"Name": "redeco:lime_pet_bed"
+				},
+				{
+					"Name": "redeco:green_pet_bed"
+				},
+				{
+					"Name": "redeco:light_blue_pet_bed"
+				},
+				{
+					"Name": "redeco:blue_pet_bed"
+				},
+				{
+					"Name": "redeco:cyan_pet_bed"
+				},
+				{
+					"Name": "redeco:purple_pet_bed"
+				},
+				{
+					"Name": "redeco:magenta_pet_bed"
+				},
+				{
+					"Name": "redeco:pink_pet_bed"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "redeco:white_sofa"
+				},
+				{
+					"Name": "redeco:light_gray_sofa"
+				},
+				{
+					"Name": "redeco:gray_sofa"
+				},
+				{
+					"Name": "redeco:black_sofa"
+				},
+				{
+					"Name": "redeco:brown_sofa"
+				},
+				{
+					"Name": "redeco:red_sofa"
+				},
+				{
+					"Name": "redeco:orange_sofa"
+				},
+				{
+					"Name": "redeco:yellow_sofa"
+				},
+				{
+					"Name": "redeco:lime_sofa"
+				},
+				{
+					"Name": "redeco:green_sofa"
+				},
+				{
+					"Name": "redeco:light_blue_sofa"
+				},
+				{
+					"Name": "redeco:blue_sofa"
+				},
+				{
+					"Name": "redeco:cyan_sofa"
+				},
+				{
+					"Name": "redeco:purple_sofa"
+				},
+				{
+					"Name": "redeco:magenta_sofa"
+				},
+				{
+					"Name": "redeco:pink_sofa"
+				}
+			]
+		}
+	]
+}

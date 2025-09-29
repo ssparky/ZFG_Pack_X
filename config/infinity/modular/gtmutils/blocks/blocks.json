@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"float": true,
+				"laggy": true,
+				"Name": "gtmutils:pterb_machine",
+				"top": true,
+				"full": true
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"float": true,
+				"laggy": true,
+				"Name": "gtmutils:sterile_cleaning_maintenance_hatch",
+				"top": true,
+				"full": true
+			}
+		}
+	]
+}

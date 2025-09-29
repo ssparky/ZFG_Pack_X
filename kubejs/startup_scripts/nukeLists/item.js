@@ -59,6 +59,7 @@ global.itemNukeList = [
     "createdeco:zinc_sheet",
     "createdeco:zinc_coin",
     "createdeco:zinc_coinstack",
+    /^create:crushed_raw_.*/,
 
     // ExtendedAE
     "expatternprovider:silicon_block",
@@ -155,8 +156,38 @@ global.itemNukeList = [
     // TaCZ
     "tacz:gun_smith_table",
     "tacz:workbench_c",
-    "tacz:workbench_a"
+    "tacz:workbench_a",
 
+    // Spartan Weapony/Shields
+    /^spartanweaponry:constantan.*/,
+    /^spartanshields:constantan.*/,
+
+    // Curvy Pipes
+    /^curvy_pipes:.*_fluid.*/,
+    /^curvy_pipes:.*_item.*/,
+
+    // Artifacts we dont want
+    "moreartifacts:melody_plushie",
+    "moreartifacts:obsidian_skull",
+    "artifacts:everlasting_beef",
+    "artifacts:eternal_steak",
+    "relics:infinity_ham",
+    "moreartifacts:artifact_upgrade_smithing_template",
+    "moreartifacts:shadow_dust",
+    "moreartifacts:vanir_mask",
+    "moreartifacts:wooden_headgear",
+    "moreartifacts:golden_headgear",
+    "moreartifacts:netherite_headgear",
+
+    // Display delight having lazy programming
+    /^displaydelight:cd_.*/,
+    /^displaydelight:df_.*/,
+    /^displaydelight:pd_.*/,
+    /^displaydelight:od_.*/,
+    /^displaydelight:ad_.*/,
+    /^displaydelight:ctd_.*/,
+    /^displaydelight:lm_.*/,
+    /^displaydelight:fd_.*/,
 ];
 
 // Create Compat

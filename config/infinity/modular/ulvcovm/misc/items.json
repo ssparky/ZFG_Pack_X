@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_conveyor_module"
+		},
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_electric_motor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_electric_piston"
+		},
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_electric_pump"
+		},
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_fluid_regulator"
+		},
+		{
+			"weight": 1.0,
+			"key": "ulvcovm:ulv_robot_arm"
+		}
+	]
+}

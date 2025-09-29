@@ -1,0 +1,1692 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:acacia_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:amethyst_light_bulb"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:azalea_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:bamboo_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:birch_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:black_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blackstone_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:blue_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_mushroom_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:brown_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:calcite_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cherry_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cobbled_deepslate_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cobblestone_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_fungus_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:crimson_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:cyan_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dark_oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:deepslate_gravestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:deepslate_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:deepslate_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:dripleaf_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:fern_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:flowering_azalea_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:glow_ink_light_bulb"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:glowberry_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:glowstone_light_bulb"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:grass_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:gray_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:green_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jar"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:jungle_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_blue_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:light_gray_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:lime_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:magenta_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mangrove_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mossy_cobblestone_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:mud_brick_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:oak_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:orange_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:paper_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:paper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_petals_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:pink_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_acacia_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_acacia_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_acacia_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_bamboo_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_bamboo_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_bamboo_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_birch_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_birch_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_birch_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_cherry_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_cherry_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_cherry_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_crimson_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_crimson_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_crimson_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_dark_oak_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_dark_oak_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_dark_oak_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_jungle_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_jungle_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_jungle_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_mangrove_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_mangrove_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_mangrove_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_oak_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_oak_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_oak_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_spruce_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_spruce_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_spruce_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_warped_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_warped_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:polished_warped_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:purple_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_mushroom_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:red_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:sculk_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spruce_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:spyglass_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:stone_gravestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:stone_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:stone_stepping_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:trash_bin"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_cabinet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_cabinet_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_chair"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_coffee_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_display_case"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_drawer_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_drawers"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_fungus_terrarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_plank_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_plank_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_side_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_stool"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_sword_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:warped_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:white_upholstery"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_cushion"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_fluffy_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_ottoman"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_paper_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_pet_bed"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_sofa"
+		},
+		{
+			"weight": 1.0,
+			"key": "redeco:yellow_upholstery"
+		}
+	]
+}

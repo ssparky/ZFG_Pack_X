@@ -1,0 +1,1316 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_legacy_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:carpet_llama_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:ender_offset_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_blue_circuits"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_blue_framed_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_blue_wireframe"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_dotted_rusty_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_gold_framed_purple_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_gold_plated_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_grinder"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_ice_ice_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_metal_column"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_metalbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_old_vents"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_orange_white_caution_stripes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_purple_wireframe"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_rusty_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_segmented_rusty_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_slighly_rusty_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_vents"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_very_rusty_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_wireframe"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_yellow_black_caution_stripes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_cyan_screen"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_fabulously_wavy"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_gray_screen"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_me_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_me_controller_ae_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_mysterious_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_purple_me_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_rainbowliciously_wavy"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_bismuth"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_cells"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_crushed"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_embossed"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_gold_encrusted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_ornate_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_purple_space"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_simple"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_space"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_diamond_zelda"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_bismuth"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_cell"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_circular"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_cobble"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_gold_encrusted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_masonry"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_ornate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_ornate_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_smooth"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_tile"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_emerald_zelda"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_cobble"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_gold_encrusted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_masonry"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_shiny_tile"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_smooth"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_tile"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_wood_framed"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_lapis_zelda"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_arrayed_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_big_tile"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_braid"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_circular"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_cracked"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_cracked_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_dent"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_disordered_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_encased_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_french_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_french_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_jellybean"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_layers"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_mosaic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_ornate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_road"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_slanted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_small_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_small_disordered_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_small_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_twisted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_weathered_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gem_redstone_wide_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_checkered_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_colsole"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_dark_medium_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_dotted_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_fuzzy_screen"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_large_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_large_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_left_faced_arrows"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_medium_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_right_faced_arrows"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_roundel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_screen"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_small_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_vents"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_white_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_aluminum_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_bronze_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_cobalt_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_copper_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_electrum_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_gold_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_invar_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_iron_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_lead_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_nickel_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_platinum_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_silver_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_steel_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_tin_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_bolted"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_caution"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_egregious"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_shipping_crate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metal_uranium_thermal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_cables"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_caution_framed_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_engineering_pipes_0"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_engineering_pipes_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_engineering_pipes_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_engineering_pipes_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_exhaust_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_extremely_corroded_panels"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_extremely_rusted_panels"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_gears"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_glowing_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_grate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_industrial_relic"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_insulation"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_large_pipes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_large_rusty_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_make_shift_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_malfunction_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_massive_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_massive_hexagonal_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_megacell"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_old_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_pipes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_rusty_bolted_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_rusty_grate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_rusty_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_small_pipes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_still_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_sturdy"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_transparent_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_transparent_rusty_scaffold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_transparent_still_fan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_vent"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_black_scaled_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_black_strips"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_blue_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_dent"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_diagonal_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_disordered_metal_bits"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_disordered_purple_bits"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_metal_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_opening"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_purple_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_routes"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_rust"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_shiny_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_shiny_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian_small_uneven_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_legacy_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:wool_llama_yellow"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:ae_icon_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:huge_energy_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:huge_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:huge_item_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:large_energy_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:large_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:large_item_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:medium_energy_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:medium_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:medium_item_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:redstone_cable"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:small_energy_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:small_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:small_item_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:tiny_energy_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:tiny_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "curvy_pipes:tiny_item_pipe"
+		}
+	]
+}

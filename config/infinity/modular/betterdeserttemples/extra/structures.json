@@ -1,0 +1,42 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"creature": {
+						"bounding_box": "piece",
+						"spawns": [
+							{
+								"type": "minecraft:cat",
+								"weight": 100,
+								"minCount": 4,
+								"maxCount": 4
+							},
+							{
+								"type": "minecraft:rabbit",
+								"weight": 100,
+								"minCount": 4,
+								"maxCount": 4
+							}
+						]
+					},
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+							{
+								"type": "minecraft:husk",
+								"weight": 100,
+								"minCount": 10,
+								"maxCount": 32
+							}
+						]
+					}
+				},
+				"id": "betterdeserttemples:desert_temple"
+			}
+		}
+	]
+}

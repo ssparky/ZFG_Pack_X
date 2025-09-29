@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "missing_horse_armors:chainmail_horse_armor"
+		},
+		{
+			"weight": 1.0,
+			"key": "missing_horse_armors:netherite_horse_armor"
+		}
+	]
+}

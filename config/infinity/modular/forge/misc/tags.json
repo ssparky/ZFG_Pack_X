@@ -1,0 +1,5148 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "forge:andesite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:barrels"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:barrels/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:basalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:blackstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:budding"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:buds"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:calcite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:chests/ender"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:chests/trapped"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:chests/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:chorus_additionally_grows_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:clusters"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:cobblestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:cobblestone/deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:cobblestone/infested"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:cobblestone/mossy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:cobblestone/normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:concrete_powders"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:concretes"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:conductor"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:diorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:end_stone_ore_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:end_stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:enderman_place_on_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:endstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:fence_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:fence_gates/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:fences/nether_brick"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:fences/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/activated_netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/aetherium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/black_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/blue_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/cryococcus"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/cryolobus"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/crystal_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/eltz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/europium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hard_carbon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hastelloy_c_276"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hastelloy_x"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hsla_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hsse"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hssg"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/hsss"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/incoloy_ma_956"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/invar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/iridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/manyullyn"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/maraging_steel_300"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/microversium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/monium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/naquadah_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/neutronium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/polytetrafluoroethylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/ruridit"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/sculk_bioalloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/soul_infused"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/stainless_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/titanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/treated_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/tritanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/tungsten"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/tungsten_carbide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/tungsten_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/ultimet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/watertight_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:frames/wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/black"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/green"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/red"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/silica"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/tinted"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/white"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass/yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/black"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/green"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/red"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/white"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:glass_panes/yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:granite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:granite_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:gravel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:marble"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:mineable/hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:mineable/sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:mineable/wire_cutter"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:mineable/wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:needs_duranium_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:needs_netherite_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:needs_neutronium_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:needs_wood_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:netherrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_bearing_ground/deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_bearing_ground/netherrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_bearing_ground/stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_rates/dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_rates/singular"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ore_rates/sparse"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/almandine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/alunite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/anatase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/andradite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/anorthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/apatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/aquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/aragonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/argentite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/arsenopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/asbestos"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/azurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/barite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/basaltic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bastnasite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bauxite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bazzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bentonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/beryllium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bismite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/black_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/blue_topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/borax"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/bornite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/briartite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/brookite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cadmoindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/calcite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/calomel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/calorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/carnotite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cassiterite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cassiterite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cavansite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/celestine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/certus_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/chalcocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/chalcopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/chambersite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/chromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/chrysoberyl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/citrine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cobalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cobaltite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/coccinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/columbite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cooperite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cryolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/cuprorhodsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/darmstadtite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/datolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/magma"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/nether_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/oilsands"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dense/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/desh"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/diatomite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dilithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dulysite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/dzhalindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ekanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/electrotine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/euclase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ferberite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/fergusonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/fluorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/fluoroapatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/fullers_earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/gadolinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/galena"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/gallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/garnet_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/garnierite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/germanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/glauconite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/goethite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/granitic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/graphite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/green_sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/grossular"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/guyanaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/gypsum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/hawleyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/hematite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/heptasartorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/herderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/hexagonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/hubnerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ice_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ilmenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/indite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/iodargyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/iridosmine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/kaemanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/kolbeckite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/kyanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/labyrinthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/laurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lazurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/legrandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lepidolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lindgrenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/lorandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/madocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/magnesite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/malachite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/manganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/manganvesuvianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/melonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/merenskyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/mica"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/microcline"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/milarite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/mixite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/mohite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/moissanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/molybdenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/molybdenum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/monazite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/morganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/mottramite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/musgravite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/nambulite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/naquadah"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/neodymium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/nether_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/netherite_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/oilsands"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/olivine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/osmiridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ostrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/otavite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/palladium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pentlandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pezzottaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/phosphophyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/phosphosiderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pitchblende"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/platinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pollucite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/powellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/purpurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pyrochlore"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pyrolusite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/pyrope"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/quartzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/realgar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/red_beryl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/red_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/rheniite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/rhodplumsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/rock_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/rubellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/russellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/rutile"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/saltpeter"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/samarskite-yb"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/scheelite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/schizolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/selenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/snowchestite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/soapstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/sodalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/sperrylite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/spessartine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/sphalerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/spinel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/spodumene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/stibiotantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/stibnite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/stolzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/strontianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/suanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/taaffeite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/talc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tarapacaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/teallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/temagamite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tetrahedrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/thorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/thortveitite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/titanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/torbernite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tricalcium_phosphate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/triphyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/triplite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/trona"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tungstate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tungstite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/turquoise"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/tusionite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ulexite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/ullmannite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/umangite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/uraninite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/uvarovite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/vanadinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/vanadium_magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/vayrynenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/villiaumite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/vivianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/wakefieldite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/witherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/wodginite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/wolframite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/wulfenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/xanthoconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/xenotime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/xilingolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/yellow_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/yellow_limonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zavaritskite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zeolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zinc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zincite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zincochromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zircon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores/zoisite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/andesite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/basalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/blackstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/diorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/endstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/glacio"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/granite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/gravel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/marble"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/mars"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/mercury"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/moon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/netherrack"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/red_granite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/red_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/tuff"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:ores_in_ground/venus"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:pumpkins/carved"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:relocation_not_supported"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:sand/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:sand/red"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:sandstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:stained_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:stained_glass_panes"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/actinium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/activated_netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/advanced_soldering_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/aetherium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/almandine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/aluminum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/americium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/americium_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/americium_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/anatase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/andesite_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/andradite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/annealed_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/anorthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/antimony"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/apatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/aquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ardite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/battery_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bazzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/berkelium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/berkelium_248"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/beryllium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/beryllium_oxide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bismuth"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bismuth_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/black_bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/black_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/black_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/black_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/black_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/blue_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/blue_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/blue_topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bohrium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/borosilicate_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/brass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/brick"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/bronze"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/brookite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/californium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/californium_249"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/californium_250"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/californium_252"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/calomel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/calorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cardboard"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cavansite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/celestine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/certus_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/chambersite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/charcoal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/charged_certus_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/chromium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/chrysoberyl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/citrine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/clay"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cobalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cobalt_brass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/coke"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/concrete"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/conductive_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/copernicium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cryococcus"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cryolobus"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/crystal_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/crystaltine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/cupronickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/curium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/curium_243"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/curium_245"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/curium_247"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/damascus_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/darconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dark_soularium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dark_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/darmstadtium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/datolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/desh"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/diamatine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dilithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dragonsteel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dubnium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dulysite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/duranium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/dysprosium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/echo_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/einsteinium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/einsteinium_253"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/einsteinium_254"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ekanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/electrical_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/electrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/electrum_flux"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/eltz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/emeradic"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/end_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ender_eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ender_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ender_pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ender_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enderium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/energetic_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enhanced_ender_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enhanced_redstone_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enori"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enriched_naquadah"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/enriched_naquadah_trinium_europium_duranide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/epoxy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/erbium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/euclase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/europium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ferberite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/fermium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/fermium_255"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ferroboron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/flerovium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/flint"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/fluorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/fluoroapatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/flux_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/gadolinium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/gallium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/gallium_arsenide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/germanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/glowstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/granite_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/graphene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/green_sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/grossular"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hafnium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hard_carbon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hassium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hastelloy_c_276"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hastelloy_x"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/herderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hexagonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hsla_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hsse"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hssg"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hsss"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/hyperdegenerate_darconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/impure_eltic"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/incoloy_ma_956"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/indium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/indium_gallium_phosphide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/indium_tin_barium_titanium_cuprate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/invar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/iridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/kanthal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/kapton_k"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lawrencium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lazurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/legrandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lindgrenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lithium_niobate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/livermorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/living_soldering_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/luminessence"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lumium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/lutetium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnalium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnesium_diboride"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnetic_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnetic_neodymium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnetic_samarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnetic_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/magnetic_terbium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/malachite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/manganese"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/manganese_phosphide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/manganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/manganvesuvianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/manyullyn"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/maraging_steel_300"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/marble"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/meitnerium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/melodium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/mendelevium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/mercury_barium_calcium_cuprate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/meta_null"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/microversium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/milarite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/mixite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/moissanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/molybdenum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/molybdenum_disilicide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/monazite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/monium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/morganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/moscovium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/musgravite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/mythril"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nambulite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/naquadah"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/naquadah_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/naquadria"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/necrosiderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/neodymium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/neptunium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/neptunium_236"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/neptunium_palladium_aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nether_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nether_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/neutronium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nichrome"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nickel_zinc_ferrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nihonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/niobium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/niobium_nitride"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/niobium_titanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/nobelium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/olivine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/omnium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/osmiridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/osmium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ostrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/otavite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/palis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/palladium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/pezzottaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/phosphophyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/phosphosiderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/platinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/plutonium_238"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/plutonium_241"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/plutonium_242"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyacrylonitrile"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polybenzimidazole"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polycaprolactam"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyether_ether_ketone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyethyl_cyanoacrylate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyethylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyphenylene_sulfide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polypropylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polytetrafluoroethylene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyvinyl_butyral"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/polyvinyl_chloride"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/potin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/prismalium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/promethium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/protactinium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/pulsating_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/pyrope"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/quartzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_almandine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_alunite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_anatase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_andradite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_anorthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_apatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_aquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_aragonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_argentite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_arsenopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_asbestos"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_azurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_barite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_basaltic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bastnasite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bauxite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bazzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bentonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_beryllium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bismite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_black_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_blue_topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_borax"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_bornite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_briartite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_brookite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cadmoindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_calcite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_calomel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_calorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_carnotite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cassiterite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cassiterite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cavansite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_celestine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_certus_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_chalcocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_chalcopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_chambersite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_chromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_chrysoberyl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_citrine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cobalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cobaltite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_coccinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_columbite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cooperite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cryolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_cuprorhodsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_darmstadtite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_datolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_desh"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_diatomite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_dilithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_dulysite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_dzhalindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ekanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_electrotine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_euclase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ferberite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_fergusonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_fluorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_fluoroapatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_fullers_earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_gadolinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_galena"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_gallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_garnet_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_garnierite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_germanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_glauconite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_goethite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_granitic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_graphite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_green_sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_grossular"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_guyanaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_gypsum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_hawleyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_hematite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_heptasartorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_herderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_hexagonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_hubnerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ilmenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_indite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_iodargyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_iridosmine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_kaemanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_kolbeckite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_kyanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_labyrinthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_laurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lazurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_legrandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lepidolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lindgrenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_lorandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_madocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_magnesite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_malachite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_manganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_manganvesuvianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_melonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_merenskyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_mica"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_microcline"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_milarite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_mixite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_mohite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_moissanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_molybdenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_molybdenum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_monazite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_morganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_mottramite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_musgravite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_nambulite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_naquadah"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_neodymium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_nether_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_oilsands"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_olivine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_osmiridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ostrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_otavite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_palladium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pentlandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pezzottaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_phosphophyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_phosphosiderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pitchblende"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_platinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pollucite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_powellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_purpurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pyrochlore"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pyrolusite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_pyrope"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_quartzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_realgar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_red_beryl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_red_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_rheniite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_rhodplumsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_rock_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_rubellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_russellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_rutile"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_saltpeter"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_samarskite-yb"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_scheelite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_schizolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_selenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_snowchestite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_soapstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_sodalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_sperrylite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_spessartine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_sphalerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_spinel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_spodumene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_stibiotantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_stibnite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_stolzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_strontianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_suanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_taaffeite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_talc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tarapacaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_teallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_temagamite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tetrahedrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_thorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_thortveitite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_titanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_torbernite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tricalcium_phosphate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_triphyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_triplite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_trona"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tungstate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tungstite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_turquoise"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_tusionite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ulexite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_ullmannite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_umangite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_uraninite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_uvarovite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_vanadinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_vanadium_magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_vayrynenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_villiaumite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_vivianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_wakefieldite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_witherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_wodginite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_wolframite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_wulfenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_xanthoconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_xenotime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_xilingolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_yellow_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_yellow_limonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zavaritskite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zeolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zinc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zincite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zincochromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zircon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/raw_zoisite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/realgar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/red_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/red_beryl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/red_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/red_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/redstone_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/reinforced_epoxy_resin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/restonia"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rhenium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rhodium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rhodium_plated_palladium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rock_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/roentgenium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rose_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rtm_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rubellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ruridit"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ruthenium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ruthenium_trinium_americium_neutronate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rutherfordium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/rutile"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/samarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/samarium_iron_arsenic_oxide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/scandium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/schizolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sculk"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sculk_bioalloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/seaborgium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/selenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/shellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/signalum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/silicon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/silicone_rubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sky_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sodalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sodium_lead_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/soldering_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/soul_infused"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/soularium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sperrylite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/spessartine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/spinel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/stainless_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/stellarium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/stellite_100"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sterling_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/stibiotantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/stolzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/strontianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/styrene_butadiene_rubber"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/sugar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/taaffeite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tantalum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tantalum_carbide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/technetium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tellurium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/terbium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/thallium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/the_ultimate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/thorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/thorium_232"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/thulium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tin_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/titanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/titanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/titanium_carbide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/titanium_tungsten_carbide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/torbernite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tough_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/transcendental_matrix"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/trinaquadalloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/trinium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/triphyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/triplite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tritanium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tungsten"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tungsten_carbide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tungsten_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/turquoise"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/tusionite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/twinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ulexite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ultimet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uranium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uranium_233"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uranium_235"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uranium_rhodium_dinaquadide"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uranium_triplatinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/uvarovite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vanadinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vanadium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vanadium_gallium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vanadium_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vayrynenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vibrant_alloy"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/villiaumite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/vivianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/void"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/watertight_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/wax"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/witherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/wrought_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/xanthoconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/xenotime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/yellow_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/ytterbium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/yttrium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/yttrium_barium_cuprate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/zeron_100"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/zinc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/zircon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/zirconium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:storage_blocks/zoisite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:stripped_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:stripped_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/almandine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/aluminium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/alunite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/anatase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/andradite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/anorthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/apatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/aquamarine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/aragonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/argentite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/arsenopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/asbestos"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/azurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/barite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/basaltic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bastnasite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bauxite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bazzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bentonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/beryllium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bismite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/black_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/blue_topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/borax"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/bornite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/briartite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/brookite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cadmoindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/calcite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/calomel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/carnotite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cassiterite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cassiterite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cavansite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/celestine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/certus_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/chalcocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/chalcopyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/chambersite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/chromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/chrysoberyl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cinnabar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/citrine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cobalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cobaltite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/coccinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/columbite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cooperite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cryolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/cuprorhodsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/darmstadtite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/datolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/diatomite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/dilithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/dulysite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/dzhalindite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ekanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/electrotine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/euclase"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ferberite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/fergusonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/fluorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/fluoroapatite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/fullers_earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/gadolinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/galena"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/gallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/garnet_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/garnierite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/germanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/glauconite_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/goethite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/granitic_mineral_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/graphite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/green_sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/grossular"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/guyanaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/gypsum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/hawleyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/hematite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/heptasartorite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/herderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/hexagonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/hubnerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ilmenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/indite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/iodargyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/iridosmine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/kaemanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/kolbeckite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/kyanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/labyrinthite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/laurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lazurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/legrandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lepidolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lindgrenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lithium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/lorandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/madocite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/magnesite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/malachite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/manganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/manganvesuvianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/melonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/merenskyite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/mica"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/microcline"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/milarite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/mixite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/mohite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/moissanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/molybdenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/molybdenum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/monazite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/morganite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/mottramite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/musgravite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/nambulite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/naquadah"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/neodymium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/nether_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/netherite_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/nickel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/oilsands"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/olivine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/osmiridium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/otavite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/palladium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pentlandite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pezzottaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/phosphophyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/phosphosiderite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pitchblende"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/platinum"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pollucite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/powellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/purpurite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pyrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pyrochlore"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pyrolusite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/pyrope"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/quartzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/realgar"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/red_beryl"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/red_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/rheniite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/rhodplumsite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/rock_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/rubellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/russellite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/rutile"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/saltpeter"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/samarskite-yb"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/scheelite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/schizolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/selenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/snowchestite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/soapstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/sodalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/sperrylite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/spessartine"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/sphalerite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/spinel"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/spodumene"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/stibiotantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/stibnite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/stolzite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/strontianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/suanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/taaffeite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/talc"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tantalite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tarapacaite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/teallite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/temagamite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tetrahedrite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/thorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/thortveitite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/titanite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/topaz"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/torbernite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tricalcium_phosphate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/triphyllite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/triplite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/trona"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tungstate"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tungstite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/turquoise"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/tusionite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ulexite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/ullmannite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/umangite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/uraninite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/uvarovite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/vanadinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/vanadium_magnetite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/vayrynenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/villiaumite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/vivianite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/wakefieldite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/witherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/wodginite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/wolframite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/wulfenite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/xanthoconite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/xenotime"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/xilingolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/yellow_garnet"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/yellow_limonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zavaritskite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zeolite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zincite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zincochromite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zircon"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:surface_rocks/zoisite"
+		},
+		{
+			"weight": 1.0,
+			"key": "forge:treated_wood"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:antimatter_fuel",
+				"Name": "kubejs:antimatter_fuel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:bosonic_antimatter",
+				"Name": "kubejs:bosonic_antimatter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:fermionic_antimatter",
+				"Name": "kubejs:fermionic_antimatter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:hadronic_antimatter",
+				"Name": "kubejs:hadronic_antimatter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:liquid_ender",
+				"Name": "kubejs:liquid_ender"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:molten_aerotheum",
+				"Name": "kubejs:molten_aerotheum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:molten_cryotheum",
+				"Name": "kubejs:molten_cryotheum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:molten_petrotheum",
+				"Name": "kubejs:molten_petrotheum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:molten_pyrotheum",
+				"Name": "kubejs:molten_pyrotheum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:refined_bosonic_antimatter",
+				"Name": "kubejs:refined_bosonic_antimatter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:refined_fermionic_antimatter",
+				"Name": "kubejs:refined_fermionic_antimatter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "kubejs:refined_hadronic_antimatter",
+				"Name": "kubejs:refined_hadronic_antimatter"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "interiors:chairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "interiors:floor_chairs"
+		}
+	]
+}

@@ -72,21 +72,7 @@ ServerEvents.recipes(event => {
         .duration(240)
         .EUt(GTValues.VA[GTValues.HV])
 
-    // Polymerization recipe
-    event.recipes.gtceu.chemical_reactor("polyethyl_cyanoacrylate")
-        .chancedFluidInput("gtceu:dimethyl_sulfoxide 200", 100, 0)
-        .inputFluids("gtceu:ethyl_cyanoacrylate 144", "minecraft:water 1000")
-        .outputFluids("gtceu:polyethyl_cyanoacrylate 144")
-        .duration(300)
-        .EUt(GTValues.VA[GTValues.LuV])
-
-    // Polymerization recipe with distilled water
-    event.recipes.gtceu.chemical_reactor("polyethyl_cyanoacrylate_distilled")
-        .chancedFluidInput("gtceu:dimethyl_sulfoxide 200", 100, 0)
-        .inputFluids("gtceu:ethyl_cyanoacrylate 96", "gtceu:distilled_water 1000")
-        .outputFluids("gtceu:polyethyl_cyanoacrylate 144")
-        .duration(300)
-        .EUt(GTValues.VA[GTValues.LuV])
+    // Polymerization moved to polymerizer.js!
 
     // Dimethyl sulfoxide (catalyst) chain below
     event.recipes.gtceu.chemical_reactor("dimethyl_sulfoxide")

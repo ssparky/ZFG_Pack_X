@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:balconies"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:platforms"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:railings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:terrace_stairs"
+		}
+	]
+}

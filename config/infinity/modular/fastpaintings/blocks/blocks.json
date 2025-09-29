@@ -1,0 +1,14 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"float": false,
+				"laggy": true,
+				"Name": "fastpaintings:painting",
+				"top": false,
+				"full": false
+			}
+		}
+	]
+}

@@ -1,0 +1,163 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwwindows:white_curtain"
+				},
+				{
+					"Name": "mcwwindows:light_gray_curtain"
+				},
+				{
+					"Name": "mcwwindows:gray_curtain"
+				},
+				{
+					"Name": "mcwwindows:black_curtain"
+				},
+				{
+					"Name": "mcwwindows:brown_curtain"
+				},
+				{
+					"Name": "mcwwindows:red_curtain"
+				},
+				{
+					"Name": "mcwwindows:orange_curtain"
+				},
+				{
+					"Name": "mcwwindows:yellow_curtain"
+				},
+				{
+					"Name": "mcwwindows:lime_curtain"
+				},
+				{
+					"Name": "mcwwindows:green_curtain"
+				},
+				{
+					"Name": "mcwwindows:light_blue_curtain"
+				},
+				{
+					"Name": "mcwwindows:blue_curtain"
+				},
+				{
+					"Name": "mcwwindows:cyan_curtain"
+				},
+				{
+					"Name": "mcwwindows:purple_curtain"
+				},
+				{
+					"Name": "mcwwindows:magenta_curtain"
+				},
+				{
+					"Name": "mcwwindows:pink_curtain"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwwindows:white_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:light_gray_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:gray_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:black_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:brown_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:red_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:orange_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:yellow_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:lime_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:green_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:light_blue_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:blue_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:cyan_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:purple_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:magenta_mosaic_glass"
+				},
+				{
+					"Name": "mcwwindows:pink_mosaic_glass"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwwindows:white_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:light_gray_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:gray_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:black_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:brown_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:red_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:orange_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:yellow_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:lime_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:green_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:light_blue_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:blue_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:cyan_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:purple_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:magenta_mosaic_glass_pane"
+				},
+				{
+					"Name": "mcwwindows:pink_mosaic_glass_pane"
+				}
+			]
+		}
+	]
+}

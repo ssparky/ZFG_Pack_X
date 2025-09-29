@@ -57,27 +57,6 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("water", 1000))
         .duration(100).EUt(30)
 
-    event.recipes.gtceu.large_chemical_reactor("kubejs:polytetrafluoroethylene")
-        .inputFluids(Fluid.of("gtceu:tetrafluoroethylene", 2160), Fluid.of("gtceu:oxygen", 7500))
-        .itemInputs("#forge:dusts/phthalic_anhydride")
-        .circuit(7)
-        .outputFluids(Fluid.of("gtceu:polytetrafluoroethylene", 4320))
-        .duration(800).EUt(30)
-
-    event.recipes.gtceu.large_chemical_reactor("kubejs:polyvinyl_chloride")
-        .inputFluids(Fluid.of("gtceu:vinyl_chloride", 2160), Fluid.of("gtceu:oxygen", 7500))
-        .itemInputs("#forge:dusts/phthalic_anhydride")
-        .circuit(7)
-        .outputFluids(Fluid.of("gtceu:polyvinyl_chloride", 4320))
-        .duration(800).EUt(30)
-
-    event.recipes.gtceu.large_chemical_reactor("kubejs:polyethylene")
-        .inputFluids(Fluid.of("gtceu:ethylene", 2160), Fluid.of("gtceu:oxygen", 7500))
-        .itemInputs("#forge:dusts/phthalic_anhydride")
-        .circuit(7)
-        .outputFluids(Fluid.of("gtceu:polyethylene", 4320))
-        .duration(800).EUt(30)
-
     event.recipes.gtceu.large_chemical_reactor("kubejs:polyvinyl_acetate")
         .inputFluids(Fluid.of("gtceu:vinyl_acetate", 2160), Fluid.of("gtceu:oxygen", 7500))
         .itemInputs("#forge:dusts/phthalic_anhydride")

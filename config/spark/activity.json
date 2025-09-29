@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ssparky33",
+      "uniqueId": "5fd9ab59-4033-4baa-ab8b-92e1fe3b415c"
+    },
+    "time": 1759168174404,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/aqDNotb2zs"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ssparky33",
+      "uniqueId": "5fd9ab59-4033-4baa-ab8b-92e1fe3b415c"
+    },
+    "time": 1759162250736,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nTsv8I45UU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ssparky33",
+      "uniqueId": "5fd9ab59-4033-4baa-ab8b-92e1fe3b415c"
+    },
+    "time": 1759089992451,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vXpPHnc4MD"
+    }
+  }
+]

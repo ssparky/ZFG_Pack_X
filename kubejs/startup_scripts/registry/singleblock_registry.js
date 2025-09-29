@@ -18,15 +18,15 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("soul_binding")
         .category("binding")
         .setEUIO("in")
-        .setMaxIOSize(3, 1, 3, 1)
+        .setMaxIOSize(2, 2, 1, 0)
         .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
-        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
-        .setSound(GTSoundEntries.ELECTROLYZER)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_XP, FillDirection.DOWN_TO_UP)
+        .setSound(GTSoundEntries.CENTRIFUGE)
 
     event.create("polymerization")
         .category("polymerizing")
         .setEUIO("in")
-        .setMaxIOSize(2, 2, 2, 2)
+        .setMaxIOSize(3, 3, 3, 3)
         .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
         .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
@@ -49,7 +49,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             builder
                 .langValue(`${GTValues.VLVH[tier]} Soul Binder`)
                 .recipeType("soul_binding")
-                .workableTieredHullModel("gtceu:block/machines/reconstructor")
+                .workableTieredHullModel("gtceu:block/machines/soul_binder")
         )
 
     event.create("polymerization_chamber", "simple")
@@ -58,7 +58,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             builder
                 .langValue(`${GTValues.VLVH[tier]} Polymerization Chamber`)
                 .recipeType("polymerization")
-                .workableTieredHullModel("gtceu:block/machines/reconstructor")
+                .workableTieredHullModel("gtceu:block/machines/polymerizer")
         )
 })
 

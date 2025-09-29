@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "monilabs:crystal_matrix",
+				"Name": "minecraft:air"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "monilabs:eltz",
+				"Name": "minecraft:air"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "monilabs:sculk_bioalloy",
+				"Name": "minecraft:air"
+			}
+		}
+	]
+}

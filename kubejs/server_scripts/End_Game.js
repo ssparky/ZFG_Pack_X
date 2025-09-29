@@ -468,15 +468,15 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.recipes.gtceu.assembly_line("causality_exempt_monic_plating")
-        .itemInputs("gtceu:double_monium_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", "kubejs:universe_resistant_neutronium_heavy_plating", "kubejs:elementally_infused_omnic_matrix_heavy_plating", "kubejs:dimensionally_stabilized_infinity_heavy_plating", "gtceu:double_monium_plate")
+        .itemInputs("gtceu:double_monium_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", "kubejs:universe_resistant_neutronium_heavy_plating", "kubejs:elementally_infused_omnic_matrix_heavy_plating", "kubejs:dimensionally_stabilized_infinity_heavy_plating", "gtceu:double_transcendental_matrix_plate")
         .inputFluids("gtceu:living_soldering_alloy 2880")
         .itemOutputs("kubejs:causality_exempt_monic_heavy_plating")
         .duration(400)
         .EUt(GTValues.VA[GTValues.UIV])
         .stationResearch(b => b
-            .researchStack("kubejs:causality_exempt_monic_heavy_plating")
+            .researchStack("gtceu:monium_plate")
             .CWUt(96, 57600)
-            .EUt(GTValues.VA[GTValues.UEV])
+            .EUt(GTValues.VA[GTValues.UXV])
         )
 
     // Shortcut recipes for thrusters

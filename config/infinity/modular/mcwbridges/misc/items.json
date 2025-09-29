@@ -1,0 +1,588 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:acacia_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:acacia_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:acacia_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:acacia_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:acacia_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:andesite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:andesite_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:andesite_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:asian_red_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:asian_red_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:asian_red_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_andesite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_blackstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_cobblestone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_deepslate_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_deepslate_tiles_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_diorite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_end_stone_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_granite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_mossy_cobblestone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_mossy_stone_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_mud_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_nether_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_orange_sandstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_prismarine_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_sandstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:balustrade_stone_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:birch_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:birch_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:birch_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:birch_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:birch_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:blackstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:blackstone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:blackstone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:brick_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:brick_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:brick_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bridge_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bridge_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cherry_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cherry_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cherry_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cherry_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cherry_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cobblestone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cobblestone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:cobblestone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:crimson_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:crimson_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:crimson_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:crimson_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:crimson_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dark_oak_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dark_oak_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dark_oak_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dark_oak_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dark_oak_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_brick_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_brick_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_brick_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_tile_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_tile_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:deepslate_tile_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:diorite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:diorite_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:diorite_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dry_bamboo_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dry_bamboo_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:dry_bamboo_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:end_stone_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:end_stone_bricks_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:end_stone_bricks_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:glass_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:glass_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:glass_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:granite_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:granite_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:granite_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:iron_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:iron_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:iron_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:jungle_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:jungle_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:jungle_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:jungle_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:jungle_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mangrove_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mangrove_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mangrove_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mangrove_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mangrove_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_cobblestone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_cobblestone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_cobblestone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_stone_brick_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_stone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mossy_stone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mud_brick_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mud_brick_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:mud_brick_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:nether_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:nether_bricks_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:nether_bricks_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:oak_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:oak_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:oak_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:oak_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:oak_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:orange_sandstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:pliers"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:prismarine_bricks_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:prismarine_bricks_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:prismarine_bricks_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:red_sandstone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:red_sandstone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_acacia_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_birch_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_cherry_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_crimson_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_dark_oak_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_jungle_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_mangrove_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_oak_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_spruce_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_warped_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:sandstone_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:sandstone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:sandstone_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:spruce_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:spruce_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:spruce_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:spruce_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:spruce_rope_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_brick_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_brick_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:warped_bridge_pier"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:warped_log_bridge_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:warped_log_bridge_stair"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:warped_rail_bridge"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:warped_rope_bridge_stair"
+		}
+	]
+}

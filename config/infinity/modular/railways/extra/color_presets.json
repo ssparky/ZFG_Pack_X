@@ -1,0 +1,746 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_gray_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:gray_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:black_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:brown_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:red_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:orange_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:yellow_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:lime_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:green_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_blue_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:blue_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:cyan_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:purple_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:magenta_brass_wrapped_locometal"
+				},
+				{
+					"Name": "railways:pink_brass_wrapped_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_gray_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:gray_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:black_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:brown_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:red_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:orange_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:yellow_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:lime_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:green_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_blue_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:blue_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:cyan_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:purple_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:magenta_brass_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:pink_brass_wrapped_locometal_boiler"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_gray_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:gray_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:black_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:brown_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:red_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:orange_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:yellow_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:lime_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:green_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_blue_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:blue_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:cyan_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:purple_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:magenta_copper_wrapped_locometal"
+				},
+				{
+					"Name": "railways:pink_copper_wrapped_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_gray_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:gray_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:black_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:brown_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:red_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:orange_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:yellow_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:lime_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:green_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_blue_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:blue_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:cyan_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:purple_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:magenta_copper_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:pink_copper_wrapped_locometal_boiler"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:light_gray_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:gray_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:black_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:brown_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:red_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:orange_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:yellow_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:lime_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:green_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:light_blue_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:blue_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:cyan_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:purple_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:magenta_flat_riveted_locometal"
+				},
+				{
+					"Name": "railways:pink_flat_riveted_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:light_gray_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:gray_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:black_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:brown_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:red_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:orange_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:yellow_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:lime_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:green_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:light_blue_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:blue_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:cyan_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:purple_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:magenta_flat_slashed_locometal"
+				},
+				{
+					"Name": "railways:pink_flat_slashed_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_gray_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:gray_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:black_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:brown_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:red_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:orange_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:yellow_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:lime_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:green_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:light_blue_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:blue_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:cyan_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:purple_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:magenta_iron_wrapped_locometal"
+				},
+				{
+					"Name": "railways:pink_iron_wrapped_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_gray_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:gray_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:black_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:brown_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:red_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:orange_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:yellow_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:lime_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:green_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_blue_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:blue_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:cyan_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:purple_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:magenta_iron_wrapped_locometal_boiler"
+				},
+				{
+					"Name": "railways:pink_iron_wrapped_locometal_boiler"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_gray_locometal_boiler"
+				},
+				{
+					"Name": "railways:gray_locometal_boiler"
+				},
+				{
+					"Name": "railways:black_locometal_boiler"
+				},
+				{
+					"Name": "railways:brown_locometal_boiler"
+				},
+				{
+					"Name": "railways:red_locometal_boiler"
+				},
+				{
+					"Name": "railways:orange_locometal_boiler"
+				},
+				{
+					"Name": "railways:yellow_locometal_boiler"
+				},
+				{
+					"Name": "railways:lime_locometal_boiler"
+				},
+				{
+					"Name": "railways:green_locometal_boiler"
+				},
+				{
+					"Name": "railways:light_blue_locometal_boiler"
+				},
+				{
+					"Name": "railways:blue_locometal_boiler"
+				},
+				{
+					"Name": "railways:cyan_locometal_boiler"
+				},
+				{
+					"Name": "railways:purple_locometal_boiler"
+				},
+				{
+					"Name": "railways:magenta_locometal_boiler"
+				},
+				{
+					"Name": "railways:pink_locometal_boiler"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_locometal_pillar"
+				},
+				{
+					"Name": "railways:light_gray_locometal_pillar"
+				},
+				{
+					"Name": "railways:gray_locometal_pillar"
+				},
+				{
+					"Name": "railways:black_locometal_pillar"
+				},
+				{
+					"Name": "railways:brown_locometal_pillar"
+				},
+				{
+					"Name": "railways:red_locometal_pillar"
+				},
+				{
+					"Name": "railways:orange_locometal_pillar"
+				},
+				{
+					"Name": "railways:yellow_locometal_pillar"
+				},
+				{
+					"Name": "railways:lime_locometal_pillar"
+				},
+				{
+					"Name": "railways:green_locometal_pillar"
+				},
+				{
+					"Name": "railways:light_blue_locometal_pillar"
+				},
+				{
+					"Name": "railways:blue_locometal_pillar"
+				},
+				{
+					"Name": "railways:cyan_locometal_pillar"
+				},
+				{
+					"Name": "railways:purple_locometal_pillar"
+				},
+				{
+					"Name": "railways:magenta_locometal_pillar"
+				},
+				{
+					"Name": "railways:pink_locometal_pillar"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_locometal_smokebox"
+				},
+				{
+					"Name": "railways:light_gray_locometal_smokebox"
+				},
+				{
+					"Name": "railways:gray_locometal_smokebox"
+				},
+				{
+					"Name": "railways:black_locometal_smokebox"
+				},
+				{
+					"Name": "railways:brown_locometal_smokebox"
+				},
+				{
+					"Name": "railways:red_locometal_smokebox"
+				},
+				{
+					"Name": "railways:orange_locometal_smokebox"
+				},
+				{
+					"Name": "railways:yellow_locometal_smokebox"
+				},
+				{
+					"Name": "railways:lime_locometal_smokebox"
+				},
+				{
+					"Name": "railways:green_locometal_smokebox"
+				},
+				{
+					"Name": "railways:light_blue_locometal_smokebox"
+				},
+				{
+					"Name": "railways:blue_locometal_smokebox"
+				},
+				{
+					"Name": "railways:cyan_locometal_smokebox"
+				},
+				{
+					"Name": "railways:purple_locometal_smokebox"
+				},
+				{
+					"Name": "railways:magenta_locometal_smokebox"
+				},
+				{
+					"Name": "railways:pink_locometal_smokebox"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_plated_locometal"
+				},
+				{
+					"Name": "railways:light_gray_plated_locometal"
+				},
+				{
+					"Name": "railways:gray_plated_locometal"
+				},
+				{
+					"Name": "railways:black_plated_locometal"
+				},
+				{
+					"Name": "railways:brown_plated_locometal"
+				},
+				{
+					"Name": "railways:red_plated_locometal"
+				},
+				{
+					"Name": "railways:orange_plated_locometal"
+				},
+				{
+					"Name": "railways:yellow_plated_locometal"
+				},
+				{
+					"Name": "railways:lime_plated_locometal"
+				},
+				{
+					"Name": "railways:green_plated_locometal"
+				},
+				{
+					"Name": "railways:light_blue_plated_locometal"
+				},
+				{
+					"Name": "railways:blue_plated_locometal"
+				},
+				{
+					"Name": "railways:cyan_plated_locometal"
+				},
+				{
+					"Name": "railways:purple_plated_locometal"
+				},
+				{
+					"Name": "railways:magenta_plated_locometal"
+				},
+				{
+					"Name": "railways:pink_plated_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_riveted_locometal"
+				},
+				{
+					"Name": "railways:light_gray_riveted_locometal"
+				},
+				{
+					"Name": "railways:gray_riveted_locometal"
+				},
+				{
+					"Name": "railways:black_riveted_locometal"
+				},
+				{
+					"Name": "railways:brown_riveted_locometal"
+				},
+				{
+					"Name": "railways:red_riveted_locometal"
+				},
+				{
+					"Name": "railways:orange_riveted_locometal"
+				},
+				{
+					"Name": "railways:yellow_riveted_locometal"
+				},
+				{
+					"Name": "railways:lime_riveted_locometal"
+				},
+				{
+					"Name": "railways:green_riveted_locometal"
+				},
+				{
+					"Name": "railways:light_blue_riveted_locometal"
+				},
+				{
+					"Name": "railways:blue_riveted_locometal"
+				},
+				{
+					"Name": "railways:cyan_riveted_locometal"
+				},
+				{
+					"Name": "railways:purple_riveted_locometal"
+				},
+				{
+					"Name": "railways:magenta_riveted_locometal"
+				},
+				{
+					"Name": "railways:pink_riveted_locometal"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "railways:white_slashed_locometal"
+				},
+				{
+					"Name": "railways:light_gray_slashed_locometal"
+				},
+				{
+					"Name": "railways:gray_slashed_locometal"
+				},
+				{
+					"Name": "railways:black_slashed_locometal"
+				},
+				{
+					"Name": "railways:brown_slashed_locometal"
+				},
+				{
+					"Name": "railways:red_slashed_locometal"
+				},
+				{
+					"Name": "railways:orange_slashed_locometal"
+				},
+				{
+					"Name": "railways:yellow_slashed_locometal"
+				},
+				{
+					"Name": "railways:lime_slashed_locometal"
+				},
+				{
+					"Name": "railways:green_slashed_locometal"
+				},
+				{
+					"Name": "railways:light_blue_slashed_locometal"
+				},
+				{
+					"Name": "railways:blue_slashed_locometal"
+				},
+				{
+					"Name": "railways:cyan_slashed_locometal"
+				},
+				{
+					"Name": "railways:purple_slashed_locometal"
+				},
+				{
+					"Name": "railways:magenta_slashed_locometal"
+				},
+				{
+					"Name": "railways:pink_slashed_locometal"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:arrow_slit"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:blinds"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:curtain_rods"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:curtains"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:gothic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:mosaic_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:mosaic_glass_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:parapets"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:shutters"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:windows"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:windows_four"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:windows_two"
+		}
+	]
+}

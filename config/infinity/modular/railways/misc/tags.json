@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "railways:locometal"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:locometal_boilers"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:semaphore_poles"
+		},
+		{
+			"weight": 1.0,
+			"key": "railways:track_casing_blacklist"
+		}
+	]
+}

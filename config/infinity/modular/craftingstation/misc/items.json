@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "craftingstation:crafting_station"
+		},
+		{
+			"weight": 1.0,
+			"key": "craftingstation:crafting_station_slab"
+		}
+	]
+}

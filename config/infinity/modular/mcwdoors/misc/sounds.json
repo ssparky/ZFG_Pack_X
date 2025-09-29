@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:block.garage"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:block.shoji"
+		}
+	]
+}

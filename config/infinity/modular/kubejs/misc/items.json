@@ -1,0 +1,1720 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "kubejs:abyssal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:activated_netherite_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:active_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:adhered_matrix_mesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:advanced_drilling_kit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:advanced_micro_miner_guidance_system"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:aerotheum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:alien_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:amalgamated_sculk"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:americium_241_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:americium_242_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:americium_243_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_12_gauge"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_308_winchester"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_30_06_springfield"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_338_lapua"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_357_magnum"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_40mm_grenade"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_45_70"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_45_acp"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_46mm_ap"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_50_ae"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_50_bmg"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_556x45mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_57x28mm_ap"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_58mm_dbp87"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_68x51_fury"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_762x25mm_tokarev"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_762x39mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_762x54mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_9mm"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_blank"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ammo_mold_rpg_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:antimatter_fuel_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ardite_sponge"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:azure_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:basic_drilling_kit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:basic_micro_miner_guidance_system"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:basic_mining_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:bathyal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:berkelium_247_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:berkelium_248_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:blasting_kit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:blue_aligned_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:blue_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:bosonic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:californium_249_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:californium_250_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:californium_251_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:californium_252_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:carbon_mesh_reinforced_circuit_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:carbon_mesh_reinforced_printed_circuit_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:carbon_nanotubes"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:causality_exempt_monic_heavy_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_empty"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_capacitor_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatic_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatically_inert_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatically_reactive_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:chromatically_reactive_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:coated_sapphire_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:completed_optical_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:complex_smd_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:complex_smd_diode"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:complex_smd_inductor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:complex_smd_resistor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:complex_smd_transistor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:compressed_red_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:compressed_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:conductive_iron_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:corrupted_universe_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:crushed_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:crushed_sensor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:crushed_shulker_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:cryotheum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:curium_243_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:curium_245_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:curium_246_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:curium_247_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:cyan_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dark_soularium_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dark_soularium_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dark_steel_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:deep_dark_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_coal_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_copper_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_diamond_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_emerald_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_gold_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_iron_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_lapis_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_magma_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_nether_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_oilsands_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dense_redstone_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_americium_241_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_americium_242_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_americium_243_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_berkelium_247_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_berkelium_248_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_californium_249_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_californium_250_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_californium_251_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_californium_252_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_curium_243_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_curium_245_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_curium_246_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_curium_247_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_einsteinium_252_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_einsteinium_253_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_einsteinium_254_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_fermium_255_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_fermium_257_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_mendelevium_259_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_naquadah_fuel_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_naquadah_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_naquadah_fuel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_neptunium_236_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_neptunium_237_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_nobelium_259_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_plutonium_238_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_plutonium_239_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_plutonium_241_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_plutonium_242_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_thorium_230_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_thorium_232_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_uranium_233_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_uranium_235_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:depleted_uranium_238_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:destabilized_clathrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dimensionally_stabilized_infinity_heavy_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dischargement_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:double_compressed_red_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:double_compressed_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dragon_lair_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:du_radiation_shielding_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:dusty_netherite_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:einsteinium_252_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:einsteinium_253_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:einsteinium_254_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:electrical_steel_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:electro_optic_modulator"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:electrum_micro_miner_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:electrum_micro_miner_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:elementally_infused_omnic_matrix_heavy_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:elite_drilling_kit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:elite_radiation_shielding_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:empty_abyssal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:empty_bathyal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:empty_fuel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:empty_hadal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ender_dragon_scale"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ender_dragon_scale_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ender_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ender_spore"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ender_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:enderium_micro_miner_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:enderium_micro_miner_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:endest_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:energetic_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:energized_clathrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:engraved_sapphire_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ev_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:excitationcoil"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_crystal_cpu_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_navigator"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_optical_cpu_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_processing_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_processor_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_processor_computer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_processor_mainframe"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_quantum_cpu_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:extradimensional_wetware_cpu_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:fermionic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:fermium_255_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:fermium_257_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:field_stabilised_omnic_pulsar_compound"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:fluxed_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:gem_sensor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:glacio_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:grains_of_innocence"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:graphite_electrode"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:gravitational_amplifier"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:green_aligned_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:green_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:grown_nanotube_substrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:guardian_scale"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hadal_energy_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hadal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hadal_warp_engine"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hadronic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hardened_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:heart_of_a_universe"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:heavy_radiation_shielding_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hot_depleted_naquadah_fuel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hot_naquadah_fuel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hyperdynamic_ram_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hyperdynamic_ram_chip_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:hyperdynamic_ram_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:impossible_realm_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:incomplete_sapphire_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:indigo_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:inert_nether_compound_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:inert_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:infinity_file"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:infinity_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:infinity_screwdriver"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:infinity_wire_cutter"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:infinity_wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:iv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:lair_of_the_warden_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:leadstone_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:lime_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:liquid_ender_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:luv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:lv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:lyso_ce_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:magnetic_capacitor_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:magnetron"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:mars_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:mendelevium_259_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:meowni_plush"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:mercury_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t1"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t10"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t11"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t12"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t2"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t2half"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t2half_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t3"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t4"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t4half"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t4half_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t5"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t6"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t6_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t7"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t7_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t8"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t8_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t8half"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microminer_t9"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microversal_alchemy_kit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:microverse_containment_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:miniature_microverse_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:molten_aerotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:molten_cryotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:molten_petrotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:molten_pyrotheum_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:moon_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:multidimensional_cpu_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:multidimensional_cpu_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:music_disc_max_verstappen"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:music_disc_mining_coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:music_disc_placing_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:mv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nanotube_soot"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:naquadah_fuel_mixture_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:naquadah_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:naquadah_fuel_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:naquadah_waste"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:necrosiderite_compound"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:necrosiderite_oxide_glass_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:neptunium_236_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:neptunium_237_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nether_star_center"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nether_star_east"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nether_star_north"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nether_star_south"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nether_star_west"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:netherite_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:netherite_shards"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:neutron_emitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:niobium_palladium_grit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:nobelium_259_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:null_infused_circuit_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:null_infused_printed_circuit_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:omnic_matrix_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:omnic_matrix_coil_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_processing_unit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_processor_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_processor_computer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:optical_processor_mainframe"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:orange_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:petri_dish_bacteria"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:petri_dish_sculk"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:petri_dish_sterile"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:petrotheum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_inert"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:photonic_soc_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:plutonium_238_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:plutonium_239_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:plutonium_241_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:plutonium_242_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:prepared_nanotube_substrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:prescient_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:pressure_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:primal_mana"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:prism_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:prism_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:protomatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:pulsating_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:pulsating_mesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:pyrotheum_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:quantum_flux"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:quantum_fluxed_eternium_heavy_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:quasi_stable_neutron_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:radiation_layer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:radium_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:rare_earth_oxide"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:rare_earth_salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:rare_earth_sulfate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:raw_nanotube_substrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:reactive_netherite_cluster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:red_aligned_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:red_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:refined_bosonic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:refined_fermionic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:refined_hadronic_antimatter_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:reinforced_mining_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:reinforced_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:resonant_clathrate"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:resonant_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:resonating_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ruined_capacitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ruined_emitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ruined_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ruined_machine_parts"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ruined_sensor"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:sapphire_boule"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:sapphire_seed_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:sapphire_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:shattered_universe_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:signalum_micro_miner_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:signalum_micro_miner_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_16"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_32"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_64"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:smore_8"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_argon"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_chlorine"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_experience"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_fluorine"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_helium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_hydrogen"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_krypton"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_mercury"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_neon"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_nitrogen"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_oxygen"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_radon"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:solidified_xenon"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_americium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_berkelium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_californium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_curium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_microminer_t2half"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_microminer_t4half"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_microminer_t6"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_microminer_t7"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_microminer_t8"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_neptunium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_plutonium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:stabilized_uranium"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:starry_diamond_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:supercharged_laser_array"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:supercritical_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:teal_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:the_ultimate_material"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:thermal_cloth"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:thorium_230_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:thorium_232_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uev_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uhv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:ulv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unactivated_multidimensional_cpu_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universal_collapse_device"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universal_navigator"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universal_warp_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universal_warp_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universe_boule"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universe_creation_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universe_resistant_neutronium_heavy_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:universe_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unprepared_space_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unprepared_space_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unprepared_space_pants"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unprepared_space_suit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:unsintered_naquadah_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uranium_233_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uranium_235_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uranium_238_fuel_pellet"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uv_universal_circuit"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uxpic_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:uxpic_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:venus_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:vibrant_thruster"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:warden_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:warden_horn"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:warp_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:warp_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:warp_engine"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:weather_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:wither_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:wither_realm_data"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:withering_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:yellow_prismatic_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "kubejs:zpm_universal_circuit"
+		}
+	]
+}

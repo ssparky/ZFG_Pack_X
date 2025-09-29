@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "escalated:metal_walkway_steps"
+		},
+		{
+			"weight": 1.0,
+			"key": "escalated:wooden_walkway_steps"
+		}
+	]
+}

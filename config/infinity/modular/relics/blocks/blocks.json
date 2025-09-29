@@ -1,0 +1,14 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"float": true,
+				"laggy": true,
+				"Name": "relics:researching_table",
+				"top": true,
+				"full": false
+			}
+		}
+	]
+}

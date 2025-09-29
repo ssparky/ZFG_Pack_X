@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "spartanshields:shield.bash.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:shield.bash.miss"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:shield.payback.charge"
+		}
+	]
+}

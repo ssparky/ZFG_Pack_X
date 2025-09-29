@@ -1,0 +1,852 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:gutter_base_white"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_light_gray"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_gray"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_black"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_brown"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_red"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_orange"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_yellow"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_lime"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_green"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_light_blue"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_blue"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_cyan"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_purple"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_magenta"
+				},
+				{
+					"Name": "mcwroofs:gutter_base_pink"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:gutter_middle_white"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_light_gray"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_gray"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_black"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_brown"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_red"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_orange"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_yellow"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_lime"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_green"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_light_blue"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_blue"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_cyan"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_purple"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_magenta"
+				},
+				{
+					"Name": "mcwroofs:gutter_middle_pink"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_attic_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_lower_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_steep_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_top_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_top_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_upper_lower_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:black_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:red_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:green_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_concrete_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_concrete_upper_steep_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_attic_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_attic_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_lower_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_steep_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_top_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_top_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_upper_lower_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_upper_lower_roof"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwroofs:white_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_gray_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:gray_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:black_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:brown_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:red_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:orange_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:yellow_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:lime_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:green_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:light_blue_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:blue_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:cyan_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:purple_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:magenta_terracotta_upper_steep_roof"
+				},
+				{
+					"Name": "mcwroofs:pink_terracotta_upper_steep_roof"
+				}
+			]
+		}
+	]
+}

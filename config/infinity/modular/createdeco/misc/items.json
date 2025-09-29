@@ -1,0 +1,1648 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:andesite_window_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:black_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:black_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_andesite_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_brass_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_copper_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_industrial_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:blue_zinc_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brass_window_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brown_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:brown_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:copper_window_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:corner_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cracked_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cyan_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:cyan_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_creeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_cross"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_down"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_down_left"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_down_right"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_electrical"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_fire"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_fire_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_flow"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_left"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_no_entry"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_radioactive"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_right"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_skull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_top_left"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_top_right"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:decal_warning"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:gold_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:gold_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:gray_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:gray_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_andesite_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_brass_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_copper_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_industrial_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:green_zinc_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:industrial_iron_window_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:iron_window_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:light_blue_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:light_blue_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:light_gray_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:light_gray_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:lime_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:lime_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:locked_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:locked_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:locked_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:locked_industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:locked_zinc_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:long_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:magenta_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:magenta_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:mossy_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:netherite_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:netherite_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:netherite_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:netherite_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:orange_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:orange_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pink_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:pink_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:purple_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:purple_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_andesite_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_brass_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_copper_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_industrial_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:red_zinc_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:short_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_blue_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_blue_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_blue_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_blue_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dean_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dean_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dean_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dean_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dusk_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dusk_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dusk_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_dusk_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_pearl_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_pearl_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_pearl_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_pearl_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_red_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_red_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_red_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_red_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_scarlet_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_scarlet_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_scarlet_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_scarlet_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:tiled_verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:umber_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:umber_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:umber_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:umber_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:verdant_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:verdant_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:verdant_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:verdant_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:white_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_andesite_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_brass_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_copper_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_industrial_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_iron_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_placard"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_shipping_container"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:yellow_zinc_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_bars_overlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_catwalk"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_catwalk_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_catwalk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_coinstack"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_facade"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_hull"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_mesh_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_sheet_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_support_wedge"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "createdeco:zinc_window_pane"
+		}
+	]
+}

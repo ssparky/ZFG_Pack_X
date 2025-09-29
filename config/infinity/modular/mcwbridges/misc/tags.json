@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_piers"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bamboo_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:bridge_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:glass_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:log_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:log_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:metal_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rail_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:rope_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:special_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_bridges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_piers"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:stone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwbridges:wooden_piers"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.bars_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.bars_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.blinds_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.blinds_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.window_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwwindows:block.window_open"
+		}
+	]
+}

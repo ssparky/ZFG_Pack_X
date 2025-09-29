@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_amethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_dripping"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_droplet"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_foliage"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_metal"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_quiet"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:rain_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:thunder_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:thunder_far"
+		},
+		{
+			"weight": 1.0,
+			"key": "soundofrain:thunder_medium"
+		}
+	]
+}

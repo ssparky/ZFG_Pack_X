@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "steamadditions:steam_foundry"
+		},
+		{
+			"weight": 1.0,
+			"key": "steamadditions:steam_separator"
+		}
+	]
+}

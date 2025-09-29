@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bamboo_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:bark_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:barn_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:barred_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:barrel_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:beach_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:cottage_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:four_panel_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:glass_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:mystic_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:paper_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:ranch_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:swamp_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:tropical_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:waffle_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwtrpdoors:whispering_trapdoors"
+		}
+	]
+}

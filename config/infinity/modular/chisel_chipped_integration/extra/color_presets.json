@@ -1,0 +1,216 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_white"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_light_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_black"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_brown"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_red"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_orange"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_yellow"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_lime"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_green"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_light_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_cyan"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_purple"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_magenta"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_legacy_pink"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_white"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_light_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_black"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_brown"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_red"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_orange"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_yellow"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_lime"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_green"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_light_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_cyan"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_purple"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_magenta"
+				},
+				{
+					"Name": "chisel_chipped_integration:carpet_llama_pink"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_white"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_light_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_black"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_brown"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_red"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_orange"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_yellow"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_lime"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_green"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_light_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_cyan"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_purple"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_magenta"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_legacy_pink"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "chisel_chipped_integration:wool_llama_white"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_light_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_gray"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_black"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_brown"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_red"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_orange"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_yellow"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_lime"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_green"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_light_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_blue"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_cyan"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_purple"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_magenta"
+				},
+				{
+					"Name": "chisel_chipped_integration:wool_llama_pink"
+				}
+			]
+		}
+	]
+}

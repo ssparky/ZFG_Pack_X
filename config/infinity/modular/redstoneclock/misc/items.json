@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "redstoneclock:pulse_divider"
+		},
+		{
+			"weight": 1.0,
+			"key": "redstoneclock:redstone_clock"
+		}
+	]
+}

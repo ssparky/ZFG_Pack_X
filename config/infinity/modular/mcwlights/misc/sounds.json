@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwlights:block.light_switch"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:block.torch_on"
+		}
+	]
+}

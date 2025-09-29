@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"Instant": false,
+				"Color": 4227200,
+				"Name": "spartanweaponry:ender_disruption",
+				"Category": "harmful"
+			}
+		}
+	]
+}

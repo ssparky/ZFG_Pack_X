@@ -1,0 +1,580 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_black_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_blue_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_cyan_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_green_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_magenta_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_orange_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_red_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_white_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:bright_yellow_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_bright_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:button_wool_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_bright_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:pressure_plate_wool_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_blue_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_blue_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_brown_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_cyan_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_cyan_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_gray_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_green_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_green_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_light_blue_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_light_gray_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_lime_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_magenta_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_magenta_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_orange_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_orange_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_pink_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_purple_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_red_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_red_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_white_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_white_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_yellow_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:slab_yellow_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_blue_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_blue_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_brown_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_cyan_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_cyan_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_gray_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_green_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_green_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_light_blue_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_light_gray_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_lime_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_magenta_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_magenta_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_orange_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_orange_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_pink_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_purple_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_red_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_red_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_white_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_white_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_yellow_bright"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:stair_yellow_wool"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_blue_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_brown_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_cyan_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_gray_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_green_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_light_blue_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_light_gray_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_lime_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_magenta_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_orange_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_pink_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_purple_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_red_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_white_border"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:wool_yellow_border"
+		}
+	]
+}

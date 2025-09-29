@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:gears/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:test_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "hammerlib:wrench"
+		}
+	]
+}

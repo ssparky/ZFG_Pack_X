@@ -1,0 +1,900 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:acacia_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:andesite_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:birch_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:blackstone_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cherry_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobbled_deepslate_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:cobblestone_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:crimson_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:dark_oak_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:deepslate_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:diorite_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:granite_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:jungle_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mangrove_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_cobblestone_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mossy_stone_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:mud_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:nether_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:oak_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:prismarine_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:quartz_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_nether_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:red_sandstone_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:sandstone_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:spruce_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:stone_brick_terrace_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_balcony"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_bulk_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_compact_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_loft_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_platform"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_railing"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_skyline_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwstairs:warped_terrace_stairs"
+		}
+	]
+}

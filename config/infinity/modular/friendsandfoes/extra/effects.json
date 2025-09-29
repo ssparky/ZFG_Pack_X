@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"Instant": false,
+				"Color": 16685131,
+				"Name": "friendsandfoes:reach",
+				"Category": "beneficial"
+			}
+		}
+	]
+}

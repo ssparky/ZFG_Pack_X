@@ -1,0 +1,108 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:bamboo_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:bark_glass_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:barn_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:barn_glass_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:beach_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:classic_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:cottage_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:four_panel_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:garage_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:glass_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:metal_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:modern_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:mystic_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:nether_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:paper_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:portcullis"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:shoji_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:shoji_whole_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:special_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:stable_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:stable_head_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:swamp_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:tropical_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:waffle_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:western_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwdoors:whispering_doors"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "constructionwand:core_angel"
+		},
+		{
+			"weight": 1.0,
+			"key": "constructionwand:core_destruction"
+		},
+		{
+			"weight": 1.0,
+			"key": "constructionwand:diamond_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "constructionwand:infinity_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "constructionwand:iron_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "constructionwand:stone_wand"
+		}
+	]
+}

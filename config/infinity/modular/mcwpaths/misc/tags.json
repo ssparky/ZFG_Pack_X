@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:path_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:slab_paths"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:soil_paths"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_engraved_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_paths"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_pavings"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:wooden_paths"
+		}
+	]
+}

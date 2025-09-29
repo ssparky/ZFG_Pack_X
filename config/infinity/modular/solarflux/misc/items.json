@@ -1,0 +1,132 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "solarflux:ae2/energy_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:blank_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:blazing_coating"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:block_charging_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:capacity_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:dispersive_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:efficiency_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:emerald_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:ender_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:furnace_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:mirror"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:photovoltaic_cell_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_8"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_custom_abyssal"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_custom_bathyal"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_custom_hadal"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_custom_infinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:sp_custom_neutronium"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:transfer_rate_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "solarflux:traversal_upgrade"
+		}
+	]
+}

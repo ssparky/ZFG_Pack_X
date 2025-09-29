@@ -2,9 +2,6 @@
   "framedblocks": {
     "framed_item_frame": true
   },
-  "enderchests": {
-    "hud": true
-  },
   "monilabs": {
     "color_info": true,
     "sculk_vat_xp_info": true,
@@ -75,12 +72,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -111,6 +102,13 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "alekiships": {
+    "furnace": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "block": true,
+    "note_block": true
   },
   "expatternprovider": {
     "jade_chamber": true,
@@ -168,7 +166,21 @@
     "hud": true,
     "hud.redstone": true
   },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
   "gravestone": {
     "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "multibeds": {
+    "hud": true
   }
 }

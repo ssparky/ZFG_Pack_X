@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "better_angel_ring:angel_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "better_angel_ring:ring"
+		}
+	]
+}

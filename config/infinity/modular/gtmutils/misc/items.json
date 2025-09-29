@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "gtmutils:omnibreaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtmutils:pterb_machine"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtmutils:quantum_coolant_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtmutils:sterile_cleaning_maintenance_hatch"
+		}
+	]
+}

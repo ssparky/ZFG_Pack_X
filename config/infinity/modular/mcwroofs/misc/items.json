@@ -1,0 +1,2432 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:acacia_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:andesite_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_mosaic_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bamboo_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_roof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_roof_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:base_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:birch_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_roof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_roof_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:black_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blackstone_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:blue_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:bricks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:brown_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cherry_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cobblestone_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:crimson_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:cyan_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_oak_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:dark_prismarine_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:deepslate_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:diorite_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:granite_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:grass_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_roof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_roof_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gray_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:green_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_base_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_white"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:gutter_middle_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:jungle_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_blue_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_roof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_roof_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:light_gray_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:lime_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:magenta_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mangrove_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:mud_brick_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:nether_bricks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:oak_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:orange_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:pink_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:prismarine_brick_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:purple_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:rain_gutter"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_nether_bricks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_sandstone_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:red_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:roofing_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:sandstone_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:spruce_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_bricks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:stone_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:thatch_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_planks_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:warped_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_roof_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_roof_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_terracotta_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:white_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_concrete_upper_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_striped_awning"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_attic_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_steep_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_top_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_upper_lower_roof"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwroofs:yellow_terracotta_upper_steep_roof"
+		}
+	]
+}

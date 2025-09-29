@@ -1,0 +1,29 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"ambient": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"creature": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					}
+				},
+				"id": "betterjungletemples:jungle_temple"
+			}
+		}
+	]
+}

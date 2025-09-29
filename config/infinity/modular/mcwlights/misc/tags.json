@@ -1,0 +1,76 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwlights:candle_holders"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:ceiling_fan_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:ceiling_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:chains"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:chandeliers"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:garden_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:lanterns"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:lava_lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:paper_lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:slab_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:soul_street_lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:soul_tiki_torches"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:street_lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:tiki_torches"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:torches"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:wall_lamps"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwlights:wall_lanterns"
+		}
+	]
+}

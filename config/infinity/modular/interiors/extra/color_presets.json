@@ -1,0 +1,163 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "interiors:white_chair"
+				},
+				{
+					"Name": "interiors:light_gray_chair"
+				},
+				{
+					"Name": "interiors:gray_chair"
+				},
+				{
+					"Name": "interiors:black_chair"
+				},
+				{
+					"Name": "interiors:brown_chair"
+				},
+				{
+					"Name": "interiors:red_chair"
+				},
+				{
+					"Name": "interiors:orange_chair"
+				},
+				{
+					"Name": "interiors:yellow_chair"
+				},
+				{
+					"Name": "interiors:lime_chair"
+				},
+				{
+					"Name": "interiors:green_chair"
+				},
+				{
+					"Name": "interiors:light_blue_chair"
+				},
+				{
+					"Name": "interiors:blue_chair"
+				},
+				{
+					"Name": "interiors:cyan_chair"
+				},
+				{
+					"Name": "interiors:purple_chair"
+				},
+				{
+					"Name": "interiors:magenta_chair"
+				},
+				{
+					"Name": "interiors:pink_chair"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "interiors:white_cushion"
+				},
+				{
+					"Name": "interiors:light_gray_cushion"
+				},
+				{
+					"Name": "interiors:gray_cushion"
+				},
+				{
+					"Name": "interiors:black_cushion"
+				},
+				{
+					"Name": "interiors:brown_cushion"
+				},
+				{
+					"Name": "interiors:red_cushion"
+				},
+				{
+					"Name": "interiors:orange_cushion"
+				},
+				{
+					"Name": "interiors:yellow_cushion"
+				},
+				{
+					"Name": "interiors:lime_cushion"
+				},
+				{
+					"Name": "interiors:green_cushion"
+				},
+				{
+					"Name": "interiors:light_blue_cushion"
+				},
+				{
+					"Name": "interiors:blue_cushion"
+				},
+				{
+					"Name": "interiors:cyan_cushion"
+				},
+				{
+					"Name": "interiors:purple_cushion"
+				},
+				{
+					"Name": "interiors:magenta_cushion"
+				},
+				{
+					"Name": "interiors:pink_cushion"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "interiors:white_floor_chair"
+				},
+				{
+					"Name": "interiors:light_gray_floor_chair"
+				},
+				{
+					"Name": "interiors:gray_floor_chair"
+				},
+				{
+					"Name": "interiors:black_floor_chair"
+				},
+				{
+					"Name": "interiors:brown_floor_chair"
+				},
+				{
+					"Name": "interiors:red_floor_chair"
+				},
+				{
+					"Name": "interiors:orange_floor_chair"
+				},
+				{
+					"Name": "interiors:yellow_floor_chair"
+				},
+				{
+					"Name": "interiors:lime_floor_chair"
+				},
+				{
+					"Name": "interiors:green_floor_chair"
+				},
+				{
+					"Name": "interiors:light_blue_floor_chair"
+				},
+				{
+					"Name": "interiors:blue_floor_chair"
+				},
+				{
+					"Name": "interiors:cyan_floor_chair"
+				},
+				{
+					"Name": "interiors:purple_floor_chair"
+				},
+				{
+					"Name": "interiors:magenta_floor_chair"
+				},
+				{
+					"Name": "interiors:pink_floor_chair"
+				}
+			]
+		}
+	]
+}

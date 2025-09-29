@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:extra_details_blacklist"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:hand_openable_short_metal_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:hand_openable_tall_metal_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:mob_openable_tall_metal_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_wooden_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_wooden_doors"
+		}
+	]
+}

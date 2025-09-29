@@ -1,0 +1,168 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:bit_bag"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:bit_bag_dyed"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:bit_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:block_bit"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chisel_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chisel_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chisel_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chisel_netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chisel_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseled_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseled_printer"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledamethyst"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledclay"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledcloth"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledfluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledfroglight"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledgrass"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledground"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledice"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiselediron"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledleaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiselednether_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledpacked_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledplant"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledsand"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledsnow"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledwood"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:chiseledwool"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:magnifying_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:measuring_tape"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:modification_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:monocle"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:pattern_multi_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:pattern_scanner"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:pattern_single_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:quill"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:sealant"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:unseal"
+		},
+		{
+			"weight": 1.0,
+			"key": "chiselsandbits:wrench"
+		}
+	]
+}

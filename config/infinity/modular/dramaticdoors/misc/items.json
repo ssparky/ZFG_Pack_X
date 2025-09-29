@@ -1,0 +1,1992 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_aa_steel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_aeronos_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_cd_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_cd_industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_cherry_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_glacian_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_locked_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_locked_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_locked_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_locked_industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_locked_zinc_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_aspen_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_blooming_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_cedar_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_coconut_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_cypress_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_fir_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_framed_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_ghaf_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_joshua_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_larch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_mahogany_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_maple_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_olive_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_palo_verde_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_redwood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_saxaul_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_sugi_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_willow_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_ns_wisteria_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_strophar_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:short_zinc_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_aa_steel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_aeronos_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_cd_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_cd_industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_cherry_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_barred_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_beach_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_boarded_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_dual_paneled_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_fortified_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_gated_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_glass_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_heavy_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_modern_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_overgrown_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paneled_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_paper_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_pressed_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_screen_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_secret_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_shack_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_sliding_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_supported_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tile_windowed_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_tiled_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_acacia_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_birch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_chipped_windowed_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_create_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_create_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_create_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_create_framed_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_create_train_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_crimson_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_dark_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_framed_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_framed_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_glacian_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_jungle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_locked_andesite_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_locked_brass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_locked_copper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_locked_industrial_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_locked_zinc_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_acacia_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_bamboo_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_birch_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_cherry_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_stem_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_crimson_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_dark_oak_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jail_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_jungle_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_mangrove_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_metal_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_metal_hospital_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_metal_reinforced_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_metal_warning_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_metal_windowed_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_oak_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_sliding_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_bark_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_mystic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_spruce_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_store_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_bamboo_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_barn_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_barn_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_beach_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_classic_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_cottage_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_four_panel_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_japanese2_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_japanese_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_modern_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_nether_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_stable_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_stable_head_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_stem_glass_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_swamp_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_tropical_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_macaw_warped_waffle_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_mangrove_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_aspen_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_blooming_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_cedar_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_coconut_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_cypress_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_fir_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_framed_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_ghaf_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_joshua_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_larch_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_mahogany_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_maple_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_olive_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_palo_verde_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_paper_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_redwood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_saxaul_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_sugi_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_willow_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_ns_wisteria_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_oak_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_spruce_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_strophar_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_warped_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "dramaticdoors:tall_zinc_door"
+		}
+	]
+}

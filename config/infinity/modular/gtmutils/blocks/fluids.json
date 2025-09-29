@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"fluidName": "gtmutils:quantum_coolant",
+				"Name": "minecraft:air"
+			}
+		}
+	]
+}

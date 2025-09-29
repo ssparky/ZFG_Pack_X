@@ -1,5 +1,5 @@
 /**
- * Soul Binder multiblock
+ * Soul Binder single/multiblock
  */
 
 ServerEvents.recipes(event => {
@@ -27,8 +27,16 @@ ServerEvents.recipes(event => {
         .duration(50)
         .EUt(16)
 
+    // Temp testing recipe
+    event.recipes.gtceu.soul_binding("test_soul_binding")
+        .itemInputs("6x minecraft:shulker_shell")
+        .inputFluids("cofh_core:experience 2000")
+        .itemOutputs("6x gtceu:soul_infused_ingot")
+        .duration(1200)
+        .EUt(GTValues.VHA[GTValues.IV])
+
     // function Soulbinding(id, mob, input2, EUt, fluid, output) { // TODO: this whole thing once we have soul binding GT-ified
-    //     event.recipes.gtceu.quintessence_infuser(`${id}_${mob}`)
+    //     event.recipes.gtceu.soul_binding(`${id}_${mob}`)
     //         .itemInputs(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${mob}"}}}}`).weakNBT())
     //         .itemInputs(Item.of(input2))
     //         .inputFluids(Fluid.of("cofh_core:experience", fluid))

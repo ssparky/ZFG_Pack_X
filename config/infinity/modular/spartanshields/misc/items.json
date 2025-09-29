@@ -1,0 +1,260 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "spartanshields:advanced_mekanists_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:advanced_mekanists_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:aluminum_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:aluminum_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:basic_mekanists_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:basic_mekanists_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:bronze_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:bronze_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:constantan_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:constantan_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:copper_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:copper_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:dark_steel_riot_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:dark_steel_riot_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:diamond_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:diamond_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:electrum_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:electrum_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:elementium_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:elementium_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:elite_mekanists_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:elite_mekanists_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:enderium_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:enderium_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:golden_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:golden_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:invar_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:invar_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:iron_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:iron_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:lapis_lazuli_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:lead_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:lead_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:lumium_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:lumium_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:manasteel_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:manasteel_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:netherite_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:netherite_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:nickel_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:nickel_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:obsidian_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:obsidian_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:osmium_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:platinum_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:platinum_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:refined_glowstone_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:refined_obsidian_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:signalum_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:signalum_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:silver_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:silver_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:steel_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:steel_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:stone_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:stone_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:terrasteel_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:terrasteel_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:tin_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:tin_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:ultimate_mekanists_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:ultimate_mekanists_tower_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:wooden_basic_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanshields:wooden_tower_shield"
+		}
+	]
+}

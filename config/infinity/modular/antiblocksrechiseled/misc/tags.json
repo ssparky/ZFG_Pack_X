@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_bright_colors"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_with_borders"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_without_borders"
+		},
+		{
+			"weight": 1.0,
+			"key": "antiblocksrechiseled:antiblock_wool_colors"
+		}
+	]
+}

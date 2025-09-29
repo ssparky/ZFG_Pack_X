@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "particlerain:dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:dust_mote"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:fog"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:ground_fog"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:rain"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:ripple"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:shrub"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:snow"
+		},
+		{
+			"weight": 1.0,
+			"key": "particlerain:streak"
+		}
+	]
+}

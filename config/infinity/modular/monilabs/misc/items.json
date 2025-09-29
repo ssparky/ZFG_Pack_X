@@ -1,0 +1,312 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "monilabs:advanced_microverse_projector"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:basic_microverse_projector"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:bioalloy_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:bioalloy_fusion_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:chroma_sensor_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:chromodynamic_conduction_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:creative_data_multi"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:creative_energy_multi"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:cryolobus_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_bolt"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_foil"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_huge_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_large_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_nonuple_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_normal_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_quadruple_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_rotor"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_screw"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_small_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:crystal_matrix_tiny_fluid_pipe"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:dimensional_stabilization_netherite_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:double_crystal_matrix_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:double_eltz_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:double_sculk_bioalloy_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:elite_microverse_projector"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:eltz_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:hot_crystal_matrix_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:hyperbolic_microverse_projector"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:knowledge_transmission_array"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:long_sculk_bioalloy_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_1024a_laser_source_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_1024a_laser_target_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_256a_laser_source_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_256a_laser_target_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_4096a_laser_source_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:max_4096a_laser_target_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:microverse_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:microverse_stability_sensor_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:prismatic_crucible"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:prismatic_focus"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_bolt"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_round"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_screw"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_bioalloy_spring"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_vat"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_xp_draining_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:sculk_xp_sensor_hatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:small_crystal_matrix_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:small_eltz_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:small_sculk_bioalloy_gear"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:tiny_crystal_matrix_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "monilabs:tiny_eltz_dust"
+		}
+	]
+}

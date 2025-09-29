@@ -1,0 +1,163 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwlights:white_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:light_gray_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:gray_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:black_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:brown_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:red_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:orange_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:yellow_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:lime_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:green_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:light_blue_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:blue_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:cyan_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:purple_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:magenta_ceiling_light"
+				},
+				{
+					"Name": "mcwlights:pink_ceiling_light"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwlights:white_lamp"
+				},
+				{
+					"Name": "mcwlights:light_gray_lamp"
+				},
+				{
+					"Name": "mcwlights:gray_lamp"
+				},
+				{
+					"Name": "mcwlights:black_lamp"
+				},
+				{
+					"Name": "mcwlights:brown_lamp"
+				},
+				{
+					"Name": "mcwlights:red_lamp"
+				},
+				{
+					"Name": "mcwlights:orange_lamp"
+				},
+				{
+					"Name": "mcwlights:yellow_lamp"
+				},
+				{
+					"Name": "mcwlights:lime_lamp"
+				},
+				{
+					"Name": "mcwlights:green_lamp"
+				},
+				{
+					"Name": "mcwlights:light_blue_lamp"
+				},
+				{
+					"Name": "mcwlights:blue_lamp"
+				},
+				{
+					"Name": "mcwlights:cyan_lamp"
+				},
+				{
+					"Name": "mcwlights:purple_lamp"
+				},
+				{
+					"Name": "mcwlights:magenta_lamp"
+				},
+				{
+					"Name": "mcwlights:pink_lamp"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "mcwlights:white_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:light_gray_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:gray_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:black_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:brown_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:red_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:orange_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:yellow_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:lime_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:green_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:light_blue_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:blue_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:cyan_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:purple_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:magenta_paper_lamp"
+				},
+				{
+					"Name": "mcwlights:pink_paper_lamp"
+				}
+			]
+		}
+	]
+}

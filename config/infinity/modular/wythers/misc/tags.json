@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "wythers:air_and_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:blue_ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:calcite_pools_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:deepslate_ore_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:dirt"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:lava_ore_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:mud_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:river_carver_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:spruce_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:spruce_stuff"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:stripped_acacia"
+		},
+		{
+			"weight": 1.0,
+			"key": "wythers:tree_branch_replaceable"
+		}
+	]
+}

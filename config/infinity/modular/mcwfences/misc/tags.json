@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwfences:cheval_de_frise"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:curved_double_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:grass_topped_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:hedges"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:highley_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:horse_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:metal_double_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:metal_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:modern_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:picket_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:pillar_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:pyramid_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:railing_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:railing_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:stockade_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwfences:wired_fences"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:ender_offset_wand_use"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:factory_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:futura_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gems/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gems/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gems/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:gems/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:laboratory_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/aluminum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/bronze_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/cobalt_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/copper_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/electrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/gold_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/invar_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/iron_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/lead_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/nickel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/platinum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/silver_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/steel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/tin_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:metals/uranium_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:technical_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "chisel_chipped_integration:tyrian"
+		}
+	]
+}

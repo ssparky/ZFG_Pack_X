@@ -1,0 +1,148 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:andesite_bogie_steps"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:andesite_door_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:andesite_grab_rails"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:andesite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:brass_bogie_steps"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:brass_door_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:brass_grab_rails"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:brass_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:copper_bogie_steps"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:copper_door_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:copper_grab_rails"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:copper_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:corrugated_metro_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:corrugated_metro_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:headlight"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:metal_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:metro_casing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:metro_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:metro_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:metro_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:ornate_iron_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_andesite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_asurine_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_calcite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_crimsite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_deepslate_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_diorite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_dripstone_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_granite_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_limestone_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_ochrum_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_scorchia_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_scoria_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_tuff_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:polished_veridium_pilot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bellsandwhistles:station_platform"
+		}
+	]
+}

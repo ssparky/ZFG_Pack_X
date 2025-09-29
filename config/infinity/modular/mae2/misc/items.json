@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mae2:16x_crafting_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:256x_crafting_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:4x_crafting_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:64x_crafting_accelerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:cloud_chamber"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:eu_multi_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:eu_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:faulty_card"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:fe_multi_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:fluid_multi_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:item_multi_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:pattern_multi_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:pattern_p2p_tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "mae2:redstone_multi_p2p_tunnel"
+		}
+	]
+}

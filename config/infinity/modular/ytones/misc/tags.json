@@ -1,0 +1,140 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ytones:agon"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:azur"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:bitt"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:cray"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:fort"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:glaxx"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:iszm"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:jelt"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:korp"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:kryp"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:lair"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:lave"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:mint"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:myst"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:reds"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:reed"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:roen"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:sols"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:sync"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:tank"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:vect"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:vena"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zane"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zech"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zeta"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zion"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zkul"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zoea"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zome"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zone"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zorg"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:ztyl"
+		},
+		{
+			"weight": 1.0,
+			"key": "ytones:zyth"
+		}
+	]
+}

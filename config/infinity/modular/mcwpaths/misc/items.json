@@ -1,0 +1,1264 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:acacia_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:andesite_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:bamboo_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:birch_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:blackstone_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:brick_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cherry_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobbled_deepslate_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:cobblestone_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:crimson_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_oak_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dark_prismarine_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:deepslate_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:diorite_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:dirt_path_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:granite_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:gravel_path_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:jungle_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mangrove_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_cobblestone_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mossy_stone_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:mud_brick_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:oak_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:podzol_path_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sand_path_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:red_sandstone_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sand_path_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_basket_weave_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_clover_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_diamond_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_dumble_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_honeycomb_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_square_paving"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:sandstone_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:spruce_planks_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_crystal_floor"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_crystal_floor_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_crystal_floor_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_crystal_floor_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_flagstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_flagstone_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_flagstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_flagstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_running_bond"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_running_bond_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_running_bond_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_running_bond_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_strewn_rocky_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_windmill_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_windmill_weave_path"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_windmill_weave_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:stone_windmill_weave_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mcwpaths:warped_planks_path"
+		}
+	]
+}

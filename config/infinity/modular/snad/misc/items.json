@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "snad:red_snad"
+		},
+		{
+			"weight": 1.0,
+			"key": "snad:snad"
+		},
+		{
+			"weight": 1.0,
+			"key": "snad:soul_snad"
+		}
+	]
+}

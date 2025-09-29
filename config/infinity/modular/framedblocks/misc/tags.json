@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "framedblocks:blacklisted"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:blockentity_whitelisted"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:camo_sustain_plant"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:frameable"
+		}
+	]
+}

@@ -129,6 +129,29 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     // Machine alloys
 
+    // Polymers and Rubber
+    event.create("polypropylene")
+        .fluid().polymer()
+        .color(0xda5653).secondaryColor(0x772929).iconSet("dull")
+        .formula("(C3H6)n")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.STICKY)
+
+    event.create("acrylonitrile")
+        .fluid().color(0x8D8791)
+        .formula("C3H3N")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("acrylic_acid")
+        .fluid().color(0x7A8376)
+        .formula("C3H4O2")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    
+    event.create("polyacrylonitrile")
+        .fluid().polymer()
+        .color(0xffffff).secondaryColor(0xaeaeae).iconSet("dull")
+        .formula("(CH2CHCN)n")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.STICKY)
+
     // Other
     event.create("manganese_nitrate")
         .dust()

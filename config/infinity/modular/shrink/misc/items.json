@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "shrink:mob_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "shrink:shrinking_device"
+		}
+	]
+}

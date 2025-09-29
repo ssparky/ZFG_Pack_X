@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:damage_boosted"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:damage_reduced"
+		},
+		{
+			"weight": 1.0,
+			"key": "spartanweaponry:oil_damage_boosted"
+		}
+	]
+}

@@ -1,0 +1,375 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_chalk_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_chalk_slab"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_chalk_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_chalk_stairs"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_kaolin_brick_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_kaolin_brick_slab"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_kaolin_brick_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_kaolin_brick_stairs"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_kaolin_slab"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_kaolin_slab"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:natures_spirit.white_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_gray_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.gray_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.black_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.brown_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.red_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.orange_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.yellow_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.lime_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.green_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.light_blue_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.blue_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.cyan_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.purple_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.magenta_kaolin_stairs"
+				},
+				{
+					"Name": "additionalplacements:natures_spirit.pink_kaolin_stairs"
+				}
+			]
+		},
+		{
+			"weight": 1.0,
+			"key": [
+				{
+					"Name": "additionalplacements:redeco.white_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.light_gray_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.gray_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.black_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.brown_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.red_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.orange_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.yellow_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.lime_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.green_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.light_blue_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.blue_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.cyan_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.purple_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.magenta_sofa"
+				},
+				{
+					"Name": "additionalplacements:redeco.pink_sofa"
+				}
+			]
+		}
+	]
+}

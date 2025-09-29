@@ -1,0 +1,740 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_activator_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_adj_double_copycat_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_adj_double_copycat_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_adj_double_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_adj_double_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_blueprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_bouncy_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_centered_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_centered_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_checkered_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_checkered_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_checkered_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_chiseled_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_collapsible_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_collapsible_copycat_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_compound_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_compound_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_corner_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_corner_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_corner_strip"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_detector_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_divided_panel_horizontal"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_divided_panel_vertical"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_divided_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_divided_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_divided_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_half_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_half_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_prism_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_sloped_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_threeway_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_double_threeway_corner_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_elevated_double_slope_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_elevated_double_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_elevated_slope_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_elevated_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_ext_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_ext_double_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_ext_inner_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_ext_inner_double_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_extended_double_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_extended_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_activator_rail"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_activator_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_detector_rail"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_detector_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_powered_rail"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_powered_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_rail"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fancy_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_double_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_double_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_elev_double_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_elev_inner_double_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_elev_inner_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_elev_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_ext_double_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_ext_inner_double_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_ext_inner_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_ext_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_inner_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_inner_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_inv_double_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_inv_double_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_stacked_inner_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_stacked_inner_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_stacked_slope_panel_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flat_stacked_slope_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_floor_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_flower_pot"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_glowing_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_glowing_item_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_gold_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_half_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_half_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_half_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_horizontal_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inner_corner_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inner_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inner_prism_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inner_sloped_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inner_threeway_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inv_double_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inv_double_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_inv_double_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_iron_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_iron_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_iron_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_iron_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_item_frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_key"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_large_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_large_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_large_double_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_large_inner_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_large_stone_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_lattice_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_lever"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_masonry_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_mini_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_obsidian_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_one_way_window"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_post"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_powered_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_prism_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_pyramid"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_pyramid_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_rail_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_redstone_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_redstone_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_reinforcement"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_screwdriver"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_secret_storage"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slab_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slab_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_sliced_stairs_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_sliced_stairs_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slope"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slope_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_sloped_prism"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_sloped_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_small_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_small_double_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_small_inner_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_soul_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stacked_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stacked_inner_corner_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stacked_slope_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stacked_slope_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stacked_slope_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stone_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_stone_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_target"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_thick_lattice"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_threeway_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_threeway_corner_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_tube"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_divided_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_double_half_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_double_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_half_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_sliced_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_sloped_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_wall_board"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framed_wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:framing_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:phantom_paste"
+		},
+		{
+			"weight": 1.0,
+			"key": "framedblocks:powered_framing_saw"
+		}
+	]
+}

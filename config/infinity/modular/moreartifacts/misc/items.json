@@ -1,0 +1,200 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:ankh_charm"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:ankh_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:artifact_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:balloon"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:bezoar"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:cobalt_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:decay_amulet"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:decay_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:desert_charm"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:echo_glove"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:ender_dragon_claw"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:enderian_eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:enderian_scarf"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:envenomed_quiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:fast_clock"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:fire_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:gilded_scarf"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:golden_headgear"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:hero_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:ice_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:lucky_emerald_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:magic_quiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:mechanical_claw"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:mechanical_glove"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:melody_plushie"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:molten_quiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:necroplasm_amulet"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:nectar"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:netherite_headgear"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:obsidian_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:obsidian_skull"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:purification_charm"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:recall_potion"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:sculk_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:sculk_shades"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:shackle"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:shadow_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:shulked_clock"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:shulker_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:spectre_amulet"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:sunglasses"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:true_enderian_scarf"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:vanir_mask"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:venom_amulet"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:venom_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:vitamins"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:wither_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:withered_bezoar"
+		},
+		{
+			"weight": 1.0,
+			"key": "moreartifacts:wooden_headgear"
+		}
+	]
+}

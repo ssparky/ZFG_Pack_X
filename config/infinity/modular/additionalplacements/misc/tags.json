@@ -1,0 +1,168 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:antiblocksrechiseled/antiblock_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:antiblocksrechiseled/antiblock_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/red_sandstone_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/red_sandstone_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/sandstone_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/sandstone_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/uncolored_sandstone_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:c/uncolored_sandstone_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/black_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/blue_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/brown_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/cyan_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/gray_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/green_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/light_blue_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/light_gray_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/lime_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/magenta_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/orange_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/pink_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/purple_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/red_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/white_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:chipped/yellow_vertical_carpet"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:mcwlights/vertical_slab_lights"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:mcwpaths/path_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:mcwpaths/vertical_slab_paths"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/stone_vertical_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/vertical_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/wooden_vertical_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/wooden_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/wooden_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:minecraft/wool_vertical_carpets"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/chalk_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/chalk_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/kaolin_brick_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/kaolin_brick_vertical_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/kaolin_vertical_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "additionalplacements:natures_spirit/kaolin_vertical_stairs"
+		}
+	]
+}

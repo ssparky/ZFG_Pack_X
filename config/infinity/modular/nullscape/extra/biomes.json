@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 4561369,
+				"Name": "nullscape:crystal_peaks"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 4561369,
+				"Name": "nullscape:shadowlands"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": {
+				"Color": 4561369,
+				"Name": "nullscape:void_barrens"
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "gtexolegs:ev_exoskeleton_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtexolegs:hv_exoskeleton_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtexolegs:iv_exoskeleton_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtexolegs:lv_exoskeleton_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "gtexolegs:mv_exoskeleton_legs"
+		}
+	]
+}

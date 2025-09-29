@@ -823,4 +823,7 @@ ServerEvents.recipes(event => {
 
     // EIO Crystals - TODO: add recipes for prescient and weather crystals
 
+    // Spartan mods
+    event.shapeless("spartanweaponry:simple_handle", ["#forge:rods/wooden", "gtceu:sticky_resin"])
+
 })
