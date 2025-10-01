@@ -7,6 +7,8 @@
     "thermal",
     "immersiveengineering",
     "mekanism",
+    "farmersdelight",
+    "farm_and_charm",
     "minecraft"
   ],
   "stoneStrata": [
@@ -29,7 +31,8 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:crops/{material}"
   ],
   "materials": [
     "aeternium",
@@ -112,7 +115,10 @@
     "yttrium",
     "cryolobus",
     "cryococcus",
-    "crystal_matrix"
+    "crystal_matrix",
+
+    "tomato",
+    "onion"
   ],
   "priorityOverrides": {},
   "customTags": {},

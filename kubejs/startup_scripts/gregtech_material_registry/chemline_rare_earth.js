@@ -1,5 +1,5 @@
 /**
- * Material registry for Jollahs revamped rare earth processing
+ * Material registry for Jollahs revamped rare earth processing - TODO: re-revamp by combining to spreadsheet
  */
 
 GTCEuStartupEvents.registry("gtceu:material", event => {
@@ -9,41 +9,192 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xb56e3c)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("oxidized_re_sludge")
+    event.create("leached_rare_earth_solution")
+        .fluid()
+        .color(0xF4C59F)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("rare_earth_carbonate")
         .dust()
-        .color(0x331b01)
+        .color(0xE6E6E6)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("light_rare_earths")
-        .liquid()
-        .color(0x857f10)
+    event.create("rare_earth_chloride_solution")
+        .fluid()
+        .color(0x6B8981)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("heavy_rare_earths")
-        .liquid()
-        .color(0x9c2214)
+    event.create("rare_earth_chloride_tbp_mix")
+        .fluid()
+        .color(0x809070)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("lutetium_solution")
-        .liquid()
-        .color(0x007550)
+    event.create("light_rare_earths_organic_phase")
+        .fluid()
+        .color(0xC4D6C8)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
-    event.create("terbium_solution")
-        .liquid()
-        .color(0x4f7823)
+    event.create("dense_rare_earths_aqueous_phase")
+        .fluid()
+        .color(0x4A6461)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("sodium_hydroxide_solution")
+        .fluid()
+        .color(0xB7E3E6)
+        .formula("(NaOH)(H2O)")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("crude_light_rare_earth_hydroxide_cake")
+        .dust()
+        .color(0x6C7870)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("diluted_tributyl_phosphate")
+        .fluid()
+        .color(0xAA956A)
+        .formula("((C4H9O)3PO)(H2O)3")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("light_rare_earth_nitrate_solution")
+        .fluid()
+        .color(0xE4E98A)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("light_rare_earth_oxalate_slurry")
+        .fluid()
+        .color(0xF2F2E9)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("diluted_nitric_acid")
+        .fluid()
+        .color(0xA9A374)
+        .formula("(HNO3)(H2O)3")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("light_rare_earth_oxide_mix")
+        .dust()
+        .color(0xE8E8E3)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("cerium_oxide")
+        .dust()
+        .color(0xAAC2B0)
+        .components("2x cerium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("neodymium_oxide")
+        .dust()
+        .color(0xB2A8BF)
+        .components("2x neodymium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("lanthanum_oxide")
+        .dust()
+        .color(0xDCCDAA)
+        .components("2x lanthanum", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("praseodymium_oxide")
+        .dust()
+        .color(0x8F9AB6)
+        .components("6x praseodymium", "11x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("dense_rare_earth_carbonate")
+        .dust()
+        .color(0x515756)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("dense_rare_earth_chloride_solution")
+        .fluid()
+        .color(0x4D654C)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("heavy_rare_earth_residue")
+        .dust()
+        .color(0x3A3F3E)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("middle_rare_earth_solution")
+        .fluid()
+        .color(0x7A9E8A)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("middle_rare_earth_oxalate_slurry")
+        .fluid()
+        .color(0xC1D6C1)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("samarium_oxide")
+        .dust()
+        .color(0x8B9477)
+        .components("2x samarium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("gadolinium_oxide")
+        .dust()
+        .color(0x5D6154)
+        .components("2x gadolinium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("dysprosium_oxide")
+        .dust()
+        .color(0x4F3C4C)
+        .components("2x dysprosium", "3x oxygen")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("terbium_oxide")
         .dust()
         .color(0x3d3214)
-        .components("2x terbium", "3x oxygen")
+        .components("4x terbium", "7x oxygen")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("europium_oxide")
         .dust()
         .color(0x807e32)
         .components("2x europium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("heavy_rare_earths_nitrate_solution")
+        .fluid()
+        .color(0x454A3B)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("heavy_rare_earths_hydroxide_slurry")
+        .fluid()
+        .color(0x3D4544)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("heavy_rare_earth_oxalate_slurry")
+        .fluid()
+        .color(0x7F877F)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)   
+
+    event.create("ytterbium_oxide")
+        .dust()
+        .color(0xBAAFB2)
+        .components("2x ytterbium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("holmium_oxide")
+        .dust()
+        .color(0x8A8C7A)
+        .components("2x holmium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    // Erbium Oxide already registered in ZFG_mats.js (pink dye)
+
+    event.create("lutetium_oxide")
+        .dust()
+        .color(0xC5D7D7)
+        .components("2x lutetium", "3x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("thulium_oxide")
+        .dust()
+        .color(0x7CA090)
+        .components("2x thulium", "3x oxygen")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("europium_ii_oxide")
@@ -74,6 +225,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0xf7f7f5)
         .components("2x hydrogen", "2x carbon", "4x oxygen")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("diluted_oxalic_acid")
+        .fluid()
+        .color(0xcacac7)
+        .components("1x oxalic_acid", "3x water")
+        .formula("(H2C2O4)(H2O)3")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("terbium_salt")

@@ -116,6 +116,28 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setMaxIOSize(1, 1, 0, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
+
+    // Fission reactors
+    event.create("fission_reactor_power")
+        .category("multiblock")
+        .setEUIO("out")
+        .setMaxIOSize(1, 1, 1, 1)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.TURBINE)
+
+    event.create("fission_reactor_breeder")
+        .category("multiblock")
+        .setEUIO("in")
+        .setMaxIOSize(1, 1, 1, 1)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.TURBINE)
+
+    event.create("fission_reactor_rtg")
+        .category("multiblock")
+        .setEUIO("out")
+        .setMaxIOSize(1, 1, 0, 0)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.TURBINE)
 })
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {

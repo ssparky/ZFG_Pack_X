@@ -369,6 +369,8 @@
   "block.kubejs.dimensional_stabilization_netherite_casing": "Dimensional Stabilization Netherite Casing",
   "block.kubejs.omnic_matrix_coil_block": "Omnic Matrix Coil Block",
   "block.kubejs.meowni_plush": "Meowni Plush",
+  "block.kubejs.fission_reactor_casing": "Fission Reactor Casing",
+  "block.kubejs.fission_reactor_fuel_cell": "Fission Reactor Fuel Containment Cell",
 
   "item.kubejs.uv_tier_circuit": "UV-Tier Circuit",
   "item.kubejs.zpm_tier_circuit": "ZPM-Tier Circuit",

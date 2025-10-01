@@ -157,6 +157,7 @@ global.itemNukeList = [
     "tacz:gun_smith_table",
     "tacz:workbench_c",
     "tacz:workbench_a",
+    "tacz:workbench_b",
 
     // Spartan Weapony/Shields
     /^spartanweaponry:constantan.*/,
@@ -188,6 +189,13 @@ global.itemNukeList = [
     /^displaydelight:ctd_.*/,
     /^displaydelight:lm_.*/,
     /^displaydelight:fd_.*/,
+
+    // Unnecessary items from let's do series of mods
+    "farm_and_charm:supply_cart",
+    "farm_and_charm:plow",
+
+    // Baubly heart canisters
+    /^bhc:.*wither.*/,
 ];
 
 // Create Compat

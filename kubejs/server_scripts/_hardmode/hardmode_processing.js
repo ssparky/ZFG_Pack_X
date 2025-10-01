@@ -361,18 +361,6 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:tributyl_phosphate 1000")
         .duration(600).EUt(23040)
 
-    // Rare Earth
-    event.recipes.gtceu.electrolyzer("electrolyzing_rare_earth_with_tributyl_phosphate")
-        .itemInputs("gtceu:rare_earth_dust")
-        .inputFluids("gtceu:tributyl_phosphate 150")
-        .chancedOutput("gtceu:neodymium_dust", 1500, 0)
-        .chancedOutput("gtceu:samarium_dust", 1500, 0)
-        .chancedOutput("gtceu:yttrium_dust", 1500, 0)
-        .chancedOutput("gtceu:lanthanum_dust", 1500, 0)
-        .chancedOutput("gtceu:lutetium_dust", 600, 0)
-        .chancedOutput("gtceu:europium_dust", 600, 0)
-        .duration(50).EUt(GTValues.VA[GTValues.UV])
-
     // Quantum Flux Recipe
     event.recipes.gtceu.mixer("quantum_flux_hm")
         .itemInputs("redstone_arsenal:flux_gem")

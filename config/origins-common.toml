@@ -132,3 +132,212 @@
 		"centaur:kick_sense" = true
 		"centaur:bag_slow" = true
 
+	[origins."origins:origin_layers/origin"]
+		enabled = true
+
+	[origins."origins:dodo/powers/feathers"]
+		enabled = true
+
+	[origins."origins:dodo/powers/fall_exhaust"]
+		enabled = true
+
+	[origins."origins:frei/powers/teleport"]
+		enabled = true
+
+	[origins."origins:centaur/powers/equine_diet"]
+		enabled = true
+
+	[origins."origins:dodo/powers/harvest"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/vanilla_edible_foods"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/equine_diet_foods"]
+		enabled = true
+
+	[origins."origins:berserk/tags/items/extra_meat"]
+		enabled = true
+
+	[origins."origins:berserk/tags/items/all_shields"]
+		enabled = true
+
+	[origins."origins:centaur/powers/saddle_bags"]
+		enabled = true
+
+	[origins."origins:centaur/powers/imposing"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/all_shields"]
+		enabled = true
+
+	[origins."origins:berserk/predicates/chance"]
+		enabled = true
+
+	[origins."origins:frei/powers/drain_hp"]
+		enabled = true
+
+	[origins."origins:berserk/powers/vampire"]
+		enabled = true
+
+	[origins."origins:centaur/origins/centaur"]
+		enabled = true
+		"centaur:robust" = true
+		"centaur:imposing" = true
+		"centaur:rideable" = true
+		"centaur:equine_diet" = true
+		"centaur:large_stance" = true
+		"centaur:melee_inaptitude" = true
+		"centaur:saddle_bags" = true
+		"centaur:weapon_specialty" = true
+		"centaur:no_flight" = true
+		"centaur:horse_kick" = true
+		"centaur:armor_recipe" = true
+		"centaur:bag_slow" = true
+
+	[origins."origins:centaur/powers/weapon_specialty"]
+		enabled = true
+
+	[origins."origins:dodo/loot_tables/crop_loot"]
+		enabled = true
+
+	[origins."origins:berserk/powers/glass_cannon"]
+		enabled = true
+
+	[origins."origins:centaur/powers/archery_specialist"]
+		enabled = true
+
+	[origins."origins:frei/powers/toggle"]
+		enabled = true
+
+	[origins."origins:centaur/powers/melee_inaptitude"]
+		enabled = true
+
+	[origins."origins:dodo/powers/hurtsound"]
+		enabled = true
+
+	[origins."origins:centaur/powers/rideable"]
+		enabled = true
+
+	[origins."origins:centaur/powers/large_stance"]
+		enabled = true
+
+	[origins."origins:berserk/powers/melee_speed"]
+		enabled = true
+
+	[origins."origins:frei/origins/frei"]
+		enabled = true
+		"frei:teleport" = true
+		"frei:drain_hp" = true
+		"frei:phase" = true
+		"frei:toggle" = true
+		"frei:fragile" = true
+		"frei:weapons" = true
+		"frei:tall" = true
+
+	[origins."origins:frei/powers/phase"]
+		enabled = true
+
+	[origins."origins:centaur/powers/horse_kick"]
+		enabled = true
+
+	[origins."origins:dodo/powers/fragile"]
+		enabled = true
+
+	[origins."origins:berserk/powers/meat_eater"]
+		enabled = true
+
+	[origins."origins:dodo/powers/small_stance"]
+		enabled = true
+
+	[origins."origins:dodo/origins/dodo"]
+		enabled = true
+		"origins:slow_falling" = true
+		"dodo:fragile" = true
+		"dodo:small_stance" = true
+		"dodo:feathers" = true
+		"dodo:harvest" = true
+		"dodo:hurtsound" = true
+		"dodo:bird_diet" = true
+		"dodo:air_speed" = true
+		"dodo:fall_exhaust" = true
+		"dodo:weak_melee" = true
+		"dodo:launch_up" = true
+		"dodo:wet_feathers" = true
+
+	[origins."origins:centaur/tags/items/ed_bad_bales"]
+		enabled = true
+
+	[origins."origins:centaur/powers/armor_recipe"]
+		enabled = true
+
+	[origins."origins:dodo/tags/items/seed_food"]
+		enabled = true
+
+	[origins."origins:dodo/powers/wet_feathers"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/reach_1_weapons"]
+		enabled = true
+
+	[origins."origins:berserk/powers/survive_death"]
+		enabled = true
+
+	[origins."origins:centaur/powers/bag_slow"]
+		enabled = true
+
+	[origins."origins:dodo/powers/air_speed"]
+		enabled = true
+
+	[origins."origins:berserk/powers/double_jump"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/ed_grains"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/ed_bad_grains"]
+		enabled = true
+
+	[origins."origins:dodo/powers/launch_up"]
+		enabled = true
+
+	[origins."origins:berserk/powers/dash"]
+		enabled = true
+
+	[origins."origins:centaur/powers/no_flight"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/reach_2_weapons"]
+		enabled = true
+
+	[origins."origins:frei/powers/fragile"]
+		enabled = true
+
+	[origins."origins:frei/powers/weapons"]
+		enabled = true
+
+	[origins."origins:centaur/tags/items/ed_bales"]
+		enabled = true
+
+	[origins."origins:berserk/origins/berserk"]
+		enabled = true
+		"berserk:melee_speed" = true
+		"berserk:double_jump" = true
+		"berserk:meat_eater" = true
+		"berserk:vampire" = true
+		"berserk:glass_cannon" = true
+		"berserk:dash" = true
+		"berserk:survive_death" = true
+
+	[origins."origins:dodo/powers/bird_diet"]
+		enabled = true
+
+	[origins."origins:dodo/powers/weak_melee"]
+		enabled = true
+
+	[origins."origins:frei/powers/tall"]
+		enabled = true
+
+	[origins."origins:centaur/powers/robust"]
+		enabled = true
+

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/lattice_cutter/casing_ctm"
+    }
+}

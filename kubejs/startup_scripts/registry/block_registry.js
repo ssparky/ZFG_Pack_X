@@ -179,6 +179,7 @@ StartupEvents.registry("block", event => {
         "dark_soularium",
         "omnic_matrix",
         "dark_steel",
+        "fission_reactor"
     ]
 
     casings.forEach(casing => {
@@ -190,6 +191,15 @@ StartupEvents.registry("block", event => {
             .tagBlock("forge:mineable/wrench")
             .requiresTool(true);
     });
+
+    // Fission reactor fuel cells
+    event.create("fission_reactor_fuel_cell")
+        .textureAll('kubejs:block/casing/fission_reactor/glass')
+        .soundType("glass")
+        .resistance(5).hardness(4)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true);
 
     // UEV Hermetic Casing
     event.create("gtceu:uev_hermetic_casing")

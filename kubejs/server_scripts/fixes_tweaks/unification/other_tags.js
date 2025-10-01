@@ -42,8 +42,14 @@ ServerEvents.tags("item", event => {
     event.add("forge:dyes/gray", "gtceu:antimony_tin_oxide_dust")
     event.add("forge:dyes/light_gray", "gtceu:titanium_suboxide_dust")
     event.add("forge:dyes/white", "gtceu:marble_dust")
-})
 
-ServerEvents.tags("block", event => {
-    event.add("minecraft:mineable/pickaxe", "minecraft:glowstone")
+    // Crop tags
+    event.add("forge:crops/oat", "farm_and_charm:oat")
+    event.add("forge:crops/barley", "farm_and_charm:barley")
+    event.add("forge:crops/strawberry", "farm_and_charm:strawberry")
+    event.add("forge:crops/white_grape", ["vinery:white_grape", "vinery:savanna_grapes_white", "vinery:taiga_grapes_white", "vinery:jungle_grapes_white"])
+    event.add("forge:crops/red_grape", ["vinery:red_grape", "vinery:savanna_grapes_red", "vinery:taiga_grapes_red", "vinery:jungle_grapes_red"])
+    event.add("forge:crops/grape", ["vinery:white_grape", "vinery:red_grape", "vinery:savanna_grapes_white", "vinery:taiga_grapes_white", "vinery:jungle_grapes_white", "vinery:savanna_grapes_red", "vinery:taiga_grapes_red", "vinery:jungle_grapes_red", "oceansdelight:sea_grape"])
+    event.add("forge:crops/cherry", "vinery:cherry")
+    
 })

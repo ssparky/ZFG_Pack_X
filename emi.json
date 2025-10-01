@@ -1,6 +1,346 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b1\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b2\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b3\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b6\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:tris_core\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_s10\"}"
+    },
+    {
+      "stack": "item:tacz:ammo{AmmoId:\"doom:energy_ball\"}"
+    }
+  ],
   "lookup_history": [
+    "item:kubejs:depleted_naquadah_fuel_dust",
+    "item:kubejs:naquadah_fuel_mixture_dust",
+    "item:kubejs:unsintered_naquadah_fuel_pellet",
+    "item:kubejs:naquadah_fuel_pellet",
+    "item:tacz:attachment{AttachmentId:\"tacz:extended_mag_3\"}",
+    "item:gtceu:implosion_compressor",
+    "item:tacz:ammo{AmmoId:\"doom:energy_ball\"}",
+    "item:gtceu:long_magnetic_terbium_rod",
+    {
+      "type": "item",
+      "id": "gtceu:terbium_oxide_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "gtceu:terbium_salt_dust",
+      "amount": 4
+    },
+    "item:gtceu:terbium_dust",
+    "item:gtceu:hot_terbium_ingot",
+    "item:gtceu:terbium_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:terbium_rod",
+      "amount": 2
+    },
+    "item:gtceu:long_terbium_rod",
+    "item:gtceu:gravi_star",
+    "item:gtceu:quantum_star",
+    "item:minecraft:nether_star",
+    "item:kubejs:endest_star",
+    "item:gtceu:energy_module",
+    "item:gtceu:energy_cluster",
+    "item:tacz:ammo{AmmoId:\"trisdyna:tris_core\"}",
+    "item:tacz:ammo{AmmoId:\"trisdyna:emx_b6\"}",
+    "item:gtceu:lapotronic_energy_orb_cluster{Charge:1000000000L}",
+    "item:gtceu:luv_vanadium_battery",
+    "item:gtceu:uv_battery_hull",
+    "item:gtceu:zpm_battery_hull",
+    {
+      "type": "fluid",
+      "id": "gtceu:polyacrylonitrile",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:acrylonitrile",
+      "amount": 900
+    },
+    "item:gtceu:enriched_sunnarium_dust",
+    "item:gtceu:sunnarium_dust",
+    "item:gtceu:iv_battery_hull",
+    "item:gtceu:luv_battery_hull",
+    "item:tacz:ammo{AmmoId:\"tacz:12g\"}",
+    "item:tacz:ammo{AmmoId:\"trisdyna:emx_b1\"}",
+    "item:tacz:ammo{AmmoId:\"applied_armorer:fluix_infused_grenade\"}",
+    "item:tacz:ammo{AmmoId:\"tacz:40mm\"}",
+    "item:rusticdelight:bell_pepper_green",
+    "item:rusticdelight:wild_bell_peppers",
+    "item:rusticdelight:bell_pepper_seeds",
+    "item:rusticdelight:bell_pepper_seeds_bag",
+    "item:aquaculturedelight:turtle_meat_dish",
+    "item:aquaculturedelight:large_fish_with_vegetables",
+    "item:aquaculturedelight:halibut_with_tartar_sauce",
+    "item:aquaculturedelight:baked_pollock_with_carrots",
+    "item:aquaculturedelight:buckling",
+    "item:aquaculturedelight:tuna_spaghetti",
+    "item:aquaculturedelight:fish_and_chips",
+    "item:aquaculturedelight:halaszle",
+    "item:aquaculturedelight:fish_chorba",
+    "item:aquaculturedelight:bass_stew",
+    "item:aquaculturedelight:unusual_fish_soup",
+    "item:aquaculturedelight:crispy_nori_kelp",
+    "item:aquaculturedelight:poor_fisher_chowder",
+    "item:aquaculturedelight:jellyfish_jelly",
+    {
+      "type": "item",
+      "id": "mynethersdelight:slices_of_bread",
+      "amount": 5
+    },
+    "item:mynethersdelight:bread_loaf",
+    "item:mynethersdelight:ghast_sourdough",
+    "item:mynethersdelight:ghasmati",
+    "item:mynethersdelight:ghast_dough",
+    "item:oceanic_delight:elder_guardian_eye",
+    "item:oceanic_delight:sea_grape",
+    "item:oceanic_delight:wild_sea_grape",
+    "item:minecraft:ancient_debris",
+    "item:minecraft:netherite_scrap",
+    "item:gtceu:netherite_scrap_dust",
+    "item:kubejs:dusty_netherite_cluster",
+    "item:kubejs:inert_nether_compound_ingot",
+    "item:kubejs:activated_netherite_scrap",
+    "item:kubejs:reactive_netherite_cluster",
+    "item:gtceu:iodine_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:saline_antiseptic",
+      "amount": 8000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:rotten_meat_dust",
+      "amount": 16
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rotten_sludge",
+      "amount": 10000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:bacteria",
+      "amount": 3000
+    },
+    "item:kubejs:petri_dish_bacteria",
+    "item:monilabs:sculk_vat",
+    "item:gtceu:image_module",
+    "item:gtceu:text_module",
+    "item:farm_and_charm:pet_bowl",
+    "item:farm_and_charm:silo_wood",
+    "item:farm_and_charm:water_sprinkler",
+    "item:farm_and_charm:roaster",
+    "item:farm_and_charm:cooking_pot",
+    "item:farm_and_charm:mincer",
+    "item:farm_and_charm:crafting_bowl",
+    "item:farm_and_charm:tool_rack",
+    "item:farm_and_charm:dungarees{Damage:0}",
+    "item:farm_and_charm:dog_food_bag",
+    "item:farm_and_charm:cat_food_bag",
+    "item:brewery:pretzel",
+    "item:tacz:ammo{AmmoId:\"applied_armorer:etched_quartz_bullet\"}",
+    "item:tacz:ammo{AmmoId:\"applied_armorer:hard_core_quartz_bullet\"}",
+    "item:tacz:ammo{AmmoId:\"applied_armorer:fluix_battery\"}",
+    "item:tacz:ammo{AmmoId:\"applied_armorer:cluster_quartz_bullet\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_niklas\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_tutorial_sword_mastery\"}",
+    "item:tacz:gun_smith_table",
+    "item:tacz:workbench_b{BlockId:\"trisdyna:tris_workbench\"}",
+    "item:tacz:workbench_c{BlockId:\"applied_armorer:worckbench_applied_armorer\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_aerial_wristband\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_broken_handcuffs\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:0,GunFireMode:\"UNKNOWN\",GunId:\"applied_armorer:niklas_pistol_semi_pride\",HasBulletInBarrel:0b}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_zenith\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_exo\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:stock_tris_st1\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_broken_watch\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_koeis_armband\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_magma_wristband\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:grip_vertical_ranger\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:stock_sf7e_he\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:1,GunFireMode:\"SEMI\",GunId:\"applied_armorer:special_melee_task_manager\",HasBulletInBarrel:1b}",
+    "item:tacz:ammo{AmmoId:\"trisdyna:emx_b2\"}",
+    "item:tacz:ammo{AmmoId:\"trisdyna:emx_b3\"}",
+    "item:gtceu:ev_vanadium_battery",
+    "item:gtceu:iv_vanadium_battery",
+    {
+      "type": "fluid",
+      "id": "gtceu:elemental_reduction_fluid",
+      "amount": 0
+    },
+    "item:ae2:fluix_pearl",
+    "item:gtceu:charged_certus_quartz_dust",
+    "item:ae2:charged_certus_quartz_crystal",
+    "item:ae2:certus_quartz_dust",
+    "item:ae2:certus_quartz_crystal",
+    "item:gtceu:charged_certus_quartz_block",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_simple_3\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:3,GunFireMode:\"SEMI\",GunId:\"doom:bfg9k\",HasBulletInBarrel:1b}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_classic\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:6,GunFireMode:\"SEMI\",GunId:\"applied_armorer:moritz_sniper_semi_k30\",HasBulletInBarrel:1b}",
+    "item:tacz:ammo{AmmoId:\"emxarms:1045x103\"}",
+    "item:tacz:ammo{AmmoId:\"emxarms:emx_tediore\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_mg90\",HasBulletInBarrel:1b}",
+    {
+      "type": "fluid",
+      "id": "gtceu:heavy_rare_earth_oxalate_slurry",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:heavy_rare_earths_hydroxide_slurry",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:heavy_rare_earths_nitrate_solution",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:middle_rare_earth_oxalate_slurry",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:dense_rare_earth_chloride_solution",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:dense_rare_earth_carbonate_dust",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "gtceu:lanthanum_oxide_dust",
+      "chance": 0.4
+    },
+    {
+      "type": "item",
+      "id": "gtceu:cerium_oxide_dust",
+      "chance": 0.75
+    },
+    {
+      "type": "item",
+      "id": "gtceu:light_rare_earth_oxide_mix_dust",
+      "amount": 5
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_rare_earth_oxalate_slurry",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:light_rare_earth_nitrate_solution",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:crude_light_rare_earth_hydroxide_cake_dust",
+      "amount": 6
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rare_earth_chloride_tbp_mix",
+      "amount": 2000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rare_earth_chloride_solution",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:rare_earth_carbonate_dust",
+      "amount": 5
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:leached_rare_earth_solution",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rare_earth_sulfate_solution",
+      "amount": 0
+    },
+    "item:gtceu:calcium_dust",
+    "item:gtceu:yttria_dust",
+    "item:gtceu:raw_trona",
+    [
+      "item:gtceu:raw_trona",
+      "#item:forge:ores/trona"
+    ],
+    {
+      "type": "item",
+      "id": "gtceu:trona_dust",
+      "amount": 16
+    },
+    "item:gtceu:sodium_bicarbonate_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:diluted_nitric_acid",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:oxalic_acid_solution",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:diluted_oxalic_acid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:glyceryl_trinitrate",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:tributyl_phosphate",
+      "amount": 300
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:diluted_tributyl_phosphate",
+      "amount": 1000
+    },
+    "item:gtceu:potassium_carbonate_dust",
+    "item:gtceu:crushed_monazite_ore",
+    "item:alekiships:music_disc_pirate_crafting",
+    "item:alekiships:anchor",
+    "item:alekiships:cleat",
+    "item:alekiships:oarlock",
+    "item:alekiships:cannon",
+    "item:astikorcarts:plow",
+    "item:astikorcarts:supply_cart",
+    "item:astikorcarts:animal_cart",
+    "item:astikorcarts:wheel",
+    "item:moreartifacts:fire_stone",
+    "item:gtceu:nambulite_dust",
+    "item:gtceu:nambulite_gem",
+    "item:gtceu:deepslate_nambulite_ore",
+    "item:curvy_pipes:huge_energy_pipe",
     "item:oceanic_delight:fried_shrimp",
     "item:rusticdelight:calamari",
     "item:mynethersdelight:bullet_pepper",
@@ -69,7 +409,6 @@
     "item:curvy_pipes:huge_item_pipe",
     "item:curvy_pipes:large_item_pipe",
     "item:moreartifacts:ice_stone",
-    "item:moreartifacts:fire_stone",
     "item:moreartifacts:decay_stone",
     "item:moreartifacts:venom_stone",
     "item:moreartifacts:wither_shard",
@@ -125,7 +464,6 @@
     "item:kubejs:music_disc_mining_coal",
     "item:kubejs:music_disc_placing_blocks",
     "item:kubejs:music_disc_max_verstappen",
-    "item:gtceu:netherite_scrap_dust",
     "item:gtceu:netherite_scrap_ore",
     "item:spartanweaponry:tin_scythe{Damage:0}",
     "item:spartanweaponry:bronze_scythe{Damage:0}",
@@ -205,7 +543,6 @@
     "#item:forge:plates/iron",
     "item:escalated:wooden_walkway_steps",
     "item:escalated:metal_walkway_steps",
-    "item:curvy_pipes:huge_energy_pipe",
     "item:kubejs:photonic_soc_active",
     "item:kubejs:photonic_soc_red",
     "item:kubejs:photonic_soc_magenta",
@@ -240,18 +577,8 @@
     },
     {
       "type": "fluid",
-      "id": "gtceu:polyacrylonitrile",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "gtceu:propene",
       "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:acrylonitrile",
-      "amount": 900
     },
     {
       "type": "fluid",
@@ -600,8 +927,6 @@
     "item:tacz:ammo{AmmoId:\"tacz:45_70\"}",
     "item:tacz:ammo{AmmoId:\"tacz:50ae\"}",
     "item:tacz:ammo{AmmoId:\"tacz:30_06\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:12g\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:40mm\"}",
     "item:tacz:ammo{AmmoId:\"tacz:50bmg\"}",
     "item:tacz:ammo{AmmoId:\"tacz:45acp\"}",
     "item:tacz:ammo{AmmoId:\"tacz:762x54\"}",
@@ -803,60 +1128,17 @@
     },
     "item:tacz:ammo{AmmoId:\"tacz:357mag\"}",
     {
-      "type": "fluid",
-      "id": "gtceu:rare_earth_sulfate_solution",
-      "amount": 1000
-    },
-    {
-      "type": "item",
-      "id": "gtceu:oxidized_re_sludge_dust",
-      "amount": 4
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:light_rare_earths",
-      "amount": 250
-    },
-    {
       "type": "item",
       "id": "gtceu:small_neodymium_dust",
       "chance": 0.65
     },
     "item:gtceu:rare_earth_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:heavy_rare_earths",
-      "amount": 1000
-    },
     "item:gtceu:europium_oxide_dust",
     {
       "type": "item",
       "id": "gtceu:lutetium_fluoride_dust",
       "amount": 8
     },
-    {
-      "type": "fluid",
-      "id": "gtceu:lutetium_solution",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:terbium_solution",
-      "amount": 1000
-    },
-    {
-      "type": "item",
-      "id": "gtceu:terbium_oxide_dust",
-      "amount": 5
-    },
-    {
-      "type": "item",
-      "id": "gtceu:terbium_salt_dust",
-      "amount": 4
-    },
-    "item:gtceu:terbium_dust",
-    "item:gtceu:hot_terbium_ingot",
-    "item:gtceu:terbium_ingot",
     "item:gtceu:terbium_ring",
     "item:kubejs:complex_smd_inductor",
     "item:gtceu:smd_resistor",
@@ -877,7 +1159,6 @@
     },
     "item:gtceu:niobium_nitride_ingot",
     "item:monilabs:crystal_matrix_block",
-    "item:kubejs:inert_nether_compound_ingot",
     "item:extendedcrafting:crystaltine_component",
     "item:extendedcrafting:crystaltine_ingot",
     "item:create:experience_nugget",
@@ -897,7 +1178,6 @@
     "item:gtceu:hyperdegenerate_darconite_ingot",
     "item:gtceu:hyperdegenerate_darconite_foil",
     "item:tacz:workbench_a{BlockId:\"tacz:ammo_workbench\"}",
-    "item:tacz:gun_smith_table",
     "item:redstone_arsenal:flux_controller",
     "item:redstone_arsenal:flux_axe",
     "item:snad:snad",
@@ -909,7 +1189,6 @@
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:15,GunFireMode:\"SEMI\",GunId:\"tacz:spr15hb\",HasBulletInBarrel:1b}",
     "item:tacz:attachment{AttachmentId:\"tacz:laser_nightstick\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:grip_magpul_afg_2\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:extended_mag_3\"}",
     "item:gtceu:labyrinthite_dust",
     "item:gtceu:raw_labyrinthite",
     "item:gtceu:raw_citrine",
@@ -1062,19 +1341,16 @@
     "item:gtceu:raw_tungstite",
     "item:gtceu:raw_vanadinite",
     "item:gtceu:raw_euclase",
-    "item:gtceu:raw_thortveitite",
     "item:gtceu:raw_bismite",
     "item:gtceu:raw_hexagonite",
     "item:gtceu:raw_columbite",
     "item:gtceu:raw_selenite",
     "item:gtceu:raw_microcline",
     "item:gtceu:raw_teallite",
-    "item:gtceu:raw_trona",
     "item:gtceu:raw_schizolite",
     "item:gtceu:raw_tusionite",
     "item:gtceu:raw_ulexite",
     "item:gtceu:raw_tarapacaite",
-    "item:gtceu:raw_xenotime",
     "item:gtceu:raw_xilingolite",
     "item:gtceu:raw_wodginite",
     "item:tacz:attachment{AttachmentId:\"tacz:light_extended_mag_2\"}",
@@ -1184,230 +1460,7 @@
     "item:gtceu:ev_soul_binder",
     "item:gtceu:luv_polymerization_chamber",
     "item:gtceu:hv_polymerization_chamber",
-    "item:gtceu:opv_fluid_heater",
-    "item:gtceu:opv_thermal_centrifuge",
-    "item:gtceu:opv_machine_casing",
-    "item:gtceu:opv_machine_hull",
-    "item:gtceu:opv_canner",
-    "item:hostilenetworks:end_prediction",
-    "item:hostilenetworks:nether_prediction",
-    "item:hostilenetworks:overworld_prediction",
-    "item:hostilenetworks:prediction{data_model:{id:\"hostilenetworks:ender_dragon\"}}",
-    "item:kubejs:solidified_experience",
-    "item:gtceu:experience_attuned_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:experience_attuned",
-      "amount": 288
-    },
-    "item:kubejs:amalgamated_sculk",
-    "item:monilabs:sculk_vat",
-    "item:kubejs:cryotheum_dust",
-    "item:kubejs:resonant_clathrate",
-    {
-      "type": "fluid",
-      "id": "gtceu:bromine",
-      "amount": 1000
-    },
-    "item:gtceu:bromoargyrite_dust",
-    "item:gtceu:raw_gypsum",
-    "item:gtceu:raw_cryolite",
-    "item:gtceu:raw_stolzite",
-    "item:gtceu:raw_pollucite",
-    "item:gtceu:protactinium_nugget",
-    "item:gtceu:raw_titanite",
-    "item:gtceu:raw_wolframite",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_dragonsteel",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_prismalium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_melodium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_stellarium",
-      "amount": 0
-    },
-    "item:gtceu:oganesson_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:oganesson",
-      "amount": 160
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_shellite",
-      "amount": 0
-    },
-    "item:gtceu:soul_infused_dust",
-    "item:gtceu:stellarium_ingot",
-    {
-      "type": "fluid",
-      "id": "kubejs:hadronic_antimatter",
-      "amount": 144
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:refined_hadronic_antimatter",
-      "amount": 72
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:fermionic_antimatter",
-      "amount": 4
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:refined_fermionic_antimatter",
-      "amount": 0
-    },
-    "item:minecraft:prismarine_shard",
-    {
-      "type": "fluid",
-      "id": "gtceu:soul_infused",
-      "amount": 0
-    },
-    "item:gtceu:soul_infused_block",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_twinite",
-      "amount": 0
-    },
-    "item:steamadditions:steam_foundry",
-    "item:steamadditions:steam_separator",
-    "item:railways:yellow_conductor_cap",
-    "item:railways:track_crimson",
-    "item:gtceu:twinite_double_wire",
-    "item:gtceu:twinite_dust",
-    "item:gtceu:hot_twinite_ingot",
-    "item:gtceu:hard_carbon_dust",
-    "item:gtceu:hard_carbon_ingot",
-    "item:gtceu:dense_tough_alloy_plate",
-    "item:gtceu:tough_alloy_ingot",
-    "item:gtceu:tough_alloy_dust",
-    "item:gtceu:ferroboron_dust",
-    {
-      "type": "item",
-      "id": "gtceu:hard_carbon_frame",
-      "amount": 2
-    },
-    "item:gtceu:hard_carbon_rod",
-    "item:gtceu:manganese_dust",
-    "item:gtceu:calcite_dust",
-    "item:gtceu:melodium_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_neptunium_palladium_aluminium",
-      "amount": 0
-    },
-    "item:gtceu:neptunium_palladium_aluminium_ingot",
-    "item:gtceu:palladium_substation",
-    "item:gtmutils:pterb_machine",
-    "item:gtceu:prismalium_ingot",
-    "item:gtceu:americium_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:neptunium_236",
-      "amount": 0
-    },
-    "item:gtceu:neptunium_236_ingot",
-    "item:gtceu:neptunium_ingot",
-    "item:gtceu:dragonsteel_block",
-    "item:gtceu:twinite_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:mana",
-      "amount": 0
-    },
-    "item:gtceu:aetherium_ingot",
-    "item:ad_astra:earth_globe",
-    "item:ad_astra:rocket_nose_cone",
-    "item:ad_astra:wheel",
-    "item:kubejs:chromatic_stabilizer",
-    "item:kubejs:yellow_prismatic_core",
-    "item:kubejs:red_prismatic_core",
-    "item:kubejs:chromatic_capacitor_green",
-    "item:kubejs:ruined_capacitor",
-    "item:kubejs:warp_engine",
-    "item:kubejs:extradimensional_optical_cpu_core",
-    "item:itemfilters:id_regex",
-    "item:create:andesite_alloy",
-    "item:create:shaft",
-    "item:create:large_cogwheel",
-    "item:create:chain_conveyor",
-    "item:create:pulp",
-    "item:create:cardboard",
-    "item:create:cardboard_helmet{Damage:0}",
-    "item:create:veridium",
-    "item:create:scorchia_pillar",
-    "item:framedblocks:framed_cube",
-    "item:framedblocks:framed_double_slope",
-    "item:framedblocks:framed_flat_inv_double_slope_panel_corner",
-    "item:framedblocks:framed_small_double_corner_slope_panel",
-    "item:monilabs:knowledge_transmission_array",
-    "#item:gtceu:tools/crafting_hammers",
-    "item:create:item_vault",
-    "item:create:package_frogport",
-    "item:natures_spirit:azolla",
-    "item:natures_spirit:helvola_flower",
-    "item:natures_spirit:helvola_pad",
-    "item:natures_spirit:lotus_flower",
-    "item:natures_spirit:imperial_succulent",
-    "item:natures_spirit:snapdragon",
-    "item:natures_spirit:gardenia",
-    "item:natures_spirit:purple_bearberries",
-    "item:natures_spirit:red_bearberries",
-    "item:natures_spirit:green_bearberries",
-    "item:natures_spirit:cattail",
-    "item:natures_spirit:willow_vines",
-    "item:natures_spirit:alluaudia",
-    "item:natures_spirit:silverbush",
-    "item:natures_spirit:olive_branch",
-    "item:natures_spirit:ruby_blossoms",
-    "item:natures_spirit:black_iris",
-    "item:natures_spirit:blue_iris",
-    "item:natures_spirit:hibiscus",
-    "item:natures_spirit:protea",
-    "item:natures_spirit:dwarf_blossoms",
-    "item:natures_spirit:anemone",
-    "item:natures_spirit:purple_heather",
-    "item:natures_spirit:white_heather",
-    "item:natures_spirit:red_heather",
-    "item:natures_spirit:yellow_wildflower",
-    "item:natures_spirit:purple_wildflower",
-    "item:natures_spirit:tiger_lily",
-    "item:natures_spirit:bluebell",
-    "item:natures_spirit:marigold",
-    "item:natures_spirit:frigid_grass",
-    "item:natures_spirit:flaxen_fern",
-    "item:natures_spirit:sedge_grass",
-    "item:natures_spirit:scorched_grass",
-    "item:natures_spirit:beach_grass",
-    "item:natures_spirit:gray_polypore",
-    "item:natures_spirit:shiitake_mushroom",
-    "item:natures_spirit:saxaul_sapling",
-    "item:natures_spirit:mahogany_sapling",
-    "item:natures_spirit:larch_sapling",
-    "item:natures_spirit:cedar_sapling",
-    "item:natures_spirit:palo_verde_sapling",
-    "item:natures_spirit:ghaf_sapling",
-    "item:natures_spirit:joshua_sapling",
-    "item:natures_spirit:olive_sapling",
-    "item:natures_spirit:cypress_sapling",
-    "item:natures_spirit:yellow_maple_sapling",
-    "item:natures_spirit:orange_maple_sapling",
-    "item:natures_spirit:red_maple_sapling",
-    "item:natures_spirit:aspen_sapling",
-    "item:natures_spirit:willow_sapling"
+    "item:gtceu:opv_fluid_heater"
   ],
   "craft_history": [],
   "recipe_defaults": {
