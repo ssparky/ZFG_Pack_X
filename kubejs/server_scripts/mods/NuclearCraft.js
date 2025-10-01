@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
 
     // Constructing pellets
     const fuelpellets = [
-        ["thorium", "thorium", "thorium_230", 9],
-        ["thorium_232", "thorium", "thorium_232", 7],
+        ["thorium", "thorium_232", "thorium_230", 9],
+        ["thorium_232", "thorium_232", "thorium_232", 7],
         ["uranium_233", "uranium", "uranium_233", 7],
         ["uranium_235", "uranium", "uranium_235", 7],
         ["uranium", "uranium", "uranium_238", 9],
@@ -263,61 +263,27 @@ ServerEvents.recipes(event => {
         .duration(400)
         .EUt(GTValues.VHA[GTValues.UV])
 
+    // Casing & Fuel cell recipes
+    event.shaped("4x kubejs:fission_reactor_casing", [
+        "DDD",
+        "DFD",
+        "DDD"
+    ], {
+        F: "gtceu:ultimet_frame",
+        D: "kubejs:heavy_radiation_shielding_plate"
+    })
 
-    // event.shaped("2x nuclearcraft:plate_basic", [
-    //     "TST",
-    //     "SDS",
-    //     "TST"
-    // ], {
-    //     T: "nuclearcraft:tough_alloy_ingot",
-    //     S: "gtceu:tungsten_plate",
-    //     D: "gtceu:double_steel_plate"
-    // })
+    event.shaped("kubejs:fission_reactor_fuel_cell", [
+        "TST",
+        "SMS",
+        "TST"
+    ], {
+        T: "gtceu:tough_alloy_rod",
+        S: "gtceu:tempered_glass",
+        M: "kubejs:graphite_electrode" // TODO: more advanced electrode once registered?
+    })
 
-    // event.shaped("2x nuclearcraft:plate_advanced", [
-    //     "TST",
-    //     "SDS",
-    //     "TST"
-    // ], {
-    //     T: "nuclearcraft:hard_carbon_ingot",
-    //     S: "gtceu:yttrium_barium_cuprate_plate",
-    //     D: "nuclearcraft:plate_basic"
-    // })
-
-    // event.recipes.gtceu.alloy_smelter("du_plating")
-    //     .itemInputs("nuclearcraft:plate_advanced", "kubejs:stabilized_uranium")
-    //     .itemOutputs("2x nuclearcraft:plate_du")
-    //     .duration(400)
-    //     .EUt(2000)
-
-    // event.shaped("2x nuclearcraft:plate_elite", [
-    //     "TST",
-    //     "SDS",
-    //     "TST"
-    // ], {
-    //     T: "nuclearcraft:rhodochrosite_dust",
-    //     S: "gtceu:enderium_plate",
-    //     D: "nuclearcraft:plate_du"
-    // })
-
-    // event.shaped("8x nuclearcraft:fission_reactor_casing", [
-    //     "DDD",
-    //     "DFD",
-    //     "DDD"
-    // ], {
-    //     F: "gtceu:robust_machine_casing",
-    //     D: "nuclearcraft:plate_basic"
-    // })
-
-    // event.shaped("nuclearcraft:fission_reactor_solid_fuel_cell", [
-    //     "TST",
-    //     "S S",
-    //     "TST"
-    // ], {
-    //     T: "nuclearcraft:tough_alloy_ingot",
-    //     S: "gtceu:tempered_glass"
-    // })
-
+    // Controllers (TODO:)
     // event.shaped("nuclearcraft:fission_reactor_controller", [
     //     "DED",
     //     "EFE",
@@ -328,16 +294,72 @@ ServerEvents.recipes(event => {
     //     D: "nuclearcraft:plate_advanced"
     // })
 
-    // event.shaped("nuclearcraft:heavy", [ // Heavy shielding plate
-    //     "BBB",
-    //     "MPM",
-    //     "DDD"
-    // ], {
-    //     B: "#forge:plates/beryllium",
-    //     M: "nuclearcraft:medium",
-    //     P: "#forge:plastic_plates",
-    //     D: "nuclearcraft:plate_du"
-    // })
+    // Fission recipes
+    const fissionFuels = [
+        ["thorium_230", 7700, 120, "minecraft:water 4000"],
+        ["thorium_232", 4300, 180, "minecraft:water 4000"],
+        ["uranium_233", 8600, 90, "minecraft:water 4000"],
+        ["uranium_235", 7200, 140, "minecraft:water 4000"],
+        ["uranium_238", 1600, 240, "minecraft:water 4000"],
+
+        ["neptunium_236", 12000, 70, "gtceu:distilled_water 4000"],
+        ["neptunium_237", 3500, 240, "gtceu:distilled_water 4000"],
+        ["plutonium_238", 32000, 85, "gtceu:distilled_water 4000"],
+        ["plutonium_239", 17000, 150, "gtceu:distilled_water 4000"],
+        ["plutonium_241", 22000, 110, "gtceu:distilled_water 4000"],
+        ["plutonium_242", 5800, 240, "gtceu:distilled_water 4000"],
+        ["americium_241", 47000, 60, "gtceu:distilled_water 4000"],
+        ["americium_242", 28000, 120, "gtceu:distilled_water 4000"],
+        ["americium_243", 8300, 240, "gtceu:distilled_water 4000"],
+
+        ["curium_243", 62000, 90, "gtceu:pcb_coolant 4000"],
+        ["curium_245", 48000, 140, "gtceu:pcb_coolant 4000"],
+        ["curium_246", 10200, 240, "gtceu:pcb_coolant 4000"],
+        ["curium_247", 38000, 180, "gtceu:pcb_coolant 4000"],
+        ["berkelium_247", 12000, 240, "gtceu:pcb_coolant 4000"],
+        ["berkelium_248", 78000, 65, "gtceu:pcb_coolant 4000"],
+        ["californium_249", 58000, 130, "gtceu:pcb_coolant 4000"],
+        ["californium_250", 180000, 100, "gtceu:pcb_coolant 4000"],
+        ["californium_251", 98000, 110, "gtceu:pcb_coolant 4000"],
+        ["californium_252", 24000, 240, "gtceu:pcb_coolant 4000"],
+
+        ["einsteinium_252", 30000, 240, "gtmutils:quantum_coolant 4000"],
+        ["einsteinium_253", 135000, 135, "gtmutils:quantum_coolant 4000"],
+        ["einsteinium_254", 170000, 100, "gtmutils:quantum_coolant 4000"],
+        ["fermium_255", 320000, 80, "gtmutils:quantum_coolant 4000"],
+        ["fermium_257", 90000, 180, "gtmutils:quantum_coolant 4000"],
+        ["mendelevium_259", 400000, 90, "gtmutils:quantum_coolant 4000"],
+        ["nobelium_259", 750000, 75, "gtmutils:quantum_coolant 4000"]
+    ]
+
+    for (const [type, power, time, coolant] of fissionFuels) {
+        event.recipes.gtceu.fission_reactor_power(`${type}_fuel_power`)
+            .itemInputs(`4x kubejs:${type}_fuel_pellet`)
+            .inputFluids(coolant)
+            .itemOutputs(`4x kubejs:depleted_${type}_fuel_pellet`)
+            .EUt(-power)
+            .duration(time*20)
+        event.recipes.gtceu.fission_reactor_breeder(`${type}_fuel_breeder`)
+            .itemInputs(`kubejs:${type}_fuel_pellet`)
+            .itemOutputs(`kubejs:depleted_${type}_fuel_pellet`)
+            .EUt(power**1.15)
+            .duration((time*20)/3)
+        event.recipes.gtceu.fission_reactor_rtg(`${type}_fuel_rtg`)
+            .itemInputs(`kubejs:${type}_fuel_pellet`)
+            .itemOutputs(`kubejs:depleted_${type}_fuel_pellet`)
+            .EUt((-power)/16)
+            .duration((time*20)*8)
+    }
+
+    // Replace thorium gain from deepslate to mainly thorium 232
+    event.remove({id:"gtceu:macerator/macerate_deepslate"})
+    event.recipes.gtceu.macerator("macerate_deepslate")
+        .itemInputs("minecraft:deepslate")
+        .itemOutputs("gtceu:deepslate_dust")
+        .chancedOutput("gtceu:thorium_232_dust", 250, 0)
+        .chancedOutput("gtceu:thorium_dust", 100, 0)
+        .EUt(2)
+        .duration(150)
 
 });
 

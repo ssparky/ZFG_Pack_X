@@ -1,24 +1,26 @@
-[19:50:26] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:50:26] [INIT] Loaded plugins:
-[19:50:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:50:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:50:26] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[19:50:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:50:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[19:50:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:50:26] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[19:50:26] [INIT] - com.almostreliable.morejs.Plugin
-[19:50:26] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:50:26] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[19:50:26] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[19:50:26] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[19:50:26] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[19:50:26] [INFO] Loaded script client_scripts:_initial.js in 0.001 s
-[19:50:26] [INFO] Loaded script client_scripts:JEI.js in 0.0 s
-[19:50:26] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[19:50:26] [INFO] Loaded script client_scripts:renameItems.js in 0.0 s
-[19:50:26] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[19:50:26] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
-[19:50:26] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
-[19:50:26] [INFO] Loaded 6/6 KubeJS client scripts in 0.011 s with 0 errors and 0 warnings
-[19:50:27] [INFO] Client resource reload complete!
+[18:50:11] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[18:50:11] [INIT] Loaded plugins:
+[18:50:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:50:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:50:11] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:50:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:50:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[18:50:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:50:11] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[18:50:11] [INIT] - com.almostreliable.morejs.Plugin
+[18:50:11] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[18:50:11] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[18:50:11] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[18:50:11] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[18:50:11] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[18:50:11] [INFO] Loaded script client_scripts:_initial.js in 0.002 s
+[18:50:11] [INFO] Loaded script client_scripts:JEI.js in 0.002 s
+[18:50:11] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[18:50:11] [INFO] Loaded script client_scripts:renameItems.js in 0.0 s
+[18:50:11] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[18:50:11] [INFO] Loaded script client_scripts:tooltips.js in 0.003 s
+[18:50:11] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
+[18:50:11] [INFO] Loaded 6/6 KubeJS client scripts in 0.029 s with 0 errors and 0 warnings
+[18:50:33] [INFO] Client resource reload complete!
+[18:53:14] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[19:26:26] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.

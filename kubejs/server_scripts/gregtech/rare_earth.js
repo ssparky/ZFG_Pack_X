@@ -151,7 +151,8 @@ ServerEvents.recipes(event => {
 
     // Alkaline washing
     event.recipes.gtceu.chemical_bath("light_ree_alkaline_wash")
-        .inputFluids("gtceu:light_rare_earths_organic_phase 1000", "gtceu:sodium_hydroxide_solution 2000")
+        .itemInputs("6x gtceu:sodium_hydroxide_dust")
+        .inputFluids("gtceu:light_rare_earths_organic_phase 1000")
         .itemOutputs("6x gtceu:crude_light_rare_earth_hydroxide_cake_dust") 
         .outputFluids("gtceu:diluted_tributyl_phosphate 1000")
         .duration(200)

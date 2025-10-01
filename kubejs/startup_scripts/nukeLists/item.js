@@ -43,6 +43,8 @@ global.itemNukeList = [
 
     // Applied Energistics 2
     "ae2:vibration_chamber",
+    "ae2:charger",
+    "ae2:inscriber",
 
     // Better Angel Ring
     "better_angel_ring:ring",
@@ -65,6 +67,8 @@ global.itemNukeList = [
     "expatternprovider:silicon_block",
     "expatternprovider:circuit_cutter",
     /expatternprovider.*cutter/,
+    "expatternprovider:ex_inscriber",
+    "expatternprovider:ex_charger",
 
     // Extended Crafting
     "extendedcrafting:auto_ender_crafter",

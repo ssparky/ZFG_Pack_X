@@ -128,6 +128,103 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .formula("Ti4O7")
 
     // Machine alloys
+    event.create("tiberium")
+        .ingot().fluid()
+        .element(GTElements.get("tiberium"))
+        .color(0x45DA40).secondaryColor(0x14831F).iconSet("bright")
+        .blastTemp(15000, "highest")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
+        .cableProperties(8388608, 32, 16, false);
+
+    event.create("taranium")
+        .ingot().fluid()
+        .element(GTElements.get("tiberium"))
+        .color(0xDA40DA).secondaryColor(0x831474).iconSet("bright")
+        .blastTemp(10000, "higher")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FOIL)
+
+    // TODO:
+    event.create("promethium_technetium_tiberate") // UIV Hull
+
+    event.create("degenerate_rutherfordium_seaborgium_telluride") // UXV Hull
+
+    event.create("finalite") // MAX Hull / Pipe
+
+    event.create("green_steel") // EV SC
+        .ingot().fluid()
+        .components("1x scandium", "1x emerald", "4x black_steel", "2x steel")
+        .color(0x3B8844).secondaryColor(0x155527).iconSet("metallic")
+        .blastTemp(1813, "low")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
+        .cableProperties(2048, 4, 0, true);
+
+    event.create("chromatic_steel") // UXV Cable
+        .ingot().fluid()
+        .components("1x red_steel", "1x blue_steel", "1x green_steel")
+        .color(0xD9D9D9).secondaryColor(0x1F1F1F).iconSet("metallic")
+        .blastTemp(15780, "highest")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
+        .cableProperties(134217728, 128, 512, false);
+
+    event.create("aetherium_roentgenium_nihonium_rubidium_iodate") // OpV Cable
+
+    event.create("rare_earth_taraniate") // UEV SC
+
+    event.create("osmium_taranium_einsteinium_caesium_omniate") // UIV SC
+
+    event.create("eltic_neptunium_seaborgium_terbium_germanium_carbide") // UXV SC
+
+    event.create("nobelium_polonium_oganesson_promethium_selenium_silicide") // OpV SC
+
+    event.create("omnium_doped_niobium_yttrium_neutronate") // UIV Pipe
+
+    event.create("warped_null") // OpV Pipe
+
+    event.create("hafnium_carbonitride") // UEV Coil
+
+    event.create("omnic_rhenium_tungstide") // UIV Coil
+
+    event.create("eltic_hassium") // UXV Coil
+
+    event.create("eternium") // OpV/MAX Coil
+
+    event.create("hss_x") // ZPM/UV/UHV electrode - include praseodymium perhaps?
+
+    event.create("rubidium_yttrium_ytterbium_germanium_nitride") // UXV/OpV electrode
+
+    event.create("samarium_cobalt") // Samarium magnet replacement
+
+    event.create("rare_earth_complex") // UEV/UIV magnet
+
+    event.create("cosmic_platinum_cobalt") // UXV/OpV magnet
+
+    event.create("rutherfordium_carbide") // UHV/UEV lathe
+
+    event.create("seaborgium_darmstadtium_flerovide") // UIV/UXV lathe
+
+    event.create("degenerate_trinium_neutronate") // OpV lathe
+
+    event.create("dubnium_dilivermoride") // UXV rotor gear, UXV piston material
+
+    event.create("nihonium_caesium_astatide") // UXV pump rotor
+
+    event.create("cosmic_hss_x_complex") // OpV pump rotor
+
+    event.create("ytterbium_dysprosium_rubidium_oxide") // ZPM Emitter rod
+
+    event.create("cosmic_electrum") // UXV Emitter rod
+
+    event.create("ultrachroma") // OpV Emitter rod, OpV Emitter Foil
+
+    event.create("lutetium_garnet") // UV Emitter crystal
+
+    event.create("holmium_chromium_thulium_yag") // UHV Emitter crystal
+
+    event.create("gadolinium_naquadriide") // UV Emitter Foil
+
+    event.create("taranium_silver_lutetium") // UEV Emitter Foil
+
+    event.create("ceric_ammonium_nitrate") // UIV+ etchant
 
     // Polymers and Rubber
     event.create("polypropylene")
@@ -169,4 +266,5 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0x578691).secondaryColor(0x1D214E).iconSet("shiny")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
 })

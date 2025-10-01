@@ -1,5 +1,5 @@
 {
     "ldlib": {
-        "connection": "kubejs:block/lattice_cutter/casing_ctm"
+        "connection": "kubejs:block/casing/fission_reactor/casing_ctm"
     }
 }

@@ -216,20 +216,8 @@ ServerEvents.recipes(event => {
         D: "ae2:logic_processor"
     }).id("kubejs:ae2/cpu_crafting_unit")
 
-    // Charger
-    event.remove({ id: "ae2:network/blocks/crystal_processing_charger" })
-    event.shaped(Item.of("ae2:charger"), [
-        "ABA",
-        "A  ",
-        "ABA"
-    ], {
-        A: "gtceu:dark_steel_plate",
-        B: "gtceu:certus_quartz_plate"
-    }).id("kubejs:ae2/charger")
-
-    event.recipes.gtceu.autoclave("charged_autoclave")
-        .itemInputs(["ae2:certus_quartz_crystal"])
-        .inputFluids("gtceu:distilled_water 100")
+    event.recipes.gtceu.polarizer("charged_polarizer")
+        .itemInputs("ae2:certus_quartz_crystal")
         .itemOutputs("ae2:charged_certus_quartz_crystal")
         .duration(20)
         .EUt(480)
@@ -377,91 +365,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "ae2:network/parts/energy_level_emitter" })
     event.shapeless("ae2:energy_level_emitter", ["ae2:level_emitter", "#forge:gems/certus_quartz"]).id("kubejs:ae2/energy_level_emitter").id("kubejs:ae2/energy_level_emitter")
 
-    // Processors
-    event.remove({ id: "ae2:inscriber/silicon_print" })
-    const wafers = [
-        ["gtceu:", "silicon_wafer"],
-        ["gtceu:", "phosphorus_wafer"],
-        ["gtceu:", "naquadah_wafer"],
-        ["gtceu:", "neutronium_wafer"],
-        ["kubejs:", "universe_wafer"]
-    ]
-    // Use AE2 silicon in other modes
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "middle": {
-                "item": "ae2:silicon"
-            },
-            "top": {
-                "item": "ae2:silicon_press"
-            }
-        },
-        "mode": "inscribe",
-        "result": {
-            "item": "ae2:printed_silicon"
-        }
-    }).id("kubejs:ae2/silicon_print")
-
-    event.remove({ id: "ae2:inscriber/logic_processor" })
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "bottom": {
-                "item": "ae2:printed_silicon"
-            },
-            "middle": {
-                "tag": "gtceu:circuits/lv"
-            },
-            "top": {
-                "item": "ae2:printed_logic_processor"
-            }
-        },
-        "mode": "press",
-        "result": {
-            "item": "ae2:logic_processor"
-        }
-    }).id("kubejs:ae2/logic_processor")
-
-    event.remove({ id: "ae2:inscriber/calculation_processor" })
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "bottom": {
-                "item": "ae2:printed_silicon"
-            },
-            "middle": {
-                "tag": "gtceu:circuits/lv"
-            },
-            "top": {
-                "item": "ae2:printed_calculation_processor"
-            }
-        },
-        "mode": "press",
-        "result": {
-            "item": "ae2:calculation_processor"
-        }
-    }).id("kubejs:ae2/calculation_processor")
-
-    event.remove({ id: "ae2:inscriber/engineering_processor" })
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "bottom": {
-                "item": "ae2:printed_silicon"
-            },
-            "middle": {
-                "tag": "gtceu:circuits/lv"
-            },
-            "top": {
-                "item": "ae2:printed_engineering_processor"
-            }
-        },
-        "mode": "press",
-        "result": {
-            "item": "ae2:engineering_processor"
-        }
-    }).id("kubejs:ae2/engineering_processor")
+    // Processors TODO: greg forming press recipes
 
     // Storage bus
     event.remove({ id: "ae2:network/parts/storage_bus" })
@@ -884,22 +788,6 @@ ServerEvents.recipes(event => {
         .itemOutputs("expatternprovider:ex_molecular_assembler")
         .duration(240)
         .EUt(512)
-
-    // Extended Inscriber
-    event.remove({ id: "expatternprovider:ex_inscriber" })
-    event.recipes.gtceu.assembler("kubejs:epp/ex_inscriber")
-        .itemInputs("4x ae2:inscriber", "2x ae2:capacity_card")
-        .itemOutputs("expatternprovider:ex_inscriber")
-        .duration(180)
-        .EUt(32)
-
-    // Extended Charger
-    event.remove({ id: "expatternprovider:ex_charger" })
-    event.recipes.gtceu.assembler("kubejs:epp/ex_charger")
-        .itemInputs("4x ae2:charger", "2x ae2:capacity_card")
-        .itemOutputs("expatternprovider:ex_charger")
-        .duration(180)
-        .EUt(32)
 
     // Tag storage bus
     event.remove({ id: "expatternprovider:tag_storage_bus" })

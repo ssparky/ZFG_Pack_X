@@ -199,7 +199,9 @@ StartupEvents.registry("block", event => {
         .resistance(5).hardness(4)
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")
-        .requiresTool(true);
+        .requiresTool(true)
+        .renderType("cutout")
+        .defaultCutout();
 
     // UEV Hermetic Casing
     event.create("gtceu:uev_hermetic_casing")
@@ -278,14 +280,55 @@ StartupEvents.registry("block", event => {
         .textureAll("kubejs:block/casing/prism/prism_frame")
         .defaultCutout()
 
-    event.create("omnic_matrix_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil")
+    // Coils
+    event.create("hafnium_carbonitride_coil_block", "gtceu:coil")
+        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
         .temperature(12600)
         .level(16)
         .energyDiscount(16)
         .tier(8)
-        .coilMaterial(() => GTMaterials.get("omnium"))
-        .hardness(5)
+        .coilMaterial(() => GTMaterials.get("hafnium")) // TODO: material
+        .hardness(6)
+        .requiresTool(true)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .soundType("metal")
+
+
+    event.create("omnic_matrix_coil_block", "gtceu:coil")
+        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil")
+        .temperature(14200)
+        .level(16)
+        .energyDiscount(16)
+        .tier(8)
+        .coilMaterial(() => GTMaterials.get("omnium")) // TODO: change to omnic rhenium-tungsten when registered
+        .hardness(6)
+        .requiresTool(true)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .soundType("metal")
+
+    event.create("eltic_hassium_coil_block", "gtceu:coil")
+        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
+        .temperature(18400)
+        .level(32)
+        .energyDiscount(32)
+        .tier(9)
+        .coilMaterial(() => GTMaterials.get("eltz")) // TODO: material
+        .hardness(7)
+        .requiresTool(true)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .soundType("metal")
+
+    event.create("eternium_coil_block", "gtceu:coil")
+        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
+        .temperature(30000)
+        .level(32)
+        .energyDiscount(32)
+        .tier(9)
+        .coilMaterial(() => GTMaterials.get("aetherium")) // TODO: material
+        .hardness(7)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")

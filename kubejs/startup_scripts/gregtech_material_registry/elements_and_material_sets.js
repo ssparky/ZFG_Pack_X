@@ -99,6 +99,18 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
     event.create("aetherium")
         .symbol("❂")
 
+    // Tiberium
+    event.create("tiberium")
+        .protons(225)
+        .neutrons(330)
+        .symbol("⍕")
+
+    // Taranium
+    event.create("taranium")
+        .protons(230)
+        .neutrons(350)
+        .symbol("☩")
+
     // Primal Mana
 
     event.create("mana")

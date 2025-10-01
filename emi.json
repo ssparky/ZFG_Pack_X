@@ -1,28 +1,251 @@
 {
   "favorites": [
     {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b1\"}"
+      "stack": "fluid:gtceu:light_rare_earths_organic_phase",
+      "recipe": "gtceu:centrifuge/rare_earth_mass_separation"
     },
     {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b2\"}"
-    },
-    {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b3\"}"
-    },
-    {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_b6\"}"
-    },
-    {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:tris_core\"}"
-    },
-    {
-      "stack": "item:tacz:ammo{AmmoId:\"trisdyna:emx_s10\"}"
-    },
-    {
-      "stack": "item:tacz:ammo{AmmoId:\"doom:energy_ball\"}"
+      "stack": "fluid:gtceu:dense_rare_earths_aqueous_phase",
+      "recipe": "gtceu:centrifuge/rare_earth_mass_separation"
     }
   ],
   "lookup_history": [
+    "item:gtceu:uxv_quantum_tank",
+    "item:gtceu:lv_super_tank",
+    "item:gtceu:creative_tank",
+    "item:gtceu:opv_quantum_tank",
+    "item:gtceu:ev_super_tank",
+    "item:gtceu:hot_red_steel_ingot",
+    "item:gtceu:hot_blue_steel_ingot",
+    "item:gtceu:emerald_dust",
+    "item:gtceu:green_sapphire_dust",
+    "item:gtceu:uranium_233_dust",
+    "item:gtceu:chromia_dust",
+    "item:gtceu:meta_null_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:meta_null",
+      "amount": 0
+    },
+    "item:gtceu:tiny_meta_null_dust",
+    "item:gtceu:bismuth_chloride_dust",
+    "item:gtceu:blue_steel_dust",
+    "item:gtceu:red_steel_dust",
+    "fluid:gtceu:rare_earth_sulfate_solution",
+    "item:gtceu:max_16a_energy_converter",
+    "item:gtceu:crushed_monazite_ore",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ursus\"}",
+    "item:moreartifacts:sculk_lens",
+    "item:gtceu:sculk_superconductor_double_wire",
+    "item:gtceu:sculk_superconductor_quadruple_wire",
+    "item:gtceu:sculk_superconductor_octal_wire",
+    "item:gtceu:sculk_superconductor_hex_wire",
+    "item:gtceu:small_sculk_superconductor_dust",
+    {
+      "type": "item",
+      "id": "gtceu:tiny_sculk_superconductor_dust",
+      "amount": 9
+    },
+    "item:gtceu:sculk_superconductor_dust",
+    "item:gtceu:sculk_superconductor_single_wire",
+    "item:gtceu:hot_tiberium_ingot",
+    "item:kubejs:thorium_230_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:thorium_232_dust",
+      "amount": 6
+    },
+    "item:kubejs:thorium_232_fuel_pellet",
+    "item:gtceu:raw_thorium",
+    [
+      "item:gtceu:raw_thorium",
+      "#item:forge:ores/thorium"
+    ],
+    {
+      "type": "item",
+      "id": "gtceu:thorium_dust",
+      "chance": 0.01
+    },
+    "item:minecraft:deepslate",
+    "item:kubejs:depleted_thorium_232_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:neptunium_236_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:neptunium_236_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_neptunium_236_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:americium_242_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:americium_242_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_americium_242_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:curium_247_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:curium_247_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_curium_247_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:californium_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:californium_251_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_californium_251_fuel_pellet",
+    "item:gtceu:tiny_einsteinium_254_dust",
+    {
+      "type": "item",
+      "id": "gtceu:einsteinium_254_dust",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:einsteinium_254_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_einsteinium_254_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:fermium_dust",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "kubejs:fermium_257_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_fermium_257_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:mendelevium_dust",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "kubejs:mendelevium_259_fuel_pellet",
+      "amount": 4
+    },
+    "item:kubejs:depleted_mendelevium_259_fuel_pellet",
+    {
+      "type": "item",
+      "id": "gtceu:nobelium_dust",
+      "amount": 6
+    },
+    "item:kubejs:nobelium_259_fuel_pellet",
+    "item:kubejs:fermium_255_fuel_pellet",
+    "item:kubejs:einsteinium_253_fuel_pellet",
+    "item:kubejs:einsteinium_252_fuel_pellet",
+    "item:kubejs:californium_252_fuel_pellet",
+    "item:kubejs:californium_250_fuel_pellet",
+    "item:kubejs:californium_249_fuel_pellet",
+    "item:kubejs:berkelium_248_fuel_pellet",
+    "item:kubejs:berkelium_247_fuel_pellet",
+    "item:kubejs:curium_246_fuel_pellet",
+    "item:kubejs:americium_243_fuel_pellet",
+    "item:kubejs:curium_245_fuel_pellet",
+    "item:kubejs:curium_243_fuel_pellet",
+    "item:kubejs:americium_241_fuel_pellet",
+    "item:kubejs:plutonium_242_fuel_pellet",
+    "item:kubejs:plutonium_241_fuel_pellet",
+    "item:kubejs:plutonium_239_fuel_pellet",
+    "item:kubejs:plutonium_238_fuel_pellet",
+    "item:kubejs:neptunium_237_fuel_pellet",
+    "item:kubejs:uranium_238_fuel_pellet",
+    "item:kubejs:uranium_235_fuel_pellet",
+    "item:kubejs:uranium_233_fuel_pellet",
+    {
+      "type": "fluid",
+      "id": "gtmutils:quantum_coolant",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 0
+    },
+    "item:kubejs:graphite_electrode",
+    "item:kubejs:heavy_radiation_shielding_plate",
+    "item:gtceu:ultimet_frame",
+    "item:gtceu:large_naquadah_reactor",
+    "item:gtceu:naquadah_reactor",
+    "item:kubejs:elite_radiation_shielding_plate",
+    "item:gtceu:naquadah_refinery",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_trinaquadalloy",
+      "amount": 144
+    },
+    {
+      "type": "item",
+      "id": "gtceu:trinaquadalloy_ingot",
+      "amount": 2
+    },
+    "item:gtceu:double_trinaquadalloy_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:trinaquadalloy",
+      "amount": 144
+    },
+    "item:gtceu:trinaquadalloy_plate",
+    "item:kubejs:du_radiation_shielding_plate",
+    "item:gtceu:fission_reactor_breeder",
+    "item:gtceu:uiv_chemical_reactor",
+    "item:gtceu:uev_chemical_reactor",
+    "item:gtceu:uxv_chemical_reactor",
+    "item:gtceu:opv_chemical_reactor",
+    "item:gtceu:fission_reactor_power",
+    "item:gtceu:fission_reactor_rtg",
+    "item:gtceu:laminated_glass",
+    "item:gtceu:fusion_glass",
+    "item:kubejs:lyso_ce_glass",
+    "item:gtceu:lyso_ce_dust",
+    "item:kubejs:green_aligned_glass",
+    "item:chisel_chipped_integration:factory_ice_ice_ice",
+    "item:minecraft:ice",
+    "item:minecraft:packed_ice",
+    "item:minecraft:blue_ice",
+    "item:gtceu:hpca_computation_component",
+    "item:kubejs:dark_steel_casing",
+    "item:gtceu:tungstensteel_turbine_casing",
+    "item:gtceu:stainless_steel_turbine_casing",
+    "item:gtceu:titanium_turbine_casing",
+    "item:gtceu:steel_turbine_casing",
+    {
+      "type": "item",
+      "id": "gtceu:bromoargyrite_dust",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:bromine",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:hydrobromic_acid",
+      "amount": 0
+    },
+    "item:monilabs:chromodynamic_conduction_casing",
     "item:kubejs:depleted_naquadah_fuel_dust",
     "item:kubejs:naquadah_fuel_mixture_dust",
     "item:kubejs:unsintered_naquadah_fuel_pellet",
@@ -257,31 +480,6 @@
       "id": "gtceu:crude_light_rare_earth_hydroxide_cake_dust",
       "amount": 6
     },
-    {
-      "type": "fluid",
-      "id": "gtceu:rare_earth_chloride_tbp_mix",
-      "amount": 2000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:rare_earth_chloride_solution",
-      "amount": 1000
-    },
-    {
-      "type": "item",
-      "id": "gtceu:rare_earth_carbonate_dust",
-      "amount": 5
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:leached_rare_earth_solution",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:rare_earth_sulfate_solution",
-      "amount": 0
-    },
     "item:gtceu:calcium_dust",
     "item:gtceu:yttria_dust",
     "item:gtceu:raw_trona",
@@ -326,7 +524,6 @@
       "amount": 1000
     },
     "item:gtceu:potassium_carbonate_dust",
-    "item:gtceu:crushed_monazite_ore",
     "item:alekiships:music_disc_pirate_crafting",
     "item:alekiships:anchor",
     "item:alekiships:cleat",
@@ -717,7 +914,6 @@
     "item:gtceu:advanced_power_thruster",
     "item:minecraft:bedrock",
     "item:gtceu:potassium_dichromate_dust",
-    "item:gtceu:chromia_dust",
     "item:gtceu:basic_copper_chromate_dust",
     "item:gtceu:manganese_nitrate_dust",
     "item:gtceu:rhodochrosite_dust",
@@ -734,9 +930,6 @@
     "item:kubejs:ender_dragon_scale_dust",
     "item:kubejs:protomatter",
     "item:kubejs:null_infused_circuit_board",
-    "item:kubejs:heavy_radiation_shielding_plate",
-    "item:kubejs:du_radiation_shielding_plate",
-    "item:kubejs:elite_radiation_shielding_plate",
     "item:fluxnetworks:flux_dust",
     "item:fluxnetworks:flux_block",
     "item:ironfurnaces:obsidian_furnace",
@@ -775,13 +968,6 @@
     "item:gtceu:fertilizer",
     "item:chipped:fertile_hay_block",
     "item:create:tree_fertilizer",
-    "item:gtceu:trinaquadalloy_plate",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_trinaquadalloy",
-      "amount": 144
-    },
-    "item:gtceu:trinaquadalloy_ingot",
     "item:create:crushed_raw_lead",
     "item:gtceu:erbium_oxide_dust",
     "item:gtceu:lv_mixer",
@@ -861,10 +1047,7 @@
       "id": "kubejs:liquid_ender",
       "amount": 0
     },
-    "item:gtceu:lyso_ce_dust",
-    "item:kubejs:lyso_ce_glass",
     "item:kubejs:red_aligned_glass",
-    "item:kubejs:green_aligned_glass",
     "item:kubejs:blue_aligned_glass",
     {
       "type": "item",
@@ -879,7 +1062,6 @@
     "item:kubejs:grown_nanotube_substrate",
     "item:kubejs:carbon_nanotubes",
     "item:kubejs:nanotube_soot",
-    "item:kubejs:graphite_electrode",
     "item:kubejs:naquadah_waste",
     "item:kubejs:empty_bathyal_energy_core",
     "item:kubejs:empty_abyssal_energy_core",
@@ -1032,7 +1214,6 @@
     "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_heavy\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_light\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_tactical\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ursus\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:deagle_golden_long_barrel\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_vulture\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}",
@@ -1305,7 +1486,6 @@
     "item:gtceu:raw_manganvesuvianite",
     "item:gtceu:raw_cobaltite",
     "item:gtceu:raw_opal",
-    "item:gtceu:raw_thorium",
     "item:gtceu:raw_heptasartorite",
     "item:gtceu:raw_uraninite",
     "item:gtceu:raw_anatase",
@@ -1345,122 +1525,7 @@
     "item:gtceu:raw_hexagonite",
     "item:gtceu:raw_columbite",
     "item:gtceu:raw_selenite",
-    "item:gtceu:raw_microcline",
-    "item:gtceu:raw_teallite",
-    "item:gtceu:raw_schizolite",
-    "item:gtceu:raw_tusionite",
-    "item:gtceu:raw_ulexite",
-    "item:gtceu:raw_tarapacaite",
-    "item:gtceu:raw_xilingolite",
-    "item:gtceu:raw_wodginite",
-    "item:tacz:attachment{AttachmentId:\"tacz:light_extended_mag_2\"}",
-    "item:tacz:workbench_b{BlockId:\"lrtactical:smith_table\"}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:1,GunFireMode:\"AUTO\",GunId:\"daffas_arsenal:southeastmomssecretweapon3\",HasBulletInBarrel:0b,display:{Name:\u0027{\"italic\":false,\"translate\":\"daffas_arsenal.gun.southeastmomssecretweapon3\"}\u0027}}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:50,GunFireMode:\"AUTO\",GunId:\"daffas_arsenal:southeastmomssecretweapon\",HasBulletInBarrel:0b,display:{Name:\u0027{\"italic\":false,\"translate\":\"daffas_arsenal.gun.southeastmomssecretweapon\"}\u0027}}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"daffas_arsenal:ss1_v5\",HasBulletInBarrel:1b,display:{Name:\u0027{\"italic\":false,\"translate\":\"daffas_arsenal.gun.ss1_v5\"}\u0027}}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"daffas_arsenal:hk416_sup\",HasBulletInBarrel:1b,display:{Name:\u0027{\"italic\":false,\"translate\":\"daffas_arsenal.gun.hk416_sup\"}\u0027}}",
-    {
-      "type": "fluid",
-      "id": "gtceu:titanium_tetrachloride",
-      "amount": 0
-    },
-    "item:gtceu:raw_germanite",
-    "item:gtceu:raw_sperrylite",
-    "item:gtceu:raw_rutile",
-    "item:gtceu:raw_carnotite",
-    "item:gtceu:raw_anorthite",
-    "item:gtceu:raw_briartite",
-    "item:gtceu:raw_uvarovite",
-    "item:gtceu:raw_arsenopyrite",
-    "item:gtceu:raw_legrandite",
-    "item:gtceu:raw_manganite",
-    "item:gtceu:raw_black_opal",
-    "item:gtceu:raw_barite",
-    "item:gtceu:raw_andradite",
-    "item:gtceu:raw_nambulite",
-    {
-      "type": "item",
-      "id": "gtceu:bismuth_chloride_dust",
-      "amount": 7
-    },
-    "item:gtceu:russellite_dust",
-    "item:gtceu:tungsten_trioxide_dust",
-    "item:gtceu:tungsten_steel_foil",
-    "item:gtceu:rutile_dust",
-    "item:kubejs:dark_steel_casing",
-    "item:gtceu:dark_steel_ingot",
-    "item:gtceu:dark_steel_plate",
-    "item:kubejs:depleted_nobelium_259_fuel_pellet",
-    "item:kubejs:depleted_thorium_230_fuel_pellet",
-    "item:kubejs:depleted_thorium_232_fuel_pellet",
-    "item:kubejs:depleted_uranium_233_fuel_pellet",
-    "item:kubejs:depleted_uranium_235_fuel_pellet",
-    "item:kubejs:depleted_uranium_238_fuel_pellet",
-    "item:kubejs:depleted_neptunium_236_fuel_pellet",
-    "item:kubejs:depleted_neptunium_237_fuel_pellet",
-    "item:kubejs:depleted_plutonium_238_fuel_pellet",
-    "item:kubejs:depleted_plutonium_239_fuel_pellet",
-    "item:kubejs:depleted_plutonium_241_fuel_pellet",
-    "item:kubejs:depleted_plutonium_242_fuel_pellet",
-    "item:kubejs:depleted_americium_241_fuel_pellet",
-    "item:kubejs:depleted_americium_242_fuel_pellet",
-    "item:kubejs:depleted_americium_243_fuel_pellet",
-    "item:kubejs:depleted_curium_243_fuel_pellet",
-    "item:kubejs:depleted_curium_245_fuel_pellet",
-    "item:kubejs:depleted_curium_246_fuel_pellet",
-    "item:kubejs:depleted_curium_247_fuel_pellet",
-    "item:kubejs:depleted_berkelium_247_fuel_pellet",
-    "item:kubejs:depleted_berkelium_248_fuel_pellet",
-    "item:kubejs:depleted_californium_249_fuel_pellet",
-    "item:kubejs:depleted_californium_250_fuel_pellet",
-    "item:kubejs:depleted_californium_251_fuel_pellet",
-    "item:kubejs:depleted_californium_252_fuel_pellet",
-    "item:kubejs:depleted_einsteinium_252_fuel_pellet",
-    "item:kubejs:depleted_einsteinium_253_fuel_pellet",
-    "item:kubejs:depleted_einsteinium_254_fuel_pellet",
-    "item:kubejs:depleted_fermium_255_fuel_pellet",
-    "item:kubejs:depleted_fermium_257_fuel_pellet",
-    "item:kubejs:depleted_mendelevium_259_fuel_pellet",
-    "item:kubejs:nobelium_259_fuel_pellet",
-    "item:kubejs:mendelevium_259_fuel_pellet",
-    "item:kubejs:fermium_257_fuel_pellet",
-    "item:kubejs:fermium_255_fuel_pellet",
-    "item:kubejs:einsteinium_254_fuel_pellet",
-    "item:kubejs:einsteinium_253_fuel_pellet",
-    "item:kubejs:einsteinium_252_fuel_pellet",
-    "item:kubejs:californium_252_fuel_pellet",
-    "item:kubejs:californium_251_fuel_pellet",
-    "item:kubejs:californium_250_fuel_pellet",
-    "item:kubejs:californium_249_fuel_pellet",
-    "item:kubejs:berkelium_248_fuel_pellet",
-    "item:kubejs:berkelium_247_fuel_pellet",
-    "item:kubejs:curium_247_fuel_pellet",
-    "item:kubejs:curium_246_fuel_pellet",
-    "item:kubejs:curium_245_fuel_pellet",
-    "item:kubejs:curium_243_fuel_pellet",
-    "item:kubejs:americium_243_fuel_pellet",
-    "item:kubejs:americium_242_fuel_pellet",
-    "item:kubejs:americium_241_fuel_pellet",
-    "item:kubejs:plutonium_242_fuel_pellet",
-    "item:kubejs:plutonium_241_fuel_pellet",
-    "item:kubejs:plutonium_239_fuel_pellet",
-    "item:kubejs:plutonium_238_fuel_pellet",
-    "item:kubejs:neptunium_237_fuel_pellet",
-    "item:kubejs:neptunium_236_fuel_pellet",
-    "item:kubejs:uranium_238_fuel_pellet",
-    "item:kubejs:uranium_235_fuel_pellet",
-    "item:kubejs:uranium_233_fuel_pellet",
-    "item:kubejs:thorium_232_fuel_pellet",
-    "item:kubejs:thorium_230_fuel_pellet",
-    "item:gtceu:fine_soul_infused_wire",
-    "item:gtceu:soul_infused_ingot",
-    "item:gtceu:iv_soul_binder",
-    "item:gtceu:uev_soul_binder",
-    "item:gtceu:uv_soul_binder",
-    "item:gtceu:ev_soul_binder",
-    "item:gtceu:luv_polymerization_chamber",
-    "item:gtceu:hv_polymerization_chamber",
-    "item:gtceu:opv_fluid_heater"
+    "item:gtceu:raw_microcline"
   ],
   "craft_history": [],
   "recipe_defaults": {

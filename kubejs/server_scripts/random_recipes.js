@@ -793,7 +793,7 @@ ServerEvents.recipes(event => {
         .EUt(16)
 
     // NCN plates
-    event.shaped("kubejs:heavy_radiation_shielding_plate", [
+    event.shaped("4x kubejs:heavy_radiation_shielding_plate", [
         "BAB",
         "ACA",
         "BAB"
