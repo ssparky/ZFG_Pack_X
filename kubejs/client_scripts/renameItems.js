@@ -25,4 +25,6 @@ ClientEvents.lang('en_us', event => {
     event.renameBlock("rusticdelight:bell_pepper_red_crate", "Red Bell Pepper Crate")
     event.renameBlock("rusticdelight:bell_pepper_yellow_crate", "Yellow Bell Pepper Crate")
     event.renameBlock("rusticdelight:wild_bell_peppers", "Wild Bell Peppers")
+
+    event.renameItem("ae2:silicon", "Rough Certic Silicon")
 })

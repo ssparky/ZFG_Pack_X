@@ -308,6 +308,12 @@
     "block.gtceu.fission_reactor_power": "Fission Reactor (Power)",
     "block.gtceu.fission_reactor_breeder": "Fission Reactor (Breeder)",
     "block.gtceu.fission_reactor_rtg": "RTG",
+    "gtceu.gem_growing_vat": "Gem Crystallization",
+    "gtceu.neutron_chamber": "Neutron Bombardment",
+    "gtceu.steel_pump": "Steel Water Pump",
+    "block.gtceu.gem_growing_vat": "Gem Crystallization Vat",
+    "block.gtceu.neutron_chamber": "Neutron Bombardment Chamber",
+    "block.gtceu.steel_pump": "Steel Water Pump",
     "__CREATIVE_MACHINES__.header": "=====================",
     "__CREATIVE_MACHINES__.flufff": "> Creative Machines <",
     "__CREATIVE_MACHINES__.footer": "=====================",
@@ -878,5 +884,14 @@
     "material.gtceu.europium_oxide": "Europium Oxide",
     "material.gtceu.europium_ii_oxide": "Europium II Oxide",
     "material.gtceu.lutetium_fluoride": "Lutetium Fluoride",
-    "material.gtceu.cuprous_oxide": "Cuprous Oxide"
+    "material.gtceu.cuprous_oxide": "Cuprous Oxide",
+    "material.gtceu.cerium_dioxide": "Cerium Dioxide",
+    "material.gtceu.holmium_fluoride": "Holmium Fluoride",
+    "material.gtceu.lanthanum_fluoride": "Lanthanum Fluoride",
+    "material.gtceu.irradiated_neodymium_oxide": "Irradiated Neodymium Oxide",
+    "material.gtceu.irradiated_neodymium_chloride": "Irradiated Neodymium Chloride",
+    "material.gtceu.promethium_chloride": "Promethium Chloride",
+    "material.gtceu.fertile_neodymium_chloride": "Fertile Neodymium Chloride",
+    "material.gtceu.depleted_neodymium_chloride": "Depleted Neodymium Chloride",
+    "material.gtceu.promethium_oxide": "Promethium Oxide"
 }

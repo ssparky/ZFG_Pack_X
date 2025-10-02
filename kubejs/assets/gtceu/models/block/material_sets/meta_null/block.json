@@ -1,5 +1,5 @@
 {
-  "parent": "gtceu:block/cube_3_layer/a;;",
+  "parent": "gtceu:block/cube_3_layer/all",
   "textures": {
     "bot_all": "gtceu:item/material_sets/meta_null/blank_image",
     "mid_all": "gtceu:item/material_sets/meta_null/blank_image",

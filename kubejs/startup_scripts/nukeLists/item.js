@@ -200,6 +200,16 @@ global.itemNukeList = [
 
     // Baubly heart canisters
     /^bhc:.*wither.*/,
+
+    // Spartan Shields
+    /^spartanshields:manasteel_.*/,
+    /^spartanshields:terrasteel_.*/,
+    /^spartanshields:elementium_.*/,
+    /^spartanshields:osmium_.*/,
+    /^spartanshields:lapis_.*/,
+    /^spartanshields:refined_.*/,
+    /^spartanshields:.*_mekanists_.*/,
+    /^spartanshields:dark_steel_.*/,
 ];
 
 // Create Compat

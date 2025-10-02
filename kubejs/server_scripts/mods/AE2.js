@@ -58,19 +58,6 @@ ServerEvents.recipes(event => {
         E: "gtceu:mv_sensor"
     }).id("kubejs:ae2/storage_drive")
 
-    // Inscriber
-    event.remove({ id: "ae2:network/blocks/inscribers" })
-    event.shaped(Item.of("ae2:inscriber"), [
-        "ABA",
-        "CDA",
-        "ABA"
-    ], {
-        A: "gtceu:dark_steel_plate",
-        B: "gtceu:mv_electric_piston",
-        C: "ae2:fluix_crystal",
-        D: "gtceu:mv_machine_hull"
-    }).id("kubejs:ae2/inscriber")
-
     // Patterns
     event.remove({ id: "ae2:network/crafting/patterns_blank" })
     event.shaped(Item.of("ae2:blank_pattern", 8), [
@@ -565,43 +552,6 @@ ServerEvents.recipes(event => {
         .EUt(240)
         .cleanroom(CleanroomType.CLEANROOM)
 
-    event.remove({ id: "megacells:inscriber/accumulation_processor_print" })
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "middle": {
-                "item": "gtceu:black_steel_ingot"
-            },
-            "top": {
-                "item": "megacells:accumulation_processor_press"
-            }
-        },
-        "mode": "inscribe",
-        "result": {
-            "item": "megacells:printed_accumulation_processor"
-        }
-    }).id("kubejs:mega/accumulation_processor_print")
-
-    event.remove({ id: "megacells:inscriber/accumulation_processor" })
-    event.custom({
-        "type": "ae2:inscriber",
-        "ingredients": {
-            "bottom": {
-                "item": "ae2:printed_silicon"
-            },
-            "middle": {
-                "tag": "gtceu:circuits/hv"
-            },
-            "top": {
-                "item": "megacells:printed_accumulation_processor"
-            }
-        },
-        "mode": "press",
-        "result": {
-            "item": "megacells:accumulation_processor"
-        }
-    }).id("kubejs:mega/accumulation_processor")
-
     event.remove({ id: /megacells:cells\/standard\/.*storage_cell.*m$/ })
 
     event.remove({ id: "megacells:cells/mega_item_cell_housing" })
@@ -668,62 +618,85 @@ ServerEvents.recipes(event => {
     // Greg circuits
     event.recipes.gtceu.forming_press("ae2_printed_silicon_greg")
         .notConsumable("ae2:silicon_press")
-        .itemInputs("4x ae2:silicon")
-        .itemOutputs("4x ae2:printed_silicon")
-        .duration(10)
-        .EUt(2048)
+        .itemInputs("ae2:silicon")
+        .itemOutputs("ae2:printed_silicon")
+        .duration(160)
+        .EUt(32)
 
     event.recipes.gtceu.forming_press("ae2_printed_engineering_greg")
         .notConsumable("ae2:engineering_processor_press")
-        .itemInputs("4x minecraft:diamond")
-        .itemOutputs("4x ae2:printed_engineering_processor")
-        .duration(10)
-        .EUt(2048)
+        .itemInputs("minecraft:diamond")
+        .itemOutputs("ae2:printed_engineering_processor")
+        .duration(160)
+        .EUt(32)
 
     event.recipes.gtceu.forming_press("ae2_printed_logic_greg")
         .notConsumable("ae2:logic_processor_press")
-        .itemInputs("4x minecraft:gold_ingot")
-        .itemOutputs("4x ae2:printed_logic_processor")
-        .duration(10)
-        .EUt(2048)
+        .itemInputs("minecraft:gold_ingot")
+        .itemOutputs("ae2:printed_logic_processor")
+        .duration(160)
+        .EUt(32)
 
     event.recipes.gtceu.forming_press("ae2_printed_calcuation_greg")
         .notConsumable("ae2:calculation_processor_press")
-        .itemInputs("4x ae2:certus_quartz_crystal")
-        .itemOutputs("4x ae2:printed_calculation_processor")
-        .duration(10)
-        .EUt(2048)
+        .itemInputs("ae2:certus_quartz_crystal")
+        .itemOutputs("ae2:printed_calculation_processor")
+        .duration(160)
+        .EUt(32)
 
     event.recipes.gtceu.forming_press("mega_printed_accumulation_greg")
         .notConsumable("megacells:accumulation_processor_press")
-        .itemInputs("4x gtceu:black_steel_plate")
-        .itemOutputs("4x megacells:printed_accumulation_processor")
-        .duration(10)
-        .EUt(2048)
+        .itemInputs("gtceu:black_steel_plate")
+        .itemOutputs("megacells:printed_accumulation_processor")
+        .duration(160)
+        .EUt(32)
 
     // Processors
-    event.recipes.gtceu.circuit_assembler("ae2_engineering_processor_greg_1x")
+    // Inefficient recipes
+    event.recipes.gtceu.circuit_assembler("ae2_engineering_processor_greg_1x_cheap")
         .itemInputs("ae2:printed_engineering_processor", "ae2:printed_silicon", "#gtceu:circuits/lv")
+        .inputFluids("gtceu:redstone 144")
+        .itemOutputs("ae2:engineering_processor")
+        .duration(200)
+        .EUt(32)
+
+    event.recipes.gtceu.circuit_assembler("ae2_logic_processor_greg_1x_cheap")
+        .itemInputs("ae2:printed_logic_processor", "ae2:printed_silicon", "#gtceu:circuits/lv")
+        .inputFluids("gtceu:redstone 144")
+        .itemOutputs("ae2:logic_processor")
+        .duration(200)
+        .EUt(32)
+
+    event.recipes.gtceu.circuit_assembler("ae2_calculation_processor_greg_1x_cheap")
+        .itemInputs("ae2:printed_calculation_processor", "ae2:printed_silicon", "#gtceu:circuits/lv")
+        .inputFluids("gtceu:redstone 144")
+        .itemOutputs("ae2:calculation_processor")
+        .duration(200)
+        .EUt(32)
+
+    // Efficient recipes
+    event.recipes.gtceu.circuit_assembler("ae2_engineering_processor_greg_1x")
+        .itemInputs("ae2:printed_engineering_processor", "ae2:printed_silicon", "#gtceu:circuits/mv")
         .inputFluids("gtceu:soldering_alloy 72")
         .itemOutputs("2x ae2:engineering_processor")
         .duration(100)
-        .EUt(2560)
+        .EUt(2048)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.circuit_assembler("ae2_logic_processor_greg_1x")
-        .itemInputs("ae2:printed_logic_processor", "ae2:printed_silicon", "#gtceu:circuits/lv")
+        .itemInputs("ae2:printed_logic_processor", "ae2:printed_silicon", "#gtceu:circuits/mv")
         .inputFluids("gtceu:soldering_alloy 72")
         .itemOutputs("2x ae2:logic_processor")
         .duration(100)
-        .EUt(2560)
+        .EUt(2048)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.circuit_assembler("ae2_calculation_processor_greg_1x")
-        .itemInputs("ae2:printed_calculation_processor", "ae2:printed_silicon", "#gtceu:circuits/lv")
+        .itemInputs("ae2:printed_calculation_processor", "ae2:printed_silicon", "#gtceu:circuits/mv")
         .inputFluids("gtceu:soldering_alloy 72")
         .itemOutputs("2x ae2:calculation_processor")
         .duration(100)
-        .EUt(2560)
+        .EUt(2048)
         .cleanroom(CleanroomType.CLEANROOM)
 
     event.recipes.gtceu.circuit_assembler("mega_accumulation_processor_greg_1x")
@@ -731,7 +704,7 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:soldering_alloy 72")
         .itemOutputs("megacells:accumulation_processor")
         .duration(10)
-        .EUt(2560)
+        .EUt(2048)
         .cleanroom(CleanroomType.CLEANROOM)
     // ExtendedAE
 
@@ -909,22 +882,6 @@ ServerEvents.recipes(event => {
 
     // Quantum Bridge Card
     event.remove({ id: "ae2wtlib:quantum_bridge_card" })
-    event.custom({
-        type: "ae2:inscriber",
-        ingredients: {
-            bottom: {
-                item: "ae2:singularity"
-            },
-            middle: {
-                item: "ae2:advanced_card"
-            },
-            top: {
-                item: "ae2:singularity"
-            }
-        },
-        mode: "press",
-        result: { item: "ae2wtlib:quantum_bridge_card" }
-    }).id("kubejs:ae2wtlib/quantum_bridge_card")
 
     // Certus Quartz and Fluix Blocks
     event.recipes.gtceu.compressor("kubejs:certus_quartz_block")
@@ -971,4 +928,32 @@ ServerEvents.recipes(event => {
         F: "gtceu:fluix_plate",
         S: "gtceu:mv_sensor"
     }).id("kubejs:ae2netanalyser/network_analyser")
+
+    // Quantum Bridge Card
+    event.recipes.gtceu.implosion_compressor("ae2:quantum_bridge_card")
+        .itemInputs("2x ae2:singularity", "1x ae2:advanced_card")
+        .itemOutputs("1x ae2wtlib:quantum_bridge_card")
+        .duration(400)
+        .EUt(2048)
+
+    // Double check inscriber recipes removal
+    event.remove({id:"ae2:inscriber/silicon_print"})
+    event.remove({id:"ae2:inscriber/engineering_processor_print"})
+    event.remove({id:"ae2:inscriber/certus_quartz_dust"})
+    event.remove({id:"ae2:inscriber/engineering_processor"})
+    event.remove({id:"ae2:inscriber/ender_dust"})
+    event.remove({id:"ae2:inscriber/calculation_processor"})
+    event.remove({id:"megacells:inscriber/accumulation_processor_print"})
+    event.remove({id:"ae2:inscriber/engineering_processor_press"})
+    event.remove({id:"ae2:inscriber/calculation_processor_press"})
+    event.remove({id:"megacells:inscriber/accumulation_processor_press"})
+    event.remove({id:"ae2:inscriber/logic_processor"})
+    event.remove({id:"ae2:inscriber/silicon_press"})
+    event.remove({id:"ae2:inscriber/logic_processor_press"})
+    event.remove({id:"ae2:inscriber/logic_processor_print"})
+    event.remove({id:"megacells:inscriber/accumulation_processor"})
+    //event.remove({id:"ae2:inscriber/quantum_bridge_card"})
+    event.remove({id:"ae2:inscriber/fluix_dust"})
+    event.remove({id:"ae2:inscriber/calculation_processor_print"})
+    event.remove({id:"ae2:inscriber/sky_stone_dust"})
 })

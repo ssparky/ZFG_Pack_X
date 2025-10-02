@@ -201,4 +201,6 @@ ItemEvents.tooltip(tooltip => {
     })
     tooltip.add("chisel_chipped_integration:drill", Text.translatable("chipped.drill.tooltip"))
 
+    // TaCZ ammo molds crafting tooltip
+    tooltip.add(/^kubejs:ammo_mold_.*$/, Text.translatable("kubejs:ammo_mold.tooltip"))
 })

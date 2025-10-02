@@ -39,6 +39,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Promethium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Gadolinium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Dysprosium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Holmium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Erbium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Thulium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Ytterbium.setProperty($PropertyKey.INGOT, new $IngotProperty());

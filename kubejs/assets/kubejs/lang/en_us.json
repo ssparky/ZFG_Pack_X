@@ -472,5 +472,6 @@
   "chipped.workbenches.tooltip.2": "§7which can be automated with §bAE2§7's §3Molecular Assemblers§7.",
   "chipped.drill.tooltip": "Unbound by default!",
 
-  "tempad.tempad.tooltip": "§6Uses Monipennies as fuel"
+  "tempad.tempad.tooltip": "§6Uses Monipennies as fuel",
+  "kubejs:ammo_mold.tooltip": "§cEMI recipe shape may be inaccurate; input mold should always be in the middle!"
 }
