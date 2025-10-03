@@ -290,7 +290,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0x7E7694).iconSet("radioactive")
         .components("1x neodymium", "3x chlorine")
-        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+        //.flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("depleted_neodymium_chloride")
         .dust()

@@ -191,10 +191,20 @@
   "item.kubejs.complex_smd_diode": "Complex SMD Diode",
   "item.kubejs.complex_smd_inductor": "Complex SMD Inductor",
 
+  "item.kubejs.bioware_processor": "BioWare Processor",
+  "item.kubejs.bioware_processor_assembly": "BioWare Processor Assembly",
+  "item.kubejs.bioware_processor_computer": "BioWare Processor Supercomputer",
+  "item.kubejs.bioware_processor_mainframe": "BioWare Processor Mainframe",
+
   "item.kubejs.optical_processor": "Optical Processor",
   "item.kubejs.optical_processor_assembly": "Optical Processor Assembly",
   "item.kubejs.optical_processor_computer": "Optical Processor Supercomputer",
   "item.kubejs.optical_processor_mainframe": "Optical Processor Mainframe",
+
+  "item.kubejs.matter_processor": "Exotic Particle Processor",
+  "item.kubejs.matter_processor_assembly": "Exotic Particle Processor Assembly",
+  "item.kubejs.matter_processor_computer": "Exotic Particle Processor Supercomputer",
+  "item.kubejs.matter_processor_mainframe": "Exotic Particle Processor Mainframe",
 
   "item.kubejs.basic_mining_laser": "§eBasic Mining Laser",
   "item.kubejs.reinforced_mining_laser": "§bReinforced Mining Laser",
@@ -380,12 +390,11 @@
   "item.kubejs.uxv_tier_circuit": "UXV-Tier Circuit",
   "item.kubejs.opv_tier_circuit": "OpV-Tier Circuit",
   "item.kubejs.max_tier_circuit": "MAX-Tier Circuit",
-  "item.kubejs.optical_circuit.tooltip" : "Omnicapable Circuits!",
+  "item.kubejs.bioware_circuit.tooltip" : "Most Assuredly Sentient!",
+  "item.kubejs.optical_circuit.tooltip" : "Computing with Light!",
+  "item.kubejs.matter_circuit.tooltip" : "Omnicapable Circuits!",
   "item.kubejs.extradimensional_circuit.tooltip" : "Powered by Microverses!",
-  "item.kubejs.monic_processor.tooltip" : "The Beginning of The End",
-  "item.kubejs.monic_processor_assembly.tooltip" : "Can run vanilla Minecraft at a decent FPS",
-  "item.kubejs.monic_processor_computer.tooltip" : "Infinite Power",
-  "item.kubejs.monic_processor_mainframe.tooltip" : "The be-all end-all.",
+  "item.kubejs.multiversal_circuit.tooltip" : "The be-all end-all.",
 
   "item.kubejs.ulv_universal_circuit": "ULV Universal Circuit",
   "item.kubejs.lv_universal_circuit": "LV Universal Circuit",
@@ -399,6 +408,8 @@
   "item.kubejs.uhv_universal_circuit": "UHV Universal Circuit",
   "item.kubejs.uev_universal_circuit": "UEV Universal Circuit",
   "item.kubejs.uiv_universal_circuit": "UIV Universal Circuit",
+  "item.kubejs.uxv_universal_circuit": "UXV Universal Circuit",
+  "item.kubejs.opv_universal_circuit": "OpV Universal Circuit",
 
   "jetpack.conductive_iron.name": "Conductive Iron",
   "jetpack.creative.name": "Creative",

@@ -18,7 +18,8 @@
     "minecraft:dirt_path",
     "minecraft:packed_mud",
     "minecraft:coarse_dirt",
-    "minecraft:rooted_dirt"
+    "minecraft:rooted_dirt",
+    "mcwpaths:gravel_path_block"
   ],
   "path_block_tags": [
     "minecraft:slabs",
@@ -29,7 +30,10 @@
     "minecraft:logs",
     "minecraft:rails",
     "minecraft:buttons",
-    "minecraft:pressure_plates"
+    "minecraft:pressure_plates",
+    "mcwpaths:soil_paths",
+    "mcwpaths:wooden_paths",
+    "mcwpaths:stone_paths"
   ],
   "path_block_strings": [
     "sandstone",

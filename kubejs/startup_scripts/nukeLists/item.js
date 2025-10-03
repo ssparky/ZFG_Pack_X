@@ -194,9 +194,11 @@ global.itemNukeList = [
     /^displaydelight:lm_.*/,
     /^displaydelight:fd_.*/,
 
-    // Unnecessary items from let's do series of mods
+    // Unnecessary items from food mods
     "farm_and_charm:supply_cart",
     "farm_and_charm:plow",
+    "farmersdelight:apple_cider",
+    "displaydelight:apple_cider",
 
     // Baubly heart canisters
     /^bhc:.*wither.*/,

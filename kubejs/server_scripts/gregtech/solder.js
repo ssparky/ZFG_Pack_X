@@ -38,4 +38,15 @@ ServerEvents.recipes(event => {
         .circuit(10)
         .blastFurnaceTemp(1916)
         .cleanroom(CleanroomType.STERILE_CLEANROOM)
+
+    // Universal Soldering Alloy
+    event.recipes.gtceu.alloy_blast_smelter("universal_soldering_alloy")
+        .itemInputs("5x gtceu:green_steel_dust", "4x gtceu:rubidium_dust", "16x gtceu:tin_alloy_dust", "12x gtceu:bismuth_dust", "8x gtceu:indium_dust",
+                    "20x gtceu:neutronium_dust", "6x gtceu:germanium_dust", "4x gtceu:tellurium_dust")
+        .inputFluids("gtceu:radon 1000")
+        .outputFluids("gtceu:universal_soldering_alloy 10800")
+        .duration(750)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .circuit(10)
+        .blastFurnaceTemp(1916)
 })

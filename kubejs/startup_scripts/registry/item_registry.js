@@ -692,17 +692,47 @@ StartupEvents.registry("item", event => {
             .tag(`gtceu:circuits/${volt}`)
     }
 
+    function MainframeNoLights(theme, volt) {
+        event.create(`${theme}_processor_mainframe`)
+            .textureJson({ layer0: `kubejs:item/circuits/theme/${theme}/circuit/${theme}_processor_mainframe_base`})
+            .tag(`gtceu:circuits/${volt}`)
+    }
+
     function Mainframe(theme, volt) {
         event.create(`${theme}_processor_mainframe`)
             .textureJson({ layer0: `kubejs:item/circuits/theme/${theme}/circuit/${theme}_processor_mainframe_base`, layer1: `kubejs:item/circuits/theme/${theme}/circuit/${theme}_processor_mainframe_lights` })
             .tag(`gtceu:circuits/${volt}`)
     }
 
-    Circuit("optical", "processor", "zpm")
-    Circuit("optical", "processor_assembly", "uv")
-    Circuit("optical", "processor_computer", "uhv")
-    Mainframe("optical", "uev")
+    // Biowares
+    Circuit("bioware", "processor", "zpm")
+    Circuit("bioware", "processor_assembly", "uv")
+    Circuit("bioware", "processor_computer", "uhv")
+    MainframeNoLights("bioware", "uev")
 
+    event.create("bioware_circuit_board")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/bioware/board/bioware_circuit_board" })
+    event.create("bioware_processing_unit")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/bioware/board/bioware_processing_unit" })
+        
+    // Optical
+    Circuit("optical", "processor", "uv")
+    Circuit("optical", "processor_assembly", "uhv")
+    Circuit("optical", "processor_computer", "uev")
+    Mainframe("optical", "uiv")
+
+    // Particle
+    Circuit("matter", "processor", "uhv")
+    Circuit("matter", "processor_assembly", "uev")
+    Circuit("matter", "processor_computer", "uiv")
+    Mainframe("matter", "uxv")
+
+    event.create("matter_circuit_board")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/matter/board/matter_circuit_board" })
+    event.create("matter_processing_unit")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/matter/board/matter_processing_unit" })
+
+    // Extradimensional
     event.create("null_infused_circuit_board")
         .textureJson({ layer0: "kubejs:item/circuits/theme/extradimensional/board/null_infused_circuit_board" })
     event.create("null_infused_printed_circuit_board")
@@ -715,10 +745,21 @@ StartupEvents.registry("item", event => {
             layer0: "kubejs:item/circuits/theme/extradimensional/board/null_infused_circuit_board",
             layer1: "kubejs:item/circuits/theme/extradimensional/board/extradimensional_processing_unit"
         })
-    Circuit("extradimensional", "processor", "uv")
-    Circuit("extradimensional", "processor_assembly", "uhv")
-    Circuit("extradimensional", "processor_computer", "uev")
-    Mainframe("extradimensional", "max")
+    Circuit("extradimensional", "processor", "uev")
+    Circuit("extradimensional", "processor_assembly", "uiv")
+    Circuit("extradimensional", "processor_computer", "uxv")
+    Mainframe("extradimensional", "opv")
+
+    // Monic/Multiversal
+    Circuit("multiversal", "processor", "uiv")
+    Circuit("multiversal", "processor_assembly", "uxv")
+    Circuit("multiversal", "processor_computer", "opv")
+    Mainframe("multiversal", "max")
+
+    event.create("multiversal_circuit_board")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/multiversal/board/multiversal_circuit_board" })
+    event.create("multiversal_processing_unit")
+        .textureJson({ layer0: "kubejs:item/circuits/theme/multiversal/board/multiversal_processing_unit" })
 
     // Smores
     const smoreHunger = [
@@ -750,7 +791,7 @@ StartupEvents.registry("item", event => {
     }
 
     // Universal Circuits
-    const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev"]
+    const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv", "uxv", "opv"]
     tiers.forEach((universal_circuit) => {
         event.create(`${universal_circuit}_universal_circuit`)
             .tag(`gtceu:circuits/${universal_circuit}`)

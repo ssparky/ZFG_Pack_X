@@ -1,6 +1,606 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:gtceu:echo_shard_dust",
+    "item:minecraft:echo_shard",
+    "item:bhc:soul_heart_crystal",
+    "item:bhc:soul_heart_amulet",
+    "item:bhc:soul_heart_canister",
+    "item:gtceu:soul_infused_ingot",
+    "item:gtceu:quintessence_infuser",
+    "item:kubejs:dark_soularium_casing",
+    "item:gtceu:opv_gas_collector",
+    "item:gtceu:infinity_ingot",
+    "item:gtceu:transcendental_matrix_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:transcendental_matrix",
+      "amount": 256
+    },
+    "item:kubejs:active_prismatic_core",
+    {
+      "type": "fluid",
+      "id": "gtceu:infinity",
+      "amount": 144
+    },
+    "item:gtceu:universal_fluid_cell",
+    "item:kubejs:ulv_universal_circuit",
+    "item:kubejs:lv_universal_circuit",
+    "item:kubejs:mv_universal_circuit",
+    "item:kubejs:hv_universal_circuit",
+    "item:kubejs:ev_universal_circuit",
+    "item:kubejs:iv_universal_circuit",
+    "item:kubejs:luv_universal_circuit",
+    "item:kubejs:zpm_universal_circuit",
+    "item:kubejs:uv_universal_circuit",
+    "item:kubejs:uhv_universal_circuit",
+    "item:kubejs:uev_universal_circuit",
+    "item:kubejs:uiv_universal_circuit",
+    "item:kubejs:uxv_universal_circuit",
+    "item:kubejs:opv_universal_circuit",
+    "item:mynethersdelight:hotdog_with_mixed_salad",
+    "item:mynethersdelight:hotdog",
+    "item:mynethersdelight:roasted_sausage",
+    "item:mynethersdelight:dried_ghast_with_milk",
+    "item:brewery:dried_wheat",
+    "fluid:kubejs:noir_wine_fluid",
+    "item:vinery:noir_wine",
+    "fluid:kubejs:red_grapejuice_fluid",
+    "fluid:kubejs:red_wine_base_fluid",
+    "fluid:kubejs:noir_wine_base_fluid",
+    "item:farm_and_charm:barley",
+    "item:farm_and_charm:oat",
+    "item:farm_and_charm:corn",
+    "item:minecraft:wheat",
+    "item:gtceu:mv_fluid_heater",
+    "item:gtceu:mv_centrifuge",
+    "item:gtceu:mv_canner",
+    "item:gtceu:mv_brewery",
+    "item:gtceu:mv_bender",
+    "item:gtceu:mv_autoclave",
+    "item:gtceu:mv_arc_furnace",
+    "item:gtceu:mv_alloy_smelter",
+    "item:gtceu:mv_electric_furnace",
+    {
+      "type": "fluid",
+      "id": "monilabs:sculk_bioalloy",
+      "amount": 1440
+    },
+    "item:kubejs:amalgamated_sculk",
+    "item:kubejs:reactive_netherite_cluster",
+    "item:gtceu:ardite_plate",
+    "item:gtceu:ardite_ingot",
+    "item:gtceu:hot_ardite_ingot",
+    "item:gtceu:ardite_dust",
+    "item:gtceu:ardite_salt_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:ardite_slurry",
+      "amount": 1000
+    },
+    "item:gtceu:ardite_sand_dust",
+    "item:kubejs:ardite_sponge",
+    "item:kubejs:blasting_kit",
+    "item:kubejs:coated_sapphire_wafer",
+    "item:kubejs:extradimensional_optical_cpu_core",
+    "item:kubejs:extradimensional_wetware_cpu_core",
+    "item:kubejs:extradimensional_crystal_cpu_core",
+    "item:kubejs:extradimensional_quantum_cpu_core",
+    "item:kubejs:microverse_containment_unit",
+    {
+      "type": "item",
+      "id": "kubejs:multidimensional_cpu_chip",
+      "amount": 16
+    },
+    {
+      "type": "item",
+      "id": "kubejs:multidimensional_cpu_wafer",
+      "amount": 16
+    },
+    "item:kubejs:unactivated_multidimensional_cpu_wafer",
+    {
+      "type": "item",
+      "id": "kubejs:universe_wafer",
+      "amount": 64
+    },
+    "item:kubejs:universe_boule",
+    "item:kubejs:sapphire_boule",
+    {
+      "type": "item",
+      "id": "kubejs:stabilized_berkelium",
+      "amount": 16
+    },
+    "fluid:kubejs:apple_cider_base_fluid",
+    "fluid:kubejs:chenet_wine_base_fluid",
+    "fluid:kubejs:apple_juice_fluid",
+    "fluid:kubejs:apple_wine_base_fluid",
+    "item:minecraft:honeycomb",
+    {
+      "type": "fluid",
+      "id": "gtceu:wax",
+      "amount": 144
+    },
+    "fluid:kubejs:cherry_juice_fluid",
+    "fluid:kubejs:bolvar_wine_base_fluid",
+    "fluid:kubejs:jellie_wine_sub_base_fluid",
+    "fluid:kubejs:jellie_wine_base_fluid",
+    "fluid:kubejs:jellie_wine_fluid",
+    "item:vinery:jellie_wine",
+    "item:brewery:dried_oat",
+    "fluid:kubejs:hops_extract_fluid",
+    "fluid:kubejs:beer_oat_base_fluid",
+    "fluid:kubejs:beer_oat_fluid",
+    "item:brewery:beer_oat",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_jamesons_malt_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_jamesons_malt_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_jamesons_malt",
+    "item:brewery:whiskey_smokey_reverie",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_highland_hearth_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_highland_hearth_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_highland_hearth",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_ak_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_ak_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_ak",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_carrasconlabel_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_carrasconlabel_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_carrasconlabel",
+    "item:brewery:whiskey_maggoallan",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_cristelwalker_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_cristelwalker_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_cristelwalker",
+    "item:brewery:whiskey_lilitusinglemalt",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_jojannik_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_jojannik_fluid",
+      "amount": 250
+    },
+    "item:brewery:whiskey_jojannik",
+    "item:brewery:beer_mug",
+    "item:brewery:beer_haley",
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_haley_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_haley_fluid",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_nettle_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_nettle_fluid",
+      "amount": 250
+    },
+    "item:brewery:beer_nettle",
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_hops_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_hops_fluid",
+      "amount": 250
+    },
+    "item:brewery:beer_hops",
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_barley_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_barley_fluid",
+      "amount": 250
+    },
+    "item:brewery:beer_barley",
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_wheat_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:beer_wheat_fluid",
+      "amount": 250
+    },
+    "item:brewery:beer_wheat",
+    {
+      "type": "fluid",
+      "id": "kubejs:lilitu_wine_base_fluid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:jo_special_mixture_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:jo_special_mixture_fluid",
+      "amount": 250
+    },
+    "item:vinery:jo_special_mixture",
+    "item:vinery:lilitu_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:bottle_mojang_noir_sub_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:bottle_mojang_noir_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:bottle_mojang_noir_fluid",
+      "amount": 250
+    },
+    "item:vinery:bottle_mojang_noir",
+    "item:vinery:chenet_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:chenet_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:stal_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:stal_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:stal_wine_fluid",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:magnetic_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:magnetic_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:magnetic_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:white_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:clark_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:clark_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:clark_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:villagers_fright_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:villagers_fright_fluid",
+      "amount": 250
+    },
+    "item:vinery:villagers_fright",
+    {
+      "type": "fluid",
+      "id": "kubejs:chorus_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:chorus_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:chorus_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:bolvar_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:bolvar_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:aegis_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:aegis_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:aegis_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:eiswein_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:eiswein_fluid",
+      "amount": 250
+    },
+    "item:vinery:eiswein",
+    {
+      "type": "fluid",
+      "id": "kubejs:kelp_cider_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:kelp_cider_fluid",
+      "amount": 250
+    },
+    "item:vinery:kelp_cider",
+    {
+      "type": "fluid",
+      "id": "kubejs:white_jungle_grapejuice_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:creepers_crush_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:creepers_crush_fluid",
+      "amount": 250
+    },
+    "item:vinery:creepers_crush",
+    "item:gtceu:ice_dust",
+    {
+      "type": "fluid",
+      "id": "kubejs:cristel_wine_sub_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:cristel_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:cristel_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:cristel_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:cherry_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:cherry_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:cherry_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:strad_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:strad_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:strad_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:red_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:red_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:mead_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:solaris_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:solaris_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:solaris_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:glowing_wine_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:glowing_wine_base_fluid",
+      "amount": 0
+    },
+    "item:vinery:glowing_wine",
+    "item:vinery:mellohi_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:white_wine_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:white_grapejuice_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:mellohi_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:mellohi_wine_fluid",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:apple_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:apple_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:apple_cider_fluid",
+      "amount": 250
+    },
+    "item:vinery:apple_cider",
+    {
+      "type": "fluid",
+      "id": "kubejs:mead_fluid",
+      "amount": 250
+    },
+    "item:vinery:mead",
+    "item:farmersdelight:apple_cider",
+    {
+      "type": "fluid",
+      "id": "create:honey",
+      "amount": 0
+    },
+    "item:vinery:white_savanna_grapejuice",
+    "item:vinery:red_savanna_grapejuice",
+    "item:vinery:white_jungle_grapejuice",
+    "item:vinery:white_taiga_grapejuice",
+    "item:vinery:red_taiga_grapejuice",
+    "item:vinery:white_grapejuice",
+    "item:vinery:red_grapejuice",
+    "item:vinery:red_jungle_grapejuice",
+    "item:vinery:jungle_grapes_white",
+    "item:vinery:jungle_grapes_red",
+    "item:vinery:taiga_grapes_white",
+    "item:vinery:taiga_grapes_red",
+    "item:vinery:savanna_grapes_white",
+    "item:vinery:savanna_grapes_red",
+    "item:vinery:white_grape",
+    "item:vinery:red_grape",
+    "item:minecraft:apple",
+    "item:vinery:apple_juice",
+    "item:vinery:cherry",
+    "item:brewery:hops",
+    "item:minecraft:honey_block",
+    "item:minecraft:honey_bottle",
+    {
+      "type": "fluid",
+      "id": "cofh_core:honey",
+      "amount": 0
+    },
+    "item:gtceu:mv_fermenter",
+    "item:gtceu:mv_extractor",
+    "item:gtceu:uhv_fermenter",
+    "item:gtceu:uv_fermenter",
+    "item:gtceu:uv_brewery",
+    "item:vinery:dark_cherry_wine_rack_mid",
+    "item:vinery:wine_bottle",
+    "item:kubejs:null_infused_printed_circuit_board",
+    "item:mcwpaths:gravel_path_block",
+    "item:gtceu:neuro_processing_unit",
+    "item:kubejs:extradimensional_processor_mainframe",
+    "item:gtceu:sculk_biocharger",
+    "item:kubejs:optical_processor_mainframe",
+    "item:kubejs:optical_processor_computer",
+    {
+      "type": "item",
+      "id": "kubejs:optical_processor_assembly",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "kubejs:optical_processor",
+      "amount": 4
+    },
+    "item:kubejs:photonic_soc_active",
+    "item:kubejs:photonic_soc_cyan",
+    "item:kubejs:photonic_soc_inert",
+    {
+      "type": "item",
+      "id": "kubejs:photonic_soc_base",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:dielectric_mirror_solution",
+      "amount": 4464
+    },
+    "item:gtceu:rutile_dust",
+    "item:gtceu:uraninite_dust",
+    "item:gtceu:promethium_oxide_dust",
+    {
+      "type": "item",
+      "id": "gtceu:promethium_chloride_dust",
+      "amount": 2
+    },
+    "item:kubejs:solidified_fluorine",
+    "item:gtceu:dense_rare_earth_carbonate_dust",
     "item:kubejs:ammo_mold_68x51_fury",
     "item:kubejs:ammo_mold_50_ae",
     "item:kubejs:ammo_mold_12_gauge",
@@ -47,51 +647,6 @@
     "item:gtceu:green_steel_dust",
     "item:gtceu:hot_green_steel_ingot",
     "item:gtceu:titanium_suboxide_dust",
-    "item:gtceu:samarium_oxide_dust",
-    "item:gtceu:praseodymium_oxide_dust",
-    "item:gtceu:lanthanum_oxide_dust",
-    "item:gtceu:tantalum_pentoxide_dust",
-    "item:gtceu:dysprosium_oxide_dust",
-    "item:gtceu:neodymium_oxide_dust",
-    {
-      "type": "item",
-      "id": "gtceu:terbium_salt_dust",
-      "amount": 8
-    },
-    "item:gtceu:terbium_oxide_dust",
-    {
-      "type": "item",
-      "id": "gtceu:lutetium_fluoride_dust",
-      "amount": 8
-    },
-    "item:gtceu:lutetium_oxide_dust",
-    "item:gtceu:europium_oxide_dust",
-    "item:gtceu:gadolinium_oxide_dust",
-    "item:gtceu:irradiated_neodymium_oxide_dust",
-    "item:gtceu:irradiated_neodymium_chloride_dust",
-    {
-      "type": "item",
-      "id": "gtceu:fertile_neodymium_chloride_dust",
-      "chance": 0.5
-    },
-    {
-      "type": "item",
-      "id": "gtceu:promethium_chloride_dust",
-      "amount": 2
-    },
-    "item:gtceu:promethium_oxide_dust",
-    "item:gtceu:holmium_fluoride_dust",
-    "item:gtceu:holmium_oxide_dust",
-    "item:gtceu:thulium_oxide_dust",
-    "item:gtceu:europium_ii_oxide_dust",
-    {
-      "type": "item",
-      "id": "gtceu:cerium_dioxide_dust",
-      "amount": 2
-    },
-    "item:gtceu:cerium_oxide_dust",
-    "item:gtceu:erbium_oxide_dust",
-    "item:gtceu:ytterbium_oxide_dust",
     "item:kubejs:necrosiderite_oxide_glass_dust",
     "item:via_romana:charting_map",
     "item:spartanshields:refined_obsidian_basic_shield{Damage:0}",
@@ -176,7 +731,6 @@
       "amount": 0
     },
     "item:gtceu:salt_gem",
-    "item:gtceu:salt_dust",
     {
       "type": "fluid",
       "id": "gtceu:salt_water",
@@ -546,7 +1100,6 @@
     "item:kubejs:dusty_netherite_cluster",
     "item:kubejs:inert_nether_compound_ingot",
     "item:kubejs:activated_netherite_scrap",
-    "item:kubejs:reactive_netherite_cluster",
     "item:gtceu:iodine_dust",
     {
       "type": "fluid",
@@ -613,7 +1166,6 @@
     "item:tacz:ammo{AmmoId:\"emxarms:emx_tediore\"}",
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_mg90\",HasBulletInBarrel:1b}",
     "item:gtceu:calcium_dust",
-    "item:gtceu:yttria_dust",
     "item:gtceu:raw_trona",
     [
       "item:gtceu:raw_trona",
@@ -870,7 +1422,6 @@
     "#item:forge:plates/iron",
     "item:escalated:wooden_walkway_steps",
     "item:escalated:metal_walkway_steps",
-    "item:kubejs:photonic_soc_active",
     "item:kubejs:photonic_soc_red",
     "item:kubejs:photonic_soc_magenta",
     "item:kubejs:chromatic_capacitor_empty",
@@ -975,7 +1526,6 @@
       "amount": 0
     },
     "item:gtceu:lv_soul_binder",
-    "item:gtceu:quintessence_infuser",
     "item:gtceu:mv_polymerization_chamber",
     "item:gtceu:lv_polymerization_chamber",
     "item:gtceu:opv_polymerization_chamber",
@@ -1146,15 +1696,8 @@
     "item:gtceu:transcendental_matrix_nugget",
     "item:gtceu:transcendental_matrix_foil",
     "item:gtceu:transcendental_matrix_dust",
-    "item:gtceu:transcendental_matrix_ingot",
     "item:gtceu:small_transcendental_matrix_dust",
     "item:gtceu:transcendental_matrix_plate",
-    {
-      "type": "fluid",
-      "id": "gtceu:transcendental_matrix",
-      "amount": 0
-    },
-    "item:kubejs:microverse_containment_unit",
     "item:kubejs:miniature_microverse_container",
     {
       "type": "fluid",
@@ -1193,7 +1736,6 @@
     "item:kubejs:stabilized_curium",
     "item:kubejs:stabilized_uranium",
     "item:kubejs:stabilized_plutonium",
-    "item:kubejs:stabilized_berkelium",
     "item:kubejs:stabilized_neptunium",
     {
       "type": "fluid",
@@ -1203,10 +1745,8 @@
     "item:kubejs:ender_dragon_scale",
     "item:kubejs:solidified_xenon",
     "item:kubejs:solidified_nitrogen",
-    "item:kubejs:solidified_fluorine",
     "item:kubejs:electro_optic_modulator",
     "item:kubejs:dust",
-    "item:kubejs:excitationcoil",
     "item:kubejs:inert_prismatic_core",
     "item:kubejs:cyan_prismatic_core",
     "item:kubejs:chromatic_capacitor_magenta",
@@ -1251,255 +1791,7 @@
       "id": "gtceu:nickel_zinc_ferrite",
       "amount": 0
     },
-    "item:createdeco:zinc_support_wedge",
-    "item:createdeco:zinc_door",
-    "item:createdeco:locked_zinc_door",
-    "item:dramaticdoors:tall_zinc_door",
-    "item:dramaticdoors:short_zinc_door",
-    "item:dramaticdoors:short_locked_zinc_door",
-    "item:dramaticdoors:tall_locked_zinc_door",
-    "item:createdeco:zinc_support",
-    "item:createdeco:zinc_hull",
-    "item:gtceu:zinc_ingot",
-    "item:createdeco:zinc_ladder",
-    "item:createdeco:zinc_facade",
-    "item:createdeco:zinc_catwalk_railing",
-    "item:createdeco:zinc_catwalk_stairs",
-    "item:createdeco:zinc_catwalk",
-    "item:createdeco:zinc_mesh_fence",
-    "item:createdeco:zinc_bars",
-    "item:createdeco:zinc_bars_overlay",
-    "item:createdeco:zinc_window_pane",
-    "item:createdeco:zinc_window",
-    "item:createdeco:zinc_coin",
-    "item:createdeco:zinc_coinstack",
-    "item:create:raw_zinc_block",
-    "item:create:raw_zinc",
-    "item:ad_astra:jet_suit{Damage:0}",
-    "item:ad_astra:jet_suit_boots{Damage:0}",
-    "item:ad_astra:ti_69",
-    "item:ad_astra:zip_gun{}",
-    "item:ad_astra:wrench",
-    "item:ad_astra:steel_ingot",
-    "item:ad_astra:etrionic_blast_furnace",
-    "item:ad_astra:ice_shard",
-    "item:ad_astra:calorite_factory_block",
-    "item:kubejs:meowni_plush",
-    "item:kubejs:optical_processor",
-    "item:kubejs:extradimensional_processor",
-    "item:kubejs:optical_processor_assembly",
-    "item:kubejs:optical_processor_computer",
-    "item:kubejs:optical_processor_mainframe",
-    "item:gtceu:uiv_distillery",
-    "item:gtceu:uiv_4096a_laser_target_hatch",
-    "item:gtceu:uiv_alloy_smelter",
-    "item:gtceu:uiv_electric_furnace",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"BURST\",GunId:\"tacz:b93r\",HasBulletInBarrel:1b}",
-    "item:tacz:attachment{AttachmentId:\"tacz:stock_carbon_bone_c5\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:stock_ak12\"}",
-    "item:tacz:target_minecart",
-    "item:tacz:target",
-    "item:tacz:statue",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_pk06_pistol\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:grip_td\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:grip_se_5\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:grip_rk1_b25u\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:grip_rk0\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:stock_ripstock\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:stock_m4ss\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:stock_militech_b5\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_heavy\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_light\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_tactical\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:deagle_golden_long_barrel\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_vulture\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_pioneer\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_timeless50\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_cthulhu\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:bayonet_m9\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ptilopsis\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_phantom_s1\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_1873_6x\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_contender\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_retro_2x\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_standard_8x\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_vudu\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_mk5hd\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_elcan_4x\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_lpvo_1_6\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_acog_ta31\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_coyote\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_uh1\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_exp3\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:scope_hamr\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_fastfire_rifle\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_acro_rifle\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_okp7\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_t2\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_t1\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_552\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_deltapoint_rifle\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_pk06_rifle\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_rmr_dot\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_srs_02\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_sro_dot\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_deltapoint_pistol\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_acro_pistol\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:sight_fastfire_pistol\"}",
-    "item:monilabs:hot_crystal_matrix_ingot",
-    "item:monilabs:crystal_matrix_ingot",
-    "item:monilabs:crystal_matrix_foil",
-    "item:tacz:ammo{AmmoId:\"tacz:57x28\"}",
-    "item:ad_astra:blue_industrial_lamp",
-    "item:ad_astra:cryo_freezer",
-    "item:ad_astra:oxygen_sensor",
-    "item:ad_astra:gravity_normalizer",
-    "item:ad_astra:energizer{}",
-    "item:ad_astra:oxygen_distributor",
-    "item:ad_astra:water_pump",
-    "item:ad_astra:tier_1_rover{}",
-    "item:ad_astra:coal_generator",
-    "item:ad_astra:compressor",
-    "item:ad_astra:gas_tank",
-    "item:ad_astra:large_gas_tank",
-    "item:ad_astra:cheese",
-    "item:ad_astra:desh_plate",
-    "item:ad_astra:calorite_plate",
-    "item:ad_astra:ostrum_plate",
-    "item:gtceu:lead_block",
-    "item:ad_astra:strophar_stem",
-    "item:ad_astra:strophar_cap",
-    "item:ad_astra:strophar_planks",
-    "item:ad_astra:glacian_log",
-    "item:gtceu:raw_spodumene",
-    "item:gtceu:raw_lepidolite",
-    "item:tacz:attachment{AttachmentId:\"tacz:ammo_mod_he\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:ammo_mod_fmj\"}",
-    "item:gtceu:naquadah_alloy_foil",
-    "item:gtceu:industrial_tnt",
-    "item:kubejs:petri_dish_sculk",
-    {
-      "type": "item",
-      "id": "gtceu:sculk_agar_dust",
-      "amount": 32
-    },
-    {
-      "type": "item",
-      "id": "gtceu:potassium_cyanide_dust",
-      "amount": 3
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:formamide",
-      "amount": 100
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:ammonium_formate",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:palladium_rich_ammonia",
-      "amount": 0
-    },
-    "item:tacz:ammo{AmmoId:\"tacz:357mag\"}",
-    {
-      "type": "item",
-      "id": "gtceu:small_neodymium_dust",
-      "chance": 0.65
-    },
-    "item:gtceu:rare_earth_dust",
-    "item:gtceu:terbium_ring",
-    "item:kubejs:complex_smd_inductor",
-    "item:gtceu:smd_resistor",
-    "item:gtceu:smd_transistor",
-    "item:kubejs:complex_smd_diode",
-    "item:kubejs:complex_smd_capacitor",
-    "item:kubejs:complex_smd_resistor",
-    "item:kubejs:complex_smd_transistor",
-    "item:monilabs:crystal_matrix_dust",
-    "item:kubejs:adhered_matrix_mesh",
-    "item:monilabs:sculk_bioalloy_ingot",
-    "item:megacells:sky_steel_ingot",
-    "item:gtceu:ferroboron_ingot",
-    {
-      "type": "item",
-      "id": "gtceu:niobium_nitride_plate",
-      "amount": 2
-    },
-    "item:gtceu:niobium_nitride_ingot",
-    "item:monilabs:crystal_matrix_block",
-    "item:extendedcrafting:crystaltine_component",
-    "item:extendedcrafting:crystaltine_ingot",
-    "item:create:experience_nugget",
-    "item:extendedcrafting:crystaltine_nugget",
-    "item:gtceu:aetherium_nugget",
-    "item:monilabs:sculk_bioalloy_round",
-    "item:gtceu:iron_round",
-    "item:gtceu:raw_stibiotantalite",
-    "item:gtceu:raw_musgravite",
-    "item:gtceu:darconite_ingot",
-    "item:gtceu:hyperdegenerate_darconite_double_wire",
-    "item:gtceu:hyperdegenerate_darconite_ingot",
-    "item:gtceu:hyperdegenerate_darconite_foil",
-    "item:tacz:workbench_a{BlockId:\"tacz:ammo_workbench\"}",
-    "item:redstone_arsenal:flux_controller",
-    "item:redstone_arsenal:flux_axe",
-    "item:snad:snad",
-    "item:redstone_arsenal:flux_boots",
-    "item:gtceu:phenolic_circuit_board",
-    "item:gtceu:copper_nugget",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:\"SEMI\",GunId:\"tacz:mk14\",HasBulletInBarrel:1b}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:50,GunFireMode:\"AUTO\",GunId:\"tacz:p90\",HasBulletInBarrel:1b}",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:15,GunFireMode:\"SEMI\",GunId:\"tacz:spr15hb\",HasBulletInBarrel:1b}",
-    "item:tacz:attachment{AttachmentId:\"tacz:laser_nightstick\"}",
-    "item:tacz:attachment{AttachmentId:\"tacz:grip_magpul_afg_2\"}",
-    "item:gtceu:labyrinthite_dust",
-    "item:gtceu:raw_labyrinthite",
-    "item:gtceu:raw_citrine",
-    "item:gtceu:raw_mica",
-    "item:gtceu:raw_villiaumite",
-    "item:gtceu:raw_pyrolusite",
-    "item:gtceu:raw_alunite",
-    "item:gtceu:raw_gallite",
-    "item:gtceu:raw_hubnerite",
-    "item:gtceu:raw_tantalite",
-    "item:gtceu:raw_iodargyrite",
-    "item:gtceu:raw_cadmoindite",
-    "item:gtceu:raw_amethyst",
-    "item:gtceu:raw_zincochromite",
-    "item:gtceu:raw_soapstone",
-    "item:gtceu:raw_graphite",
-    "item:gtceu:raw_temagamite",
-    "item:gtceu:raw_chambersite",
-    "item:gtceu:raw_taaffeite",
-    "item:gtceu:raw_torbernite",
-    "item:gtceu:raw_triphyllite",
-    "item:gtceu:raw_lindgrenite",
-    "item:gtceu:raw_ekanite",
-    "item:gtceu:raw_rubellite",
-    "item:gtceu:raw_zoisite",
-    "item:gtceu:raw_strontianite",
-    "item:gtceu:raw_monazite",
-    "item:gtceu:raw_fergusonite",
-    "item:gtceu:raw_tungstate",
-    "item:gtceu:raw_madocite",
-    "item:gtceu:raw_silver",
-    "item:gtceu:raw_cavansite",
-    "item:gtceu:raw_electrotine",
-    "item:gtceu:raw_spinel",
-    "item:gtceu:raw_argentite",
-    "item:gtceu:raw_saltpeter",
-    "item:gtceu:raw_talc",
-    "item:gtceu:raw_lithium",
-    "item:gtceu:raw_snowchestite",
-    "item:gtceu:raw_wulfenite",
-    "item:gtceu:raw_hawleyite",
-    "item:gtceu:raw_beryllium",
-    "item:gtceu:raw_galena",
-    "item:gtceu:raw_merenskyite"
+    "item:createdeco:zinc_support_wedge"
   ],
   "craft_history": [],
   "recipe_defaults": {

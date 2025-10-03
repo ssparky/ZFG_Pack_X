@@ -228,16 +228,6 @@ StartupEvents.registry("block", event => {
         .tag("mineable/shovel").displayName("Dust Block")
         .property(BlockProperties.FALLING);
 
-    event.create("excitationcoil", "cardinal")
-        .displayName("Excitation Coil")
-        .soundType("metal")
-        .renderType("cutout")
-        .box(3, 0, 3, 13, 1, 13)
-        .box(4, 1, 4, 12, 9, 12)
-        .tag("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true);
-
     event.create("lyso_ce_glass")
         .displayName("Cerium-doped Lutetium Yttrium Oxyorthosilicate Glass")
         .soundType("glass")

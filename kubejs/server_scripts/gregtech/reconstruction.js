@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
     })
 
     // Universal Circuits
-    const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev"]
+    const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv", "uxv", "opv"]
     tiers.forEach((level) => {
         event.recipes.gtceu.atomic_reconstruction(`kubejs:${level}_universal_circuit`)
             .itemInputs(`#gtceu:circuits/${level}`)

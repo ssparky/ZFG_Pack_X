@@ -265,6 +265,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xe2fff9)
         // .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING)
         .components("7x silicon_dioxide", "1x enderium", "4x tantalum_pentoxide", "5x rutile", "11x polyethylene", "3x germanium")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
 })
 

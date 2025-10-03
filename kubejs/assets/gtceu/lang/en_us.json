@@ -651,6 +651,7 @@
     "__MISC__.footer": "=========",
     "material.gtceu.advanced_soldering_alloy": "Advanced Soldering Alloy",
     "material.gtceu.living_soldering_alloy": "Living Solder",
+    "material.gtceu.universal_soldering_alloy": "Universal Solder",
     "item.gtceu.mythril_ingot": "§bMythril§r",
     "block.gtceu.shock_proof_cutting_casing": "Shock Proof Casing",
     "curios.identifier.gtceu_magnet": "Magnet",

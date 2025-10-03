@@ -53,17 +53,35 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("hostilenetworks:end_prediction", Text.translatable("hostilenetworks.end_prediction.tooltip"))
 
     // Circuits
-    tooltip.addAdvanced("kubejs:optical_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:optical_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:optical_processor_assembly", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uv_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:optical_processor", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.zpm_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:bioware_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:bioware_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:bioware_processor_assembly", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:bioware_processor", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.zpm_tier_circuit"))) })
+    tooltip.addAdvanced(["kubejs:bioware_processor_mainframe", "kubejs:bioware_processor_computer", "kubejs:bioware_processor_assembly", "kubejs:bioware_processor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("item.kubejs.bioware_circuit.tooltip"))) })
+
+    tooltip.addAdvanced("kubejs:optical_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uiv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:optical_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:optical_processor_assembly", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:optical_processor", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uv_tier_circuit"))) })
     tooltip.addAdvanced(["kubejs:optical_processor_mainframe", "kubejs:optical_processor_computer", "kubejs:optical_processor_assembly", "kubejs:optical_processor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("item.kubejs.optical_circuit.tooltip"))) })
 
-    tooltip.addAdvanced("kubejs:extradimensional_processor_mainframe", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.max_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:extradimensional_processor_computer", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uev_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:extradimensional_processor_assembly", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
-    tooltip.addAdvanced("kubejs:extradimensional_processor", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:matter_processor_mainframe", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uxv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:matter_processor_computer", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uiv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:matter_processor_assembly", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uev_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:matter_processor", (item, adv, text) => { text.add(1, Text.gold(Text.translatable("item.kubejs.uhv_tier_circuit"))) })
+    tooltip.addAdvanced(["kubejs:matter_processor_mainframe", "kubejs:matter_processor_computer", "kubejs:matter_processor_assembly", "kubejs:matter_processor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("item.kubejs.matter_circuit.tooltip"))) })
+
+    tooltip.addAdvanced("kubejs:extradimensional_processor_mainframe", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.opv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:extradimensional_processor_computer", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uxv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:extradimensional_processor_assembly", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uiv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:extradimensional_processor", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uev_tier_circuit"))) })
     tooltip.addAdvanced(["kubejs:extradimensional_processor_mainframe", "kubejs:extradimensional_processor_computer", "kubejs:extradimensional_processor_assembly", "kubejs:extradimensional_processor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("item.kubejs.extradimensional_circuit.tooltip"))) })
+
+    tooltip.addAdvanced("kubejs:multiversal_processor_mainframe", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.max_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:multiversal_processor_computer", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.opv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:multiversal_processor_assembly", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uxv_tier_circuit"))) })
+    tooltip.addAdvanced("kubejs:multiversal_processor", (item, adv, text) => { text.add(1, Text.darkPurple(Text.translatable("item.kubejs.uiv_tier_circuit"))) })
+    tooltip.addAdvanced(["kubejs:multiversal_processor_mainframe", "kubejs:multiversal_processor_computer", "kubejs:multiversal_processor_assembly", "kubejs:multiversal_processor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("item.kubejs.multiversal_circuit.tooltip"))) })
 
     // Multiblocks
     tooltip.add("gtceu:discharger", Text.translatable("gtceu.multiblock.discharger.description"))
