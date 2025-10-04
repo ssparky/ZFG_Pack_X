@@ -136,6 +136,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(8388608, 32, 16, false);
 
+    event.create("raw_tiberium")
+        .gem()
+        .color(0x27C721).secondaryColor(0x067110).iconSet("certus")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+        .components("2x calcium", "4x iron", "1x tiberium", "1x silicon_dioxide", "4x phosphate")
+        .formula("Ca2Fe4?(SiO2)(PO4)4")
+
     event.create("taranium")
         .ingot().fluid()
         .element(GTElements.get("tiberium"))

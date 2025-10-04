@@ -826,4 +826,15 @@ ServerEvents.recipes(event => {
     // Spartan mods
     event.shapeless("spartanweaponry:simple_handle", ["#forge:rods/wooden", "gtceu:sticky_resin"])
 
+    // Random tnt recipe
+    event.remove({id:"mynethersdelight:crafting/tnt_alt"})
+    event.shaped("gtceu:powderbarrel", [
+        "ABA",
+        "BAB",
+        "ABA"
+    ], {
+        A: "mynethersdelight:powder_cannon",
+        B: "#minecraft:planks"
+    })
+
 })

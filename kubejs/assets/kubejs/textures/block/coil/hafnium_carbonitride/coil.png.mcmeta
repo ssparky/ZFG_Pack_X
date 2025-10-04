@@ -1,0 +1,9 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coil/hafnium_carbonitride/coil_ctm"
+    },
+    "animation": {
+        "interpolate": true,
+        "frametime": 20
+    }
+}

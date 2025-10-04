@@ -305,7 +305,8 @@ StartupEvents.registry("item", event => {
         ["oxygen", "#4CC3FF", "#005bd6"],
         ["radon", "#FF39FF", "#bd0057"],
         ["xenon", "#00FFFF", "#00a5d6"],
-        ["experience", "#d1ff3b", "#46eb12"]
+        ["experience", "#d1ff3b", "#46eb12"],
+        ["bromine", "#D53C0D", "#962A0A"]
     ]
 
     for (const [element, elemColor, elemColorSecondary] of solidified_elements) {
@@ -319,7 +320,7 @@ StartupEvents.registry("item", event => {
             .color(1, elemColorSecondary);
     }
 
-    // Stabilized Elements - TODO: deprecate?
+    // Stabilized Elements
     const stabilized_elements = [
         ["berkelium", "#a33f20", "#87001c"],
         ["neptunium", "#486d7b", "#003064"],

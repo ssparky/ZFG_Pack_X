@@ -155,10 +155,22 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
 
-    // Steel pump
+    // Pumps
     event.create("steel_pump")
         .category("multiblock")
-        .setMaxIOSize(1, 0, 0, 1) // TODO: curious to see if this will work
+        .setMaxIOSize(1, 0, 0, 1) 
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BATH)
+
+    event.create("aluminium_pump")
+        .category("multiblock")
+        .setMaxIOSize(1, 0, 0, 1) 
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BATH)
+
+    event.create("stainless_steel_pump")
+        .category("multiblock")
+        .setMaxIOSize(1, 0, 0, 1) 
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
 })
@@ -1013,7 +1025,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .workableCasingModel("gtceu:block/casings/hpca/high_power_casing",
             "gtceu:block/multiblock/fusion_reactor");
 
-    // Steel pump
+    // Pumps
     event.create("steel_pump", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes("steel_pump")
@@ -1031,5 +1043,43 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .where("#", Predicates.any())
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel",
+            "gtceu:block/multiblock/primitive_pump");
+
+    event.create("aluminium_pump", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeTypes("aluminium_pump")
+        .appearanceBlock(() => Block.getBlock("gtceu:frostproof_machine_casing"))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("CCCC", "##F#", "##F#")
+            .aisle("CIHC", "F##F", "FFFF")
+            .aisle("@CCC", "##F#", "##F#")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("C", Predicates.blocks("gtceu:frostproof_machine_casing"))
+            .where("I", Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1))
+            .where("H", Predicates.abilities(PartAbility.EXPORT_FLUIDS_1X).setExactLimit(1))
+            .where("F", Predicates.blocks("gtceu:aluminium_frame"))
+            .where(" ", Predicates.air())
+            .where("#", Predicates.any())
+            .build())
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_frost_proof",
+            "gtceu:block/multiblock/primitive_pump");
+
+    event.create("stainless_steel_pump", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeTypes("stainless_steel_pump")
+        .appearanceBlock(() => Block.getBlock("gtceu:clean_machine_casing"))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("CCCC", "##F#", "##F#")
+            .aisle("CIHC", "F##F", "FFFF")
+            .aisle("@CCC", "##F#", "##F#")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("C", Predicates.blocks("gtceu:clean_machine_casing"))
+            .where("I", Predicates.abilities(PartAbility.IMPORT_ITEMS).setExactLimit(1))
+            .where("H", Predicates.abilities(PartAbility.EXPORT_FLUIDS_1X).setExactLimit(1))
+            .where("F", Predicates.blocks("gtceu:stainless_steel_frame"))
+            .where(" ", Predicates.air())
+            .where("#", Predicates.any())
+            .build())
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
             "gtceu:block/multiblock/primitive_pump");
 })

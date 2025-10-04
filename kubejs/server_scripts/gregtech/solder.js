@@ -48,5 +48,5 @@ ServerEvents.recipes(event => {
         .duration(750)
         .EUt(GTValues.VA[GTValues.ZPM])
         .circuit(10)
-        .blastFurnaceTemp(1916)
+        .blastFurnaceTemp(3832)
 })

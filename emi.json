@@ -1,6 +1,379 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_magpul_afg_2\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_cobra\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_rk6\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_lf11\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_osovets_black\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_vertical_talon\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_vertical_military\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_vertical_ranger\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_se_5\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_rk0\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_rk1_b25u\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"tacz:grip_td\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_storm\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_static_1\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_hf_17\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_eazy\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_sl_2\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_stable\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"applied_armorer:grip_light\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"trisdyna:grip_barrier\"}"
+    },
+    {
+      "stack": "item:tacz:attachment{AttachmentId:\"trisdyna:grip_shimmer\"}"
+    }
+  ],
   "lookup_history": [
+    "item:tacz:modern_kinetic_gun{AttachmentSTOCK:{Count:1b,id:\"minecraft:air\"},GunCurrentAmmoCount:7,GunFireMode:\"AUTO\",GunId:\"trisdyna:tris_sf7e\",HasBulletInBarrel:1b,HeatAmount:0.0f}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:stock_sf7e_sp\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:stock_tris1\"}",
+    "item:decorative_blocks:chain",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_koeis_armband\"}",
+    "item:minecraft:clock",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_broken_watch\"}",
+    "item:redeco:pink_upholstery",
+    "item:redeco:pink_fluffy_carpet",
+    "item:redeco:pink_cushion",
+    "item:redeco:pink_awning",
+    "item:interiors:pink_cushion",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_niklas\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:stock_hk_slim_line\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:stock_moe\"}",
+    "item:gtceu:wood_plate",
+    "item:gtceu:wood_dust",
+    "item:gtceu:treated_wood_plate",
+    "item:gtceu:treated_wood_normal_fluid_pipe",
+    "item:gtceu:treated_wood_dust",
+    "item:tacz:attachment{AttachmentId:\"tacz:oem_stock_light\"}",
+    "item:gtceu:carbon_fiber_mesh",
+    "item:gtceu:carbon_fiber_plate",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_zenith\"}",
+    "item:kubejs:chromatically_inert_frame",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_chromatic_steel",
+      "amount": 0
+    },
+    "item:minecraft:black_dye",
+    "#item:c:black_dyes",
+    "item:minecraft:ink_sac",
+    {
+      "type": "item",
+      "id": "minecraft:glow_ink_sac",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:radiant_blend",
+      "amount": 125
+    },
+    "item:kubejs:chromatically_reactive_cluster",
+    "item:kubejs:chromatically_reactive_shard",
+    "item:gtceu:chromatic_steel_hex_cable",
+    "item:infinity:chromatic_matter",
+    "item:gtceu:chromatic_steel_ingot",
+    "item:gtceu:raw_tiberium_dust",
+    "item:gtceu:steam_oven",
+    "item:gtceu:sculk_biocharger",
+    "item:kubejs:quasi_stable_neutron_star",
+    {
+      "type": "item",
+      "id": "gtceu:gravi_star",
+      "amount": 64
+    },
+    "item:kubejs:heart_of_a_universe",
+    "item:kubejs:magnetron",
+    "item:kubejs:protomatter",
+    "item:kubejs:neutron_emitter",
+    "item:kubejs:field_stabilised_omnic_pulsar_compound",
+    "item:kubejs:quantum_flux",
+    "item:kubejs:universe_creation_data",
+    "item:ad_astra:space_painting",
+    "item:gtceu:powderbarrel",
+    "item:minecraft:tnt",
+    "item:kubejs:sapphire_seed_crystal",
+    "item:farm_and_charm:rotten_tomato",
+    "item:vinery:savanna_grapes_red",
+    "item:mynethersdelight:crimson_fungus_colony",
+    "item:ends_delight:dried_chorus_flower",
+    "item:ends_delight:chorus_succulent",
+    "item:ends_delight:chorus_fruit_grain",
+    "item:rusticdelight:coffee_beans",
+    "item:farmersdelight:rice_panicle",
+    "item:farmersdelight:cabbage",
+    "item:mynethersdelight:warped_fungus_colony",
+    "item:oceanic_delight:ancient_fish_eggs",
+    "item:oceanic_delight:wild_sea_grape",
+    "item:oceanic_delight:sea_grape",
+    "item:minecraft:carrot",
+    "item:natures_spirit:pink_sand",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"tacz:vector45\",HasBulletInBarrel:1b}",
+    "item:artifacts:pocket_piston",
+    "item:moreartifacts:recall_potion",
+    "item:artifacts:mimic_spawn_egg",
+    "item:artifacts:obsidian_skull",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_tris_sl2\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_tris_sl1\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_tris1\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_tris2\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_trls_1\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_trls_3\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:muzzle_trls_2\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ursus\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:deagle_golden_long_barrel\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_fat_boy\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_vulture\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_classic\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_pcs_x1\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_cthulhu\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:bayonet_m9\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_bs_mod4\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_atm_x2\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_firefly\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:7,GunFireMode:\"SEMI\",GunId:\"tacz:deagle\",HasBulletInBarrel:1b}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bayonet_er\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_ns_1\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_phantom_s1\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_firework\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:bayonet_gladius\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_compensator_trident\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:bayonet_6h3\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_mirage\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_trex\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_cyclone_d2\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_pioneer\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_commander\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_brake_timeless50\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_hyper_propellant\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ptilopsis\"}",
+    "item:gtceu:multilayer_fiber_reinforced_printed_circuit_board",
+    "item:gtceu:lapotronic_energy_orb_cluster",
+    "item:gtceu:energy_module{Charge:4000000000L}",
+    "item:gtceu:lv_muffler_hatch",
+    "item:modularrouters:muffler_upgrade",
+    "item:gtceu:invar_lighter",
+    "item:spartanweaponry:aluminum_throwing_knife{AmmoUsed:0,Damage:0}",
+    "item:kubejs:uhv_universal_circuit",
+    "item:kubejs:uev_universal_circuit",
+    "item:kubejs:uiv_universal_circuit",
+    "item:kubejs:opv_universal_circuit",
+    "item:kubejs:uxv_universal_circuit",
+    {
+      "type": "fluid",
+      "id": "gtceu:universal_soldering_alloy",
+      "amount": 0
+    },
+    "item:kubejs:solidified_krypton",
+    "item:kubejs:solidified_mercury",
+    "item:kubejs:solidified_neon",
+    "item:kubejs:solidified_nitrogen",
+    "item:kubejs:solidified_radon",
+    "item:kubejs:solidified_xenon",
+    "item:kubejs:solidified_oxygen",
+    "item:kubejs:solidified_hydrogen",
+    "item:kubejs:solidified_helium",
+    "item:kubejs:solidified_fluorine",
+    "item:kubejs:solidified_chlorine",
+    "item:kubejs:solidified_argon",
+    "item:kubejs:solidified_experience",
+    "item:kubejs:solidified_bromine",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_ms_12\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:scope_ms_14\"}",
+    "item:brewery:rope",
+    "item:farmersdelight:rope",
+    "item:spartanweaponry:steel_throwing_knife{AmmoUsed:0,Damage:0}",
+    "item:gtceu:small_gold_spring",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_tris_eos\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_tris_eosl\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_emx_aps_zh1\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_neutron\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_mfd\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_antares\"}",
+    "item:tacz:attachment{AttachmentId:\"trisdyna:sight_aurora\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_1873_6x\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_contender\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_retro_2x\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_standard_8x\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_mk5hd\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_elcan_4x\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_lpvo_1_6\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_t2\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_t1\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_pk06_rifle\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_deltapoint_pistol\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_fastfire_pistol\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_rmr_dot\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_pk06_pistol\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_srs_02\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_sro_dot\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_acro_pistol\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_pricision\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_simple_3\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:sight_type_3741\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_zako_2403\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:scope_xgs_905\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_profession\"}",
+    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_double_sided_mirror\"}",
+    {
+      "type": "fluid",
+      "id": "gtceu:polyacrylonitrile",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_rhodium_plated_palladium",
+      "amount": 144
+    },
+    "item:gtceu:rhodium_plated_palladium_ingot",
+    "item:gtceu:rhodium_plated_palladium_plate",
+    "item:gtceu:vanadium_steel_screw",
+    "item:gtceu:lithium_niobate_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_lumium",
+      "amount": 144
+    },
+    {
+      "type": "item",
+      "id": "gtceu:lumium_ingot",
+      "amount": 4
+    },
+    "item:gtceu:lumium_octal_wire",
+    {
+      "type": "fluid",
+      "id": "gtceu:lumium",
+      "amount": 144
+    },
+    "item:gtceu:lumium_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:lithium_niobate",
+      "amount": 144
+    },
+    "item:gtceu:lithium_niobate_plate",
+    "item:gtceu:lithium_niobate_lens",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_vudu\"}",
+    "item:gtceu:omnium_nugget",
+    "item:gtceu:omnium_block",
+    "item:gtceu:omnium_spring",
+    "item:gtceu:omnium_hex_cable",
+    "item:kubejs:stabilized_americium",
+    {
+      "type": "fluid",
+      "id": "gtceu:oganesson",
+      "amount": 0
+    },
+    "item:kubejs:stabilized_uranium",
+    "item:gtceu:gadolinium_ingot",
+    "item:kubejs:stabilized_curium",
+    "item:kubejs:stabilized_berkelium",
+    {
+      "type": "fluid",
+      "id": "cofh_core:experience",
+      "amount": 140
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:bromine",
+      "amount": 0
+    },
+    "item:gtceu:fertilizer",
+    "item:create:tree_fertilizer",
+    "item:farm_and_charm:fertilizer",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_coyote\"}",
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:\"SEMI\",GunId:\"tacz:ai_awp\",HasBulletInBarrel:1b}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_uh1\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_hamr\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:sight_fastfire_rifle\"}",
+    "item:tacz:attachment{AttachmentId:\"tacz:scope_acog_ta31\"}",
+    "item:gtceu:universal_soldering_alloy_ingot",
+    "item:gtceu:frostproof_machine_casing",
+    "item:gtceu:uv_solar_panel",
+    "item:monilabs:crystal_matrix_frame",
+    "item:monilabs:eltz_frame",
+    "item:gtceu:aetherium_frame",
+    "item:monilabs:sculk_bioalloy_frame",
+    "item:gtceu:fusion_coil",
+    "item:gtceu:superconducting_coil",
+    "item:kubejs:prism_glass",
+    "item:monilabs:dimensional_stabilization_netherite_casing",
+    "item:monilabs:chromodynamic_conduction_casing",
+    "item:kubejs:electrum_micro_miner_core",
+    "item:create:railway_casing",
+    "item:create:brass_casing",
+    "item:gtceu:uiv_machine_casing",
+    "item:gtceu:industrial_steam_casing",
+    "item:kubejs:electrum_micro_miner_frame",
+    "item:dramaticdoors:tall_framed_door",
+    "item:chipped:grid_black_concrete",
+    "item:multibeds:blanket_magenta{pattern:\"grid\"}",
+    "#item:chipped:emerald_block",
+    "item:chipped:emerald_block_panels",
+    "item:kubejs:dark_steel_casing",
+    "item:extendedcrafting:ultimate_table",
+    "item:extendedcrafting:ultimate_auto_table",
+    "item:extendedcrafting:epic_auto_table",
+    "item:ae2:quartz_vibrant_glass",
+    "item:mae2:cloud_chamber",
+    {
+      "type": "fluid",
+      "id": "kubejs:lilitu_wine_base_fluid",
+      "amount": 500
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:lilitu_wine_fluid",
+      "amount": 250
+    },
+    "item:vinery:lilitu_wine",
+    {
+      "type": "fluid",
+      "id": "kubejs:whiskey_lilitusinglemalt_base_fluid",
+      "amount": 0
+    },
+    "item:brewery:whiskey_lilitusinglemalt",
     "item:gtceu:echo_shard_dust",
     "item:minecraft:echo_shard",
     "item:bhc:soul_heart_crystal",
@@ -33,11 +406,6 @@
     "item:kubejs:luv_universal_circuit",
     "item:kubejs:zpm_universal_circuit",
     "item:kubejs:uv_universal_circuit",
-    "item:kubejs:uhv_universal_circuit",
-    "item:kubejs:uev_universal_circuit",
-    "item:kubejs:uiv_universal_circuit",
-    "item:kubejs:uxv_universal_circuit",
-    "item:kubejs:opv_universal_circuit",
     "item:mynethersdelight:hotdog_with_mixed_salad",
     "item:mynethersdelight:hotdog",
     "item:mynethersdelight:roasted_sausage",
@@ -105,11 +473,6 @@
     },
     "item:kubejs:universe_boule",
     "item:kubejs:sapphire_boule",
-    {
-      "type": "item",
-      "id": "kubejs:stabilized_berkelium",
-      "amount": 16
-    },
     "fluid:kubejs:apple_cider_base_fluid",
     "fluid:kubejs:chenet_wine_base_fluid",
     "fluid:kubejs:apple_juice_fluid",
@@ -188,7 +551,6 @@
       "amount": 250
     },
     "item:brewery:whiskey_cristelwalker",
-    "item:brewery:whiskey_lilitusinglemalt",
     {
       "type": "fluid",
       "id": "kubejs:whiskey_jojannik_base_fluid",
@@ -258,11 +620,6 @@
     "item:brewery:beer_wheat",
     {
       "type": "fluid",
-      "id": "kubejs:lilitu_wine_base_fluid",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "kubejs:jo_special_mixture_base_fluid",
       "amount": 500
     },
@@ -272,7 +629,6 @@
       "amount": 250
     },
     "item:vinery:jo_special_mixture",
-    "item:vinery:lilitu_wine",
     {
       "type": "fluid",
       "id": "kubejs:bottle_mojang_noir_sub_base_fluid",
@@ -540,7 +896,6 @@
     "item:vinery:taiga_grapes_white",
     "item:vinery:taiga_grapes_red",
     "item:vinery:savanna_grapes_white",
-    "item:vinery:savanna_grapes_red",
     "item:vinery:white_grape",
     "item:vinery:red_grape",
     "item:minecraft:apple",
@@ -565,7 +920,6 @@
     "item:mcwpaths:gravel_path_block",
     "item:gtceu:neuro_processing_unit",
     "item:kubejs:extradimensional_processor_mainframe",
-    "item:gtceu:sculk_biocharger",
     "item:kubejs:optical_processor_mainframe",
     "item:kubejs:optical_processor_computer",
     {
@@ -599,7 +953,6 @@
       "id": "gtceu:promethium_chloride_dust",
       "amount": 2
     },
-    "item:kubejs:solidified_fluorine",
     "item:gtceu:dense_rare_earth_carbonate_dust",
     "item:kubejs:ammo_mold_68x51_fury",
     "item:kubejs:ammo_mold_50_ae",
@@ -633,12 +986,6 @@
     "item:kubejs:ammo_mold_338_lapua",
     "item:kubejs:ammo_mold_308_winchester",
     "item:kubejs:ammo_mold_9mm",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_chromatic_steel",
-      "amount": 0
-    },
-    "item:gtceu:chromatic_steel_ingot",
     {
       "type": "fluid",
       "id": "gtceu:molten_green_steel",
@@ -713,7 +1060,6 @@
     "item:gtceu:naquadah_alloy_frame",
     "item:gtceu:computer_casing",
     "item:gtceu:high_power_casing",
-    "item:kubejs:neutron_emitter",
     "item:kubejs:heavy_radiation_shielding_plate",
     {
       "type": "fluid",
@@ -758,11 +1104,6 @@
       "amount": 9
     },
     "item:gtceu:meta_null_block",
-    {
-      "type": "fluid",
-      "id": "gtceu:polyacrylonitrile",
-      "amount": 2880
-    },
     "item:tacz:ammo{AmmoId:\"trisdyna:tris_core\"}",
     "item:tacz:ammo{AmmoId:\"trisdyna:emx_b6\"}",
     "item:tacz:ammo{AmmoId:\"trisdyna:emx_b3\"}",
@@ -825,7 +1166,6 @@
     "fluid:gtceu:rare_earth_sulfate_solution",
     "item:gtceu:max_16a_energy_converter",
     "item:gtceu:crushed_monazite_ore",
-    "item:tacz:attachment{AttachmentId:\"tacz:muzzle_silencer_ursus\"}",
     "item:moreartifacts:sculk_lens",
     "item:gtceu:sculk_superconductor_double_wire",
     "item:gtceu:sculk_superconductor_quadruple_wire",
@@ -1005,7 +1345,6 @@
     "item:minecraft:packed_ice",
     "item:minecraft:blue_ice",
     "item:gtceu:hpca_computation_component",
-    "item:kubejs:dark_steel_casing",
     "item:gtceu:tungstensteel_turbine_casing",
     "item:gtceu:stainless_steel_turbine_casing",
     "item:gtceu:titanium_turbine_casing",
@@ -1017,15 +1356,9 @@
     },
     {
       "type": "fluid",
-      "id": "gtceu:bromine",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "gtceu:hydrobromic_acid",
       "amount": 0
     },
-    "item:monilabs:chromodynamic_conduction_casing",
     "item:kubejs:depleted_naquadah_fuel_dust",
     "item:kubejs:naquadah_fuel_mixture_dust",
     "item:kubejs:unsintered_naquadah_fuel_pellet",
@@ -1043,13 +1376,10 @@
       "amount": 2
     },
     "item:gtceu:long_terbium_rod",
-    "item:gtceu:gravi_star",
     "item:gtceu:quantum_star",
     "item:minecraft:nether_star",
     "item:kubejs:endest_star",
-    "item:gtceu:energy_module",
     "item:gtceu:energy_cluster",
-    "item:gtceu:lapotronic_energy_orb_cluster{Charge:1000000000L}",
     "item:gtceu:luv_vanadium_battery",
     "item:gtceu:uv_battery_hull",
     "item:gtceu:zpm_battery_hull",
@@ -1092,8 +1422,6 @@
     "item:mynethersdelight:ghasmati",
     "item:mynethersdelight:ghast_dough",
     "item:oceanic_delight:elder_guardian_eye",
-    "item:oceanic_delight:sea_grape",
-    "item:oceanic_delight:wild_sea_grape",
     "item:minecraft:ancient_debris",
     "item:minecraft:netherite_scrap",
     "item:gtceu:netherite_scrap_dust",
@@ -1132,7 +1460,6 @@
     "item:farm_and_charm:dog_food_bag",
     "item:farm_and_charm:cat_food_bag",
     "item:brewery:pretzel",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_niklas\"}",
     "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_chip_tutorial_sword_mastery\"}",
     "item:tacz:gun_smith_table",
     "item:tacz:workbench_b{BlockId:\"trisdyna:tris_workbench\"}",
@@ -1140,11 +1467,8 @@
     "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_aerial_wristband\"}",
     "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_broken_handcuffs\"}",
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:0,GunFireMode:\"UNKNOWN\",GunId:\"applied_armorer:niklas_pistol_semi_pride\",HasBulletInBarrel:0b}",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_zenith\"}",
     "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_exo\"}",
     "item:tacz:attachment{AttachmentId:\"trisdyna:stock_tris_st1\"}",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_broken_watch\"}",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_koeis_armband\"}",
     "item:tacz:attachment{AttachmentId:\"applied_armorer:bracelet_magma_wristband\"}",
     "item:tacz:attachment{AttachmentId:\"tacz:grip_vertical_ranger\"}",
     "item:tacz:attachment{AttachmentId:\"trisdyna:stock_sf7e_he\"}",
@@ -1158,9 +1482,7 @@
     },
     "item:gtceu:charged_certus_quartz_dust",
     "item:gtceu:charged_certus_quartz_block",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:si_simple_3\"}",
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:3,GunFireMode:\"SEMI\",GunId:\"doom:bfg9k\",HasBulletInBarrel:1b}",
-    "item:tacz:attachment{AttachmentId:\"applied_armorer:muzzle_classic\"}",
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:6,GunFireMode:\"SEMI\",GunId:\"applied_armorer:moritz_sniper_semi_k30\",HasBulletInBarrel:1b}",
     "item:tacz:ammo{AmmoId:\"emxarms:1045x103\"}",
     "item:tacz:ammo{AmmoId:\"emxarms:emx_tediore\"}",
@@ -1252,7 +1574,6 @@
       "id": "gtceu:monium_ingot",
       "amount": 64
     },
-    "item:kubejs:field_stabilised_omnic_pulsar_compound",
     "item:kubejs:supercritical_prismatic_core",
     "item:kubejs:lime_prismatic_core",
     "item:moreartifacts:ender_dragon_claw",
@@ -1269,7 +1590,6 @@
     "item:infinity:cosmic_altar",
     "item:infinity:iridescent_star",
     "item:infinity:white_matter",
-    "item:infinity:chromatic_matter",
     "item:infinity:black_matter",
     {
       "type": "fluid",
@@ -1307,7 +1627,6 @@
     "item:moreartifacts:lucky_emerald_ring",
     "item:moreartifacts:enderian_eye",
     "item:moreartifacts:vanir_mask",
-    "item:moreartifacts:recall_potion",
     "item:moreartifacts:artifact_upgrade_smithing_template",
     "item:moreartifacts:netherite_headgear",
     "item:moreartifacts:wooden_headgear",
@@ -1428,370 +1747,7 @@
     "item:kubejs:chromatic_capacitor_red",
     "item:chisel_chipped_integration:ender_offset_wand",
     "item:create:white_seat",
-    "item:interiors:white_chair",
-    "item:curvy_pipes:medium_fluid_pipe",
-    "item:curvy_pipes:large_fluid_pipe",
-    "item:curvy_pipes:huge_fluid_pipe",
-    "item:chiselsandbits:sealant",
-    {
-      "type": "fluid",
-      "id": "gtceu:lubricant",
-      "amount": 12
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:seed_oil",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:acrylic_acid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:acetylene",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:propene",
-      "amount": 1000
-    },
-    "item:gtceu:polyacrylonitrile_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:polyethyl_cyanoacrylate",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polyether_ether_ketone",
-      "amount": 0
-    },
-    "item:gtceu:polycaprolactam_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:polycaprolactam",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polyvinyl_acetate",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polytetrafluoroethylene",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polybenzimidazole",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polyvinyl_chloride",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polyphenylene_sulfide",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polyethylene",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polychlorinated_biphenyl",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:polymineral_leachate",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:vinyl_chloride",
-      "amount": 144
-    },
-    {
-      "type": "fluid",
-      "id": "cofh_core:experience",
-      "amount": 0
-    },
-    "item:gtceu:lv_soul_binder",
-    "item:gtceu:mv_polymerization_chamber",
-    "item:gtceu:lv_polymerization_chamber",
-    "item:gtceu:opv_polymerization_chamber",
-    "item:gtceu:opv_atomic_reconstructor",
-    "item:gtceu:uxv_atomic_reconstructor",
-    "item:gtceu:uiv_atomic_reconstructor",
-    "item:gtceu:uev_atomic_reconstructor",
-    "item:gtceu:lapotronic_energy_orb",
-    "item:kubejs:bathyal_energy_core",
-    "item:kubejs:abyssal_energy_core",
-    "item:kubejs:pulsating_dust",
-    "item:modularrouters:detector_module",
-    "item:modularrouters:breaker_module",
-    "item:modularrouters:activator_module",
-    "item:modularrouters:modular_router",
-    "item:kubejs:conductive_iron_thruster",
-    "item:kubejs:resonant_thruster",
-    "item:kubejs:reinforced_thruster",
-    "item:kubejs:hardened_thruster",
-    "item:kubejs:leadstone_thruster",
-    "item:kubejs:dark_soularium_thruster",
-    "item:kubejs:vibrant_thruster",
-    "item:kubejs:energetic_thruster",
-    "item:kubejs:electrical_steel_thruster",
-    "item:gtceu:soularium_ingot",
-    "item:gtceu:dark_soularium_ingot",
-    {
-      "type": "item",
-      "id": "gtceu:dark_soularium_plate",
-      "amount": 4
-    },
-    "item:gtceu:advanced_quarktech_chestplate",
-    "item:gtceu:advanced_electric_jetpack{Charge:6400000L}",
-    "item:gtceu:advanced_nanomuscle_chestplate",
-    "item:gtceu:power_thruster",
-    "item:gtceu:blue_alloy_ingot",
-    "item:gtceu:blue_alloy_plate",
-    "item:gtceu:blue_alloy_single_wire",
-    "item:kubejs:fluxed_thruster",
-    "item:gtceu:mixite_gem",
-    "item:gtceu:pezzottaite_dust",
-    "item:gtceu:pezzottaite_gem",
-    "item:gtceu:diamatine_gem",
-    "item:minecraft:tinted_glass",
-    "item:gtceu:black_quartz_gem",
-    "item:gtceu:exquisite_black_quartz_gem",
-    "item:gtceu:flawless_black_quartz_gem",
-    "item:gtceu:black_quartz_dust",
-    "item:gtceu:fluoroapatite_gem",
-    "item:gtceu:flawless_dilithium_gem",
-    "item:gtceu:advanced_power_thruster",
-    "item:minecraft:bedrock",
-    "item:gtceu:potassium_dichromate_dust",
-    "item:gtceu:basic_copper_chromate_dust",
-    "item:gtceu:manganese_nitrate_dust",
-    "item:gtceu:rhodochrosite_dust",
-    "item:gtceu:ammonium_nitrate_dust",
-    "item:kubejs:solidified_krypton",
-    "item:kubejs:solidified_mercury",
-    "item:kubejs:withering_powder",
-    {
-      "type": "item",
-      "id": "gtceu:biphenyl_dust",
-      "chance": 0.5
-    },
-    "item:kubejs:wither_bone",
-    "item:kubejs:ender_dragon_scale_dust",
-    "item:kubejs:protomatter",
-    "item:kubejs:null_infused_circuit_board",
-    "item:fluxnetworks:flux_dust",
-    "item:fluxnetworks:flux_block",
-    "item:ironfurnaces:obsidian_furnace",
-    "item:minecraft:crying_obsidian",
-    "item:gtceu:sugar_gem",
-    "item:create:bar_of_chocolate",
-    {
-      "type": "fluid",
-      "id": "create:chocolate",
-      "amount": 250
-    },
-    "item:gtceu:signalum_dust",
-    "item:gtceu:electrum_flux_dust",
-    "#item:forge:dusts/electrum_flux",
-    "item:gtceu:electrum_flux_ingot",
-    "#item:forge:ingots/electrum_flux",
-    "item:redstone_arsenal:flux_quiver",
-    "item:redstone_arsenal:flux_gem",
-    "item:ae2:quartz_glass",
-    "item:ae2:quartz_vibrant_glass",
-    "item:gtceu:empty_tier_i_battery",
-    "item:gtceu:smd_capacitor",
-    {
-      "type": "item",
-      "id": "solarflux:sp_custom_abyssal",
-      "amount": 2
-    },
-    "item:solarflux:sp_custom_bathyal",
-    "item:solarflux:sp_8",
-    {
-      "type": "fluid",
-      "id": "kubejs:molten_aerotheum",
-      "amount": 0
-    },
-    "item:gtceu:dense_obsidian_plate",
-    "item:gtceu:fertilizer",
-    "item:chipped:fertile_hay_block",
-    "item:create:tree_fertilizer",
-    "item:create:crushed_raw_lead",
-    "item:gtceu:lv_mixer",
-    {
-      "type": "fluid",
-      "id": "gtceu:nitrogen_dioxide",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:ammonia",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:manganese_acetate",
-      "amount": 1000
-    },
-    "item:gtceu:manganese_dioxide_dust",
-    "item:gtceu:marble_dust",
-    "item:gtceu:antimony_tin_oxide_dust",
-    "item:gtceu:carbon_dust",
-    "item:gtceu:molybdenum_dioxide_dust",
-    "item:gtceu:potassium_permanganate_dust",
-    "item:gtceu:barite_dust",
-    "item:gtceu:manganese_oxide_dust",
-    "item:gtceu:manganese_phosphide_double_wire",
-    "item:minecraft:red_dye",
-    {
-      "type": "fluid",
-      "id": "gtceu:red_dye",
-      "amount": 288
-    },
-    "item:gtceu:hematite_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:diethylenetriamine",
-      "amount": 1000
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:diethylenetriamine_pentaacetonitrile",
-      "amount": 1000
-    },
-    "item:gtceu:diethylenetriaminepentaacetic_acid_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:acetic_acid",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:methyl_formate",
-      "amount": 0
-    },
-    "item:gtceu:capacitor",
-    "item:gtceu:tantalum_capacitor",
-    "item:gtceu:uiv_machine_casing",
-    "item:gtceu:uiv_machine_hull",
-    "item:gtceu:uiv_4096a_laser_source_hatch",
-    "item:gtceu:transcendental_matrix_block",
-    "item:gtceu:transcendental_matrix_nugget",
-    "item:gtceu:transcendental_matrix_foil",
-    "item:gtceu:transcendental_matrix_dust",
-    "item:gtceu:small_transcendental_matrix_dust",
-    "item:gtceu:transcendental_matrix_plate",
-    "item:kubejs:miniature_microverse_container",
-    {
-      "type": "fluid",
-      "id": "kubejs:liquid_ender",
-      "amount": 0
-    },
-    "item:kubejs:red_aligned_glass",
-    "item:kubejs:blue_aligned_glass",
-    {
-      "type": "item",
-      "id": "kubejs:prism_glass",
-      "amount": 3
-    },
-    "item:kubejs:prism_pane",
-    "item:kubejs:chromatically_reactive_cluster",
-    "item:kubejs:chromatically_inert_frame",
-    "item:kubejs:raw_nanotube_substrate",
-    "item:kubejs:prepared_nanotube_substrate",
-    "item:kubejs:grown_nanotube_substrate",
-    "item:kubejs:carbon_nanotubes",
-    "item:kubejs:nanotube_soot",
-    "item:kubejs:naquadah_waste",
-    "item:kubejs:empty_bathyal_energy_core",
-    "item:kubejs:empty_abyssal_energy_core",
-    "item:kubejs:empty_hadal_energy_core",
-    "item:kubejs:hadal_energy_core",
-    "item:kubejs:warden_heart",
-    {
-      "type": "item",
-      "id": "kubejs:niobium_palladium_grit",
-      "amount": 2
-    },
-    "item:kubejs:crushed_shulker_shell",
-    "item:kubejs:stabilized_americium",
-    "item:kubejs:stabilized_californium",
-    "item:kubejs:stabilized_curium",
-    "item:kubejs:stabilized_uranium",
-    "item:kubejs:stabilized_plutonium",
-    "item:kubejs:stabilized_neptunium",
-    {
-      "type": "fluid",
-      "id": "gtceu:hydrochloric_dragon_scale_solution",
-      "amount": 2000
-    },
-    "item:kubejs:ender_dragon_scale",
-    "item:kubejs:solidified_xenon",
-    "item:kubejs:solidified_nitrogen",
-    "item:kubejs:electro_optic_modulator",
-    "item:kubejs:dust",
-    "item:kubejs:inert_prismatic_core",
-    "item:kubejs:cyan_prismatic_core",
-    "item:kubejs:chromatic_capacitor_magenta",
-    "item:kubejs:universe_creation_data",
-    "item:tacz:ammo{AmmoId:\"tacz:762x25\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:556x45\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:rpg_rocket\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:45_70\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:50ae\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:30_06\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:50bmg\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:45acp\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:762x54\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:762x39\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:46x30\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:308\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:338\"}",
-    "item:tacz:ammo{AmmoId:\"tacz:68x51fury\"}",
-    "item:tacz:ammo_box{Level:2}",
-    "item:tacz:ammo_box{Level:1}",
-    "item:tacz:ammo_box{Level:0}",
-    "item:gtceu:empty_mold",
-    "item:gtceu:large_pipe_extruder_mold",
-    {
-      "type": "fluid",
-      "id": "gtceu:butyraldehyde",
-      "amount": 250
-    },
-    "item:kubejs:ammo_mold_357_magnum",
-    {
-      "type": "fluid",
-      "id": "gtceu:zinc",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:lead_zinc_solution",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:nickel_zinc_ferrite",
-      "amount": 0
-    },
-    "item:createdeco:zinc_support_wedge"
+    "item:interiors:white_chair"
   ],
   "craft_history": [],
   "recipe_defaults": {

@@ -222,7 +222,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
         .element(GTElements.get("omnium"))
         .color(0xffffff).iconSet("omnium")
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_SPRING)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW) // Generate Spring disabled, unused.
         .cableProperties(GTValues.V[GTValues.UEV], 8, 8, false)
 
 

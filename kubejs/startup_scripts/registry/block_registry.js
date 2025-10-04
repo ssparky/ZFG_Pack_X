@@ -272,7 +272,7 @@ StartupEvents.registry("block", event => {
 
     // Coils
     event.create("hafnium_carbonitride_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
+        .textureAll("kubejs:block/coil/hafnium_carbonitride/coil")
         .temperature(12600)
         .level(16)
         .energyDiscount(16)
@@ -286,7 +286,7 @@ StartupEvents.registry("block", event => {
 
 
     event.create("omnic_matrix_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil")
+        .textureAll("kubejs:block/coil/omnic_matrix/coil")
         .temperature(14200)
         .level(16)
         .energyDiscount(16)
@@ -299,7 +299,7 @@ StartupEvents.registry("block", event => {
         .soundType("metal")
 
     event.create("eltic_hassium_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
+        .textureAll("kubejs:block/coil/eltic_hassium/coil")
         .temperature(18400)
         .level(32)
         .energyDiscount(32)
@@ -312,7 +312,7 @@ StartupEvents.registry("block", event => {
         .soundType("metal")
 
     event.create("eternium_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/casing/omnic_matrix_machine/coil") // TODO: texture
+        .textureAll("kubejs:block/coil/eternium/coil") // TODO: texture
         .temperature(30000)
         .level(32)
         .energyDiscount(32)

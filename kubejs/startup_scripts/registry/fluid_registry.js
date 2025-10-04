@@ -147,7 +147,7 @@ StartupEvents.registry("fluid", event => {
         ["beer_oat", 0xDFA94A, "Oat Beer"],
         ["beer_haley", 0x920743, "Haley Beer"],
         ["whiskey_jojannik", 0x8A4B08, "JoJannik Select"],
-        ["whisky_lilitusinglemalt", 0x86092C, "Lilitu Single Malt"],
+        ["whiskey_lilitusinglemalt", 0x86092C, "Lilitu Single Malt"],
         ["whiskey_cristelwalker", 0xAC8417, "CristelWalker Original"],
         ["whiskey_maggoallan", 0xAF620E, "MaggoAllan, Aged"],
         ["whiskey_carrasconlabel", 0x844001, "Carrasconlabel Heritage"],
