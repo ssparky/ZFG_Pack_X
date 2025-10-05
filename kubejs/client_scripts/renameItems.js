@@ -27,4 +27,6 @@ ClientEvents.lang('en_us', event => {
     event.renameBlock("rusticdelight:wild_bell_peppers", "Wild Bell Peppers")
 
     event.renameItem("ae2:silicon", "Rough Certic Silicon")
+    event.renameItem("ae2:quartz_glass", "Fused Quartz")
+    event.renameItem("ae2:quartz_vibrant_glass", "Vibrant Fused Quartz")
 })

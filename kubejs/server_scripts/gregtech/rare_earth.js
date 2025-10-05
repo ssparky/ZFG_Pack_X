@@ -338,7 +338,7 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(GTValues.VA[GTValues.EV])
     event.recipes.gtceu.centrifuge("irradiated_neodymium_centrifuge")
-        .itemInputs("gtceu:irradiated_neodymium_chloride_dust")
+        .itemInputs("4x gtceu:irradiated_neodymium_chloride_dust")
         .itemOutputs("2x gtceu:depleted_neodymium_chloride_dust")
         .itemOutputs("gtceu:promethium_chloride_dust")
         .chancedOutput("gtceu:fertile_neodymium_chloride_dust", 5000, 0)

@@ -101,7 +101,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("discharger")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(9, 1, 1, 0)
+        .setMaxIOSize(9, 4, 1, 0)
         .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
@@ -143,7 +143,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("gem_growing_vat")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(6, 3, 3, 3)
+        .setMaxIOSize(6, 6, 3, 3)
         .setProgressBar(MoniGuiTextures.PROGRESS_BAR_XP, FillDirection.DOWN_TO_UP)
         .setSound(GTSoundEntries.ARC)
 

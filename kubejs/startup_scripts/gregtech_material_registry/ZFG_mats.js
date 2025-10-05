@@ -134,7 +134,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x45DA40).secondaryColor(0x14831F).iconSet("bright")
         .blastTemp(15000, "highest")
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
-        .cableProperties(8388608, 32, 16, false);
+        .cableProperties(8388608*4, 64, 128, false);
 
     event.create("raw_tiberium")
         .gem()
@@ -233,7 +233,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("ceric_ammonium_nitrate") // UIV+ etchant
 
-    // Polymers and Rubber
+    // Polymers and Rubbers
     event.create("polypropylene")
         .fluid().polymer()
         .color(0xda5653).secondaryColor(0x772929).iconSet("dull")
@@ -255,6 +255,37 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xffffff).secondaryColor(0xaeaeae).iconSet("dull")
         .formula("(CH2CHCN)n")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.STICKY)
+
+    // Gem vat
+    event.create("tiberium_seed")
+        .dust()
+        .color(0xD6FED6).secondaryColor(0x8FBEA7).iconSet("shiny")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("silica_gem_stock")
+        .fluid()
+        .color(0xFCECCD).secondaryColor(0xDCCCAD).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("corundum_gem_stock")
+        .fluid()
+        .color(0xF2D18F).secondaryColor(0xA78D5A).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("beryl_gem_stock")
+        .fluid()
+        .color(0xCDE7A1).secondaryColor(0xA3D28E).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("garnet_gem_stock")
+        .fluid()
+        .color(0xE7ADA1).secondaryColor(0xD2978E).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("sodalite_gem_stock")
+        .fluid()
+        .color(0xA1A6E7).secondaryColor(0x938ED2).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     // Other
     event.create("manganese_nitrate")

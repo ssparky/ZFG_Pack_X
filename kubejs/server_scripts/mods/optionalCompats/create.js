@@ -223,6 +223,9 @@ if (Platform.isLoaded("create")) {
         rockCrushing("create", "scoria", 480)
         rockCrushing("create", "scorchia", 480)
         rockCrushing("create", "veridium", 60)
+        // hehe haha
+        rockCrushing("natures_spirit", "travertine", 120)
+        rockCrushing("natures_spirit", "chert", 120)
         // stone variant reconstruction recipes
         let owStone = [["minecraft", "stone"], ["create", "asurine"], ["create", "crimsite"], ["create", "limestone"], ["create", "ochrum"], ["create", "veridium"], ["minecraft", "stone"]]
         let neStone = [["minecraft", "blackstone"], ["create", "scoria"], ["create", "scorchia"], ["minecraft", "blackstone"]]

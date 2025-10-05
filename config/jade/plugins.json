@@ -72,6 +72,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "enigmaticgraves": {
+    "grave": true
+  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -168,9 +171,6 @@
   },
   "appliedcooking": {
     "kitchen_station": true
-  },
-  "gravestone": {
-    "grave": true
   },
   "cookingforblockheads": {
     "fridge": true,
