@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:black_steel_plate",
         L: "extendedcrafting:luminessence",
         A: "gtceu:hssg_plate",
-        B: "extendedcrafting:crystaltine_ingot"
+        B: "gtceu:diamond_plate"
     })
 
     event.remove({ output: "extendedcrafting:redstone_component" })
@@ -310,4 +310,85 @@ ServerEvents.recipes(event => {
         .itemOutputs("8x extendedcrafting:luminessence")
         .duration(20)
         .EUt(30)
+
+    // GT Multiblock Autotable - TODO Don't forget to add recipes here if you define excrafting recipes for mb's or anything!
+    // MB Recipe TODO: !!
+
+    // Advanced
+    event.recipes.gtceu.large_auto_crafter("elite_table")
+        .itemInputs("4x gtceu:aluminium_block", "8x gtceu:black_steel_plate", "4x extendedcrafting:elite_catalyst", "8x extendedcrafting:elite_component", 
+            "1x extendedcrafting:advanced_table"
+        )
+        .itemOutputs("extendedcrafting:elite_table")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("enchanting_infuser")
+        .itemInputs("1x #chipped:bookshelf", "3x gtceu:redstone_plate", "2x gtceu:amethyst_rod", "10x #chipped:crying_obsidian", 
+            "2x #forge:flawless_gems", "1x minecraft:enchanting_table"
+        )
+        .itemOutputs("enchantinginfuser:enchanting_infuser")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("mm_t2half")
+        .itemInputs("1x kubejs:basic_micro_miner_guidance_system", "2x minecraft:crossbow", "1x spartanweaponry:small_bolt_quiver", "6x gtceu:double_dark_steel_plate", 
+            "1x gtceu:mv_field_generator", "2x create:steam_engine", "1x gtceu:bronze_crate", "2x kubejs:hardened_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t2half")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("quintessence_infuser")
+        .itemInputs("4x gtceu:zpm_sensor", "8x gtceu:double_dark_soularium_plate", "2x gtceu:luv_field_generator", "4x kubejs:dark_soularium_casing",
+            "4x #gtceu:circuits/zpm", "2x gtceu:zpm_field_generator"
+        )
+        .itemOutputs("gtceu:quintessence_infuser")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("hyperbolic_mvs")
+        .itemInputs("4x gtceu:uv_field_generator", "8x gtceu:double_microversium_plate", "4x gtceu:uhv_emitter", "4x #gtceu:circuits/uhv", "4x monilabs:microverse_casing",
+            "1x gtceu:computer_monitor_cover"
+        )
+        .itemOutputs("monilabs:hyperbolic_microverse_projector")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("omnic_synthesizer")
+        .itemInputs("4x gtceu:zpm_emitter", "8x ae2:controller", "2x gtceu:luv_field_generator", "4x gtceu:atomic_casing", "4x #gtceu:circuits/zpm",
+            "2x gtceu:zpm_field_generator", "1x gtceu:research_station"
+        )
+        .itemOutputs("gtceu:omnic_synthesizer")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("reinforced_mining_laser")
+        .itemInputs("2x #chipped:redstone_block", "9x #forge:glass", "4x kubejs:solidified_argon", "2x #chipped:quartz_block", "2x minecraft:quartz",
+            "2x #gtceu:circuits/hv", "1x #gtceu:batteries/hv"
+        )
+        .itemOutputs("kubejs:reinforced_mining_laser")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("mm_t2")
+        .itemInputs("1x kubejs:basic_micro_miner_guidance_system", "6x gtceu:double_titanium_plate", "1x gtceu:stainless_steel_crate", "2x kubejs:basic_mining_laser", 
+            "2x gtceu:lv_field_generator", "1x kubejs:electrum_micro_miner_core", "1x gtceu:mv_combustion", "3x kubejs:electrical_steel_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t2")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("angel_ring")
+        .itemInputs("8x gtceu:rose_gold_ingot", "4x gtceu:gravitation_engine_unit", "1x kubejs:leadstone_thruster", "1x gtceu:advanced_nanomuscle_chestplate",
+            "1x kubejs:conductive_iron_thruster", "1x kubejs:reinforced_thruster", "1x kubejs:energetic_thruster", "1x kubejs:fluxed_thruster",
+            "1x gtceu:advanced_quarktech_chestplate", "1x kubejs:dark_soularium_thruster"
+        )
+        .itemOutputs("better_angel_ring:angel_ring")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    event.recipes.gtceu.large_auto_crafter("nasa_workbench")
+        .itemInputs("4x gtceu:hv_robot_arm", "10x gtceu:double_steel_plate", "2x gtceu:hv_emitter", "2x gtceu:hv_machine_casing", "4x #gtceu:circuits/hv",
+            "1x gtceu:mv_assembler"
+        )
+        .itemOutputs("ad_astra:nasa_workbench")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.MV])
+    // Elite
+
+    // Ultimate
+
+    // Epic
 })

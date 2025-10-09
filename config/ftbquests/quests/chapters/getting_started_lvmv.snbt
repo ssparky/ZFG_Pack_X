@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started_lvmv"
+	group: "75C788D2B7CAB023"
+	icon: "gtceu:electric_blast_furnace"
+	id: "4036B7B5245B6E18"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "65A7739B14477603"
+			tasks: [{
+				id: "031CAA1317897A87"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 1.0d
+		}
+		{
+			id: "47740AED5C449A80"
+			tasks: [{
+				id: "1988C9E1996273AE"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1D4B67C500869029"
+			tasks: [{
+				id: "48BDE50C80288267"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "3179A5ED123C03E0"
+			tasks: [{
+				id: "7525F7156F547829"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "17519CA52F36478C"
+			tasks: [{
+				id: "429B3BC031F74158"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "5D204D18082A39A4"
+			tasks: [{
+				id: "1A944AF053D848C7"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -0.75d
+		}
+		{
+			id: "460A572126027006"
+			tasks: [{
+				id: "28FD35DCE116D9AF"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "0232F5CF4D8FBEF9"
+			tasks: [{
+				id: "2CAC41F7009D200D"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			id: "6EFADF8B88A43636"
+			tasks: [{
+				id: "3F03B80FE164F540"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.75d
+		}
+		{
+			id: "707C77CA75E27A2B"
+			tasks: [{
+				id: "1BD6FF874737C26D"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "63DADF82E3014BE1"
+			tasks: [{
+				id: "5170C2D7B49D72FB"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.0d
+		}
+		{
+			id: "20D6860E093BC3F1"
+			tasks: [{
+				id: "0D4444B9FB357EDE"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.25d
+		}
+		{
+			id: "653669532C78AAA5"
+			tasks: [{
+				id: "2714B972E101C50B"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.75d
+		}
+		{
+			id: "01E71100BF468A31"
+			tasks: [{
+				id: "2ADC3BCD382742C6"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "3CD15E71735ED1BA"
+			tasks: [{
+				id: "0AA46A2734308C57"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 2.25d
+		}
+		{
+			id: "4B6983363EC392FA"
+			tasks: [{
+				id: "59745965D3D42673"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.5d
+		}
+		{
+			id: "37942B03095AD948"
+			tasks: [{
+				id: "638A843FCE305296"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -0.25d
+		}
+		{
+			id: "07A4EFBCF9D76171"
+			tasks: [{
+				id: "2D42AC2896CD3A7E"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.5d
+		}
+		{
+			id: "4E3B3999909F05C1"
+			tasks: [{
+				id: "64FF5FCBE2203AB3"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.0d
+		}
+	]
+	title: "Getting Started (LV/MV)"
+}

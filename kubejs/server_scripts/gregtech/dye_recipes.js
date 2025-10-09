@@ -7,14 +7,12 @@ ServerEvents.recipes(event => {
         .itemOutputs("1x gtceu:potassium_chromate_dust", "1x gtceu:chromium_trioxide_dust")
         .duration(100)
         .EUt(GTValues.VHA[GTValues.EV])
-
     event.recipes.gtceu.mixer("basic_copper_chromate_from_potassium_chromate")
         .itemInputs("1x gtceu:potassium_chromate_dust", "2x gtceu:copper_dust", "4x gtceu:sodium_hydroxide_dust")
         .outputFluids("gtceu:sodium_potassium 1000")
         .itemOutputs("2x gtceu:basic_copper_chromate_dust")
         .duration(400)
         .EUt(GTValues.VHA[GTValues.IV])
-
     // Cadmium Selenide
     event.recipes.gtceu.electric_blast_furnace("cadmium_selenide_blasting")
         .itemInputs("1x gtceu:cadmium_dust", "1x gtceu:selenium_dust")
@@ -23,7 +21,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VHA[GTValues.HV])
         .duration(200)
         .blastFurnaceTemp(3600)
-
     // Lead Chromate
     event.recipes.gtceu.chemical_reactor("lead_chloride_forming")
         .itemInputs("1x gtceu:lead_dust")
@@ -36,7 +33,6 @@ ServerEvents.recipes(event => {
         .itemOutputs("1x gtceu:lead_chromate_dust", "1x gtceu:rock_salt_dust")
         .EUt(GTValues.VA[GTValues.HV])
         .duration(140)
-
     // Bismuth Vanadate
     event.recipes.gtceu.chemical_reactor("bismite_forming")
         .itemInputs("2x gtceu:bismuth_dust")
@@ -50,60 +46,200 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(180)
         .blastFurnaceTemp(3600)
-
     // Strontium Chromate
-    // Needs strontium chloride + potassium chromate, or a way to make strontianite + potassium dichromate
-
+    event.recipes.gtceu.chemical_reactor("strontium_chromate")
+        .itemInputs("2x gtceu:strontianite_dust", "gtceu:potassium_dichromate_dust")
+        .itemOutputs("gtceu:strontium_chromate_dust", "2x gtceu:potassium_carbonate_dust")
+        .EUt(GTValues.VHA[GTValues.IV])
+        .duration(180)
+        .blastFurnaceTemp(3600)
     // Barium Chromate
-    // Needs barium hydroxide or chloride + potassium chromate
-
+    event.recipes.gtceu.chemical_reactor("barium_chromate")
+        .itemInputs("gtceu:barium_sulfide_dust", "gtceu:potassium_chromate_dust")
+        .itemOutputs("gtceu:barium_chromate_dust", "gtceu:potassium_pyrosulfate_dust")
+        .EUt(GTValues.VHA[GTValues.IV])
+        .duration(220)
+        .blastFurnaceTemp(3600)
     // Uranium Trioxide
-    // U3O8 + O2 at low temp
-
+    event.recipes.gtceu.chemical_reactor("uranium_trioxide")
+        .itemInputs("3x gtceu:uraninite_dust")
+        .inputFluids("gtceu:oxygen 1000", "gtceu:ice 2000")
+        .circuit(2)
+        .itemOutputs("3x gtceu:uranium_trioxide_dust")
+        .outputFluids("minecraft:water 2000")
+        .duration(240)
+        .EUt(GTValues.VHA[GTValues.IV])
     // Chromia
-    // Potassium dichromate + sulfur -> potassium sulfate + chromia
-
+    event.recipes.gtceu.large_chemical_reactor("chromia")
+        .itemInputs("1x gtceu:potassium_dichromate_dust", "gtceu:sulfur_dust")
+        .itemOutputs("gtceu:potassium_sulfate_dust", "1x gtceu:chromia_dust")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(80)
+        .circuit(4)
     // Nickel Sulfate Hexahydride
-    // Nickel oxide + sulfuric acid -> dissolution -> NSHH
-
+    event.recipes.gtceu.chemical_reactor("nickel_sulfate")
+        .itemInputs("gtceu:garnierite_dust")
+        .inputFluids("gtceu:sulfuric_acid 1000", "gtceu:distilled_water 3000")
+        .itemOutputs("15x gtceu:nickel_sulfate_hexahydride_dust")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(160)
+        .circuit(1)
     // Copper Sulfate Pentahydride
-    // Copper oxide + (dilute) sulfuric acid -> CSPH
-
+    event.recipes.gtceu.chemical_reactor("copper_sulfate")
+        .itemInputs("gtceu:cupric_oxide_dust")
+        .inputFluids("gtceu:sulfuric_acid 1000", "gtceu:distilled_water 2500")
+        .itemOutputs("12x gtceu:copper_sulfate_pentahydride_dust")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(160)
+        .circuit(1)
     // Cobalt Blue
-    // Unknown, make something up ig
-
+    event.recipes.gtceu.autoclave("cobalt_blue")
+        .itemInputs("1x gtceu:sapphire_dust", "gtceu:cobalt_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("7x gtceu:cobalt_blue_dust")
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(640)
     // Potassium Permanganate
-    // Manganese Dioxide + potassium hydroxide + oxygen -> potassium manganate + water -> potassium permanganate + half potassium hydroxide + hydrogen
-
+    event.recipes.gtceu.chemical_reactor("potassium_permanganate")
+        .itemInputs("gtceu:manganese_dioxide_dust", "gtceu:potassium_hydroxide_dust")
+        .inputFluids("gtceu:oxygen 1000", "minecraft:water 1000")
+        .itemOutputs("gtceu:potassium_permanganate_dust", "2x gtceu:small_potassium_hydroxide_dust")
+        .outputFluids("gtceu:hydrogen 1000")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(200)
     // Cobalt Phosphate
-    // Cobalt oxide + phosphate salts
-
+    event.recipes.gtceu.chemical_reactor("cobalt_phosphate")
+        .itemInputs("3x gtceu:cobalt_dust", "gtceu:tricalcium_phosphate_dust")
+        .itemOutputs("gtceu:cobalt_phosphate_dust", "3x gtceu:calcium_dust")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(80)
     // Erbium Oxide
-    // Erbium + O2 -> EBF
-
+    event.recipes.gtceu.electric_blast_furnace("erbium_oxide")
+        .itemInputs("2x gtceu:erbium_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("2x gtceu:erbium_oxide_dust")
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(180)
+        .blastFurnaceTemp(1200)
     // Cobalt Carbonate
-    // Cobalt + sulfuric acid + water -> cobalt sulfate (heptahydride) + hydrogen
-    // Cobalt Sulfate + Sodium bicarbonate -> cobalt carbonate + sodium sulfate + water + co2
-
+    event.recipes.gtceu.large_chemical_reactor("cobalt_carbonate")
+        .itemInputs("gtceu:cobalt_dust", "gtceu:sodium_bicarbonate_dust")
+        .inputFluids("gtceu:sulfuric_acid 1000", "minecraft:water 2000")
+        .itemOutputs("gtceu:cobalt_carbonate_dust", "gtceu:sodium_sulfate_dust")
+        .outputFluids("minecraft:water 1000", "gtceu:carbon_dioxide 1000", "gtceu:hydrogen 1000")
+        .EUt(GTValues.VHA[GTValues.EV])
+        .duration(380)
     // Cobalt Chloride Hexahyrdide
-    // Cobalt Carbonate + hydrochloric acid + (water) -> cobalt chloride (hydride) + CO2 + excess water
-
+    event.recipes.gtceu.chemical_reactor("cobalt_chloride")
+        .itemInputs("gtceu:cobalt_carbonate_dust")
+        .inputFluids("gtceu:hydrochloric_acid 1000", "gtceu:distilled_water 3000")
+        .itemOutputs("4x gtceu:cobalt_chloride_hexahydride_dust")
+        .outputFluids("gtceu:carbon_dioxide 1000", "minecraft:water 500")
     // Molybdenum Dioxide
-    // 2 Molybdenite + 7 oxygen -> ebf -> 2 MoO3 + 4 SO2
-    // 2 Molybdenum Trioxide + Molybdenum -> 3 Molybdenum Dioxide
-
+    event.recipes.gtceu.electric_blast_furnace("molybdenum_dioxide")
+        .itemInputs("2x gtceu:molybdenum_trioxide_dust", "1x gtceu:molybdenum_dust")
+        .itemOutputs("3x gtceu:molybdenum_dioxide_dust")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(300)
+        .blastFurnaceTemp(1800)
     // Cobaltic Oxide
-    // Chlorine + Sodium Hydroxide -> Salt + Bleach + water
-    // Cobalt Sulfate + Sodium Hydroxide + Sodium hypochloride (bleach) -> Cobaltic Oxide + Sodium Sulfate + Salt
-
+    event.recipes.gtceu.electric_blast_furnace("cobaltic_oxide")
+        .itemInputs("2x gtceu:cobalt_oxide_dust")
+        .itemOutputs("3x gtceu:cobaltic_oxide_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(240)
+        .blastFurnaceTemp(1400)
     // Magnanese Dioxide
-    // yeah
-
+    event.recipes.gtceu.chemical_reactor("manganese_dioxide")
+        .itemInputs("gtceu:manganese_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("3x gtceu:manganese_dioxide_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(160)
+        .circuit(1)
+    event.recipes.gtceu.chemical_reactor("manganese_oxide")
+        .itemInputs("gtceu:manganese_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("2x gtceu:manganese_oxide_dust")
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(160)
+        .circuit(2)
     // Antimony Tin Oxide
-    // idk
-
+    event.recipes.gtceu.electric_blast_furnace("antimony_tin_oxide")
+        .itemInputs("1x gtceu:antimony_dust", "1x gtceu:tin_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("3x gtceu:antimony_tin_oxide_dust")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(240)
+        .blastFurnaceTemp(3400)
     // Titanium Suboxide
-    // also not known
+    event.recipes.gtceu.arc_furnace("titanium_suboxide")
+        .itemInputs("1x gtceu:titanium_dust")
+        .inputFluids("gtceu:oxygen 2500")
+        .itemOutputs("4x gtceu:titanium_suboxide_dust")
+        .EUt(GTValues.VHA[GTValues.IV])
+        .duration(360)
 
-    // TODO: the rest of this shit
+    // Base mod dusts that need recipes for proper automation
+    // Arsenic Trioxide
+    event.recipes.gtceu.arc_furnace("arsenic_trioxide")
+        .itemInputs("2x gtceu:arsenic_dust")
+        .inputFluids("gtceu:oxygen 3000")
+        .itemOutputs("5x gtceu:arsenic_trioxide_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(80)
+    // Lithium Oxide
+    event.recipes.gtceu.arc_furnace("lithium_oxide")
+        .itemInputs("2x gtceu:lithium_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("3x gtceu:lithium_oxide_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(80)
+    // Tantalum Pentoxide
+    event.recipes.gtceu.arc_furnace("tantalum_pentoxide")
+        .itemInputs("2x gtceu:tantalum_dust")
+        .inputFluids("gtceu:oxygen 5000")
+        .itemOutputs("7x gtceu:tantalum_pentoxide_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(140)
+    // Garnierite
+    event.recipes.gtceu.arc_furnace("garnierite")
+        .itemInputs("1x gtceu:nickel_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("2x gtceu:garnierite_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(80)
+    // Cupric Oxide
+    event.recipes.gtceu.arc_furnace("cupric_oxide")
+        .itemInputs("1x gtceu:copper_dust")
+        .inputFluids("gtceu:oxygen 1000")
+        .itemOutputs("2x gtceu:cupric_oxide_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(80)
+    // Molybdenite
+    event.recipes.gtceu.electric_blast_furnace("molybdenite")
+        .itemInputs("1x gtceu:molybdenum_dust")
+        .inputFluids("gtceu:sulfur_dioxide 2000")
+        .itemOutputs("3x gtceu:molybdenite_dust")
+        .outputFluids("gtceu:oxygen 4000")
+        .EUt(GTValues.VHA[GTValues.HV])
+        .duration(160)
+        .blastFurnaceTemp(1800)
+    // Hawleyite
+    event.recipes.gtceu.electric_blast_furnace("hawleyite")
+        .itemInputs("1x gtceu:cadmium_dust")
+        .inputFluids("gtceu:sulfur_dioxide 1000")
+        .itemOutputs("2x gtceu:hawleyite_dust")
+        .outputFluids("gtceu:oxygen 2000")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(180)
+        .blastFurnaceTemp(2100)
+    // Coccinite
+    event.recipes.gtceu.chemical_bath("coccinite")
+        .itemInputs("2x gtceu:iodine_dust")
+        .inputFluids("gtceu:mercury 1000")
+        .itemOutputs("3x gtceu:coccinite_dust")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(240)
 })

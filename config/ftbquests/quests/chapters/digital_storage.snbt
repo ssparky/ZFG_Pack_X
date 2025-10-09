@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "799537D85E25757D"
+	icon: "chisel_chipped_integration:futura_me_controller"
+	id: "3E540B9CBA11AB8E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Digital Storage"
+}

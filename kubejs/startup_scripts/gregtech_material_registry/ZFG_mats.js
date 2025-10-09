@@ -287,6 +287,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xA1A6E7).secondaryColor(0x938ED2).iconSet("dull")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
+    event.create("phosphate_gem_stock")
+        .fluid()
+        .color(0xC0B185).secondaryColor(0x9A8D5E).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
     // Other
     event.create("manganese_nitrate")
         .dust()

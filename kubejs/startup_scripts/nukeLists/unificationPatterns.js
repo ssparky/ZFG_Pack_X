@@ -10,9 +10,6 @@
  * All gears, blocks, ingots, nuggets, etc. we don't want to remove
  */
 global.unificationExcludedItems = [
-    "extendedcrafting:crystaltine_block",
-    "extendedcrafting:crystaltine_ingot",
-    "extendedcrafting:crystaltine_nugget",
     "extendedcrafting:luminessence_block",
 ];
 

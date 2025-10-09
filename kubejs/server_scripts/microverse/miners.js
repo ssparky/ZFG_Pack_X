@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:hv_field_generator",
         F: "kubejs:signalum_micro_miner_core",
         T: "kubejs:energetic_thruster",
-        D: "minecraft:bedrock" // TODO: was compression dynamo
+        D: "gtceu:large_combustion_engine"
     })
 
     // T5 Microminer
@@ -93,8 +93,8 @@ ServerEvents.recipes(event => {
         A: "gtceu:ev_field_generator",
         B: "gtceu:mv_super_chest",
         F: "kubejs:signalum_micro_miner_core",
-        C: "minecraft:bedrock", // TODO: replace. Was NCN Reactor controller, reactor port
-        P: "minecraft:bedrock",
+        C: "gtceu:fission_reactor_power",
+        P: "kubejs:fission_reactor_fuel_cell",
         T: "kubejs:vibrant_thruster",
     })
 
@@ -114,8 +114,8 @@ ServerEvents.recipes(event => {
         A: "gtceu:mv_super_chest",
         F: "kubejs:enderium_micro_miner_core",
         B: "gtceu:iv_field_generator",
-        C: "minecraft:bedrock", // TODO: replace, was NCN reactor controller, reactor port
-        P: "minecraft:bedrock",
+        C: "gtceu:fission_reactor_power",
+        P: "kubejs:fission_reactor_fuel_cell",
         T: "kubejs:resonant_thruster"
     })
 
@@ -279,10 +279,10 @@ ServerEvents.recipes(event => {
         P: "gtceu:double_dark_steel_plate",
         A: "gtceu:mv_field_generator",
         C: "minecraft:crossbow",
-        Q: "minecraft:bedrock", // TODO: was potion quiver
+        Q: "spartanweaponry:small_bolt_quiver",
         B: "gtceu:bronze_crate",
         T: "kubejs:hardened_thruster",
-        M: "minecraft:bedrock" // TODO: was magmatic dynamo
+        M: "create:steam_engine"
     })
 
     // T4.5  Microminer
@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
         A: "gtceu:hv_robot_arm",
         c: "kubejs:signalum_micro_miner_core",
         f: "gtceu:hv_field_generator",
-        d: "minecraft:bedrock", // TODO: was compression dynamo
+        d: "gtceu:large_combustion_engine",
         T: "kubejs:energetic_thruster"
     }).id("kubejs:microminer/t4half")
 

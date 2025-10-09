@@ -36,7 +36,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x7B34FF)
         .iconSet("dull")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-        .components("5x green_steel", "4x rubidium", "16x tin_alloy", "12 bismuth", "8x indium", "20x neutronium", "6x germanium", "4x tellurium")
+        .components("5x green_steel", "4x rubidium", "16x tin_alloy", "12x bismuth", "8x indium", "20x neutronium", "6x germanium", "4x tellurium")
         .formula("(Sc(Be3Al2Si6O18)(Ni(AuAgCu3)Fe3)4Fe2)5Rb4(SnFe)16Bi12In8Nt20Ge6Te4")
 
 })

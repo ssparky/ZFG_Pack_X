@@ -928,4 +928,12 @@ StartupEvents.registry("item", event => {
     event.create("weather_crystal")
         .displayName("Weather Crystal")
         .texture("kubejs:item/weather_crystal")
+
+    // Coils - TODO: UIV/UXV/OPV
+    event.create("uhv_voltage_coil")
+        .displayName("Ultra High Voltage Coil")
+        .texture("gtceu:item/uhv_voltage_coil")
+    event.create("uev_voltage_coil")
+        .displayName("Ultra Excessive Voltage Coil")
+        .texture("gtceu:item/uev_voltage_coil")
 })

@@ -90,6 +90,7 @@ global.itemNukeList = [
     "extendedcrafting:frame",
     "extendedcrafting:recipe_maker",
     "extendedcrafting:singularity",
+    /^extendedcrafting:crystaltine_(?!c)[\w_]+/,
 
     // GTCEu: Modern
     "gtceu:hot_kanthal_ingot",
@@ -183,6 +184,7 @@ global.itemNukeList = [
     "moreartifacts:wooden_headgear",
     "moreartifacts:golden_headgear",
     "moreartifacts:netherite_headgear",
+    "relics:researching_table",
 
     // Display delight having lazy programming
     /^displaydelight:cd_.*/,

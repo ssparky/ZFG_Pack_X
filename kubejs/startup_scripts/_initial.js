@@ -6,7 +6,7 @@
  */
 
 // Spoof our custom items' mod name
-Platform.mods.kubejs.name = "Moni Labs"
+Platform.mods.kubejs.name = "ZFG Pack X"
 
 /**
  * Capitalizes the first char of the string

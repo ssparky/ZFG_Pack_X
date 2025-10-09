@@ -7,6 +7,7 @@ const Tags = Java.loadClass("dev.latvian.mods.kubejs.util.Tags")
 const LocalizationUtils = Java.loadClass("com.lowdragmc.lowdraglib.utils.LocalizationUtils")
 const FusionReactorMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine")
 const CoilWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine")
+const $LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine")
 const MoniGuiTextures = Java.loadClass("net.neganote.monilabs.client.gui.MoniGuiTextures");
 
 GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
@@ -173,6 +174,28 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setMaxIOSize(1, 0, 0, 1) 
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
+
+    // Large Autocrafter
+    event.create("large_auto_crafter")
+        .category("multiblock")
+        .setEUIO("in")
+        .setMaxIOSize(27, 1, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.COMPUTATION)
+    // Lapidary Dynamo
+    event.create("lapidary_dynamo")
+        .category("multiblock")
+        .setEUIO("out")
+        .setMaxIOSize(1, 1, 1, 1)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.TURBINE)
+    // Universal Synchronizer
+    event.create("universal_synchronizer")
+        .category("multiblock")
+        .setEUIO("in")
+        .setMaxIOSize(9, 3, 3, 3)
+        .setProgressBar(MoniGuiTextures.PROGRESS_BAR_RECONSTRUCTION, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.COMPUTATION)
 })
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
@@ -466,7 +489,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .where("#", Predicates.any())
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/machines/soul_binder")
+            "gtceu:block/multiblock/implosion_compressor")
 
     // Quintessence Infuser
     event.create("quintessence_infuser", "multiblock")
@@ -493,7 +516,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .where("#", Predicates.any())
             .build())
         .workableCasingModel("kubejs:block/casing/soularium/casing",
-            "gtceu:block/multiblock/implosion_compressor")
+            "gtceu:block/machines/soul_binder")
 
     // Discharger
     event.create("discharger", "multiblock")
@@ -1082,4 +1105,93 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
             "gtceu:block/multiblock/primitive_pump");
+
+    // Mega Chemical Reactor
+    event.create("mega_chemical_reactor", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeTypes("large_chemical_reactor")
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
+        .appearanceBlock(() => Block.getBlock("gtceu:inert_machine_casing"))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("CCCCCCC","F#####F","F#####F","F#####F","F#####F","F#####F","CCCCCCC")
+            .aisle("CCCCCCC","##CCC##","##GGG##","##GGG##","##GGG##","##CCC##","CCCCCCC")
+            .aisle("CCCCCCC","#C A C#","#G A G#","#G A G#","#G A G#","#C A C#","CCCCCCC")
+            .aisle("CCCCCCC","#CPIPC#","#GPIPG#","#GPIPG#","#GPIPG#","#CPIPC#","CCCCCCC")
+            .aisle("CCCCCCC","#C A C#","#G A G#","#G A G#","#G A G#","#C A C#","CCCCCCC")
+            .aisle("CCCCCCC","##CCC##","##GGG##","##GGG##","##GGG##","##CCC##","CCCCCCC")
+            .aisle("CCC@CCC","F#####F","F#####F","F#####F","F#####F","F#####F","CCCCCCC")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("G", Predicates.blocks(GTBlocks.FUSION_GLASS.get()))
+            .where("C", Predicates.blocks("gtceu:inert_machine_casing").setMinGlobalLimited(10)
+                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.INPUT_LASER).setMaxGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
+            .where("P", Predicates.blocks("gtceu:ptfe_pipe_casing"))
+            .where("A", Predicates.heatingCoils())
+            .where("I", Predicates.blocks("gtceu:iridium_block"))
+            .where("F", Predicates.blocks("gtceu:naquadah_alloy_frame"))
+            .where(" ", Predicates.air())
+            .where("#", Predicates.any())
+            .build())
+        .workableCasingModel("gtceu:block/casings/solid/machine_casing_inert_ptfe",
+            "gtceu:block/multiblock/large_chemical_reactor");
+
+    // Large Auto Crafter
+    event.create("large_auto_crafter", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeTypes("large_auto_crafter")
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
+        .appearanceBlock(() => Block.getBlock("kubejs:dark_steel_casing"))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("#FCCCF#", "#######", "#######", "#######", "#######")
+            .aisle("FECCCEF", "#FGGGF#", "#FGGGF#", "#FGGGF#", "#ECCCE#")
+            .aisle("CCCCCCC", "#GTTTG#", "#G   G#", "#G   G#", "#CCCCC#")
+            .aisle("CCCCCCC", "#GTTTG#", "#G   G#", "#G   G#", "#CCCCC#")
+            .aisle("CCCCCCC", "#GTTTG#", "#G   G#", "#G   G#", "#CCCCC#")
+            .aisle("FECCCEF", "#FGGGF#", "#FGGGF#", "#FGGGF#", "#ECCCE#")
+            .aisle("#FC@CF#", "#######", "#######", "#######", "#######")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("G", Predicates.blocks("mae2:cloud_chamber"))
+            .where("C", Predicates.blocks("kubejs:dark_steel_casing").setMinGlobalLimited(15)
+                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.INPUT_LASER).setMaxGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
+            .where("T", Predicates.blocks("chipped:grid_black_concrete"))
+            .where("E", Predicates.blocks("minecraft:emerald_block"))
+            .where("F", Predicates.blocks("gtceu:black_steel_frame"))
+            .where(" ", Predicates.air())
+            .where("#", Predicates.any())
+            .build())
+        .workableCasingModel("kubejs:block/casing/dark_steel/casing",
+            "gtceu:block/multiblock/assembly_line");
+
+    // Lapidary Dynamo
+    event.create("lapidary_dynamo", "multiblock")
+        .machine((holder) => new $LargeTurbineMachine(holder, GTValues.EV))
+        .rotationState(RotationState.ALL)
+        .recipeTypes("lapidary_dynamo")
+        .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, GTRecipeModifiers.BATCH_MODE, (machine, recipe) => GTRecipeModifiers.LargeTurbineMachine(machine, recipe)])
+        .appearanceBlock(() => Block.getBlock("create:brass_casing"))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("CC#CC", "EE#EE", "CC#CC", "#####", "#####")
+            .aisle("CCCCC", "ECCCE", "CVVVC", "#FFF#", "#AAA#")
+            .aisle("#CCC#", "#CCC#", "#VVV#", "#FVF#", "#ARA#")
+            .aisle("CCCCC", "EC@CE", "CVVVC", "#FFF#", "#AAA#")
+            .aisle("CC#CC", "EE#EE", "CC#CC", "#####", "#####")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("F", Predicates.blocks("gtceu:black_steel_frame"))
+            .where("C", Predicates.blocks("create:brass_casing").setMinGlobalLimited(12)
+                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
+            .where("V", Predicates.blocks("gtceu:vibrant_alloy_block"))
+            .where("E", Predicates.blocks("kubejs:electrum_micro_miner_core"))
+            .where("R", Predicates.ability(PartAbility.ROTOR_HOLDER).setExactLimit(1))
+            .where("A", Predicates.heatingCoils())
+            .where(" ", Predicates.air())
+            .where("#", Predicates.any())
+            .build())
+        .workableCasingModel("create:block/brass_casing",
+            "gtceu:block/multiblock/large_tungstensteel_boiler");
 })

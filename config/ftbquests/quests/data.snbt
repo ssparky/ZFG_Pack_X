@@ -20,7 +20,7 @@
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.25d
-	icon: "gtceu:hssg_coil_block"
+	icon: "kubejs:eltic_hassium_coil_block"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
@@ -30,6 +30,6 @@
 	pause_game: false
 	progression_mode: "flexible"
 	show_lock_icons: true
-	title: "&9Monifactory"
+	title: "&9ZFG Pack X"
 	version: 13
 }

@@ -4,7 +4,6 @@
  *
  * Changes the IV voltage coil to use Neptunium Palladium Aluminium
  * Changes IV Sensor/Emitter to use Rhodium instead of Iridium.
- * Changes the RMM separation recipe to use 2A IV instead of 1A IV to force usage of the IV energy hatch.
  *
  * Also adds a mixer recipe for Neptunium Palladium Aluminium.
  */

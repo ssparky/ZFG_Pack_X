@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning_of_the_end_uivuxv"
+	group: "75C788D2B7CAB023"
+	icon: "monilabs:prismatic_crucible"
+	id: "045CB78007E609F5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Beginning of the End (UIV/UXV)"
+}

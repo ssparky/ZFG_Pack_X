@@ -38,7 +38,7 @@ ServerEvents.tags("item", event => {
     event.add("forge:dyes/magenta", "gtceu:molybdenum_dioxide_dust")
     event.add("forge:dyes/black", "gtceu:carbon_dust")
     event.add("forge:dyes/black", "gtceu:cobaltic_oxide_dust")
-    event.add("forge:dyes/black", "gtceu:magnanese_dioxide_dust")
+    event.add("forge:dyes/black", "gtceu:manganese_dioxide_dust")
     event.add("forge:dyes/gray", "gtceu:antimony_tin_oxide_dust")
     event.add("forge:dyes/light_gray", "gtceu:titanium_suboxide_dust")
     event.add("forge:dyes/white", "gtceu:marble_dust")

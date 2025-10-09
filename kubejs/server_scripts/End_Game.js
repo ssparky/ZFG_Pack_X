@@ -360,7 +360,7 @@ ServerEvents.recipes(event => {
         S: "solarflux:sp_custom_neutronium"
     })
 
-    // Creative Chest
+    // Creative Chest - TODO: check again at the end to make sure all ingredients are as difficult as can be
     event.recipes.extendedcrafting.shaped_table("2x gtceu:creative_chest", [
         "BMMMMMMMMMB",
         "MEWwmfmwYEM",
@@ -375,24 +375,24 @@ ServerEvents.recipes(event => {
         "BMMMMMMMMMB"
     ], {
         B: "gtceu:monium_block",
-        C: "kubejs:extradimensional_processor_mainframe",
-        D: "monilabs:double_eltz_plate",
-        E: "monilabs:eltz_frame",
-        F: "gtceu:uev_field_generator",
+        C: "kubejs:multiversal_processor_mainframe",
+        D: "gtceu:double_stellarium_plate",
+        E: "gtceu:tiberium_frame",
+        F: "gtceu:opv_field_generator",
         G: "gtceu:monium_gear",
         H: "gtceu:max_machine_hull",
         I: "kubejs:dimensionally_stabilized_infinity_heavy_plating",
         M: "kubejs:causality_exempt_monic_heavy_plating",
         P: "kubejs:supercritical_prismatic_core",
         Q: "kubejs:field_stabilised_omnic_pulsar_compound",
-        R: "gtceu:uev_robot_arm",
-        S: "gtceu:uev_sensor",
+        R: "gtceu:opv_robot_arm",
+        S: "gtceu:opv_sensor",
         V: "kubejs:infinity_file",
         W: "kubejs:infinity_screwdriver",
         X: "kubejs:infinity_wrench",
         Y: "kubejs:infinity_hammer",
         Z: "kubejs:infinity_wire_cutter",
-        b: "gtceu:uev_conveyor_module",
+        b: "gtceu:opv_conveyor_module",
         c: "monilabs:prismatic_crucible",
         d: "gtceu:dimensional_superassembler",
         e: "gtceu:helical_fusion_reactor",
@@ -481,13 +481,13 @@ ServerEvents.recipes(event => {
 
     // Shortcut recipes for thrusters
     event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster")
-        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x kubejs:prescient_crystal", "2x kubejs:weather_crystal", "kubejs:vibrant_thruster", "kubejs:flight_control_unit") // TODO: Replace bedrock, was LIO tier 8 card
+        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x kubejs:prescient_crystal", "2x kubejs:weather_crystal", "kubejs:vibrant_thruster", "kubejs:flight_control_unit")
         .itemOutputs("kubejs:dark_soularium_thruster")
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu.assembler("kubejs:assembler_flux_thruster")
-        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "kubejs:resonant_thruster", "kubejs:reinforced_thruster", "kubejs:glowstone_elevation_unit") // TODO: Replace bedrock with apprioriate replacements, was thermal parts
+        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "kubejs:resonant_thruster", "kubejs:reinforced_thruster", "kubejs:glowstone_elevation_unit")
         .itemOutputs("kubejs:fluxed_thruster")
         .duration(70)
         .EUt(GTValues.VA[GTValues.IV])

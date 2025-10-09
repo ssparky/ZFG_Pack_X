@@ -1,0 +1,1201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone__steam"
+	group: "75C788D2B7CAB023"
+	icon: "gtceu:primitive_blast_furnace"
+	id: "37A6F74B45051D16"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This questbook is written as a general guideline for progression in ZFG pack 10.\\n"
+				"The main focus is on &eGregTech &fand its mechanics, as it makes up the bulk of progression, and is generally the most difficult for new players.\\n"
+				"Other mods will be pointed out from time to time, but know that there is a lot more out there than what is written in these quests.\\n"
+				"Similarly, not every option in GregTech is lined out here either. There is simply too much to cover, so be sure to experiment and look around!\\n"
+				"Also note that I have structured and written all these quests by myself, so there may be mistakes and innacuracies from time to time.\\n"
+				"I hope you enjoy the pack!"
+			]
+			icon: "infinity:cosmic_altar"
+			id: "0E894EE17FA5F1CB"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "20FE812A03ADCE63"
+				title: "Generic Disclaimers"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["523F922A1EE58915"]
+			icon: {
+				Count: 1
+				id: "gtceu:neutronium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+			id: "09CF0D905C86F63A"
+			tasks: [
+				{
+					id: "1B42E32086A52EC2"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DB1713188A58CA4"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16B5DEDE1FB9F937"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CFF2B68CCBCD81A"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "010AFB7B2EC59615"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E9A69EA723968F3"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9D07688280A60F"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71EA23D1829BF43D"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_knife"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 2.8f
+								DefaultEnchantments: [ ]
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "GregTech Crafting Tools"
+			x: 4.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72414FDD740D6044"]
+			icon: {
+				Count: 1
+				id: "gtceu:neutronium_mining_hammer"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 6
+						MaxDamage: 196604
+						ToolSpeed: 76.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+			id: "34D77AD288DC2A6D"
+			tasks: [
+				{
+					id: "615BF83759A326B3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mining_hammers"
+						}
+					}
+					title: "Any #forge:tools/mining_hammers"
+					type: "item"
+				}
+				{
+					id: "64CB86C51107AEBA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/spades"
+						}
+					}
+					title: "Any #forge:tools/spades"
+					type: "item"
+				}
+				{
+					id: "230D4BDD2F1063B8"
+					item: {
+						Count: 1
+						id: "gtceu:wrought_iron_axe"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "GregTech Mining Tools"
+			x: 1.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["0E894EE17FA5F1CB"]
+			description: [
+				"An important thing to know if this is your first time playing with GregTech, is that ore generation is completely changed.\\n"
+				"Vanilla ores (or veins from other mods) &cdo not generate&f! Instead, veins generate in huge spheres, pillars, or networks, consisting of usually 3-5 types of ores.\\n"
+				"Using the &eProspector &fthis quest gives you, you can see what ores are in your general area. Right-clicking an ore vein on the prospector automatically places a &ewaypoint &fat that vein!"
+			]
+			icon: "minecraft:diamond_ore"
+			id: "13D9CAAF59E5C059"
+			rewards: [{
+				id: "360F41496A05956D"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "15E967D0C95C946B"
+				type: "checkmark"
+			}]
+			title: "GregTech Ore Generation"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"09CF0D905C86F63A"
+				"73E7A7021513177A"
+			]
+			icon: "gtceu:coke_oven_hatch"
+			id: "2AC35DD5F1BF6ED4"
+			tasks: [
+				{
+					id: "09FE5F924B0C98E7"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "25738437EAF77190"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09CF0D905C86F63A"]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "2C8CE04B566E59A7"
+			tasks: [
+				{
+					id: "60F2C37BB06F7C77"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "41BCEC717410E0EA"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2AC35DD5F1BF6ED4"]
+			icon: "gtceu:primitive_pump"
+			id: "0D39D105EF5EADFF"
+			tasks: [
+				{
+					id: "6A6434CEE40BD909"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "41D46304CECB7CB0"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "540B5798660AABE4"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "79ED570E20A1D509"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AC35DD5F1BF6ED4"]
+			icon: "gtceu:wooden_multiblock_tank"
+			id: "7B303A042F8AF314"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2C6AB871542BEAF4"
+					item: "gtceu:wooden_multiblock_tank"
+					type: "item"
+				}
+				{
+					id: "14F468C5DE0FE475"
+					item: "gtceu:wooden_tank_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "6FD1549995655657"
+					item: { Count: 24, id: "gtceu:wood_wall" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["1FE06AB13B4D5B3D"]
+			icon: "minecraft:barrel"
+			id: "51D92CC075576914"
+			tasks: [
+				{
+					id: "4D31714237B66DAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "sophisticatedstorage:base_tier_wooden_storage"
+						}
+					}
+					title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+					type: "item"
+				}
+				{
+					id: "1413E0B2CAC0D6E5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "Any #functionalstorage:drawer"
+					type: "item"
+				}
+			]
+			title: "Storage Options"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51D92CC075576914"]
+			id: "457CD5078ABCA8A4"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "0935931B246B3B5A"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["72414FDD740D6044"]
+			icon: "ironfurnaces:iron_furnace"
+			id: "70D026A8B67EF210"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7BD88634EE463E2F"
+					item: "ironfurnaces:iron_furnace"
+					type: "item"
+				}
+				{
+					id: "35FEB54F9F083D11"
+					item: "ironfurnaces:copper_furnace"
+					type: "item"
+				}
+				{
+					id: "3706C18479A2136F"
+					item: "ironfurnaces:silver_furnace"
+					type: "item"
+				}
+				{
+					id: "4E37C0C2979C805F"
+					item: "ironfurnaces:gold_furnace"
+					type: "item"
+				}
+				{
+					id: "637E1F46C2C6D8E6"
+					item: "ironfurnaces:diamond_furnace"
+					type: "item"
+				}
+			]
+			title: "Upgrading Furnaces"
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0E894EE17FA5F1CB"]
+			icon: "minecraft:oak_log"
+			id: "1FE06AB13B4D5B3D"
+			tasks: [
+				{
+					id: "3DCAD960CBC1408B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "7DCC940C431D478F"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "1BCBF51E8E7CB62C"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+			]
+			title: "Punching Trees"
+			x: -0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E894EE17FA5F1CB"]
+			description: [
+				"While this is mainly a tech-focused modpack, you should not neglect exploration completely!\\n"
+				"There are several new structures, dungeons, biomes, etc. to discover, some of which can have quite good loot!\\n"
+			]
+			icon: "minecraft:compass"
+			id: "421860F67B9DA808"
+			shape: "circle"
+			tasks: [{
+				id: "5704DB17A9CC1EAF"
+				type: "checkmark"
+			}]
+			title: "Exploration Pays Off!"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09CF0D905C86F63A"]
+			id: "0E024369BD7B10FB"
+			tasks: [{
+				id: "73E2A059F4089C2E"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "The Start of Industry"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73E7A7021513177A"]
+			id: "0DBD3B0DF7B072C7"
+			tasks: [{
+				id: "3C071C9ACE03C19A"
+				item: "snad:snad"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2AC35DD5F1BF6ED4"
+				"0DBD3B0DF7B072C7"
+				"0D39D105EF5EADFF"
+				"0E024369BD7B10FB"
+			]
+			dependency_requirement: "one_completed"
+			id: "5408155215194539"
+			tasks: [{
+				id: "69D6E133374E8AA8"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Baby's First Boiler"
+			x: 6.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51D92CC075576914"]
+			icon: "minecraft:copper_ingot"
+			id: "72414FDD740D6044"
+			tasks: [
+				{
+					count: 20L
+					id: "56F071C9A2A2E55D"
+					item: { Count: 20, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1500DB6E3BCF64A1"
+					item: { Count: 20, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "270353B4196CD8E7"
+					item: { Count: 20, id: "gtceu:tin_ingot" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "68754CC767C5B84D"
+					item: { Count: 20, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3B5D37B02CC31EBB"
+					item: { Count: 20, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			title: "Basic Resources"
+			x: 1.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FE06AB13B4D5B3D"]
+			icon: "minecraft:sand"
+			id: "73E7A7021513177A"
+			tasks: [
+				{
+					id: "3F41CF2E6A02EE2F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:smelts_to_glass"
+						}
+					}
+					title: "Any #minecraft:smelts_to_glass"
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "6BA4546E2BE39DE6"
+					item: { Count: 100, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "6FAD24BE6B9E3AF1"
+					item: { Count: 50, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			title: "Modded Minecraft Moments"
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C8CE04B566E59A7"]
+			id: "68D0F431BC854089"
+			tasks: [{
+				id: "5D274C20E0F827EA"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"39D762EF8CD10CE7"
+				"55746728B5E28BDE"
+				"7853DB51B5BC0859"
+				"1C30009E4BE5DD71"
+			]
+			id: "320134B04CC65B58"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "71FE69FD9C72EA96"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.875d
+		}
+		{
+			dependencies: ["68D0F431BC854089"]
+			id: "7853DB51B5BC0859"
+			tasks: [{
+				id: "04B7088EB9F46460"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"68D0F431BC854089"
+				"5408155215194539"
+			]
+			id: "6C08F0729C657C6F"
+			tasks: [{
+				id: "78D0A8C03BAA86A8"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Useable Boilers"
+			x: 6.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["72414FDD740D6044"]
+			id: "523F922A1EE58915"
+			tasks: [{
+				id: "223D14CB3E9D10EE"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Wrought Iron"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["320134B04CC65B58"]
+			id: "588134EFCD6A7104"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "13CCE61E60579AB2"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5408155215194539"]
+			id: "7301522DFDF678A1"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2C2B1F465789CE91"
+					item: "gtceu:lp_steam_alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "5BB1492DA37819DF"
+					item: "gtceu:lp_steam_extractor"
+					type: "item"
+				}
+				{
+					id: "3DECF9F75810D1D9"
+					item: "gtceu:lp_steam_macerator"
+					type: "item"
+				}
+				{
+					id: "6CA32A610D5F62F9"
+					item: "gtceu:lp_steam_compressor"
+					type: "item"
+				}
+				{
+					id: "5FBC07FE7DCF56F6"
+					item: "gtceu:lp_steam_furnace"
+					type: "item"
+				}
+				{
+					id: "317DD25CDC4968F1"
+					item: "gtceu:lp_steam_forge_hammer"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["39D762EF8CD10CE7"]
+			id: "26EB57DD5C8420FD"
+			tasks: [{
+				id: "32C56E9854EBE6A2"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68D0F431BC854089"]
+			id: "37AA747AA77195DE"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "01EA780F4FCFFB2A"
+				item: "siegemachines:catapult"
+				type: "item"
+			}]
+			title: "Medieval Weaponry"
+			x: 4.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FE06AB13B4D5B3D"]
+			icon: "astikorcarts:supply_cart"
+			id: "47C62EED08F731AD"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2652B2A34181B091"
+					item: "astikorcarts:supply_cart"
+					type: "item"
+				}
+				{
+					id: "2BB565221CAB7E06"
+					item: "astikorcarts:plow"
+					type: "item"
+				}
+				{
+					id: "085811916A1BF349"
+					item: "astikorcarts:animal_cart"
+					type: "item"
+				}
+			]
+			x: -0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1FE06AB13B4D5B3D"]
+			icon: "minecraft:oak_boat"
+			id: "3597879D94EF4CDB"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 6L
+					id: "3811688C9E866794"
+					item: "alekiships:watercraft_frame_angled"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7EF25B832AE8D8E6"
+					item: { Count: 2, id: "alekiships:oarlock" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7F329800DF79E1DD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
+			title: "Shipbuilding"
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6C08F0729C657C6F"]
+			id: "2A915652B3FF9773"
+			tasks: [{
+				id: "3C3A8036B4F48844"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6C08F0729C657C6F"]
+			id: "1B245EF124453D70"
+			tasks: [{
+				id: "19F19839C973AAB7"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C08F0729C657C6F"]
+			id: "445C85A03B227F02"
+			tasks: [{
+				id: "7FFD8CBDA33847A2"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C08F0729C657C6F"]
+			id: "5828CB17F7508C97"
+			tasks: [{
+				id: "432485FC812239A5"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5828CB17F7508C97"]
+			icon: "gtceu:steam_grinder"
+			id: "76B96CE090EC1766"
+			tasks: [
+				{
+					id: "10F78055E3A9AB9B"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "753C884E259B7AD0"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3455F5F7843CEFCE"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "1744F7780D72501F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "42E9B8B056702DB8"
+					item: { Count: 22, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A915652B3FF9773"]
+			icon: "steamadditions:steam_foundry"
+			id: "289191F226B5E4E9"
+			tasks: [
+				{
+					id: "43D177EDEF4CE1BC"
+					item: "steamadditions:steam_foundry"
+					type: "item"
+				}
+				{
+					id: "2D2C543E6D54F70B"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "6A8C6A2D766E9960"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "094A0A7406266E0A"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1AE043FDC4B5F7C3"
+					item: { Count: 8, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "7520D8F685DEC2A3"
+					item: { Count: 14, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"289191F226B5E4E9"
+				"76B96CE090EC1766"
+			]
+			dependency_requirement: "one_started"
+			id: "42828396AFD796FF"
+			shape: "circle"
+			tasks: [{
+				id: "7D2F12BD876C4D49"
+				type: "checkmark"
+			}]
+			title: "Multiblock Wall-Sharing"
+			x: 9.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6C08F0729C657C6F"]
+			hide_dependency_lines: true
+			icon: "steamadditions:steam_separator"
+			id: "003E04F63A1216A7"
+			tasks: [
+				{
+					id: "2ED815D0394A4810"
+					item: "steamadditions:steam_separator"
+					type: "item"
+				}
+				{
+					id: "2AA8DD85FBDEB63C"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3D026A863B000260"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "44E6DAEF272FC5F7"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2796791CBCBF6DB2"
+					item: { Count: 18, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68D0F431BC854089"]
+			icon: "gtceu:steel_multiblock_tank"
+			id: "3C25F940BED8B57F"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2D85B144C2FF21C6"
+					item: "gtceu:steel_multiblock_tank"
+					type: "item"
+				}
+				{
+					id: "3B8BFF15ADCD745F"
+					item: "gtceu:steel_tank_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "069F0BACD8021834"
+					item: { Count: 24, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["09CF0D905C86F63A"]
+			hide_dependency_lines: true
+			id: "1C30009E4BE5DD71"
+			tasks: [{
+				id: "4FECA25D2A5C580A"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09CF0D905C86F63A"]
+			hide_dependency_lines: true
+			id: "39D762EF8CD10CE7"
+			tasks: [{
+				id: "5EC60D20E61B7191"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "Wires \\& Cables"
+			x: 4.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["09CF0D905C86F63A"]
+			hide_dependency_lines: true
+			id: "55746728B5E28BDE"
+			tasks: [{
+				id: "6F0F947FD1FD0B8B"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"26EB57DD5C8420FD"
+				"320134B04CC65B58"
+			]
+			id: "2B38F2138EB03F3B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "09F70D6C3D8EDCC2"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 7.125d
+			y: 6.375d
+		}
+		{
+			dependencies: ["523F922A1EE58915"]
+			icon: "gtceu:lv_extruder"
+			id: "166A520A05EDE603"
+			shape: "circle"
+			tasks: [{
+				id: "444B763E3E93402E"
+				type: "checkmark"
+			}]
+			title: "GregTech Machine Mechanics"
+			x: 3.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["523F922A1EE58915"]
+			icon: "gtceu:potin_normal_fluid_pipe"
+			id: "3702E8BBE0E068DB"
+			shape: "circle"
+			tasks: [{
+				id: "3CD11374D736042C"
+				title: "GregTech Logistics"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["39D762EF8CD10CE7"]
+			icon: "ags_modernmarkings:wall_marking_voltage_eu"
+			id: "7F64AF84643ADA04"
+			shape: "circle"
+			tasks: [{
+				id: "03BBDCD1DFDD974F"
+				type: "checkmark"
+			}]
+			title: "GregTech Power Mechanics"
+			x: 3.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1FE06AB13B4D5B3D"]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:tin_halberd"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "507DC4450C66FB9A"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "27E70662CD86F3C4"
+				item: "spartanweaponry:simple_handle"
+				type: "item"
+			}]
+			title: "Spartan Weapons"
+			x: -0.75d
+			y: 2.0d
+		}
+	]
+	title: "Stone \\& Steam"
+}

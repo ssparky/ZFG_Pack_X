@@ -821,7 +821,19 @@ ServerEvents.recipes(event => {
         C: "kubejs:du_radiation_shielding_plate"
     }).id("kubejs:elite_heavy_plate")
 
-    // EIO Crystals - TODO: add recipes for prescient and weather crystals
+    // EIO Crystals
+    event.recipes.gtceu.autoclave("prescient_crystal")
+        .itemInputs("gtceu:glass_gem", "gtceu:beryllium_dust")
+        .inputFluids("gtceu:vibrant_alloy 288")
+        .itemOutputs("kubejs:prescient_crystal")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(600)
+    event.recipes.gtceu.autoclave("weather_crystal")
+        .itemInputs("gtceu:glass_gem", "gtceu:gallium_arsenide_dust")
+        .inputFluids("gtceu:vanadium_steel 288")
+        .itemOutputs("kubejs:weather_crystal")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(600)
 
     // Spartan mods
     event.shapeless("spartanweaponry:simple_handle", ["#forge:rods/wooden", "gtceu:sticky_resin"])

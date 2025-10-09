@@ -22,6 +22,8 @@ global.fluidNukeList = [
 
     // Sophisticated Core
     "sophisticatedcore:xp_still",
+    "create_enchantment_industry:experience",
+    "create_enchantment_industry:flowing_experience",
 
 ]
 

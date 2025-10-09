@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "upscaling_hvev"
+	group: "75C788D2B7CAB023"
+	icon: "gtceu:distillation_tower"
+	id: "4B5F3755E063780B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4AF2BF6A640E9521"
+			tasks: [{
+				id: "48DCEAF4E9B1D939"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -0.5d
+		}
+		{
+			id: "13C4CCE6BECE9921"
+			tasks: [{
+				id: "6C3D0835E94E04D3"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.75d
+		}
+		{
+			id: "00E3834019542369"
+			tasks: [{
+				id: "78A2BF0059979F47"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			id: "5CE521AD6F425CF8"
+			tasks: [{
+				id: "5B73951293332D19"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			id: "76A2E6E86C7954C8"
+			tasks: [{
+				id: "1A387B91685AA2FD"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.75d
+		}
+		{
+			id: "390BA3BDCFA46195"
+			tasks: [{
+				id: "7D05D4334F0EB1A4"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.25d
+		}
+		{
+			id: "3787D4DAA52C7A18"
+			tasks: [{
+				id: "1A00B736CB38948E"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -0.75d
+		}
+		{
+			id: "6CE3B25D5B1743F7"
+			tasks: [{
+				id: "1688675014670A38"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "41C54954748E7363"
+			tasks: [{
+				id: "4901CF2E1102CEC8"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.75d
+		}
+		{
+			id: "57181C4153E58B0B"
+			tasks: [{
+				id: "350E32550F8E00B1"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.25d
+		}
+		{
+			id: "7397DECACBA8FF2C"
+			tasks: [{
+				id: "75DED4BC6E95FA09"
+				item: "gtceu:uraninite_dust"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 0.5d
+		}
+		{
+			id: "745150281276AD27"
+			tasks: [{
+				id: "3D713F71F7B1C1DF"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -3.75d
+		}
+		{
+			id: "128F9EEEAD0D55C2"
+			tasks: [{
+				id: "0521B308DB0F2BC4"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.75d
+		}
+		{
+			id: "316158931D00B3E9"
+			tasks: [{
+				id: "59CFC39A2522C808"
+				item: "gtceu:polyvinyl_butyral_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.25d
+		}
+		{
+			id: "5900C020B799BBF9"
+			tasks: [{
+				id: "3AB22979690F2A42"
+				item: "gtceu:fission_reactor_power"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -1.5d
+		}
+	]
+	title: "Upscaling (HV/EV)"
+}

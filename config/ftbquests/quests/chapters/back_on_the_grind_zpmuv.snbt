@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "back_on_the_grind_zpmuv"
+	group: "75C788D2B7CAB023"
+	icon: "gtceu:uv_fusion_reactor"
+	id: "7CC2AFF7D317D1A1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Back on the Grind (ZPM/UV)"
+}
