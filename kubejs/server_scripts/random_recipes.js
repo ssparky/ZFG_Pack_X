@@ -849,4 +849,69 @@ ServerEvents.recipes(event => {
         B: "#minecraft:planks"
     })
 
-})
+    // Tiered pumps
+    event.shaped("gtceu:steel_pump", [
+        "IPS",
+        "RCD",
+        "LQL"
+    ], {
+        I: "gtceu:rubber_ring",
+        P: "gtceu:normal_bronze_fluid_pipe",
+        S: "gtceu:tin_screw",
+        R: "gtceu:tin_rotor",
+        C: "gtceu:solid_machine_casing",
+        D: "#gtceu:tools/crafting_screwdrivers",
+        L: "gtceu:steel_plate",
+        Q: "gtceu:large_bronze_fluid_pipe"
+    }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
+    event.shaped("gtceu:aluminium_pump", [
+        "IPS",
+        "RCD",
+        "LQL"
+    ], {
+        I: "gtceu:rubber_ring",
+        P: "gtceu:normal_steel_fluid_pipe",
+        S: "gtceu:bronze_screw",
+        R: "gtceu:bronze_rotor",
+        C: "gtceu:frostproof_machine_casing",
+        D: "#gtceu:tools/crafting_screwdrivers",
+        L: "gtceu:aluminium_plate",
+        Q: "gtceu:large_steel_fluid_pipe"
+    }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
+    event.shaped("gtceu:stainless_steel_pump", [
+        "IPS",
+        "RCD",
+        "LQL"
+    ], {
+        I: "gtceu:rubber_ring",
+        P: "gtceu:normal_stainless_steel_fluid_pipe",
+        S: "gtceu:steel_screw",
+        R: "gtceu:steel_rotor",
+        C: "gtceu:clean_machine_casing",
+        D: "#gtceu:tools/crafting_screwdrivers",
+        L: "gtceu:stainless_steel_plate",
+        Q: "gtceu:large_stainless_steel_fluid_pipe"
+    }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
+
+    // Curvy Pipes
+    event.remove({id:"curvy_pipes:redstone_cable"})
+    event.remove({id:"curvy_pipes:energy_base"})
+    event.shaped("8x curvy_pipes:redstone_cable", [
+        "ABA",
+        "CCC",
+        "ABA"
+    ], {
+        A: "minecraft:redstone",
+        B: "gtceu:sticky_resin",
+        C: "gtceu:red_alloy_single_wire"
+    }).id("kubejs:curvypipes_redstone_wire")
+    event.shaped("3x curvy_pipes:small_energy_pipe", [
+        "ABA",
+        "CCC",
+        "ABA"
+    ], {
+        A: "gtceu:styrene_butadiene_rubber_foil",
+        B: "gtceu:gold_ring",
+        C: "gtceu:annealed_copper_double_wire"
+    }).id("kubejs:curvypipes_energy_wire")
+})  

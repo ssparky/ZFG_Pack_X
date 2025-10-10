@@ -1,45 +1,6 @@
 {
   "favorites": [
     {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:ak47\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:type_81\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:qbz_95\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:hk416d\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:m4a1\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"tacz:m16a1\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"SEMI\",GunId:\"tacz:hk_g3\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"BURST\",GunId:\"tacz:m16a4\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:scar_l\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"SEMI\",GunId:\"tacz:scar_h\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:aug\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:g36k\",HasBulletInBarrel:1b}"
-    },
-    {
-      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:8,GunFireMode:\"SEMI\",GunId:\"tacz:aa12\",HasBulletInBarrel:1b}"
-    },
-    {
       "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:25,GunFireMode:\"AUTO\",GunId:\"tacz:ump45\",HasBulletInBarrel:1b}"
     },
     {
@@ -65,9 +26,284 @@
     },
     {
       "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:40,GunFireMode:\"AUTO\",GunId:\"tacz:rpk\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:ev_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:\"SEMI\",GunId:\"tacz:m95\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:\"SEMI\",GunId:\"applied_armorer:niklas_pistol_semi_union\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:\"SEMI\",GunId:\"applied_armorer:niklas_pistol_semi_pride\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:34,GunFireMode:\"SEMI\",GunId:\"applied_armorer:niklas_pistol_double_win_win\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:11,GunFireMode:\"SEMI\",GunId:\"applied_armorer:niklas_lever_vigenere\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:3,GunFireMode:\"SEMI\",GunId:\"applied_armorer:moritz_gernade_gl3\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:8,GunFireMode:\"SEMI\",GunId:\"tacz:timeless50\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:\"SEMI\",GunId:\"tacz:m107\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:minigun\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:15,GunFireMode:\"SEMI\",GunId:\"tacz:spr15hb\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:10,GunFireMode:\"SEMI\",GunId:\"tacz:mk14\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"SEMI\",GunId:\"doom:combat_shotgun\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:\"SEMI\",GunId:\"doom:combat_shotgun_grenade\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:iv_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:\"SEMI\",GunId:\"applied_armorer:niklas_pistol_semi_right\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:7,GunFireMode:\"SEMI\",GunId:\"applied_armorer:moritz_sniper_semi_k30\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"applied_armorer:moritz_rifle_ar77\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:5,GunFireMode:\"AUTO\",GunId:\"applied_armorer:moritz_shotgun_sg914\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:17,GunFireMode:\"AUTO\",GunId:\"applied_armorer:niklas_smg_freedom\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:80,GunFireMode:\"AUTO\",GunId:\"applied_armorer:moritz_mg_hmg22\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:luv_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:140,GunFireMode:\"SEMI\",GunId:\"trisdyna:fl00\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:220,GunFireMode:\"AUTO\",GunId:\"trisdyna:fl3e\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:125,GunFireMode:\"AUTO\",GunId:\"trisdyna:cms92\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:200,GunFireMode:\"AUTO\",GunId:\"trisdyna:cms92x\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:100,GunFireMode:\"AUTO\",GunId:\"applied_armorer:moritz_mg_emg_prototype\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:zpm_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"SEMI\",GunId:\"trisdyna:fs2000\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:150,GunFireMode:\"BURST\",GunId:\"trisdyna:ch104\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:180,GunFireMode:\"AUTO\",GunId:\"trisdyna:omerta\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:uv_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:200,GunFireMode:\"BURST\",GunId:\"trisdyna:iras\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:40,GunFireMode:\"SEMI\",GunId:\"trisdyna:fpc211\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:80,GunFireMode:\"AUTO\",GunId:\"trisdyna:r117_weedy\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:800,GunFireMode:\"AUTO\",GunId:\"trisdyna:emx_cf007\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:uhv_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:12,GunFireMode:\"AUTO\",GunId:\"trisdyna:tris_sf7e\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:400,GunFireMode:\"AUTO\",GunId:\"trisdyna:emx_cf107\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:uev_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:1,GunFireMode:\"AUTO\",GunId:\"trisdyna:s10dmd\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:1,GunFireMode:\"AUTO\",GunId:\"trisdyna:rc\",HasBulletInBarrel:1b}"
+    },
+    {
+      "stack": "item:gtceu:uiv_field_generator"
+    },
+    {
+      "stack": "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:3,GunFireMode:\"SEMI\",GunId:\"doom:bfg9k\",HasBulletInBarrel:1b}"
     }
   ],
   "lookup_history": [
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:140,GunFireMode:\"SEMI\",GunId:\"trisdyna:fl00\",HasBulletInBarrel:1b,HeatAmount:0.0f}",
+    "item:curvy_pipes:small_energy_pipe",
+    "item:curvy_pipes:redstone_cable",
+    "item:gtceu:large_auto_crafter",
+    "item:minecraft:crafting_table",
+    "item:extendedcrafting:ultimate_component",
+    "item:extendedcrafting:the_ultimate_component",
+    "item:extendedcrafting:elite_component",
+    "item:extendedcrafting:elite_catalyst",
+    "item:extendedcrafting:the_ultimate_catalyst",
+    "item:extendedcrafting:ultimate_table",
+    "item:extendedcrafting:ultimate_auto_table",
+    "item:extendedcrafting:redstone_component",
+    "item:extendedcrafting:crystaltine_component",
+    "#item:forge:ingots/red_alloy",
+    "item:projectred_core:multimeter{Damage:0}",
+    "item:projectred_core:energized_silicon",
+    "item:projectred_core:glow_silicon_comp",
+    "item:projectred_core:energized_silicon_chip",
+    "item:projectred_illumination:orange_inverted_lantern",
+    "item:projectred_illumination:red_cage_light",
+    "item:projectred_illumination:white_inverted_cage_light",
+    "item:projectred_illumination:white_fixture_light",
+    "item:projectred_illumination:illumar_smart_lamp",
+    "item:projectred_illumination:brown_inverted_illumar_lamp",
+    "item:projectred_illumination:black_illumar_lamp",
+    "item:projectred_integration:comparator_gate",
+    "item:projectred_integration:invert_cell_gate",
+    "item:projectred_integration:null_cell_gate",
+    "item:projectred_core:bundled_plate",
+    "item:projectred_core:wired_plate",
+    "item:projectred_core:conductive_plate",
+    "item:projectred_core:plate",
+    "item:projectred_core:silicon_chip",
+    "item:projectred_core:infused_silicon",
+    "item:projectred_core:red_silicon_comp",
+    "item:minecraft:glowstone_dust",
+    "item:projectred_core:orange_illumar",
+    "item:projectred_core:white_illumar",
+    "item:curvy_pipes:huge_energy_pipe",
+    "item:curvy_pipes:large_energy_pipe",
+    "item:curvy_pipes:medium_energy_pipe",
+    "item:curvy_pipes:tiny_energy_pipe",
+    "item:projectred_transmission:framed_red_alloy_wire",
+    "item:projectred_transmission:red_alloy_wire",
+    "item:gtceu:hot_stellarium_ingot",
+    "item:gtceu:hot_taranium_ingot",
+    "item:gtceu:hot_tiberium_ingot",
+    "item:gtceu:neutron_chamber",
+    "item:gtceu:bronze_screwdriver{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{DefaultEnchantments:[],MaxDamage:191},HideFlags:2}",
+    "item:gtceu:tiberium_dust",
+    "item:kubejs:neutron_emitter",
+    "item:gtceu:neutron_reflector",
+    "item:tacz:modern_kinetic_gun{AttachmentEXTENDED_MAG:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"applied_armorer:extended_mag_aa_3\"}},AttachmentMUZZLE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"tacz:muzzle_brake_timeless50\"}},GunCurrentAmmoCount:13,GunFireMode:\"SEMI\",GunId:\"tacz:timeless50\",HasBulletInBarrel:1b}",
+    {
+      "type": "fluid",
+      "id": "gtceu:polonium",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_moon_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_mars_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_venus_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_mercury_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_glacio_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:oganesson",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:glacio_air",
+      "amount": 10000
+    },
+    "item:ad_astra:glacio_globe",
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_ender_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_air",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:liquid_nether_air",
+      "amount": 0
+    },
+    "item:extendedcrafting:compressor",
+    "item:extendedcrafting:singularity{Id:\"extendedcrafting:emerald\"}",
+    "item:minecraft:emerald",
+    "item:gtceu:lapidary_dynamo",
+    "item:gtceu:europium_ii_oxide_dust",
+    "item:gtceu:europium_oxide_dust",
+    "item:gtceu:aluminium_screwdriver{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{DefaultEnchantments:[],MaxDamage:767},HideFlags:2}",
+    {
+      "type": "fluid",
+      "id": "gtceu:middle_rare_earth_oxalate_slurry",
+      "amount": 0
+    },
+    "item:gtceu:europium_dust",
+    "item:gtceu:praseodymium_dust",
+    "item:gtceu:irradiated_neodymium_chloride_dust",
+    "item:gtceu:light_rare_earth_oxide_mix_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:dense_rare_earths_aqueous_phase",
+      "amount": 2833
+    },
+    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:30,GunFireMode:\"AUTO\",GunId:\"tacz:ak47\",HasBulletInBarrel:1b}",
+    "item:kubejs:microminer_t10",
+    "item:kubejs:microminer_t4",
+    "item:kubejs:microminer_t9",
+    "item:extendedcrafting:epic_table",
+    "item:extendedcrafting:elite_table",
+    "item:minecraft:emerald_block",
+    "item:gtceu:hv_electric_pump",
+    "item:gtceu:mv_electric_pump",
+    "item:gtceu:lv_electric_pump",
+    "item:gtceu:primitive_pump",
+    "item:gtceu:steel_pump",
     "item:hostilenetworks:data_model{data_model:{id:\"hostilenetworks:artifacts/mimic\"}}",
     "item:hostilenetworks:data_model{data_model:{id:\"hostilenetworks:witch\"}}",
     "item:hostilenetworks:prediction{data_model:{id:\"hostilenetworks:ender_dragon\"}}",
@@ -85,25 +321,17 @@
     "item:spartanweaponry:bolt",
     "#item:spartanweaponry:bolts",
     "item:spartanweaponry:small_bolt_quiver",
-    "item:extendedcrafting:elite_table",
-    "item:extendedcrafting:epic_table",
-    "item:extendedcrafting:ultimate_table",
     "item:extendedcrafting:advanced_table",
-    "item:extendedcrafting:crystaltine_component",
     "item:minecraft:glass",
-    "item:gtceu:large_auto_crafter",
     "item:enchantinginfuser:enchanting_infuser",
     "item:kubejs:microminer_t12",
     "item:kubejs:microminer_t11",
-    "item:kubejs:microminer_t10",
-    "item:kubejs:microminer_t9",
     "item:kubejs:microminer_t8half",
     "item:kubejs:microminer_t8",
     "item:kubejs:microminer_t7",
     "item:kubejs:microminer_t6",
     "item:kubejs:microminer_t5",
     "item:kubejs:microminer_t4half",
-    "item:kubejs:microminer_t4",
     "item:kubejs:microminer_t3",
     "item:kubejs:microminer_t2half",
     "item:kubejs:microminer_t2",
@@ -214,7 +442,6 @@
     "item:ae2:certus_quartz_crystal",
     "item:gtceu:morganite_gem",
     "item:ae2:fluix_crystal",
-    "item:gtceu:lapidary_dynamo",
     "item:enchantinginfuser:advanced_enchanting_infuser",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"majruszsenchantments:fatigue_curse\",lvl:3s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"create:potato_recovery\",lvl:3s}]}",
@@ -665,7 +892,6 @@
     "item:kubejs:compressed_sand",
     "item:kubejs:double_compressed_sand",
     "item:snad:snad",
-    "item:gtceu:primitive_pump",
     "item:gtceu:coke_oven",
     "item:gtceu:primitive_blast_furnace",
     "item:minecraft:iron_ingot",
@@ -846,7 +1072,6 @@
     },
     "item:minecraft:flint",
     "item:minecraft:amethyst_shard",
-    "item:minecraft:emerald",
     "item:minecraft:lapis_lazuli",
     "item:tacz:attachment{AttachmentId:\"trisdyna:sf7e_ammo_3\"}",
     "item:tacz:attachment{AttachmentId:\"trisdyna:sf7e_ammo_2\"}",
@@ -992,12 +1217,6 @@
     },
     "item:kubejs:venus_dust",
     "item:gtceu:hv_rock_crusher",
-    "item:gtceu:hot_tiberium_ingot",
-    {
-      "type": "item",
-      "id": "gtceu:tiberium_dust",
-      "chance": 0.45
-    },
     "item:gtceu:raw_tiberium_dust",
     {
       "type": "fluid",
@@ -1041,7 +1260,6 @@
       "id": "gtceu:silica_gem_stock",
       "amount": 3000
     },
-    "item:kubejs:neutron_emitter",
     "item:gtceu:uv_quantum_tank",
     "item:mynethersdelight:powder_cannon",
     "item:gtceu:powderbarrel",
@@ -1214,7 +1432,6 @@
     "item:oceanic_delight:wild_sea_grape",
     "item:oceanic_delight:sea_grape",
     "item:minecraft:carrot",
-    "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:20,GunFireMode:\"AUTO\",GunId:\"tacz:vector45\",HasBulletInBarrel:1b}",
     "item:artifacts:pocket_piston",
     "item:moreartifacts:recall_potion",
     "item:artifacts:mimic_spawn_egg",
@@ -1295,11 +1512,6 @@
     "item:gtceu:omnium_block",
     "item:gtceu:omnium_hex_cable",
     "item:kubejs:stabilized_americium",
-    {
-      "type": "fluid",
-      "id": "gtceu:oganesson",
-      "amount": 0
-    },
     "item:kubejs:stabilized_uranium",
     "item:gtceu:gadolinium_ingot",
     "item:kubejs:stabilized_curium",
@@ -1336,7 +1548,6 @@
     "#item:chipped:emerald_block",
     "item:chipped:emerald_block_panels",
     "item:kubejs:dark_steel_casing",
-    "item:extendedcrafting:ultimate_auto_table",
     "item:extendedcrafting:epic_auto_table",
     {
       "type": "fluid",
@@ -1397,178 +1608,7 @@
     "item:farm_and_charm:barley",
     "item:farm_and_charm:oat",
     "item:farm_and_charm:corn",
-    "item:minecraft:wheat",
-    "item:gtceu:mv_fluid_heater",
-    "item:gtceu:mv_centrifuge",
-    "item:gtceu:mv_canner",
-    "item:gtceu:mv_brewery",
-    "item:gtceu:mv_bender",
-    "item:gtceu:mv_autoclave",
-    "item:gtceu:mv_arc_furnace",
-    "item:gtceu:mv_alloy_smelter",
-    "item:gtceu:mv_electric_furnace",
-    {
-      "type": "fluid",
-      "id": "monilabs:sculk_bioalloy",
-      "amount": 1440
-    },
-    "item:kubejs:amalgamated_sculk",
-    "item:gtceu:ardite_plate",
-    "item:gtceu:ardite_ingot",
-    "item:gtceu:hot_ardite_ingot",
-    "item:kubejs:blasting_kit",
-    "item:kubejs:coated_sapphire_wafer",
-    "item:kubejs:extradimensional_optical_cpu_core",
-    "item:kubejs:extradimensional_wetware_cpu_core",
-    "item:kubejs:extradimensional_crystal_cpu_core",
-    "item:kubejs:extradimensional_quantum_cpu_core",
-    "item:kubejs:microverse_containment_unit",
-    {
-      "type": "item",
-      "id": "kubejs:multidimensional_cpu_chip",
-      "amount": 16
-    },
-    {
-      "type": "item",
-      "id": "kubejs:multidimensional_cpu_wafer",
-      "amount": 16
-    },
-    "item:kubejs:unactivated_multidimensional_cpu_wafer",
-    {
-      "type": "item",
-      "id": "kubejs:universe_wafer",
-      "amount": 64
-    },
-    "item:kubejs:universe_boule",
-    "item:kubejs:sapphire_boule",
-    "fluid:kubejs:apple_cider_base_fluid",
-    "fluid:kubejs:chenet_wine_base_fluid",
-    "fluid:kubejs:apple_juice_fluid",
-    "fluid:kubejs:apple_wine_base_fluid",
-    "item:minecraft:honeycomb",
-    {
-      "type": "fluid",
-      "id": "gtceu:wax",
-      "amount": 144
-    },
-    "fluid:kubejs:cherry_juice_fluid",
-    "fluid:kubejs:bolvar_wine_base_fluid",
-    "fluid:kubejs:jellie_wine_sub_base_fluid",
-    "fluid:kubejs:jellie_wine_base_fluid",
-    "fluid:kubejs:jellie_wine_fluid",
-    "item:vinery:jellie_wine",
-    "item:brewery:dried_oat",
-    "fluid:kubejs:hops_extract_fluid",
-    "fluid:kubejs:beer_oat_base_fluid",
-    "fluid:kubejs:beer_oat_fluid",
-    "item:brewery:beer_oat",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_jamesons_malt_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_jamesons_malt_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_jamesons_malt",
-    "item:brewery:whiskey_smokey_reverie",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_highland_hearth_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_highland_hearth_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_highland_hearth",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_ak_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_ak_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_ak",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_carrasconlabel_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_carrasconlabel_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_carrasconlabel",
-    "item:brewery:whiskey_maggoallan",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_cristelwalker_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_cristelwalker_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_cristelwalker",
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_jojannik_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:whiskey_jojannik_fluid",
-      "amount": 250
-    },
-    "item:brewery:whiskey_jojannik",
-    "item:brewery:beer_mug",
-    "item:brewery:beer_haley",
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_haley_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_haley_fluid",
-      "amount": 250
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_nettle_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_nettle_fluid",
-      "amount": 250
-    },
-    "item:brewery:beer_nettle",
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_hops_base_fluid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_hops_fluid",
-      "amount": 250
-    },
-    "item:brewery:beer_hops",
-    {
-      "type": "fluid",
-      "id": "kubejs:beer_barley_base_fluid",
-      "amount": 500
-    }
+    "item:minecraft:wheat"
   ],
   "craft_history": [],
   "recipe_defaults": {

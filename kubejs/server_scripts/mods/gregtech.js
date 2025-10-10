@@ -109,9 +109,4 @@ ServerEvents.recipes(event => {
 
     generateRockBreakerStoneRecipe("minecraft:calcite")
     generateRockBreakerStoneRecipe("minecraft:tuff")
-    generateRockBreakerStoneRecipe("quark:jasper")
-    generateRockBreakerStoneRecipe("quark:limestone")
-    generateRockBreakerStoneRecipe("quark:permafrost")
-    generateRockBreakerStoneRecipe("quark:shale")
-    generateRockBreakerStoneRecipe("quark:myalite")
 })

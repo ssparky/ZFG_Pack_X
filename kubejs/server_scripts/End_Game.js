@@ -114,6 +114,22 @@ ServerEvents.recipes(event => {
             .EUt(1200000)
         )
 
+    // Mega Chemical Reactor
+    event.recipes.gtceu.assembly_line("gtceu:mega_chemical_reactor")
+        .itemInputs("4x gtceu:polytetrafluoroethylene_frame", "4x #gtceu:circuits/uhv", "8x gtceu:polytetrafluoroethylene_plate", "8x gtceu:polypropylene_plate",
+            "8x gtceu:polyvinyl_butyral_plate", "8x gtceu:polybenzimidazole_plate", "8x gtceu:polyacrylonitrile_plate", "8x gtceu:polyethyl_cyanoacrylate_plate",
+            "64x gtceu:fine_ruridit_wire", "48x gtceu:fine_osmiridium_wire"
+        )
+        .inputFluids("gtceu:advanced_soldering_alloy 11520", "gtceu:silicon_rubber 3456")
+        .itemOutputs("gtceu:mega_chemical_reactor")
+        .duration(2000)
+        .EUt(GTValues.VA[GTValues.UV])
+        .stationResearch(b => b
+            .researchStack("gtceu:large_chemical_reactor")
+            .CWUt(96, 768000)
+            .EUt(GTValues.VA[GTValues.UV])
+        )
+
 
     // Blacklight
     event.shaped("gtceu:blacklight", [

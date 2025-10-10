@@ -312,7 +312,16 @@ ServerEvents.recipes(event => {
         .EUt(30)
 
     // GT Multiblock Autotable - TODO Don't forget to add recipes here if you define excrafting recipes for mb's or anything!
-    // MB Recipe TODO: !!
+    // MB Recipe
+    event.recipes.gtceu.assembly_line("large_auto_crafter")
+        .itemInputs("3x gtceu:black_steel_frame", "6x gtceu:double_dark_steel_plate", "4x #gtceu:circuits/luv", "9x gtceu:iv_robot_arm",
+            "4x gtceu:exquisite_emerald_gem", "8x gtceu:uranium_triplatinum_quadruple_wire", "9x minecraft:crafting_table"
+        )
+        .inputFluids("gtceu:polybenzimidazole 1440", "gtceu:lubricant 1000")
+        .itemOutputs("gtceu:large_auto_crafter")
+        ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack("extendedcrafting:ultimate_auto_table").EUt(480).duration(1200))
+        .duration(1000)
+        .EUt(GTValues.VA[GTValues.LuV])
 
     // Advanced
     event.recipes.gtceu.large_auto_crafter("elite_table")
@@ -387,8 +396,162 @@ ServerEvents.recipes(event => {
         .duration(40)
         .EUt(GTValues.VA[GTValues.MV])
     // Elite
-
+    event.recipes.gtceu.large_auto_crafter("ultimate_table")
+        .itemInputs("4x #chipped:emerald_block", "20x gtceu:black_steel_plate", "4x extendedcrafting:the_ultimate_catalyst", "16x extendedcrafting:ultimate_component", 
+            "4x extendedcrafting:crystaltine_component", "1x extendedcrafting:elite_table"
+        )
+        .itemOutputs("extendedcrafting:ultimate_table")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("mm_t4half")
+        .itemInputs("2x kubejs:reinforced_mining_laser", "1x kubejs:basic_micro_miner_guidance_system", "2x redstone_arsenal:flux_sword", "16x gtceu:double_lumium_plate",
+            "2x gtceu:hv_robot_arm", "3x kubejs:signalum_micro_miner_core", "2x gtceu:hv_field_generator", "4x gtceu:double_hsse_plate", "2x gtceu:large_combustion_engine",
+            "3x kubejs:energetic_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t4half")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("advanced_enchanting_infuser")
+        .itemInputs("1x #chipped:bookshelf", "4x gtceu:titanium_tungsten_carbide_plate", "4x gtceu:mythril_gear", "2x create_enchantment_industry:hyper_experience_bottle", 
+            "4x gtceu:osmiridium_plate", "4x #forge:exquisite_gems",    "10x gtceu:dense_obsidian_plate", "2x minecraft:netherite_block", "9x #chipped:crying_obsidian", 
+            "1x enchantinginfuser:enchanting_infuser"
+        )
+        .itemOutputs("enchantinginfuser:advanced_enchanting_infuser")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("mm_t5")
+        .itemInputs("2x kubejs:advanced_micro_miner_guidance_system", "12x gtceu:double_iridium_plate", "6x gtceu:double_signalum_plate", "1x kubejs:supercharged_laser_array",
+            "2x gtceu:ev_field_generator", "1x gtceu:mv_super_chest", "2x kubejs:signalum_micro_miner_core", "1x gtceu:fission_reactor_power", "1x kubejs:fission_reactor_fuel_cell",
+            "3x kubejs:vibrant_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t5")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("mm_t6")
+        .itemInputs("4x kubejs:supercharged_laser_array", "2x kubejs:advanced_micro_miner_guidance_system", "20x gtceu:double_iridium_plate", "2x gtceu:mv_super_chest", 
+            "2x kubejs:enderium_micro_miner_core", "2x gtceu:iv_field_generator", "1x gtceu:fission_reactor_power", "3x kubejs:fission_reactor_fuel_cell",
+            "3x kubejs:resonant_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t6")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("mm_t3")
+        .itemInputs("2x kubejs:basic_micro_miner_guidance_system", "15x gtceu:double_tungsten_carbide_plate", "2x gtceu:mv_field_generator", "3x gtceu:titanium_crate", 
+            "2x kubejs:reinforced_mining_laser", "2x kubejs:electrum_micro_miner_core", "1x gtceu:hv_combustion", "3x kubejs:reinforced_thruster"
+        )
+        .itemOutputs("kubejs:microminer_t3")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
+    event.recipes.gtceu.large_auto_crafter("mm_t4")
+        .itemInputs("1x kubejs:basic_micro_miner_guidance_system", "2x kubejs:reinforced_mining_laser", "5x gtceu:double_tungsten_carbide_plate", "6x gtceu:double_signalum_plate",
+            "2x gtceu:tungsten_steel_crate", "2x gtceu:hv_field_generator", "2x kubejs:signalum_micro_miner_core", "4x kubejs:energetic_thruster", "2x gtceu:large_combustion_engine"
+        )
+        .itemOutputs("kubejs:microminer_t4")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.HV])
     // Ultimate
-
+    event.recipes.gtceu.large_auto_crafter("epic_table")
+        .itemInputs("4x gtceu:activated_netherite_block", "40x gtceu:double_black_steel_plate", "4x extendedcrafting:the_ultimate_catalyst", "24x extendedcrafting:epic_component", 
+            "8x extendedcrafting:crystaltine_component", "1x extendedcrafting:ultimate_table"
+        )
+        .itemOutputs("extendedcrafting:epic_table")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_screwdriver")
+        .notConsumable("#gtceu:tools/crafting_screwdrivers")
+        .itemInputs("8x gtceu:infinity_rod", "8x monilabs:eltz_rod", "4x gtceu:neutronium_rod", "8x gtceu:omnium_ingot", "1x kubejs:supercritical_prismatic_core")
+        .itemOutputs("kubejs:infinity_screwdriver")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_wrench")
+        .notConsumable("#gtceu:tools/crafting_wrenches")
+        .itemInputs("19x gtceu:neutronium_plate", "6x gtceu:infinity_plate", "1x kubejs:supercritical_prismatic_core", "8x monilabs:eltz_plate")
+        .itemOutputs("kubejs:infinity_wrench")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_wire_cutter")
+        .notConsumable("#gtceu:tools/crafting_wire_cutters")
+        .itemInputs("17x gtceu:neutronium_plate", "8x gtceu:infinity_plate", "8x monilabs:eltz_plate", "1x kubejs:supercritical_prismatic_core", "15x gtceu:omnium_ingot")
+        .itemOutputs("kubejs:infinity_wire_cutter")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("mm_t8half")
+        .itemInputs("5x kubejs:supercharged_laser_array", "19x gtceu:double_naquadah_alloy_plate", "2x kubejs:advanced_micro_miner_guidance_system",
+            "17x gtceu:double_trinium_plate", "2x gtceu:zpm_field_generator", "2x gtceu:zpm_emitter", Item.of('kubejs:abyssal_energy_core', '{Damage:4000000}'),
+            "2x gtceu:naquadah_alloy_frame", "2x gtceu:luv_quantum_chest", "2x kubejs:warp_core", "2x kubejs:warp_controller", "6x kubejs:warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t8half")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_panel")
+        .itemInputs("4x solarflux:sp_custom_neutronium", "40x gtceu:neutronium_plate", "36x gtceu:infinity_plate", "1x gtceu:infinity_frame")
+        .itemOutputs("solarflux:sp_custom_infinity")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_file")
+        .notConsumable("#gtceu:tools/crafting_files")
+        .itemInputs("8x gtceu:neutronium_plate", "4x gtceu:infinity_plate", "8x monilabs:eltz_plate", "1x kubejs:supercritical_prismatic_core", "11x gtceu:omnium_ingot")
+        .itemOutputs("kubejs:infinity_file")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("infinity_hammer")
+        .notConsumable("#gtceu:tools/crafting_hammers")
+        .itemInputs("9x gtceu:infinity_ingot", "8x monilabs:eltz_ingot", "5x gtceu:neutronium_ingot", "1x kubejs:supercritical_prismatic_core", "12x gtceu:omnium_ingot")
+        .itemOutputs("kubejs:infinity_hammer")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("zpm_module")
+        .itemInputs("14x kubejs:elite_radiation_shielding_plate", "5x kubejs:stabilized_berkelium", "4x kubejs:stabilized_californium", "10x #gtceu:circuits/zpm",
+            "2x gtceu:zpm_field_generator"
+        )
+        .itemOutputs("gtceu:zero_point_module")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("mm_t9")
+        .itemInputs("28x kubejs:quantum_fluxed_eternium_heavy_plating", "1x kubejs:universal_navigator", "1x gtceu:uv_field_generator", "2x gtceu:plasma_large_turbine",
+            "2x gtceu:tungstensteel_gearbox", "1x kubejs:universal_warp_controller", "2x gtceu:ev_super_chest", "2x gtceu:uv_rotor_holder", "1x kubejs:universal_warp_core",
+            "2x kubejs:hadal_warp_engine"   
+        )
+        .itemOutputs("kubejs:microminer_t9")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("mm_t10")
+        .itemInputs("38x kubejs:universe_resistant_neutronium_heavy_plating", "2x kubejs:universal_navigator", "2x solarflux:sp_custom_neutronium", "2x kubejs:universal_warp_controller",
+            "1x gtceu:energy_cluster", "2x kubejs:universal_warp_core", "1x gtceu:iv_quantum_chest", "4x kubejs:hadal_warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t10")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("mm_t7")
+        .itemInputs("4x kubejs:supercharged_laser_array", "2x kubejs:advanced_micro_miner_guidance_system", "33x gtceu:double_cryolobus_plate", "16x gtceu:double_naquadah_plate",
+            "3x kubejs:enderium_micro_miner_core", Item.of('kubejs:bathyal_energy_core', '{Damage:2000000}'), "2x gtceu:luv_field_generator", "1x kubejs:dischargement_core",
+            Item.of('kubejs:bathyal_energy_core', '{Damage:2000000}'), "4x kubejs:warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t7")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.large_auto_crafter("mm_t8")
+        .itemInputs("2x kubejs:advanced_micro_miner_guidance_system", "18x monilabs:double_crystal_matrix_plate", "20x gtceu:double_rhodium_plated_palladium_plate", 
+            "11x gtceu:double_duranium_plate", "3x kubejs:supercharged_laser_array", "4x gtceu:hv_super_chest", "1x gtceu:zpm_field_generator", 
+            "2x kubejs:warp_controller", "2x kubejs:warp_core", "2x kubejs:warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t8")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.EV])
     // Epic
+    event.recipes.gtceu.large_auto_crafter("mm_t11")
+        .itemInputs("2x gtceu:uhv_robot_arm", "19x monilabs:double_crystal_matrix_plate", "41x kubejs:elementally_infused_omnic_matrix_heavy_plating", "4x solarflux:sp_custom_neutronium", 
+            "2x kubejs:universal_navigator", "1x gtceu:uhv_quantum_chest", "2x kubejs:universal_warp_controller", "2x kubejs:universal_warp_core", "6x kubejs:hadal_warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t11")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.IV])
+    event.recipes.gtceu.large_auto_crafter("mm_t12")
+        .itemInputs("36x kubejs:dimensionally_stabilized_infinity_heavy_plating", "1x kubejs:extradimensional_navigator", "4x monilabs:dimensional_stabilization_netherite_casing",
+            "4x solarflux:sp_custom_infinity", "1x kubejs:field_stabilised_omnic_pulsar_compound", "11x kubejs:universe_resistant_neutronium_heavy_plating",
+            "2x kubejs:omnic_matrix_coil_block", "1x gtceu:uhv_quantum_chest", "2x gtceu:large_naquadah_reactor", "6x kubejs:hadal_warp_engine"
+        )
+        .itemOutputs("kubejs:microminer_t12")
+        .duration(40)
+        .EUt(GTValues.VA[GTValues.IV])
 })

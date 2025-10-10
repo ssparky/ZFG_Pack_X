@@ -132,7 +132,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot().fluid()
         .element(GTElements.get("tiberium"))
         .color(0x45DA40).secondaryColor(0x14831F).iconSet("bright")
-        .blastTemp(15000, "highest")
+        .blastTemp(15000, "highest", GTValues.VHA[GTValues.UIV], 600)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(8388608*4, 64, 128, false);
 
@@ -147,7 +147,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot().fluid()
         .element(GTElements.get("tiberium"))
         .color(0xDA40DA).secondaryColor(0x831474).iconSet("bright")
-        .blastTemp(10000, "higher")
+        .blastTemp(10000, "higher", GTValues.VA[GTValues.UHV], 400)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FOIL)
 
     // TODO:
@@ -161,7 +161,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot().fluid()
         .components("1x scandium", "1x emerald", "4x black_steel", "2x steel")
         .color(0x3B8844).secondaryColor(0x155527).iconSet("metallic")
-        .blastTemp(1813, "low")
+        .blastTemp(1813, "low", GTValues.VHA[GTValues.EV], 600)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(2048, 4, 0, true);
 
@@ -169,7 +169,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot().fluid()
         .components("1x red_steel", "1x blue_steel", "1x green_steel")
         .color(0xD9D9D9).secondaryColor(0x1F1F1F).iconSet("metallic")
-        .blastTemp(15780, "highest")
+        .blastTemp(15780, "highest", GTValues.VA[GTValues.UIV], 900)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(134217728, 128, 512, false);
 
@@ -238,6 +238,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .fluid().polymer()
         .color(0xda5653).secondaryColor(0x772929).iconSet("dull")
         .formula("(C3H6)n")
+        .itemPipeProperties(256, 8)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.STICKY)
 
     event.create("acrylonitrile")
@@ -290,6 +291,48 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("phosphate_gem_stock")
         .fluid()
         .color(0xC0B185).secondaryColor(0x9A8D5E).iconSet("dull")
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    // AdAstra air
+    event.create("moon_air")
+        .gas()
+        .color(0xCCC9C7)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("liquid_moon_air")
+        .fluid()
+        .color(0x979694)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("mars_air")
+        .gas()
+        .color(0xD8BCAA)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("liquid_mars_air")
+        .fluid()
+        .color(0xC8A58F)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("venus_air")
+        .gas()
+        .color(0xEAD890)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("liquid_venus_air")
+        .fluid()
+        .color(0xBEAD6B)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("mercury_air")
+        .gas()
+        .color(0xCCC9C7)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("liquid_mercury_air")
+        .fluid()
+        .color(0x979694)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("glacio_air")
+        .gas()
+        .color(0xAAD8D6)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create("liquid_glacio_air")
+        .fluid()
+        .color(0x8FC3C8)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     // Other
