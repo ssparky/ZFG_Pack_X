@@ -77,5 +77,5 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.anti_collider("annihilation_infinity")
         .inputFluids("kubejs:antimatter_fuel 1", "gtceu:infinity 1")
         .duration(1)
-        .EUt(-536870912 * 4)
+        .EUt(-536870912 * 16)
 })

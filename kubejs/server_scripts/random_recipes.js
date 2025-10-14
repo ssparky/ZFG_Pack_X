@@ -304,13 +304,13 @@ ServerEvents.recipes(event => {
     // Avaritia Replacement recipes
     compacting(event, "gtceu:neutronium_ingot", "gtceu:neutronium_nugget")
 
-    // Recipe from Radium salt to Radium and Rock Salt
+    // Recipe from Radon salt to Radon and Rock Salt
     event.recipes.gtceu.electrolyzer("radium_salt_to_radium_and_salt")
         .itemInputs("kubejs:radium_salt")
         .itemOutputs("gtceu:rock_salt_dust")
-        .outputFluids(Fluid.of("gtceu:radon", 1000))
+        .outputFluids(Fluid.of("gtceu:radon", 125))
         .circuit(1)
-        .duration(200)
+        .duration(150)
         .EUt(2000)
 
     // Add the Fluid Tag Filter
@@ -768,6 +768,14 @@ ServerEvents.recipes(event => {
         .duration(110)
         .EUt(GTValues.VA[GTValues.MV])
 
+    // Gilded Blackstone maceration
+    event.recipes.gtceu.macerator("macerate_gilded_blackstone")
+        .itemInputs("minecraft:gilded_blackstone")
+        .itemOutputs("gtceu:blackstone_dust")
+        .chancedOutput("gtceu:gold_dust", 2500, 0)
+        .duration(66)
+        .EUt(2)
+
     // NCN Rhodochrosite crafting
     event.recipes.gtceu.chemical_reactor("manganese_nitrate_from_manganese")
         .itemInputs("1x gtceu:manganese_dioxide_dust")
@@ -856,13 +864,13 @@ ServerEvents.recipes(event => {
         "LQL"
     ], {
         I: "gtceu:rubber_ring",
-        P: "gtceu:normal_bronze_fluid_pipe",
+        P: "gtceu:bronze_normal_fluid_pipe",
         S: "gtceu:tin_screw",
         R: "gtceu:tin_rotor",
         C: "gtceu:solid_machine_casing",
         D: "#gtceu:tools/crafting_screwdrivers",
         L: "gtceu:steel_plate",
-        Q: "gtceu:large_bronze_fluid_pipe"
+        Q: "gtceu:bronze_large_fluid_pipe"
     }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
     event.shaped("gtceu:aluminium_pump", [
         "IPS",
@@ -870,13 +878,13 @@ ServerEvents.recipes(event => {
         "LQL"
     ], {
         I: "gtceu:rubber_ring",
-        P: "gtceu:normal_steel_fluid_pipe",
+        P: "gtceu:steel_normal_fluid_pipe",
         S: "gtceu:bronze_screw",
         R: "gtceu:bronze_rotor",
         C: "gtceu:frostproof_machine_casing",
         D: "#gtceu:tools/crafting_screwdrivers",
         L: "gtceu:aluminium_plate",
-        Q: "gtceu:large_steel_fluid_pipe"
+        Q: "gtceu:steel_large_fluid_pipe"
     }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
     event.shaped("gtceu:stainless_steel_pump", [
         "IPS",
@@ -884,13 +892,13 @@ ServerEvents.recipes(event => {
         "LQL"
     ], {
         I: "gtceu:rubber_ring",
-        P: "gtceu:normal_stainless_steel_fluid_pipe",
+        P: "gtceu:stainless_steel_normal_fluid_pipe",
         S: "gtceu:steel_screw",
         R: "gtceu:steel_rotor",
         C: "gtceu:clean_machine_casing",
         D: "#gtceu:tools/crafting_screwdrivers",
         L: "gtceu:stainless_steel_plate",
-        Q: "gtceu:large_stainless_steel_fluid_pipe"
+        Q: "gtceu:stainless_steel_large_fluid_pipe"
     }).damageIngredient("#gtceu:tools/crafting_screwdrivers")
 
     // Curvy Pipes
@@ -914,4 +922,56 @@ ServerEvents.recipes(event => {
         B: "gtceu:gold_ring",
         C: "gtceu:annealed_copper_double_wire"
     }).id("kubejs:curvypipes_energy_wire")
+
+    // Modded seed oil compat
+    function seedOil(mod, seed, fluid) {
+        event.recipes.gtceu.extractor(`seed_oil_from_${seed}`)
+            .itemInputs(`${mod}:${seed}`)
+            .outputFluids(`gtceu:seed_oil ${fluid}`)
+            .duration(1.6*20)
+            .EUt(2)
+    }
+    seedOil("farmersdelight", "rice", 10)
+    seedOil("farmersdelight", "cabbage_seeds", 6)
+    seedOil("farmersdelight", "tomato_seeds", 6)
+    seedOil("rusticdelight", "cotton_seeds", 3)
+    seedOil("rusticdelight", "bell_pepper_seeds", 6)
+    seedOil("rusticdelight", "coffee_beans", 3)
+    seedOil("vinery", "red_grape_seeds", 3)
+    seedOil("vinery", "white_grape_seeds", 3)
+    seedOil("vinery", "savanna_grape_seeds_red", 3)
+    seedOil("vinery", "savanna_grape_seeds_white", 3)
+    seedOil("vinery", "taiga_grape_seeds_red", 3)
+    seedOil("vinery", "taiga_grape_seeds_white", 3)
+    seedOil("vinery", "jungle_grape_seeds_red", 3)
+    seedOil("vinery", "jungle_grape_seeds_white", 3)
+    seedOil("farm_and_charm", "kernels", 10)
+    seedOil("farm_and_charm", "oat_seeds", 10)
+    seedOil("farm_and_charm", "barley_seeds", 10)
+    seedOil("farm_and_charm", "lettuce_seeds", 6)
+    // seedOil("farm_and_charm", "tomato_seeds", 6)
+    seedOil("farm_and_charm", "strawberry_seeds", 3)
+    seedOil("brewery", "hops_seeds", 10)
+
+    // Pump water production
+    event.recipes.gtceu.steel_pump("water_production_steel")
+        .circuit(1)
+        .outputFluids("minecraft:water 300")
+        .duration(20)
+    event.recipes.gtceu.aluminium_pump("water_production_aluminium")
+        .circuit(1)
+        .outputFluids("minecraft:water 600")
+        .duration(20)
+    event.recipes.gtceu.stainless_steel_pump("water_production_stainless_steel")
+        .circuit(1)
+        .outputFluids("minecraft:water 1200")
+        .duration(20)
+
+    // Green steel mixer
+    event.recipes.gtceu.mixer("green_steel_mixing")
+        .itemInputs("1x gtceu:scandium_dust", "1x gtceu:emerald_dust", "4x gtceu:black_steel_dust", "2x gtceu:steel_dust")
+        .itemOutputs("8x gtceu:green_steel_dust")
+        .EUt(7)
+        .duration(20*40)
+        .circuit(1)
 })  

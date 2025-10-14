@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV])
 
     event.recipes.gtceu.laser_engraver("fluorotoluene_mixture_activation")
-        .notConsumable("gtceu:black_glass_lens")
+        .notConsumable("#forge:lenses/black")
         .itemInputs(Item.of("gtceu:fluid_cell", '{Fluid:{Amount:1000,FluidName:"gtceu:fluorotoluene_mixture"}}').weakNBT())
         .itemOutputs(Item.of("gtceu:fluid_cell", '{Fluid:{Amount:1000,FluidName:"gtceu:activated_fluorotoluene_mixture"}}').weakNBT())
         .duration(600)

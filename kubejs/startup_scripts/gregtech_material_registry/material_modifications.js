@@ -253,7 +253,7 @@ GTCEuStartupEvents.materialModification(event => {
         ["wolframite", "iron", "manganese", "fluorite", "tungstite", "nitric_acid", null],
         ['cavansite', 'certus_quartz', 'calcium', 'vanadium_pentoxide', 'vanadium_magnetite', null, null],
         ['citrine', 'nether_quartz', 'yellow_limonite', 'yellow_limonite', 'amethyst', 'hexafluorosilicic_acid', null],
-        ['gadolinite', 'beryllium_oxide', "thorium", "monazite", "gadolinium", "hexafluorosilicic_acid", null],
+        ['gadolinite', 'beryllium_oxide', "thorium_232", "monazite", "gadolinium", "hexafluorosilicic_acid", null],
         ['germanite', "molybdenite", "realgar", "gallium", "briartite", "sodium_persulfate", "copper"],
         ["hawleyite", "sphalerite", "cadmium", "sulfur", "gallium", "hydrobromic_acid", "cadmium"],
         ["iodargyrite", "galena", "silver", "bromoargyrite", "bromoargyrite", "hydrobromic_acid", "silver"],
@@ -326,7 +326,20 @@ GTCEuStartupEvents.materialModification(event => {
         ["spodumene", "aluminium", "lithium", "rubidium", "caesium", null, null],
         ["calcite", "aragonite", "strontium", "sodalite", "lazurite", null, null],
         ["molybdenite", "molybdenum", "sulfur", "quartzite", "rheniite", "nitric_acid", "molybdenum"],
-        ["saltpeter", "saltpeter", "potassium", "salt", "thallium", "nitric_acid", null]
+        ["saltpeter", "saltpeter", "potassium", "salt", "thallium", "nitric_acid", null],
+        ["emerald", "beryllium", "beryllium", "vanadium", "vanadium", null, null],
+        ["beryllium", "emerald", "emerald", "thorium_232", "euclase", null, "beryllium"],
+        //["coal", "coal", "coal", "thorium_232", "graphite", null, "2x coal"], - 2x coal doesnt work, so this change is too much trouble for what it's worth
+        ["pitchblende", "thorium_232", "uraninite", "lead", "thorium", null, null],
+        ["uraninite", "uraninite", "thorium_232", "silver", "thorium", null, null],
+        ["amethyst", "quartzite", "amethyst", "certus_quartz", "nether_quartz", null, null],
+        ["sulfur", "sulfur", "sulfur", "selenium", "selenium", null, null],
+        ["oilsands", "clay", "oilsands", "granitic_mineral_sand", "oilsands", null, null],
+        ["palladium", "platinum", "palladium", "merenskyite", "rhodium", null, null],
+        ["lithium", "lithium", "sodium", "lithium", "dilithium", null, null],
+        ["opal", "opal", "basaltic_mineral_sand", "black_opal", "black_opal", null, null],
+        ["molybdenum", "molybdenite", "molybdenum_trioxide", "tungsten_trioxide", "molybdenum", null, "molybdenum"],
+        ["alunite", "magnesite", "alunite", "microcline", "aluminium", null, null]
 
     ]
     for (const [id, bp1, bp2, bp3, bp4, wash, smelt] of modOres) {

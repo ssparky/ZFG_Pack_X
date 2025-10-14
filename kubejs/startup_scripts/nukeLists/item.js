@@ -66,7 +66,7 @@ global.itemNukeList = [
     // ExtendedAE
     "expatternprovider:silicon_block",
     "expatternprovider:circuit_cutter",
-    /expatternprovider.*cutter/,
+    /^expatternprovider.*cutter/,
     "expatternprovider:ex_inscriber",
     "expatternprovider:ex_charger",
 

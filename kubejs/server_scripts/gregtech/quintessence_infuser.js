@@ -27,29 +27,34 @@ ServerEvents.recipes(event => {
         .duration(50)
         .EUt(16)
 
-    // Temp testing recipe
-    event.recipes.gtceu.soul_binding("test_soul_binding")
-        .itemInputs("6x minecraft:shulker_shell")
-        .inputFluids("cofh_core:experience 2000")
-        .itemOutputs("6x gtceu:soul_infused_ingot")
-        .duration(1200)
-        .EUt(GTValues.VHA[GTValues.IV])
-
-    // function Soulbinding(id, mob, input2, EUt, fluid, output) { // TODO: this whole thing once we have soul binding GT-ified
-    //     event.recipes.gtceu.soul_binding(`${id}_${mob}`)
-    //         .itemInputs(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:${mob}"}}}}`).weakNBT())
-    //         .itemInputs(Item.of(input2))
-    //         .inputFluids(Fluid.of("cofh_core:experience", fluid))
-    //         .itemOutputs(output)
-    //         .duration(150)
-    //         .EUt(EUt)
-    // }
-
-
-    // Soulbinding("enderio:prescient_crystal", "shulker", "enderio:vibrant_crystal", 170, 2240, ["enderio:prescient_crystal", "enderio:empty_soul_vial"])
-    // Soulbinding("enderio:ender_crystal", "enderman", "enderio:vibrant_crystal", 128, 1440, ["enderio:ender_crystal", "enderio:empty_soul_vial"])
-    // Soulbinding("enderio:enticing_crystal", "villager", "minecraft:emerald", 100, 800, ["enderio:enticing_crystal", "enderio:empty_soul_vial"])
-    // Soulbinding("enderio:frank_n_zombie", "zombie", "enderio:z_logic_controller", 128, 800, ["enderio:frank_n_zombie", "enderio:empty_soul_vial"])
-    // Soulbinding("enderio:sentient_ender", "witch", "enderio:ender_resonator", 128, 800, ["enderio:sentient_ender", "enderio:empty_soul_vial"])
+    // TODO: soul binder singleblock recipes
+    const binderrecipe = [
+        ["lv", "soularium"],
+        ["mv", "soularium"],
+        ["hv", "soularium"],
+        ["ev", "soul_infused"],
+        ["iv", "soul_infused"],
+        ["luv", "soul_infused"],
+        ["zpm", "dark_soularium"],
+        ["uv", "dark_soularium"],
+        ["uhv", "dark_soularium"],
+        ["uev", "dark_soularium"],
+        ["uiv", "dark_soularium"],
+        ["uxv", "dark_soularium"],
+        ["opv", "dark_soularium"],
+    ]
+    binderrecipe.forEach(([tier, plate]) => {
+        event.shaped(`gtceu:${tier}_soul_binder`, [
+            "PMP",
+            "EHE",
+            "CPC"
+        ], {
+            P: `gtceu:double_${plate}_plate`,
+            E: `gtceu:${tier}_electric_pump`,
+            H: `gtceu:${tier}_machine_hull`,
+            C: `#gtceu:circuits/${tier}`,
+            M: `gtceu:${tier}_emitter`
+        }).id(`kubejs:shaped/${tier}_soul_binder`)
+    })
 
 })

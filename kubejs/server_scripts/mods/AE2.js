@@ -346,7 +346,7 @@ ServerEvents.recipes(event => {
 
     // Level Emitter
     event.remove({ id: "ae2:network/parts/level_emitter" })
-    event.shapeless("ae2:level_emitter", ["minecraft:redstone_torch", "gtceu:aluminium_plate", "ae2:calculation_processor", "#forge:rods/stainless_steel"]).id("kubejs:ae2/level_emitter")
+    event.shapeless("ae2:level_emitter", ["minecraft:redstone_torch", "gtceu:aluminium_plate", "ae2:calculation_processor", "#forge:rods/silver"]).id("kubejs:ae2/level_emitter")
 
     // Energy level Emitter
     event.remove({ id: "ae2:network/parts/energy_level_emitter" })

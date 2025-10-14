@@ -8,6 +8,8 @@
 		Explosion_Damage_Taken = 0.25
 		#Level of resistance hero shield provides
 		Level = 1
+		#Enable compat to disable explosion overlay from enhanced visuals
+		EnhancedVisuals_Compat = true
 
 	[Artifacts.Obsidian_Skull]
 		#Fire damage taken in percentage
@@ -20,6 +22,8 @@
 	[Artifacts.Ankh_Shield]
 		#Fire damage taken in percentage
 		Fire_Damage_Taken = 0.5
+		#List of additional effects the ankh shield grants immunity to (e.g., minecraft:glowing, minecraft:slow_falling etc)
+		Additional_Effects = ["moreartifacts:virulent"]
 
 	[Artifacts.Venom_Amulet]
 		#Chance to apply poison
@@ -78,6 +82,8 @@
 		Bleed_Damage = 1
 		#Duration of bleed in seconds
 		Bleed_Duration = 5
+		#Blacklist for entities that cannot be affected by bleed
+		Blacklisted_Entities = []
 
 	[Artifacts.Echo_Glove]
 		#Damage increased in percentage
@@ -126,6 +132,8 @@
 		Damage_Dealt = 1.25
 		#Chance for on hit to drop an emerald
 		Emerald_Chance = 0.05
+		#Amount of increased luck
+		Luck_Increase = 1
 
 	[Artifacts.Magic_Quiver]
 		#Increased arrow damage dealt in percentage
@@ -199,6 +207,8 @@
 		Poison_Level = 2
 		#Duration of the poison effect in seconds
 		Duration = 3
+		#Chance to convert poison into a more deadly poison
+		Deadly_Chance = 0.15
 
 	[Artifacts.Decay_Stone]
 		#Increased damage dealt in percentage
@@ -210,6 +220,8 @@
 		Wither_Level = 2
 		#Duration of the wither effect in seconds
 		Duration = 3
+		#Amount of hearts healed by the decay stone
+		Hearts = 1
 
 	[Artifacts.Fire_Stone]
 		#Increased damage dealt in percentage
@@ -256,6 +268,60 @@
 		Armor_Increase = 0.25
 		#Increased armor toughness gained in percentage
 		Armor_Toughness_Increase = 0.25
+
+	[Artifacts.Ankh_Charm]
+		#List of additional effects the ankh charm grants immunity to (e.g., minecraft:glowing, minecraft:slow_falling etc)
+		Additional_Effects = ["moreartifacts:virulent"]
+
+	[Artifacts.Ruby_Ring]
+		#Damage increased for every health threshold in percentage
+		Damage_Increase = 0.05
+		#Health threshold for each damage increase
+		Health_Threshold = 20.0
+		#Max health cap for the damage increase
+		Health_Cap = 60.0
+
+	[Artifacts.Tainted_Mirror]
+		#Makes players take only half of the damage they deal by the mirror instead of full damage
+		Reduced_Player_Damage = true
+
+	[Artifacts.Natures_Mantle]
+		#Increased speed gained in percentage
+		Speed_Increase = 0.1
+
+	[Artifacts.Leather_Treads]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.05
+
+	[Artifacts.Dune_Treads]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.05
+		#Speed increase when on sand gained in percentage
+		Sand_Speed_Increase = 0.1
+
+	[Artifacts.High_Jumpers]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.1
+
+	[Artifacts.Mechanical_Gears]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.02
+		#Chance to dodge attacks in percentage
+		Dodge_Chance = 0.05
+
+	[Artifacts.Blazing_Treads]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.1
+
+	[Artifacts.Enderian_Treads]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.2
+		#Cooldown for evading attacks in seconds
+		Cooldown = 60.0
+
+	[Artifacts.Sculk_Treads]
+		#Speed increase gained in percentage
+		Speed_Increase = 0.25
 
 [Loot]
 
@@ -316,4 +382,17 @@
 	[Loot.Cobalt_Shield]
 		#Cobalt Shield loot chance from simple dungeon in percentage
 		Loot_Chance = 0.1
+
+[General]
+	#Global max damage reduction from artifacts in percentage
+	#Range: 0.01 ~ 1.0
+	Max_Damage_Reduction = 1.0
+	#Global max fire damage reduction from artifacts in percentage
+	#Range: 0.01 ~ 1.0
+	Max_Fire_Damage_Reduction = 1.0
+	#Global max damage increase from artifacts in percentage
+	#Range: 0.01 ~ 2.0
+	Max_Damage_Increase = 2.0
+	#Enable debugging
+	Debug = false
 

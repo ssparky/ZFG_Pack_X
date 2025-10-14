@@ -1,6 +1,28 @@
 ServerEvents.recipes(event => {
     // Controller recipe - TODO:
 
+    // Inherited LCR/electrolyzer recipes
+    event.recipes.gtceu.neutron_chamber("actinium_from_radon_salt_inherit")
+        .chancedInput("6x kubejs:neutron_emitter", 25, 0)
+        .itemInputs("kubejs:radium_salt")
+        .itemOutputs("gtceu:rock_salt_dust")
+        .chancedFluidOutputLogic(ChanceLogic.XOR)
+        .chancedFluidOutput("gtceu:actinium 144", 2000, 0)
+        .chancedFluidOutput("gtceu:radon 250", 8000, 0)
+        .duration(160)
+        .EUt(GTValues.VHA[GTValues.ZPM])
+    event.recipes.gtceu.neutron_chamber("actinium_from_uranic_solution_inherit")
+        .chancedInput("6x kubejs:neutron_emitter", 25, 0)
+        .inputFluids("gtceu:uranic_solution 2000")
+        .itemOutputs("3x gtceu:lead_chloride_dust")
+        .chancedItemOutputLogic(ChanceLogic.XOR)
+        .chancedOutput("gtceu:actinium_dust", 2000, 0)
+        .chancedOutput("gtceu:thorium_dust", 3333, 0)
+        .chancedOutput("3x gtceu:uraninite_dust", 5000, 0)
+        .outputFluids("minecraft:water 1000")
+        .duration(160)
+        .EUt(GTValues.VHA[GTValues.ZPM])
+
     // Forced decomposition of actinides & pre-actinides
     // Bismuth
     event.recipes.gtceu.neutron_chamber("bismuth_forced_fission")

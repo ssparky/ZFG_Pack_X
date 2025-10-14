@@ -3,6 +3,35 @@
  */
 
 ServerEvents.recipes(event => {
+    // SB recipes
+    const polymerrecipe = [
+        ["lv", "copper"],
+        ["mv", "cupronickel"],
+        ["hv", "kanthal"],
+        ["ev", "nichrome"],
+        ["iv", "rtm_alloy"],
+        ["luv", "hssg"],
+        ["zpm", "naquadah"],
+        ["uv", "trinium"],
+        ["uhv", "tritanium"], // TODO: materials
+        ["uev", "tritanium"],
+        ["uiv", "tritanium"],
+        ["uxv", "tritanium"],
+        ["opv", "tritanium"]
+    ]
+    polymerrecipe.forEach(([tier, spring]) => {
+        event.shaped(`gtceu:${tier}_polymerization_chamber`, [
+            "SSS",
+            "PHP",
+            "CMC"
+        ], {
+            S: `gtceu:${spring}_spring`,
+            H: `gtceu:${tier}_machine_hull`,
+            C: `#gtceu:circuits/${tier}`,
+            M: `gtceu:${tier}_electric_piston`,
+            P: `gtceu:${tier}_electric_pump`
+        }).id(`kubejs:shaped/${tier}_polymerization_chamber`)
+    })
     // MB Recipe goes here
 
 

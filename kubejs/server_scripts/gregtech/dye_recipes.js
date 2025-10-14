@@ -242,4 +242,12 @@ ServerEvents.recipes(event => {
         .itemOutputs("3x gtceu:coccinite_dust")
         .EUt(GTValues.VA[GTValues.EV])
         .duration(240)
+    // Rutile
+    event.recipes.gtceu.chemical_reactor("rutile_from_titanium")
+        .itemInputs("gtceu:titanium_dust")
+        .inputFluids("gtceu:oxygen 2000")
+        .itemOutputs("gtceu:rutile_dust")
+        .duration(200)
+        .circuit(4)
+        .EUt(GTValues.VA[GTValues.HV])
 })

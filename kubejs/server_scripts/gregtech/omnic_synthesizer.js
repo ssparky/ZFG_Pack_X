@@ -100,6 +100,7 @@ ServerEvents.recipes(event => {
         "gtceu:radium_dust",
         "gtceu:actinium_ingot",
         "gtceu:thorium_ingot",
+        "gtceu:thorium_232_ingot",
         "gtceu:protactinium_ingot",
         "kubejs:stabilized_uranium",
         "kubejs:stabilized_neptunium",

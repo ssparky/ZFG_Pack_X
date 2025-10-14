@@ -231,6 +231,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("hadal_sculk")
         .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
 
+    event.create("bioalloy_base")
+        .dust()
+        .liquid(1936)
+        .color(0x52a5c6).secondaryColor(0x48539b)
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING)
+        .components(GTMaterials.BlueAlloy.multiply(4), GTMaterials.Lead.multiply(2), GTMaterials.Lutetium.multiply(1))
+
 })
 
 // Omnic Acid doesn't really have a "Processing Line", but there's nowhere better to really put it.
@@ -263,7 +270,6 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("dielectric_mirror_solution")
         .liquid()
         .color(0xe2fff9)
-        // .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING)
         .components("7x silicon_dioxide", "1x enderium", "4x tantalum_pentoxide", "5x rutile", "11x polyethylene", "3x germanium")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 

@@ -115,7 +115,7 @@ StartupEvents.registry("item", event => {
         .maxStackSize(16)
     event.create("universal_collapse_device")
         .maxStackSize(16)
-    event.create("field_stabilised_omnic_pulsar_compound")
+    event.create("field_stabilised_prismatic_pulsar_compound")
         .maxStackSize(16)
         .texture("kubejs:item/microverse/kit/field_stabilised_prismatic_pulsar_compound")
         .displayName("Field-Stabilized Prismatic Pulsar Compound")
@@ -630,12 +630,12 @@ StartupEvents.registry("item", event => {
     event.create("uxpic_chip")
         .texture("kubejs:item/circuits/component/wafer/uxpic/chip")
         .displayName("UXPIC Chip")
-    event.create("universe_boule")
-        .texture("kubejs:item/circuits/component/wafer/heart_boule/boule")
-        .displayName("Universe-doped Monocrystalline Silicon Boule")
-    event.create("universe_wafer")
-        .texture("kubejs:item/circuits/component/wafer/heart_boule/wafer")
-        .displayName("Universe-doped Wafer")
+    event.create("null_boule")
+        .texture("kubejs:item/circuits/component/wafer/null_boule/boule")
+        .displayName("Null-doped Monocrystalline Silicon Boule")
+    event.create("null_wafer")
+        .texture("kubejs:item/circuits/component/wafer/null_boule/wafer")
+        .displayName("Null-doped Wafer")
     event.create("unactivated_multidimensional_cpu_wafer")
         .texture("kubejs:item/circuits/component/wafer/multidimensional_cpu/wafer_base")
         .displayName("Unactivated Multidimensional CPU Wafer")
@@ -936,4 +936,59 @@ StartupEvents.registry("item", event => {
     event.create("uev_voltage_coil")
         .displayName("Ultra Excessive Voltage Coil")
         .texture("gtceu:item/uev_voltage_coil")
+
+    // Soul vials
+    event.create("empty_soul_vial")
+        .displayName("Empty Soul Vial")
+        .textureJson({layer0: "kubejs:item/vials/empty_soul_vial"})
+    const mobs = [
+        ["allay", "Allay", "#51D8E9"],
+        ["axolotl", "Axolotl", "#EC98B3"],
+        ["bee", "Bee", "#F0D755"],
+        ["blaze", "Blaze", "#F4B733"],
+        ["camel", "Camel", "#B58753"],
+        ["cat", "Cat", "#C3BEB5"],
+        ["spider", "Spider", "#31494D"],
+        ["chicken", "Chicken", "#DDDDDD"],
+        ["fish", "Fish", "#BBA282"],
+        ["cow", "Cow", "#403328"],
+        ["creeper", "Creeper", "#D19EBF"],
+        ["horse", "Horse", "#603519"],
+        ["zombie", "Zombie", "#405B45"],
+        ["guardian", "Guardian", "#428F83"],
+        ["enderman", "Enderman", "#181519"],
+        ["endermite", "Endermite", "#42254A"],
+        ["illager", "Illager", "#585E66"],
+        ["fox", "Fox", "#C26223"],
+        ["ghast", "Ghast", "#E6E6E6"],
+        ["squid", "Squid", "#254469"],
+        ["slime", "Slime", "#81BE74"],
+        ["panda", "Panda", "#D2D2D2"],
+        ["parrot", "Parrot", "#E33333"],
+        ["pig", "Pig", "#D19EBF"],
+        ["piglin", "Piglin", "#C08C99"],
+        ["rabbit", "Rabbit", "#8B6247"],
+        ["sheep", "Sheep", "#CACACA"],
+        ["shulker", "Shulker", "#D386DA"],
+        ["silverfish", "Silverfish", "#919191"],
+        ["skeleton", "Skeleton", "#B8B8B8"],
+        ["sniffer", "Sniffer", "#A23744"],
+        ["strider", "Strider", "#9B355E"],
+        ["turtle", "Turtle", "#3EBB5E"],
+        ["villager", "Villager", "#B3896C"],
+        ["warden", "Warden", "#123647"],
+        ["witch", "Witch", "#A0B693"],
+        ["wither_skeleton", "Wither Skeleton", "#2E2E2E"],
+        ["wolf", "Wolf", "#B3B3B3"],
+        ["wither", "Wither", "#3B3B3B"],
+        ["ender_dragon", "Ender Dragon", "#1B1A1B"],
+        ["player", "Player", "#63FFFF"]
+    ]
+
+    for (const [id, name, color] of mobs) {
+        event.create(`${id}_soul_vial`)
+            .displayName(`${name} Soul Vial`)
+            .textureJson({layer0: "kubejs:item/vials/empty_soul_vial", layer1: "kubejs:item/vials/soul_vial_underlay"})
+            .color(1, color)
+    }
 })

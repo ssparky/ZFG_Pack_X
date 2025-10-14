@@ -238,7 +238,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .fluid().polymer()
         .color(0xda5653).secondaryColor(0x772929).iconSet("dull")
         .formula("(C3H6)n")
-        .itemPipeProperties(256, 8)
+        .itemPipeProperties(1024, 6)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.STICKY)
 
     event.create("acrylonitrile")
