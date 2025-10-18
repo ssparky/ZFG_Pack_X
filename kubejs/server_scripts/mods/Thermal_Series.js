@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor("elemental_reduction_bazalz")
         .itemInputs("gtceu:coal_dust")
         .inputFluids(Fluid.of("gtceu:elemental_reduction_fluid", 100))
-        .itemOutputs("minecraft:bedrock") // TODO: basalz dust kjs
+        .itemOutputs("kubejs:basalz_dust")
         .duration(80)
         .EUt(90)
 
@@ -28,14 +28,14 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor("elemental_reduction_blitz")
         .itemInputs("gtceu:endstone_dust")
         .inputFluids(Fluid.of("gtceu:elemental_reduction_fluid", 100))
-        .itemOutputs("minecraft:bedrock") // TODO: blitz dust kjs
+        .itemOutputs("kubejs:blitz_dust")
         .duration(80)
         .EUt(90)
 
     event.recipes.gtceu.chemical_reactor("elemental_reduction_blizz")
         .itemInputs("gtceu:ice_dust")
         .inputFluids(Fluid.of("gtceu:elemental_reduction_fluid", 100))
-        .itemOutputs("minecraft:bedrock") // TODO: blizz dust kjs
+        .itemOutputs("kubejs:blizz_dust")
         .duration(80)
         .EUt(90)
 
@@ -62,13 +62,13 @@ ServerEvents.recipes(event => {
         "BC ",
         "   "
     ], {
-        A: "minecraft:bedrock", // TODO: basalz powder
+        A: "kubejs:basalz_dust", 
         B: "minecraft:redstone",
         C: "gtceu:obsidian_dust"
     }).noMirror().noShrink()
 
     event.recipes.gtceu.mixer("mixer_petrotheum")
-        .itemInputs("2x minecraft:bedrock", "minecraft:redstone", "gtceu:obsidian_dust") // TODO: basalz powder
+        .itemInputs("2x kubejs:basalz_dust", "minecraft:redstone", "gtceu:obsidian_dust")
         .itemOutputs("2x kubejs:petrotheum_dust")
         .duration(40)
         .EUt(20)
@@ -94,13 +94,13 @@ ServerEvents.recipes(event => {
         "BC ",
         "   "
     ], {
-        A: "minecraft:bedrock", // TODO: blitz powder
+        A: "kubejs:blitz_dust",
         B: "minecraft:redstone",
         C: "gtceu:saltpeter_dust"
     }).noMirror().noShrink()
 
     event.recipes.gtceu.mixer("mixer_aerotheum")
-        .itemInputs("2x minecraft:bedrock", "minecraft:redstone", "gtceu:saltpeter_dust") // TODO: blitz powder
+        .itemInputs("kubejs:blitz_dust", "minecraft:redstone", "gtceu:saltpeter_dust")
         .itemOutputs("2x kubejs:aerotheum_dust")
         .duration(40)
         .EUt(20)
@@ -110,13 +110,13 @@ ServerEvents.recipes(event => {
         "BC ",
         "   "
     ], {
-        A: "minecraft:bedrock", // TODO: blizz powder
+        A: "kubejs:blizz_dust",
         B: "minecraft:redstone",
         C: "minecraft:snowball"
     }).noMirror().noShrink()
 
     event.recipes.gtceu.mixer("mixer_cryotheum")
-        .itemInputs("2x minecraft:bedrock", "minecraft:redstone", "minecraft:snowball") // TODO: blizz powder
+        .itemInputs("2x kubejs:blizz_dust", "minecraft:redstone", "minecraft:snowball")
         .itemOutputs("2x kubejs:cryotheum_dust")
         .duration(40)
         .EUt(20)
@@ -143,42 +143,42 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(75)
 
-    // Thermal Dusts -- TODO: kjs both
-    // event.recipes.gtceu.macerator("dust_blitz")
-    //     .itemInputs("thermal:blitz_rod")
-    //     .itemOutputs("4x thermal:blitz_powder")
-    //     .duration(200)
-    //     .EUt(16)
+    // Thermal Dusts
+    event.recipes.gtceu.macerator("dust_blitz")
+        .itemInputs("kubejs:blitz_rod")
+        .itemOutputs("4x kubejs:blitz_dust")
+        .duration(200)
+        .EUt(16)
 
-    // event.recipes.gtceu.macerator("dust_blizz")
-    //     .itemInputs("thermal:blizz_rod")
-    //     .itemOutputs("4x thermal:blizz_powder")
-    //     .duration(200)
-    //     .EUt(16)
+    event.recipes.gtceu.macerator("dust_blizz")
+        .itemInputs("kubejs:blizz_rod")
+        .itemOutputs("4x kubejs:blizz_dust")
+        .duration(200)
+        .EUt(16)
 
-    // event.recipes.gtceu.macerator("dust_bazalz")
-    //     .itemInputs("thermal:basalz_rod")
-    //     .itemOutputs("4x thermal:basalz_powder")
-    //     .duration(200)
-    //     .EUt(16);
+    event.recipes.gtceu.macerator("dust_bazalz")
+        .itemInputs("kubejs:basalz_rod")
+        .itemOutputs("4x kubejs:basalz_dust")
+        .duration(200)
+        .EUt(16);
 
-    // Thermal Mobdrops (for HM nether star recipe mostly) -- TODO yet again
-    // event.recipes.gtceu.compressor("blitz_rod")
-    //     .itemInputs("4x thermal:blitz_powder")
-    //     .itemOutputs("thermal:blitz_rod")
-    //     .duration(200)
-    //     .EUt(2)
+    // Thermal Mobdrops (for HM nether star recipe mostly)
+    event.recipes.gtceu.compressor("blitz_rod")
+        .itemInputs("4x kubejs:blitz_dust")
+        .itemOutputs("kubejs:blitz_rod")
+        .duration(200)
+        .EUt(2)
 
-    // event.recipes.gtceu.compressor("blizz_rod")
-    //     .itemInputs("4x thermal:blizz_powder")
-    //     .itemOutputs("thermal:blizz_rod")
-    //     .duration(200)
-    //     .EUt(2)
+    event.recipes.gtceu.compressor("blizz_rod")
+        .itemInputs("4x kubejs:blizz_dust")
+        .itemOutputs("kubejs:blizz_rod")
+        .duration(200)
+        .EUt(2)
 
-    // event.recipes.gtceu.compressor("basalz_rod")
-    //     .itemInputs("4x thermal:basalz_powder")
-    //     .itemOutputs("thermal:basalz_rod")
-    //     .duration(200)
-    //     .EUt(2)
+    event.recipes.gtceu.compressor("basalz_rod")
+        .itemInputs("4x kubejs:basalz_dust")
+        .itemOutputs("kubejs:basalz_rod")
+        .duration(200)
+        .EUt(2)
 
 });

@@ -1,26 +1,28 @@
-[21:44:21] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[21:44:21] [INIT] Loaded plugins:
-[21:44:21] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:44:21] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:44:21] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[21:44:21] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[21:44:21] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[21:44:21] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[21:44:21] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[21:44:21] [INIT] - com.almostreliable.morejs.Plugin
-[21:44:21] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[21:44:21] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[21:44:21] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[21:44:21] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[21:44:21] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[21:44:21] [INFO] Loaded script client_scripts:_initial.js in 0.004 s
-[21:44:21] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
-[21:44:21] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading client compat scripts...
-[21:44:21] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[21:44:21] [INFO] Loaded script client_scripts:renameItems.js in 0.0 s
-[21:44:21] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[21:44:21] [INFO] Loaded script client_scripts:tooltips.js in 0.005 s
-[21:44:21] [INFO] Loaded script client_scripts:nukelists.js in 0.001 s
-[21:44:21] [INFO] Loaded 6/6 KubeJS client scripts in 0.034 s with 0 errors and 0 warnings
-[21:44:38] [INFO] Client resource reload complete!
-[21:46:26] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[14:46:11] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[14:46:11] [INIT] Loaded plugins:
+[14:46:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:46:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:46:11] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:46:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:46:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[14:46:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:46:11] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[14:46:11] [INIT] - com.almostreliable.morejs.Plugin
+[14:46:11] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:46:11] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:46:11] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[14:46:11] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:46:11] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[14:46:11] [INFO] Loaded script client_scripts:_initial.js in 0.002 s
+[14:46:11] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
+[14:46:11] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading client compat scripts...
+[14:46:11] [INFO] Loaded script client_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[14:46:11] [INFO] Loaded script client_scripts:renameItems.js in 0.0 s
+[14:46:11] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
+[14:46:11] [INFO] Loaded script client_scripts:tooltips.js in 0.005 s
+[14:46:11] [INFO] Loaded script client_scripts:nukelists.js in 0.001 s
+[14:46:11] [INFO] Loaded 6/6 KubeJS client scripts in 0.031 s with 0 errors and 0 warnings
+[14:46:27] [INFO] Client resource reload complete!
+[14:48:29] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[15:16:20] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.
+[15:19:35] [ERROR] ! JEI.js#55: Error in 'JEIEvents.hideFluids': ReferenceError: "ncUsedFluid" is not defined.

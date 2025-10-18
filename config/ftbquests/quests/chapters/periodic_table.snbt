@@ -5,7 +5,7 @@
 	group: "799537D85E25757D"
 	icon: "gtceu:omnium_nugget"
 	id: "070346522634E26C"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1556,6 +1556,229 @@
 			title: "117: Tennessine"
 			x: 23.25d
 			y: 5.0d
+		}
+		{
+			id: "3F84CDA329F2B6DE"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "53BA28F0E24EC43A"
+				item: { Count: 64, id: "gtceu:tritanium_ingot" }
+				title: "119: Tritanium"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.75d
+		}
+		{
+			id: "7B936329952AABC1"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "5681BD389AAA5018"
+				item: "gtceu:duranium_ingot"
+				title: "120: Duranium"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 7.75d
+		}
+		{
+			id: "5141DFB6304C4218"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "56C5C6C1A7CDF695"
+				item: { Count: 100, id: "gtceu:trinium_ingot" }
+				type: "item"
+			}]
+			title: "125: Trinium"
+			x: -6.0d
+			y: 7.75d
+		}
+		{
+			id: "6E588353224DD282"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 100L
+					id: "69794E99E685A995"
+					item: { Count: 100, id: "gtceu:naquadah_ingot" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "529E22F31B853F59"
+					item: { Count: 100, id: "gtceu:enriched_naquadah_ingot" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "68CF3808EB25F4E9"
+					item: { Count: 100, id: "gtceu:naquadria_ingot" }
+					type: "item"
+				}
+			]
+			title: "174: Naquadah"
+			x: -1.0d
+			y: 7.75d
+		}
+		{
+			id: "105CB534644841B0"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "08526ECA0D50C3A8"
+				item: { Count: 100, id: "gtceu:aetherium_ingot" }
+				type: "item"
+			}]
+			title: "555: Aetherium"
+			x: 4.0d
+			y: 7.75d
+		}
+		{
+			id: "0976E553ACC3FB21"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "48282A6F8ADDED02"
+				item: { Count: 100, id: "gtceu:tiberium_ingot" }
+				type: "item"
+			}]
+			title: "225: Tiberium"
+			x: 0.25d
+			y: 7.75d
+		}
+		{
+			id: "66AFF10673EE965A"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "17CFD152EA9C9AF5"
+				item: { Count: 100, id: "gtceu:taranium_ingot" }
+				type: "item"
+			}]
+			title: "230: Taranium"
+			x: 1.5d
+			y: 7.75d
+		}
+		{
+			id: "63F530EE9BD07C04"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 100L
+					id: "611F3A2591B8F6F0"
+					item: { Count: 100, id: "gtceu:cryolobus_ingot" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "4478249EFB3818F4"
+					item: { Count: 100, id: "gtceu:cryococcus_ingot" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "627CA97AE17923E5"
+					item: { Count: 100, id: "monilabs:sculk_bioalloy_ingot" }
+					type: "item"
+				}
+			]
+			title: "-1: Cryolobus"
+			x: -11.0d
+			y: 7.75d
+		}
+		{
+			id: "70A6926104739F93"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "0EF10F6FA5D18A48"
+				item: { Count: 100, id: "gtceu:sculk_superconductor_dust" }
+				type: "item"
+			}]
+			title: "-2: Sculk Superconductor"
+			x: -12.25d
+			y: 7.75d
+		}
+		{
+			id: "369C065072436863"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "0DFB972D9C7EA55D"
+				item: { Count: 100, id: "gtceu:infinity_ingot" }
+				type: "item"
+			}]
+			title: "168: Infinity"
+			x: -3.5d
+			y: 7.75d
+		}
+		{
+			id: "32B232F94EB66AEB"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "70058A6BA8B6E56C"
+				item: { Count: 100, id: "gtceu:meta_null_ingot" }
+				type: "item"
+			}]
+			title: "0: Null"
+			x: -9.75d
+			y: 7.75d
+		}
+		{
+			id: "46EA5B8D90AABC18"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "62AB19F40586ECBA"
+				item: { Count: 100, id: "gtceu:monium_ingot" }
+				type: "item"
+			}]
+			title: "169: Monium"
+			x: -2.25d
+			y: 7.75d
+		}
+		{
+			id: "648A123D59A959EE"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				count: 100L
+				id: "00E59ADD76CDB21D"
+				item: { Count: 100, id: "gtceu:omnium_ingot" }
+				type: "item"
+			}]
+			title: "130: Omnium"
+			x: -4.75d
+			y: 7.75d
+		}
+		{
+			id: "748E1C91FC151D51"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "724877F2D2F3015A"
+				item: "gtceu:hyperdegenerate_matter_bucket"
+				type: "item"
+			}]
+			title: "250: Hyperdegenerate Matter"
+			x: 2.75d
+			y: 7.75d
 		}
 	]
 	title: "Periodic Table"

@@ -369,7 +369,7 @@
 
 	[Loot.Melody_Plushie]
 		#Melody Plushie drop chance from cat morning gifts in percentage
-		Drop_Chance = 0.05
+		Drop_Chance = 0.0
 
 	[Loot.Sculk_Lens]
 		#Sculk Lens loot chance from ancient cities in percentage

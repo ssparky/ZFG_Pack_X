@@ -8,6 +8,9 @@ ServerEvents.tags("item", event => {
     // Tantalum capacitor get capacitor tag (doesnt seem to break progression anywhere, tant cap is more expensive than regular cap or smd cap anyway.)
     event.add("gtceu:capacitors", "gtceu:tantalum_capacitor")
 
+    // Witherbone forge:witherbones tag
+    event.add("forge:wither_bones", "kubejs:wither_bone")
+
     // Dye tags
     event.add("forge:dyes/brown", "gtceu:hematite_dust")
     event.add("forge:dyes/brown", "gtceu:basic_copper_chromate_dust")
@@ -51,5 +54,9 @@ ServerEvents.tags("item", event => {
     event.add("forge:crops/red_grape", ["vinery:red_grape", "vinery:savanna_grapes_red", "vinery:taiga_grapes_red", "vinery:jungle_grapes_red"])
     event.add("forge:crops/grape", ["vinery:white_grape", "vinery:red_grape", "vinery:savanna_grapes_white", "vinery:taiga_grapes_white", "vinery:jungle_grapes_white", "vinery:savanna_grapes_red", "vinery:taiga_grapes_red", "vinery:jungle_grapes_red", "oceansdelight:sea_grape"])
     event.add("forge:crops/cherry", "vinery:cherry")
+
+    // Food tags
+    event.add("forge:raw_fishes/calamari", ["oceanic_delight:squid_tentacles", "oceanic_delight:glow_squid_tentacles"])
+    event.add("forge:cooked_fishes/calamari", "oceans_delight:grilled_squid_tentacles")
     
 })

@@ -198,6 +198,41 @@
 			x: 6.75d
 			y: 1.0d
 		}
+		{
+			id: "3EEDF27161BF96F1"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "1DC17DD2A6273400"
+					item: "gtceu:item_filter"
+					type: "item"
+				}
+				{
+					id: "235CF7A257AE1FFE"
+					item: "gtceu:item_tag_filter"
+					type: "item"
+				}
+				{
+					id: "494C071EF375299A"
+					item: "gtceu:item_smart_filter"
+					type: "item"
+				}
+				{
+					id: "65BCC64384956550"
+					item: "gtceu:fluid_filter"
+					type: "item"
+				}
+				{
+					id: "79E7DE746BC8DCCA"
+					item: "gtceu:fluid_tag_filter"
+					type: "item"
+				}
+			]
+			title: "Filters"
+			x: 2.25d
+			y: -2.75d
+		}
 	]
 	title: "Getting Started (LV/MV)"
 }

@@ -92,6 +92,14 @@
   "item.kubejs.pyrotheum_dust": "§6Pyrotheum Dust",
   "item.kubejs.primal_mana": "Primal Mana Dust",
 
+  "item.kubejs.blitz_rod": "Blitz Mote",
+  "item.kubejs.blizz_rod": "Blizz Cube",
+  "item.kubejs.basalz_rod": "Basalz Beam",
+
+  "item.kubejs.blitz_dust": "Blitz Powder",
+  "item.kubejs.blizz_dust": "Blizz Powder",
+  "item.kubejs.basalzdust": "Basalz Powder",
+
   "item.kubejs.destabilized_clathrate": "Destabilized Clathrate",
   "item.kubejs.energized_clathrate": "Energized Clathrate",
   "item.kubejs.resonant_clathrate": "Resonant Clathrate",
@@ -331,7 +339,7 @@
   "fluid.kubejs.molten_cryotheum": "§bGelid Cryotheum",
   "fluid.kubejs.molten_petrotheum": "§8Tectonic Petrotheum",
   "fluid.kubejs.molten_aerotheum": "§7Zephyrean Aerotheum",
-
+  
   "block.kubejs.molten_pyrotheum": "§6Blazing Pyrotheum",
   "block.kubejs.molten_cryotheum": "§bGelid Cryotheum",
   "block.kubejs.molten_petrotheum": "§8Tectonic Petrotheum",

@@ -33,7 +33,17 @@ ServerEvents.recipes(event => {
         }).id(`kubejs:shaped/${tier}_polymerization_chamber`)
     })
     // MB Recipe goes here
-
+    event.shaped("gtceu:polymer_multi", [
+        "ACA",
+        "PBP",
+        "AWA"
+    ], {
+        A: "gtceu:polytetrafluoroethylene_plate",
+        B: "gtceu:iv_polymerization_chamber",
+        C: "#gtceu:circuits/iv",
+        P: "gtceu:iv_electric_pump",
+        W: "gtceu:platinum_single_cable"
+    })
 
     // Polyethylene
     event.remove({id:"gtceu:chemical_reactor/polyethylene_from_air"})

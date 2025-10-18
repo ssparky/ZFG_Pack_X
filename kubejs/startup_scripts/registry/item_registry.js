@@ -410,6 +410,20 @@ StartupEvents.registry("item", event => {
         .rarity("epic")
         .texture("kubejs:item/mod/thermal/elemental_dusts/primal_mana")
 
+    event.create("blitz_rod")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/blitz_rod")
+    event.create("blizz_rod")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/blizz_rod")
+    event.create("basalz_rod")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/basalz_rod")
+
+    event.create("blitz_dust")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/blitz_powder")
+    event.create("blizz_dust")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/blizz_powder")
+    event.create("basalz_dust")
+        .texture("kubejs:item/mod/thermal/elemental_dusts/basalz_powder")
+
     event.create("destabilized_clathrate")
         .rarity("uncommon")
         .texture("kubejs:item/mod/thermal/clathrate/destabilized_clathrate")

@@ -7,7 +7,6 @@ if (Platform.isLoaded("create")) {
 
         // Removes any machines related to processing, the point of this compat is fun not functionality,
 
-
         /* Removes recipes for machines that were not removed, deployers and mechanical crafters are fun!
         Most recipe categories that are removed machines are hidden in
         kubejs/assets/emi/recipe/filters/hidecategories.json as opposed to removing the actual recipes */

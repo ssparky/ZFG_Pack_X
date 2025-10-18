@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
                 "48x gtceu:raw_goethite",
                 "64x gtceu:raw_yellow_limonite",
                 "32x gtceu:raw_garnierite",
-                "32x gtceu:raw_nickel",
+                "32x gtceu:raw_ullmannite",
             )
     })
 
@@ -59,6 +59,7 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_chalcopyrite",
                 "48x gtceu:raw_chalcopyrite",
                 "16x gtceu:raw_zeolite",
+                "16x gtceu:raw_mohite",
             )
     })
 
@@ -72,6 +73,8 @@ ServerEvents.recipes(event => {
                 "48x gtceu:raw_silver",
                 "56x gtceu:raw_galena",
                 "32x gtceu:raw_lead",
+                "16x gtceu:raw_xilingolite",
+                "16x gtceu:raw_xanthoconite",
             )
     })
 
@@ -88,6 +91,7 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_ruby",
                 "32x gtceu:raw_ruby",
                 "32x gtceu:raw_cinnabar",
+                "16x gtceu:raw_lorandite",
             )
     })
 
@@ -100,6 +104,7 @@ ServerEvents.recipes(event => {
             .itemOutputs(
                 "64x gtceu:raw_uraninite",
                 "48x gtceu:raw_pitchblende",
+                "16x gtceu:raw_xenotime",
             )
     })
 
@@ -113,6 +118,7 @@ ServerEvents.recipes(event => {
                 "48x gtceu:raw_salt",
                 "48x gtceu:raw_rock_salt",
                 "64x gtceu:raw_saltpeter",
+                "16x gtceu:raw_schizolite",
             )
     })
 
@@ -142,6 +148,8 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_ilmenite",
                 "64x gtceu:raw_bauxite",
                 "16x gtceu:raw_aluminium",
+                "8x gtceu:raw_brookite",
+                "8x gtceu:raw_anatase",
             )
     })
 
@@ -158,6 +166,7 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_scheelite",
                 "64x gtceu:raw_tungstate",
                 "64x gtceu:raw_tungstate",
+                "16x gtceu:raw_tungstite",
             )
     })
 
@@ -170,7 +179,8 @@ ServerEvents.recipes(event => {
             .itemOutputs(
                 "32x kubejs:radium_salt",
                 "16x gtceu:raw_lepidolite",
-                "16x gtceu:raw_pollucite"
+                "16x gtceu:raw_pollucite",
+                "16x gtceu:raw_microcline",
             )
     })
 
@@ -213,6 +223,9 @@ ServerEvents.recipes(event => {
                 "48x gtceu:raw_pyrolusite",
                 "64x gtceu:raw_spessartine",
                 "32x gtceu:raw_wulfenite",
+                "24x gtceu:raw_teallite",
+                "16x gtceu:raw_manganite",
+                "8x gtceu:raw_manganvesuvianite",
             )
     })
 
@@ -226,7 +239,8 @@ ServerEvents.recipes(event => {
                 "32x gtceu:raw_cobalt",
                 "64x gtceu:raw_cobaltite",
                 "64x gtceu:raw_nickel",
-                "48x gtceu:raw_pentlandite"
+                "48x gtceu:raw_pentlandite",
+                "16x gtceu:raw_azurite",
             )
     })
 
@@ -242,6 +256,8 @@ ServerEvents.recipes(event => {
                 "24x gtceu:raw_sodalite",
                 "32x gtceu:raw_lazurite",
                 "24x gtceu:raw_calcite",
+                "16x gtceu:raw_strontianite",
+                "8x gtceu:raw_witherite",
             )
     })
 
@@ -256,9 +272,9 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_nether_quartz",
                 "64x gtceu:raw_nether_quartz",
                 "64x gtceu:raw_nether_quartz",
-                "64x gtceu:raw_nether_quartz",
-                "64x gtceu:raw_nether_quartz",
-                "32x gtceu:raw_nether_quartz",
+                "64x gtceu:raw_opal",
+                "64x gtceu:raw_citrine",
+                "32x gtceu:raw_black_opal",
                 "48x gtceu:raw_quartzite"
             )
     })
@@ -274,6 +290,8 @@ ServerEvents.recipes(event => {
                 "32x gtceu:raw_zincite",
                 "24x gtceu:raw_chalcocite",
                 "16x gtceu:raw_gypsum",
+                "16x gtceu:raw_phosphophyllite",
+                "8x gtceu:raw_legrandite",
             )
     })
 
@@ -287,10 +305,11 @@ ServerEvents.recipes(event => {
             .itemOutputs(
                 "64x gtceu:raw_diamond",
                 "64x gtceu:raw_diamond",
-                "64x gtceu:raw_diamond",
+                "64x gtceu:raw_moissanite",
                 "64x gtceu:raw_emerald",
                 "64x gtceu:raw_emerald",
                 "64x gtceu:raw_sapphire",
+                "32x gtceu:raw_green_sapphire",
             )
     })
 
@@ -306,6 +325,7 @@ ServerEvents.recipes(event => {
                 "32x gtceu:raw_fluorite",
                 "64x gtceu:raw_topaz",
                 "32x gtceu:raw_blue_topaz",
+                "8x gtceu:raw_triplite",
             )
     })
 
@@ -320,6 +340,7 @@ ServerEvents.recipes(event => {
                 "24x gtceu:raw_apatite",
                 "48x gtceu:raw_neodymium",
                 "32x gtceu:raw_monazite",
+                "16x gtceu:raw_wakefieldite",
             )
     })
 
@@ -351,6 +372,8 @@ ServerEvents.recipes(event => {
                 "24x gtceu:raw_rock_salt",
                 "32x gtceu:raw_lepidolite",
                 "48x gtceu:raw_spodumene",
+                "8x gtceu:raw_labyrinthite",
+                "8x gtceu:raw_rubellite",
             )
     })
 })

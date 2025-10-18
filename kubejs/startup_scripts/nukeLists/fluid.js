@@ -19,7 +19,6 @@ global.fluidNukeList = [
     "gtceu:molten_kanthal",
     "gtceu:iron_ii_chloride",   // Removing the FluidProperty causes errors in GT's hard-coded recipes
 
-
     // Sophisticated Core
     "sophisticatedcore:xp_still",
     "create_enchantment_industry:experience",

@@ -57,6 +57,7 @@ ServerEvents.recipes(event => {
     solidify("solidified_oxygen", Fluid.of("gtceu:oxygen"), "kubejs:solidified_oxygen");
     solidify("solidified_radon", Fluid.of("gtceu:radon"), "kubejs:solidified_radon");
     solidify("solidified_xenon", Fluid.of("gtceu:xenon"), "kubejs:solidified_xenon");
+    solidify("solidified_bromine", Fluid.of("gtceu:bromine"), "kubejs:solidified_bromine");
 
 
     function solidify(recipename, input, output) {

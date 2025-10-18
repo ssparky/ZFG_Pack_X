@@ -199,11 +199,11 @@ ServerEvents.recipes(event => {
         "AFA"
     ], {
         A: "minecraft:quartz",
-        B: "kubejs:aerotheum_dust",
-        C: "kubejs:cryotheum_dust",
+        B: "kubejs:blitz_rod",
+        C: "kubejs:blizz_rod",
         D: "extendedcrafting:luminessence_block",
-        E: "minecraft:blaze_powder",
-        F: "kubejs:petrotheum_dust"
+        E: "minecraft:blaze_rod",
+        F: "kubejs:basalz_rod"
     }) // TODO: Optional, dusts were rods before. Would need to add rods with kjs
 
     event.shaped("minecraft:nether_star", [
@@ -577,8 +577,8 @@ ServerEvents.recipes(event => {
     // JEAN Gasoline consumption
     event.recipes.gtceu.combustion_generator("jean_gasoline_generator")
         .inputFluids("gtceu:jean_gasoline 1")
-        .duration(2560)
-        .EUt(-32)
+        .duration(160)
+        .EUt(-GTValues.V[GTValues.MV])
 
     // JEAN Gasoline
     event.recipes.gtceu.large_chemical_reactor("kubejs:jean_gasoline")
@@ -974,4 +974,12 @@ ServerEvents.recipes(event => {
         .EUt(7)
         .duration(20*40)
         .circuit(1)
+
+    // PCL is nylon-6, so it should make good carbon fibers by GT logic
+    event.recipes.gtceu.autoclave("carbon_fibers_pcl")
+        .itemInputs("4x #forge:dusts/carbon")
+        .inputFluids("gtceu:polycaprolactam 9")
+        .itemOutputs("16x gtceu:carbon_fibers")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(1.85*20)
 })  

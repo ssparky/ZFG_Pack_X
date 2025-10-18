@@ -40,6 +40,7 @@ global.itemNukeList = [
     "ad_astra:steel_ingot",
     "ad_astra:steel_plate",
     "ad_astra:steel_rod",
+    "ad_astra:ice_shard",
 
     // Applied Energistics 2
     "ae2:vibration_chamber",
@@ -201,9 +202,15 @@ global.itemNukeList = [
     "farm_and_charm:plow",
     "farmersdelight:apple_cider",
     "displaydelight:apple_cider",
+    "rusticdelight:calamari",
+    "rusticdelight:cooked_calamari",
+    "rusticdelight:calamari_slice",
+    "rusticdelight:cooked_calamari_slice",
 
     // Baubly heart canisters
     /^bhc:.*wither.*/,
+    /^bhc:.*_heart_melted/,
+    "bhc:blade_of_vitality",
 
     // Spartan Shields
     /^spartanshields:manasteel_.*/,
@@ -214,6 +221,9 @@ global.itemNukeList = [
     /^spartanshields:refined_.*/,
     /^spartanshields:.*_mekanists_.*/,
     /^spartanshields:dark_steel_.*/,
+
+    // ME Beam Former
+    "me_beam_former:wireless_energy_tower",
 ];
 
 // Create Compat

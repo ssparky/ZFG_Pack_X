@@ -340,4 +340,34 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xE2E218)
         .iconSet(GTMaterialIconSet.FINE)
         .components("2x potassium", "1x chromium", "4x oxygen")
+        
+})
+
+// Bromine Line Redux
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    event.create("brine")
+        .fluid()
+        .color(0xD7A76B)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("hot_brine")
+        .fluid()
+        .color(0xF1C895)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("hot_chlorinated_brine")
+        .fluid()
+        .color(0x71614E)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("chlorinated_brine_waste")
+        .fluid()
+        .color(0x948675)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+
+    event.create("impure_bromine")
+        .fluid()
+        .color(0xC6673A)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+        
 })

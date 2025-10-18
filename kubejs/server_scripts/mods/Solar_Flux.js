@@ -21,14 +21,14 @@ ServerEvents.recipes(event => {
         M: "solarflux:mirror",
         W: "gtceu:fine_copper_wire",
         S: "minecraft:stone_slab",
-        C: "laserio:energy_overclocker_card_tier_1"
+        C: "#gtceu:circuits/ulv"
     })
     event.recipes.gtceu.assembler("sp_1")
         .itemInputs([
             Item.of("solarflux:mirror", 3),
             Item.of("gtceu:fine_copper_wire", 3),
             Item.of("minecraft:stone_slab", 2),
-            Item.of("laserio:energy_overclocker_card_tier_1", 1)
+            "1x #gtceu:circuits/ulv"
         ])
         .itemOutputs("2x solarflux:sp_1")
         .duration(2400)
@@ -36,11 +36,11 @@ ServerEvents.recipes(event => {
 
     // All the other panels follow a pattern until 7
     let solarCrafting = [
-        ["gtceu:tin_single_cable", "minecraft:redstone_block", "gtceu:cupronickel_plate", "laserio:energy_overclocker_card_tier_2"],
-        ["gtceu:electrical_steel_plate", "gtceu:conductive_alloy_block", "gtceu:electrical_steel_gear", "laserio:energy_overclocker_card_tier_3"],
-        ["gtceu:microversium_ingot", "gtceu:end_steel_block", "gtceu:microversium_ingot", "laserio:energy_overclocker_card_tier_4"],
-        ["gtceu:lumium_plate", "gtceu:sunnarium_dust", "gtceu:lumium_plate", "laserio:energy_overclocker_card_tier_5"],
-        ["gtceu:signalum_plate", "gtceu:enriched_sunnarium_dust", "gtceu:signalum_plate", "laserio:energy_overclocker_card_tier_6"]
+        ["gtceu:tin_single_cable", "minecraft:redstone_block", "gtceu:cupronickel_plate", "#gtceu:circuits/lv"],
+        ["gtceu:electrical_steel_plate", "gtceu:conductive_alloy_block", "gtceu:electrical_steel_gear", "#gtceu:circuits/mv"],
+        ["gtceu:microversium_ingot", "gtceu:end_steel_block", "gtceu:microversium_ingot", "#gtceu:circuits/hv"],
+        ["gtceu:lumium_plate", "gtceu:sunnarium_dust", "gtceu:lumium_plate", "#gtceu:circuits/ev"],
+        ["gtceu:signalum_plate", "gtceu:enriched_sunnarium_dust", "gtceu:signalum_plate", "#gtceu:circuits/iv"]
     ]
 
     solarCrafting.forEach((ingredients, index) => {
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
 
     // T7
     event.recipes.gtceu.assembler("sp_7")
-        .itemInputs("2x solarflux:sp_6", "3x solarflux:photovoltaic_cell_5", "2x gtceu:osmium_plate", "laserio:energy_overclocker_card_tier_7")
+        .itemInputs("2x solarflux:sp_6", "3x solarflux:photovoltaic_cell_5", "2x gtceu:osmium_plate", "#gtceu:circuits/luv")
         .inputFluids("gtceu:signalum 1296")
         .itemOutputs("2x solarflux:sp_7")
         .duration(2400)
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 
     // T8
     event.recipes.gtceu.assembly_line("sp_8")
-        .itemInputs("2x solarflux:sp_7", "3x solarflux:photovoltaic_cell_6", "2x gtceu:osmiridium_plate", "laserio:energy_overclocker_card_tier_8")
+        .itemInputs("2x solarflux:sp_7", "3x solarflux:photovoltaic_cell_6", "2x gtceu:osmiridium_plate", "#gtceu:circuits/zpm")
         .inputFluids("gtceu:enderium 1296")
         .itemOutputs("2x solarflux:sp_8")
         ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack("solarflux:sp_7").EUt(480).duration(1200))
@@ -122,6 +122,14 @@ ServerEvents.recipes(event => {
         S: "gtceu:silver_plate"
     })
 
+    // Photovoltaic Compound
+    event.recipes.gtceu.mixer("photovoltaic_compound")
+        .itemInputs("2x gtceu:lapis_dust", "6x gtceu:silicon_dust", "3x gtceu:selenium_dust")
+        .itemOutputs("11x gtceu:photovoltaic_compound_dust")
+        .circuit(3)
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(220)
+
     // Photovoltaic Cell T1
     event.shaped("6x solarflux:photovoltaic_cell_1", [
         "LLL",
@@ -135,7 +143,7 @@ ServerEvents.recipes(event => {
 
     // Photovoltaic Cells T2-6
     let cellCrafting = [
-        [2, "enderio:photovoltaic_plate", "gtceu:battery_alloy_plate"],
+        [2, "gtceu:photovoltaic_compound_dust", "gtceu:battery_alloy_plate"],
         [3, "gtceu:germanium_plate", "gtceu:annealed_copper_plate"],
         [4, "gtceu:light_blue_glass_lens", "gtceu:vibrant_alloy_plate"],
         [5, "gtceu:sunnarium_plate", "gtceu:sunnarium_plate"],

@@ -72,16 +72,16 @@
     "targetList": [
       {
         "name": "minecraft_head",
-        "textureId": "minecraft:textures/entity/player/",
+        "textureId": "minecraft:skins/c4dc0e888148eb69a4cf27c0a536c4cdb8a59821",
         "priority": 5,
         "disablingDepth": 0.1,
         "targetConfig": {
           "forwardU": 0.1875,
-          "forwardV": 0.2,
-          "upwardU": 0.1875,
-          "upwardV": 0.075,
-          "posU": 0.1875,
-          "posV": 0.2
+          "forwardV": 0.1875,
+          "upwardU": 0.6875,
+          "upwardV": 0.0625,
+          "posU": 0.6875,
+          "posV": 0.1875
         },
         "bindConfig": {
           "bindX": false,
@@ -91,7 +91,7 @@
         },
         "offsets": {
           "scale": 1.0,
-          "x": -0.1,
+          "x": -0.027478449,
           "y": 0.0,
           "z": 0.0,
           "pitch": 0.0,

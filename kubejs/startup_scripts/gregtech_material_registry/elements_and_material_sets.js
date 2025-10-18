@@ -98,6 +98,8 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
     // Aetherium
     event.create("aetherium")
         .symbol("❂")
+        .protons(555)
+        .neutrons(2427)
 
     // Tiberium
     event.create("tiberium")
@@ -176,9 +178,10 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
     // Why does this need to be an element?
 
     event.create("dilithium")
-        .protons(119)
-        .neutrons(229)
+        .protons(3)
+        .neutrons(9)
         .symbol("Dl")
+        .isIsotope(true)
 })
 
 

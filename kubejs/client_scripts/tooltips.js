@@ -90,11 +90,29 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("gtceu:naquadah_refinery", Text.translatable("gtceu.multiblock.naquadah_refinery.description"))
     tooltip.add("gtceu:simulation_supercomputer", Text.translatable("gtceu.multiblock.simulation_supercomputer.description"))
     tooltip.add("gtceu:loot_superfabricator", Text.translatable("gtceu.multiblock.loot_superfabricator.description"))
+    tooltip.add("gtceu:fission_reactor_rtg", Text.translatable("gtceu.multiblock.fission_reactor_rtg.description"))
+    tooltip.add("gtceu:fission_reactor_power", Text.translatable("gtceu.multiblock.fission_reactor_power.description"))
+    tooltip.add("gtceu:fission_reactor_breeder", Text.translatable("gtceu.multiblock.fission_reactor_breeder.description"))
+    tooltip.add("gtceu:steel_pump", Text.translatable("gtceu.multiblock.steel_pump.description"))
+    tooltip.add("gtceu:aluminium_pump", Text.translatable("gtceu.multiblock.aluminium_pump.description"))
+    tooltip.add("gtceu:stainless_steel_pump", Text.translatable("gtceu.multiblock.stainless_steel_pump.description"))
+    tooltip.add("gtceu:lapidary_dynamo", Text.translatable("gtceu.multiblock.lapidary_dynamo.description"))
 
     // Singleblocks
     tooltip.addAdvanced(["gtceu:lv_atomic_reconstructor", "gtceu:mv_atomic_reconstructor", "gtceu:hv_atomic_reconstructor", "gtceu:ev_atomic_reconstructor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.lvev_atomic_reconstructor.desc"))) })
     tooltip.addAdvanced(["gtceu:iv_atomic_reconstructor", "gtceu:luv_atomic_reconstructor", "gtceu:zpm_atomic_reconstructor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.ivzpm_atomic_reconstructor.desc"))) })
-    tooltip.addAdvanced(["gtceu:uv_atomic_reconstructor", "gtceu:uhv_atomic_reconstructor", "gtceu:uev_atomic_reconstructor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uvuiv_atomic_reconstructor.desc"))) })
+    tooltip.addAdvanced(["gtceu:uv_atomic_reconstructor", "gtceu:uhv_atomic_reconstructor", "gtceu:uev_atomic_reconstructor", "gtceu:uiv_atomic_reconstructor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uvuiv_atomic_reconstructor.desc"))) })
+    tooltip.addAdvanced(["gtceu:uxv_atomic_reconstructor", "gtceu:opv_atomic_reconstructor"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uxvmax_atomic_reconstructor.desc"))) })
+
+    tooltip.addAdvanced(["gtceu:lv_soul_binder", "gtceu:mv_soul_binder", "gtceu:hv_soul_binder", "gtceu:ev_soul_binder"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.lvev_soul_binder.desc"))) })
+    tooltip.addAdvanced(["gtceu:iv_soul_binder", "gtceu:luv_soul_binder", "gtceu:zpm_soul_binder"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.ivzpm_soul_binder.desc"))) })
+    tooltip.addAdvanced(["gtceu:uv_soul_binder", "gtceu:uhv_soul_binder", "gtceu:uev_soul_binder", "gtceu:uiv_soul_binder"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uvuiv_soul_binder.desc"))) })
+    tooltip.addAdvanced(["gtceu:uxv_soul_binder", "gtceu:opv_soul_binder"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uxvmax_soul_binder.desc"))) })
+
+    tooltip.addAdvanced(["gtceu:lv_polymerization_chamber", "gtceu:mv_polymerization_chamber", "gtceu:hv_polymerization_chamber", "gtceu:ev_polymerization_chamber"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.lvev_polymerization_chamber.desc"))) })
+    tooltip.addAdvanced(["gtceu:iv_polymerization_chamber", "gtceu:luv_polymerization_chamber", "gtceu:zpm_polymerization_chamber"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.ivzpm_polymerization_chamber.desc"))) })
+    tooltip.addAdvanced(["gtceu:uv_polymerization_chamber", "gtceu:uhv_polymerization_chamber", "gtceu:uev_polymerization_chamber", "gtceu:uiv_polymerization_chamber"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uvuiv_polymerization_chamber.desc"))) })
+    tooltip.addAdvanced(["gtceu:uxv_polymerization_chamber", "gtceu:opv_polymerization_chamber"], (item, adv, text) => { text.add(1, Text.gray(Text.translatable("block.gtceu.uxvmax_polymerization_chamber.desc"))) })
 
     tooltip.addAdvanced("gtceu:naquadah_reactor", (item, adv, text) => {
         text.add(1, [Text.gray("A reactor that produces energy from "), Text.gold(Text.translate("item.kubejs.naquadah_fuel_rod")), Text.gray(" decay.")])
@@ -107,11 +125,20 @@ ItemEvents.tooltip(tooltip => {
         ["atmospheric_accumulator", "gas_collector"],
         ["matter_alterator", "atomic_reconstruction"],
         ["implosion_collider", "implosion_compressor"],
-        ["quintessence_infuser", "quintessence_infuser"],
+        ["quintessence_infuser", "soul_binding"],
         ["dimensional_superassembler", "assembly_line"],
         ["sculk_biocharger", "discharger"],
         ["simulation_quantumcomputer", "simulation_supercomputer"],
         ["loot_quantumfabricator", "loot_superfabricator"],
+        ["gem_growing_vat", "gem_growing_vat"],
+        ["neutron_chamber", "neutron_chamber"],
+        ["mega_chemical_reactor", "large_chemical_reactor"],
+        ["large_auto_crafter", "large_auto_crafter"],
+        ["hydroponics_plant", "greenhouse"],
+        ["industrial_fishery", "industrial_fishery"],
+        ["ore_processing_factory", "ore_processing_factory"],
+        ["polymer_multi", "polymerization"],
+        ["universal_synchronizer", "universal_synchronizer"]
     ]
 
     parallelMultis.forEach(multi => {

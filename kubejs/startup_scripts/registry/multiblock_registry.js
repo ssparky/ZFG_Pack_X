@@ -200,7 +200,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("industrial_fishery")
         .category("multiblock")
         .setEUIO("in")
-        .setMaxIOSize(2, 6, 1, 0)
+        .setMaxIOSize(3, 6, 0, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
     // Ore Processing Factory
@@ -318,6 +318,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             "gtceu:block/multiblock/loot_fabricator")
 
     // Helical Fusion Reactor
+    FusionReactorMachine.registerFusionTier(GTValues.UHV, " (Helical)")
     event.create("helical_fusion_reactor", "multiblock")
         .machine((holder) => new FusionReactorMachine(holder, GTValues.UEV))
         .rotationState(RotationState.ALL)
@@ -993,11 +994,12 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("gem_growing_vat", "multiblock")
         .machine((holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeTypes("gem_growing_vat")
+        .recipeTypes(["gem_growing_vat", GTRecipeTypes.AUTOCLAVE_RECIPES])
         .recipeModifiers(
             [
                 GTRecipeModifiers.PARALLEL_HATCH,  
-                (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe)
+                (machine, recipe) => GTRecipeModifiers.pyrolyseOvenOverclock(machine, recipe),
+                GTRecipeModifiers.OC_PERFECT
             ]
         )
         //.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT])
@@ -1345,4 +1347,45 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .build())
         .workableCasingModel("gtceu:block/casings/gcym/reaction_safe_mixing_casing",
             "gtceu:block/machines/polymerizer")
+
+    // Universal Synchronizer
+    event.create("universal_synchronizer", "multiblock")
+        .rotationState(RotationState.ALL)
+        .recipeTypes(["universal_synchronizer", "atomic_reconstruction"]) // Wonder if this works?? Would be cool
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
+        .appearanceBlock(GCYMBlocks.CASING_LASER_SAFE_ENGRAVING)
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("###############", "#####CCCCC#####", "###  E   E  ###", "###  E   E  ###", "###     E   ###", "###     E   ###", "###    E    ###", "###    E    ###", "###   E     ###", "###   E     ###", "###  E      ###", "###  E      ###", "#####CCCCC#####", "###############")
+            .aisle("###############", "###CCNNNNNCC###", "##   M   M   ##", "##   M   M   ##", "##  E M      ##", "##  E M      ##", "## E   M     ##", "## E   M     ##", "##      M    ##", "##      M    ##", "##       M E ##", "##       M E ##", "###CCNNNNNCC###", "###############")
+            .aisle("###############", "##CNNNNNNNNNC##", "#             #", "#             #", "#         M   #", "#         M   #", "#          M  #", "#          M  #", "# EM        E #", "# EM        E #", "#   M         #", "#   M         #", "##CNNNNNNNNNC##", "###############")
+            .aisle("#####CCCCC#####", "#CNNNHHHHHNNNC#", "     GGGGG     ", "     GGGGG     ", "     GGGGG     ", "     GGGGG     ", "  M  GGGGG   E ", "  M  GGGGG   E ", "     GGGGG  M  ", "     GGGGG  M  ", " E   GGGGG     ", " E   GGGGG     ", "#CNNNHHHHHNNNC#", "#####CCCCC#####")
+            .aisle("####CCCCCCC####", "#CNNHHHNHHHNNC#", "    GGG GGG    ", "    GGG GGG    ", "  M GGG GGG  E ", "  M GGG GGG  E ", "    GGG GGG    ", "    GGG GGG    ", "    GGG GGG    ", "    GGG GGG    ", "    GGG GGG M  ", "    GGG GGG M  ", "#CNNNHHHHHNNNC#", "####CCCCCCC####")
+            .aisle("###CCCCCCCCC###", "CNNHHNNNNNHHNNC", "EM GG     GG EM", "EM GG     GG EM", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", " M GG     GG  E", " M GG     GG  E", "CNNHHNNNNNHHNNC", "###CCCCCCCCC###")
+            .aisle("###CCCCCCCCC###", "CNNHHNNNNNHHNNC", "   GG   A GG   ", "   GG  A  GG   ", "E  GG A   GG M ", "E  GG     GG M ", "   GG   A GG   ", "   GG  A  GG   ", " M GG A   GG  E", " M GG     GG  E", "   GG   A GG   ", "   GG  A  GG   ", "CNNHHNNNNNHHNNC", "###CCCCCCCCC###")
+            .aisle("###CCCCCCCCC###", "CNNHNNNNNNNHNNC", "   G   F   G   ", "   G   F   G   ", "   G   F   G   ", "   G  AFA  G   ", "EM G   F   G EM", "EM G   F   G EM", "   G   F   G   ", "   G  AFA  G   ", "   G   F   G   ", "   G   F   G   ", "CNNHHNNNNNHHNNC", "###CCCCCCCCC###")
+            .aisle("###CCCCCCCCC###", "CNNHHNNNNNHHNNC", "   GG A   GG   ", "   GG  A  GG   ", " M GG   A GG  E", " M GG     GG  E", "   GG A   GG   ", "   GG  A  GG   ", "E  GG   A GG M ", "E  GG     GG M ", "   GG A   GG   ", "   GG  A  GG   ", "CNNHHNNNNNHHNNC", "###CCCCCCCCC###")
+            .aisle("###CCCCCCCCC###", "CNNHHNNNNNHHNNC", "EM GG     GG EM", "EM GG     GG EM", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "   GG     GG   ", "E  GG     GG M ", "E  GG     GG M ", "CNNHHNNNNNHHNNC", "###CCCCCCCCC###")
+            .aisle("####CCCCCCC####", "#CNNHHHNHHHNNC#", "    GGG GGG    ", "    GGG GGG    ", " E  GGG GGG M  ", " E  GGG GGG M  ", "    GGG GGG    ", "    GGG GGG    ", "    GGG GGG    ", "    GGG GGG    ", "  M GGG GGG    ", "  M GGG GGG    ", "#CNNNHHHHHNNNC#", "####CCCCCCC####")
+            .aisle("#####CCCCC#####", "#CNNNHHHHHNNNC#", "     GGGGG     ", "     GGGGG     ", "     GGGGG     ", "     GGGGG     ", " E   GGGGG  M  ", " E   GGGGG  M  ", "  M  GGGGG     ", "  M  GGGGG     ", "     GGGGG   E ", "     GGGGG   E ", "#CNNNHHHHHNNNC#", "#####CCCCC#####")
+            .aisle("###############", "##CNNNNNNNNNC##", "#             #", "#             #", "#   M         #", "#   M         #", "#  M          #", "#  M          #", "# E        ME #", "# E        ME #", "#         M   #", "#         M   #", "##CNNNNNNNNNC##", "###############")
+            .aisle("###############", "###CCNNNNNCC###", "##   M   M   ##", "##   M   M   ##", "##      M E  ##", "##      M E  ##", "##     M   E ##", "##     M   E ##", "##    M      ##", "##    M      ##", "## E M       ##", "## E M       ##", "###CCNNNNNCC###", "###############")
+            .aisle("###############", "#####CC@CC#####", "###  E   E  ###", "###  E   E  ###", "###   E     ###", "###   E     ###", "###    E    ###", "###    E    ###", "###     E   ###", "###     E   ###", "###      E  ###", "###      E  ###", "#####CCCCC#####", "###############")
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("C", Predicates.blocks("gtceu:laser_safe_engraving_casing").setMinGlobalLimited(16)
+                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.INPUT_LASER).setMaxGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1)))
+            .where("G", Predicates.blocks("monilabs:prism_glass"))
+            .where("N", Predicates.blocks("monilabs:dimensional_stabilization_netherite_casing"))
+            .where("H", Predicates.blocks("monilabs:chromodynamic_conduction_casing"))
+            .where("F", Predicates.blocks("gtceu:fusion_coil"))
+            .where("A", Predicates.blocks("ae2:spatial_pylon"))
+            .where("E", Predicates.blocks("monilabs:eltz_frame"))
+            .where("M", Predicates.blocks("monilabs:crystal_matrix_frame"))
+            .where("#", Predicates.any())
+            .where(" ", Predicates.air())
+            .build())
+        .workableCasingModel("gtceu:block/casings/gcym/laser_safe_engraving_casing",
+            "gtceu:block/machines/reconstructor")
 })

@@ -51,10 +51,10 @@ ServerEvents.recipes(event => {
             .inputFluids("minecraft:lava 8000")
             .damageRate(-30)
             .itemOutputs(
-                "16x minecraft:blaze_rod",
-                "16x thermal:blizz_rod",
-                "16x thermal:blitz_rod",
-                "16x thermal:basalz_rod",
+                "32x minecraft:blaze_powder",
+                "32x kubejs:aerotheum_dust",
+                "32x kubejs:cryotheum_dust",
+                "32x kubejs:petrotheum_dust",
             )
             .requiredMicroverse(2) // Hostile : Normal
     })
@@ -82,10 +82,11 @@ ServerEvents.recipes(event => {
             .inputFluids("minecraft:lava 12000")
             .damageRate(-30)
             .itemOutputs(
-                "16x enderio:enderman_head",
+                "16x spartanweaponry:enderman_head",
                 "16x minecraft:ender_pearl",
                 "16x minecraft:ender_pearl",
                 "16x minecraft:shulker_shell",
+                "8x kubejs:ender_spore"
             )
             .requiredMicroverse(2) // Hostile : Normal
     })
@@ -168,10 +169,7 @@ ServerEvents.recipes(event => {
                 "64x gtceu:raw_darmstadtite",
                 "64x gtceu:raw_darmstadtite",
                 "64x gtceu:raw_darmstadtite",
-                "64x gtceu:raw_darmstadtite",
-                "64x gtceu:raw_darmstadtite",
-                "64x gtceu:raw_darmstadtite",
-                "64x gtceu:raw_darmstadtite"
+                "32x gtceu:raw_darmstadtite"
             )
             .requiredMicroverse(1) // Normal
     })
@@ -201,19 +199,20 @@ ServerEvents.recipes(event => {
             .itemInputs("64x gtceu:dilithium_gem")
             .itemInputs("kubejs:elite_drilling_kit")
             .itemInputs("gtceu:duranium_drill_head")
-            .itemInputs("4x nuclearcraft:plate_du")
+            .itemInputs("4x kubejs:du_radiation_shielding_plate")
             .itemInputs(
                 "6x gtceu:uranium_block",
                 "4x kubejs:warden_horn",
             )
             .damageRate(10)
             .itemOutputs(
+                "64x gtceu:raw_torbernite",
+                "64x gtceu:raw_torbernite",
+                "64x gtceu:raw_ekanite",
                 "64x gtceu:raw_plutonium",
                 "64x gtceu:raw_plutonium",
                 "64x gtceu:raw_plutonium",
-                "64x gtceu:raw_plutonium",
-                "64x gtceu:raw_plutonium",
-                "64x gtceu:raw_plutonium",
+                "64x gtceu:raw_plutonium"
             )
             .requiredMicroverse(1) // Normal
     })
@@ -226,6 +225,8 @@ ServerEvents.recipes(event => {
             .itemInputs("gtceu:osmium_dust")
             .damageRate(10)
             .itemOutputs(
+                "64x gtceu:raw_sperrylite",
+                "64x gtceu:raw_rhodplumsite",
                 "32x gtceu:raw_iridosmine",
             )
             .requiredMicroverse(3) // Shattered
@@ -239,6 +240,8 @@ ServerEvents.recipes(event => {
             .itemInputs("gtceu:iridium_dust")
             .damageRate(10)
             .itemOutputs(
+                "64x gtceu:raw_temagamite",
+                "64x gtceu:raw_rhodplumsite",
                 "32x gtceu:raw_osmiridium",
             )
             .requiredMicroverse(3) // Shattered

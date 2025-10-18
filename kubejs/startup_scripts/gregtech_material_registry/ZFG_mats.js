@@ -150,13 +150,18 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .blastTemp(10000, "higher", GTValues.VA[GTValues.UHV], 400)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FOIL)
 
-    // TODO:
+    // comment after material creation indicates there's still something TODO!
     event.create("promethium_technetium_tiberate") // UIV Hull
+        .ingot().fluid()
+        .components("4x promethium", "3x technetium", "6x tiberium")
+        .color(0xBEFBAD).secondaryColor(0x0B6136).iconSet("dull")
 
     event.create("degenerate_rutherfordium_seaborgium_telluride") // UXV Hull
+        .ingot().fluid()
+        .components("1x hyperdegenerate_matter", "1x rutherfordium", "5x seaborgium", "8x tellurium")
+        .color(0xDCA34E).secondaryColor(0x621A1A).iconSet("metallic")
 
-    event.create("finalite") // MAX Hull / Pipe
-
+    
     event.create("green_steel") // EV SC
         .ingot().fluid()
         .components("1x scandium", "1x emerald", "4x black_steel", "2x steel")
@@ -173,17 +178,40 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(134217728, 128, 512, false);
 
+    event.create("finalite") // MAX Hull / Pipe
+        .ingot().fluid()
+        .components("1x hssx", "2x stellarium", "9x omnium", "4x oganesson", "2x chromatic_steel")
+        .color(0xA97DFA).secondaryColor(0x312968).iconSet("shiny")
+
     event.create("aetherium_roentgenium_nihonium_rubidium_iodate") // OpV Cable
+        .ingot().fluid()
+        .components("2x aetherium", "5x roentgenium", "1x nihonium", "4x rubidium", "4x iodine")
+        .color(0x238EBF).secondaryColor(0x10464D).iconSet("shiny")
 
     event.create("rare_earth_taraniate") // UEV SC
+        .ingot().fluid()
+        .components("1x lanthanum", "3x holmium", "5x thulium", "2x lutetium", "3x neodymium", "4x gadolinium", "1x taranium")
+        .color(0x8AA572).secondaryColor(0x4D572F).iconSet("dull")
 
     event.create("osmium_taranium_einsteinium_caesium_omniate") // UIV SC
+        .ingot().fluid()
+        .components("1x osmium", "2x taranium", "4x einsteinium", "7x caesium", "7x omnium")
+        .color(0xEFE97B).secondaryColor(0x94710A).iconSet("dull")
 
     event.create("eltic_neptunium_seaborgium_terbium_germanium_carbide") // UXV SC
+        .ingot().fluid()
+        .components("1x eltz", "3x neptunium", "4x terbium", "8x germanium", "2x carbon")
+        .color(0x4E8176).secondaryColor(0x02241C).iconSet("metallic")
 
     event.create("nobelium_polonium_oganesson_promethium_selenium_silicide") // OpV SC
+        .ingot().fluid()
+        .components("3x nobelium", "2x polonium", "5x oganesson", "4x promethium", "7x selenium", "12x silicon")
+        .color(0x0D2C1B).secondaryColor(0x000000).iconSet("shiny")
 
     event.create("omnium_doped_niobium_yttrium_neutronate") // UIV Pipe
+        .ingot().fluid()
+        .components("1x omnium", "3x niobium", "5x yttrium", "6x neutronium")
+        .color(0xEAB3F3).secondaryColor(0x4A4A4A).iconSet("rough")
 
     event.create("warped_null") // OpV Pipe
 
@@ -195,7 +223,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("eternium") // OpV/MAX Coil
 
-    event.create("hss_x") // ZPM/UV/UHV electrode - include praseodymium perhaps?
+    event.create("hssx") // ZPM/UV/UHV electrode - include praseodymium perhaps?
+        .ingot().fluid()
+        .color(0x44E48C).secondaryColor(0x058263).iconSet("metallic")
+        .components("3x green_steel", "6x hsse", "2x hsss", "5x praseodymium", "2x tritanium", "7x selenium")
+        .rotorStats(330, 170, 9.0, 4700)
+        .blastTemp(8000, "highest", GTValues.VA[GTValues.ZPM], 800)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, 
+            GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_GEAR,
+            GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_ROUND)
 
     event.create("rubidium_yttrium_ytterbium_germanium_nitride") // UXV/OpV electrode
 
@@ -232,6 +268,35 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("taranium_silver_lutetium") // UEV Emitter Foil
 
     event.create("ceric_ammonium_nitrate") // UIV+ etchant
+
+    event.create("scandium_yttrium_ytterbium")
+        .ingot().fluid()
+        .color(0x498F4F).secondaryColor(0x204D39).iconSet("shiny")
+        .components("3x scandium", "2x yttrium", "1x ytterbium")
+        .formula("Sc3Y2Yb")
+        .itemPipeProperties(16, 10)
+        .blastTemp(5200, "high", GTValues.VA[GTValues.LuV], 400)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME)
+
+    event.create("enriched_rhenium_naquadide")
+        .ingot().fluid()
+        .color(0xDCC7D7).secondaryColor(0x2B2126).iconSet("metallic")
+        .components("2x rhenium", "1x enriched_naquadah")
+        .formula("Re2Nq+")
+        .fluidPipeProperties(7700, 128, true, false, true, true)
+        .blastTemp(5400, "higher", GTValues.VHA[GTValues.LuV], 480)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD)
+
+    event.create("vanaderbium")
+        .ingot().fluid()
+        .color(0x9F71C2).secondaryColor(0x271252).iconSet("metallic")
+        .components("6x vanadium", "1x erbium")
+        .formula("V6Er")
+        .itemPipeProperties(8192, 4)
+        .rotorStats(120, 225, 6.0, 2700)
+        .blastTemp(3600, "mid", GTValues.VA[GTValues.EV], 240)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, 
+            GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROTOR)
 
     // Polymers and Rubbers
     event.create("polypropylene")
@@ -351,6 +416,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("photovoltaic_compound")
         .dust()
         .color(0x578691).secondaryColor(0x1D214E).iconSet("shiny")
+        .components("2x lapis", "6x silicon", "3x selenium")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
 })

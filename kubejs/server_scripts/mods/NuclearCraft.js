@@ -284,15 +284,33 @@ ServerEvents.recipes(event => {
     })
 
     // Controllers (TODO:)
-    // event.shaped("nuclearcraft:fission_reactor_controller", [
-    //     "DED",
-    //     "EFE",
-    //     "DED"
-    // ], {
-    //     F: "gtceu:robust_machine_casing",
-    //     E: "#gtceu:circuits/ev",
-    //     D: "nuclearcraft:plate_advanced"
-    // })
+    event.shaped("gtceu:fission_reactor_power", [
+        "DED",
+        "EFE",
+        "DED"
+    ], {
+        F: "gtceu:robust_machine_casing",
+        E: "#gtceu:circuits/ev",
+        D: "kubejs:du_radiation_shielding_plate"
+    })
+    event.shaped("gtceu:fission_reactor_breeder", [
+        "DED",
+        "EFE",
+        "DED"
+    ], {
+        F: "gtceu:high_temperature_smelting_casing",
+        E: "#gtceu:circuits/ev",
+        D: "gtceu:double_molybdenum_disilicide_plate"
+    })
+    event.shaped("gtceu:fission_reactor_rtg", [
+        "DED",
+        "EFE",
+        "DED"
+    ], {
+        F: "gtceu:stable_machine_casing",
+        E: "#gtceu:circuits/hv",
+        D: "gtceu:double_lead_plate"
+    })
 
     // Fission recipes
     const fissionFuels = [
@@ -341,7 +359,9 @@ ServerEvents.recipes(event => {
             .duration(time*20)
         event.recipes.gtceu.fission_reactor_breeder(`${type}_fuel_breeder`)
             .itemInputs(`kubejs:${type}_fuel_pellet`)
+            .inputFluids("kubejs:gelid_cryotheum 500")
             .itemOutputs(`kubejs:depleted_${type}_fuel_pellet`)
+            .outputFluids("minecraft:water 500")
             .EUt(power**1.15)
             .duration((time*20)/3)
         event.recipes.gtceu.fission_reactor_rtg(`${type}_fuel_rtg`)

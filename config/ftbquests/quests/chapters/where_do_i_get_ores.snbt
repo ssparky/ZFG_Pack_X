@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "where_do_i_get_ores"
+	group: "799537D85E25757D"
+	icon: "minecraft:deepslate_diamond_ore"
+	id: "07468F5B2CB43430"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0E894EE17FA5F1CB"
+				"13D9CAAF59E5C059"
+			]
+			description: [
+				"A common question for newcomers to GregTech when it comes to resource gathering is where to get certain ores.\\n"
+				"Or, in other words, &e\"Where do I get x resource?\".\\n"
+				"This guide chapter will provide a brief overview of which ores you should look for to get which resources. Please note that most resources can be obtained from many ores, so this guide focuses primarily on which ores can be directly smelted into their respective ingots.\\n"
+				"Also, for the sake of simplicity, this guide mainly considers the overworld. Other dimensions may have more of certain ores, or even exclusive ores. These will only be mentioned if they are relevant to early game progression."
+			]
+			icon: "minecraft:diamond_ore"
+			id: "496CAC5B9C5CB5A5"
+			shape: "circle"
+			tasks: [{
+				id: "185634007E8099CD"
+				type: "checkmark"
+			}]
+			title: "What Ores Give Me What?"
+			x: -0.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Coal really only has one viable vein source: Massive veins consisting purely of &eraw Coal&f.\\n "
+				"You will need to smelt the raw coal to get usable coal, but each raw coal gives 2 coal pieces, so it's not all bad."
+				""
+				"&eGraphite &fveins tend to be more common, but generate very deep down and only contain trace amounts of coal."
+				"Do &cnot &ftry to use Graphite veins to get coal for early game: you'll find a desire to kill yourself very soon if you do try."
+			]
+			icon: "minecraft:coal"
+			id: "1F21490BDE00E7EA"
+			tasks: [{
+				id: "0160CF5EAEBE9007"
+				type: "checkmark"
+			}]
+			title: "Coal Veins"
+			x: -5.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: ["Gold does not have any veins directly associated with it. It generates in moderate quantities in all &eMagnetite &fveins and some &eHematite &fveins, so you'll get plenty from your iron mining expeditions."]
+			icon: "minecraft:gold_ingot"
+			id: "157B75D49135ACAB"
+			tasks: [{
+				id: "2062DFEC943A2824"
+				type: "checkmark"
+			}]
+			title: "Gold Veins"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Iron has two primary veins you should look for: Veins containing &eMagnetite&f, which also contain gold, and veins of &eHematite&f, &eGoethite&f, and &eLimonite&f, which can contain either gold or copper in the form of Malachite."
+				""
+				"&eMineral Sands Veins&f are also an okay option, as they make up for being poor by usually generating very high up. Both &eGranitic Mineral Sand &fand &eBasaltic Mineral Sand &fcan be smelted into iron."
+				""
+				"If you're feeling desperate, you can also look for either veins containing &ePyrite &fand &epure Iron&f, or veins with &eTriphyllite &fand &ePhosphosiderite&f. These are either deep down, uncommon, or both, but still give decent amounts of iron."
+			]
+			icon: "minecraft:iron_ingot"
+			id: "35B81242DD945204"
+			shape: "square"
+			tasks: [{
+				id: "76988A3B566AF0B4"
+				type: "checkmark"
+			}]
+			title: "Iron Veins"
+			x: -5.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"&eCopper &fis primarily found in spherical veins containing &epure copper &fand &etetrahedrite&f. These veins also contain Stibnite, which is an ore of Antimony (which will be somewhat useful later)."
+				""
+				"Failing that, another decent source of copper is from veins containing &eChalcopyrite&f. These often also contain iron ores, but are not very dense and usually generate quite deep down."
+				""
+				"As a third option, you can also look for veins containing &eAzurite&f, &eMalachite&f, and/or &eMixite&f. These are not as common and also not usually very dense, but can give copper in a pinch."
+			]
+			icon: "minecraft:copper_ingot"
+			id: "4413973F3430E315"
+			shape: "square"
+			tasks: [{
+				id: "679EDFDF299955EE"
+				type: "checkmark"
+			}]
+			title: "Copper Veins"
+			x: -5.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Tin really only has two sources. The main source is from veins of &eCassiterite &fand &epure Tin&f. These tend to be snakey and not that dense, but make up for it by consisting purely of tin ores."
+				""
+				"The other option is to find a vein of &eCassiterite Sand&f. This vein has a lot of junk in it, including Garnet Sand, Diatomine, and Asbestos, all three of which are useless in the early game."
+				"Still, since each raw Cassiterite ore smelts into two tin ingots, the yield won't be too bad."
+			]
+			icon: "gtceu:tin_ingot"
+			id: "242C89F379D580CE"
+			tasks: [{
+				id: "0A0B1C2E7469914E"
+				type: "checkmark"
+			}]
+			title: "Tin Veins"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Lead is almost always found alongside Silver in veins. There are two main lead veins: the first contains &eGalena &fand &epure Lead&f, while the second contains &eGalena&f, &eTeallite&f, and &eXilingolite&f. Both are viable for lead and silver mining."
+				""
+				"You can also get Lead from &eTemagamite&f, which spawns as part of very rare Platinum veins in the overworld. Given the rarity of these veins though, this is &cnot &fa very viable source of Lead."
+			]
+			icon: "gtceu:lead_ingot"
+			id: "41BE0FC073620158"
+			tasks: [{
+				id: "595CD8FF93C5BA96"
+				type: "checkmark"
+			}]
+			title: "Lead Veins"
+			x: 1.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: ["Silver exclusively spawns as part of Lead veins. &ePure Silver &fcan be found in veins of Galena and pure Lead, while &eXanthoconite&f can be found in veins of Galena, Teallite, and Xilingolite."]
+			icon: "gtceu:silver_ingot"
+			id: "2F16C8DE1604E097"
+			tasks: [{
+				id: "63B32ED678AFA1A2"
+				type: "checkmark"
+			}]
+			title: "Silver Veins"
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Nickel really only has one associated vein. It contains &epure Nickel&f, &eGarnierite&f, and &ePentlandite&f. It will also give you some Cobalt on the side."
+				""
+				"As with lead, you can find some Nickel in the form of &eMelonite &fin the very rare Platinum veins. Given the rarity, it is &cnot &fworth going for these as a Nickel source."
+			]
+			icon: "gtceu:nickel_ingot"
+			id: "197DC4118B0BD190"
+			tasks: [{
+				id: "27B155F9155523DC"
+				type: "checkmark"
+			}]
+			title: "Nickel Veins"
+			x: 3.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: ["You can find Zinc in small amounts in Sulfur veins in the overworld, in the form of &eSphalerite&f. The nether is has much richer veins of it though, so it would be best to go there for Zinc instead."]
+			icon: "gtceu:zinc_ingot"
+			id: "6B83C756A677A529"
+			tasks: [{
+				id: "24B8AA12BC6A5819"
+				type: "checkmark"
+			}]
+			title: "Zinc Veins"
+			x: 3.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"You can find some &eQuartzite &fand &eCertus Quartz &fin the overworld if you're in desperate need of quartz.\\n"
+				"However, the best place for quartz of all kinds is the nether. It has veins of all three main quartz types in spades."
+			]
+			icon: "gtceu:quartzite_gem"
+			id: "33D5ECB137514405"
+			tasks: [{
+				id: "601088C845668291"
+				type: "checkmark"
+			}]
+			title: "Quartz Veins"
+			x: 3.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Diamonds generate in small quantities in &eGraphite veins&f, which generate very deep down, usually near bedrock.\\n"
+				"&eMoissanite veins &fmay also contain some Diamonds, but these veins are smaller and not too common, so Graphite veins are more consistent."
+			]
+			icon: "minecraft:diamond"
+			id: "5D232DFA50F667DC"
+			tasks: [{
+				id: "462934E93177EDD2"
+				type: "checkmark"
+			}]
+			title: "Diamond Veins"
+			x: -2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: [
+				"Redstone spawns in its own vein, alongside Ruby and Cinnabar. This is quite a common vein type, so you should have no trouble finding one.\\n"
+				"They generate in deepslate, but usually not massively far down."
+			]
+			icon: "minecraft:redstone"
+			id: "055189AFFD027635"
+			tasks: [{
+				id: "45BFD5B370F31593"
+				type: "checkmark"
+			}]
+			title: "Redstone Veins"
+			x: -1.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: ["Emerald generates in a vein with other Beryllium-containing gems, including &eEuclase &fand &eChrysoberyl&f. The vein is not very common, so keep an eye out for it while prospecting. "]
+			icon: "minecraft:emerald"
+			id: "4591688B7DC487C1"
+			tasks: [{
+				id: "4487CF6EEA6CFC8C"
+				type: "checkmark"
+			}]
+			title: "Emerald Veins"
+			x: 0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["496CAC5B9C5CB5A5"]
+			description: ["Lapis is an uncommon inclusion in veins of &eCalcite&e, &eLazurite&f, and &eSodalite&f. Since this is the only source of lapis, and the vein is not very common, it can be quite the struggle to find Lapis sometimes."]
+			icon: "minecraft:lapis_lazuli"
+			id: "39B9D51FA9767851"
+			tasks: [{
+				id: "46D4CD539D1A87FA"
+				type: "checkmark"
+			}]
+			title: "Lapis Veins"
+			x: -0.25d
+			y: -4.5d
+		}
+	]
+	title: "Where do I get ores?"
+}

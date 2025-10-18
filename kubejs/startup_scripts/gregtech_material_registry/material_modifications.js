@@ -339,7 +339,8 @@ GTCEuStartupEvents.materialModification(event => {
         ["lithium", "lithium", "sodium", "lithium", "dilithium", null, null],
         ["opal", "opal", "basaltic_mineral_sand", "black_opal", "black_opal", null, null],
         ["molybdenum", "molybdenite", "molybdenum_trioxide", "tungsten_trioxide", "molybdenum", null, "molybdenum"],
-        ["alunite", "magnesite", "alunite", "microcline", "aluminium", null, null]
+        ["alunite", "magnesite", "alunite", "microcline", "aluminium", null, null],
+        ["zincite", "iron", "manganese", "manganese", "iron", null, "zinc"]
 
     ]
     for (const [id, bp1, bp2, bp3, bp4, wash, smelt] of modOres) {
