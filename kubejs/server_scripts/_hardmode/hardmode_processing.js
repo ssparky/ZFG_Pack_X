@@ -77,13 +77,14 @@ ServerEvents.recipes(event => {
         )
         .inputFluids(Fluid.of("gtceu:sterilized_growth_medium", 4000))
         .itemOutputs("24x gtceu:wetware_circuit_board")
-        .cleanroom(CleanroomType.STERILE_CLEANROOM)
+        .cleanroom(CleanroomType.CLEANROOM)
         .duration(1200)
         .EUt(30720)
 
     // Recipe conflict
     // Styrene
     event.remove({ id: "gtceu:chemical_reactor/styrene_from_ethylbenzene" })
+    event.remove({ id: "gtceu:large_chemical_reactor/styrene_from_ethylbenzene" })
 
     event.recipes.gtceu.chemical_reactor("styrene_from_ethylbenzene_hm")
         .inputFluids("gtceu:ethylbenzene 1000")

@@ -59,40 +59,46 @@ if (Platform.isLoaded("railways")) {
         event.add("kubejs:create_tracks", "railways:track_bamboo_narrow");
         event.add("kubejs:create_tracks", "railways:track_stripped_bamboo_narrow");
 
-        if (Platform.isLoaded("biomesoplenty")) { // fuck it, we BoP
+        if (Platform.isLoaded("natures_spirit")) { // fuck it, we BoP - hell nah, we NSP
             // normal rails
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_dead");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_fir");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_hellbark");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_jacaranda");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_magic");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_mahogany");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_palm");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_redwood");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_umbran");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_willow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_redwood");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_sugi");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_wisteria");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_fir");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_willow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_aspen");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_maple");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_cypress");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_olive");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_joshua");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_ghaf");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_palo_verde");
             // wide rails
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_dead_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_fir_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_hellbark_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_jacaranda_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_magic_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_mahogany_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_palm_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_redwood_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_umbran_wide");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_willow_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_redwood_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_sugi_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_wisteria_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_fir_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_willow_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_aspen_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_maple_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_cypress_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_olive_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_joshua_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_ghaf_wide");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_palo_verde_wide");
             // narrow rails
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_dead_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_fir_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_hellbark_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_jacaranda_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_magic_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_mahogany_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_palm_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_redwood_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_umbran_narrow");
-            event.add("kubejs:create_tracks", "railways:track_biomesoplenty_willow_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_redwood_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_sugi_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_wisteria_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_fir_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_willow_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_aspen_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_maple_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_cypress_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_olive_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_joshua_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_ghaf_narrow");
+            event.add("kubejs:create_tracks", "railways:track_natures_spirit_palo_verde_narrow");
         }
     })
     ServerEvents.recipes(event => {
@@ -230,40 +236,46 @@ if (Platform.isLoaded("railways")) {
         narrowTrackRecipes("railways:track_cherry", "railways:track_cherry_narrow", "minecraft:cherry_slab", 1);
         narrowTrackRecipes("railways:track_bamboo", "railways:track_bamboo_narrow", "minecraft:bamboo", 1);
         narrowTrackRecipes("railways:track_stripped_bamboo", "railways:track_stripped_bamboo_narrow", "minecraft:bamboo_slab", 1);
-        if (Platform.isLoaded("biomesoplenty")) { // fuck it, we BoP again
+        if (Platform.isLoaded("natures_spirit")) { // fuck it, we BoP again - nope, still NSP
             // Normal-gauge tracks
-            normalTrackRecipes("biomesoplenty:dead_slab", "railways:track_biomesoplenty_dead", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:fir_slab", "railways:track_biomesoplenty_fir", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:hellbark_slab", "railways:track_biomesoplenty_hellbark", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:jacaranda_slab", "railways:track_biomesoplenty_jacaranda", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:magic_slab", "railways:track_biomesoplenty_magic", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:mahogany_slab", "railways:track_biomesoplenty_mahogany", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:palm_slab", "railways:track_biomesoplenty_palm", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:redwood_slab", "railways:track_biomesoplenty_redwood", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:umbran_slab", "railways:track_biomesoplenty_umbran", "minecraft:iron_nugget", 1);
-            normalTrackRecipes("biomesoplenty:willow_slab", "railways:track_biomesoplenty_willow", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:redwood_slab", "railways:track_natures_spirit_redwood", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:sugi_slab", "railways:track_natures_spirit_sugi", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:wisteria_slab", "railways:track_natures_spirit_wisteria", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:fir_slab", "railways:track_natures_spirit_fir", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:willow_slab", "railways:track_natures_spirit_willow", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:aspen_slab", "railways:track_natures_spirit_aspen", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:maple_slab", "railways:track_natures_spirit_maple", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:cypress_slab", "railways:track_natures_spirit_cypress", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:olive_slab", "railways:track_natures_spirit_olive", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:joshua_slab", "railways:track_natures_spirit_joshua", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:ghaf_slab", "railways:track_natures_spirit_ghaf", "minecraft:iron_nugget", 1);
+            normalTrackRecipes("natures_spirit:palo_verde_slab", "railways:track_natures_spirit_palo_verde", "minecraft:iron_nugget", 1);
             // Wide-gauge tracks
-            wideTrackRecipes("railways:track_biomesoplenty_dead", "biomesoplenty:dead_slab", "railways:track_biomesoplenty_dead_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_fir", "biomesoplenty:fir_slab", "railways:track_biomesoplenty_fir_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_hellbark", "biomesoplenty:hellbark_slab", "railways:track_biomesoplenty_hellbark_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_jacaranda", "biomesoplenty:jacaranda_slab", "railways:track_biomesoplenty_jacaranda_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_magic", "biomesoplenty:magic_slab", "railways:track_biomesoplenty_magic_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_mahogany", "biomesoplenty:mahogany_slab", "railways:track_biomesoplenty_mahogany_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_palm", "biomesoplenty:palm_slab", "railways:track_biomesoplenty_palm_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_redwood", "biomesoplenty:redwood_slab", "railways:track_biomesoplenty_redwood_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_umbran", "biomesoplenty:umbran_slab", "railways:track_biomesoplenty_umbran_wide", 1);
-            wideTrackRecipes("railways:track_biomesoplenty_willow", "biomesoplenty:willow_slab", "railways:track_biomesoplenty_willow_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_redwood", "natures_spirit:redwood_slab", "railways:track_natures_spirit_redwood_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_sugi", "natures_spirit:sugi_slab", "railways:track_natures_spirit_sugi_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_wisteria", "natures_spirit:wisteria_slab", "railways:track_natures_spirit_wisteria_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_fir", "natures_spirit:fir_slab", "railways:track_natures_spirit_fir_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_willow", "natures_spirit:willow_slab", "railways:track_natures_spirit_willow_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_aspen", "natures_spirit:aspen_slab", "railways:track_natures_spirit_aspen_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_maple", "natures_spirit:maple_slab", "railways:track_natures_spirit_maple_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_cypress", "natures_spirit:cypress_slab", "railways:track_natures_spirit_cypress_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_olive", "natures_spirit:olive_slab", "railways:track_natures_spirit_olive_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_joshua", "natures_spirit:joshua_slab", "railways:track_natures_spirit_joshua_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_ghaf", "natures_spirit:ghaf_slab", "railways:track_natures_spirit_ghaf_wide", 1);
+            wideTrackRecipes("railways:track_natures_spirit_palo_verde", "natures_spirit:palo_verde_slab", "railways:track_natures_spirit_palo_verde_wide", 1);
             // Narrow-gauge tracks
-            narrowTrackRecipes("railways:track_biomesoplenty_dead", "railways:track_biomesoplenty_dead_narrow", "biomesoplenty:dead_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_fir", "railways:track_biomesoplenty_fir_narrow", "biomesoplenty:fir_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_hellbark", "railways:track_biomesoplenty_hellbark_narrow", "biomesoplenty:hellbark_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_jacaranda", "railways:track_biomesoplenty_jacaranda_narrow", "biomesoplenty:jacaranda_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_magic", "railways:track_biomesoplenty_magic_narrow", "biomesoplenty:magic_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_mahogany", "railways:track_biomesoplenty_mahogany_narrow", "biomesoplenty:mahogany_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_palm", "railways:track_biomesoplenty_palm_narrow", "biomesoplenty:palm_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_redwood", "railways:track_biomesoplenty_redwood_narrow", "biomesoplenty:redwood_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_umbran", "railways:track_biomesoplenty_umbran_narrow", "biomesoplenty:umbran_slab", 1);
-            narrowTrackRecipes("railways:track_biomesoplenty_willow", "railways:track_biomesoplenty_willow_narrow", "biomesoplenty:willow_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_redwood", "railways:track_natures_spirit_redwood_narrow", "natures_spirit:redwood_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_sugi", "railways:track_natures_spirit_sugi_narrow", "natures_spirit:sugi_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_wisteria", "railways:track_natures_spirit_wisteria_narrow", "natures_spirit:wisteria_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_fir", "railways:track_natures_spirit_fir_narrow", "natures_spirit:fir_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_willow", "railways:track_natures_spirit_willow_narrow", "natures_spirit:willow_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_aspen", "railways:track_natures_spirit_aspen_narrow", "natures_spirit:aspen_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_maple", "railways:track_natures_spirit_maple_narrow", "natures_spirit:maple_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_cypress", "railways:track_natures_spirit_cypress_narrow", "natures_spirit:cypress_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_olive", "railways:track_natures_spirit_olive_narrow", "natures_spirit:olive_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_joshua", "railways:track_natures_spirit_joshua_narrow", "natures_spirit:joshua_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_ghaf", "railways:track_natures_spirit_ghaf_narrow", "natures_spirit:ghaf_slab", 1);
+            narrowTrackRecipes("railways:track_natures_spirit_palo_verde", "railways:track_natures_spirit_palo_verde_narrow", "natures_spirit:palo_verde_slab", 1);
         }
     });
     console.log("Create: Steam and Rails compat script successfully loaded!")

@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
             .duration(time*20)
         event.recipes.gtceu.fission_reactor_breeder(`${type}_fuel_breeder`)
             .itemInputs(`kubejs:${type}_fuel_pellet`)
-            .inputFluids("kubejs:gelid_cryotheum 500")
+            .inputFluids("kubejs:molten_cryotheum 500")
             .itemOutputs(`kubejs:depleted_${type}_fuel_pellet`)
             .outputFluids("minecraft:water 500")
             .EUt(power**1.15)

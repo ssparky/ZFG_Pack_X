@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
     ], {
         H: "gtceu:uev_machine_hull",
         S: "gtceu:uev_sensor",
-        C: "#gtceu:circuits/max",
+        C: "#gtceu:circuits/uiv",
         E: "gtceu:uev_emitter",
         W: "gtceu:monium_quadruple_wire"
     })
@@ -982,4 +982,23 @@ ServerEvents.recipes(event => {
         .itemOutputs("16x gtceu:carbon_fibers")
         .EUt(GTValues.VA[GTValues.HV])
         .duration(1.85*20)
+
+    // Fixing chromatic steel recipe
+    event.remove({id:"gtceu:alloy_blast_smelter/chromatic_steel"})
+    event.remove({id:"gtceu:alloy_blast_smelter/chromatic_steel_gas"})
+    event.recipes.gtceu.alloy_blast_smelter("chromatic_steel")
+        .itemInputs("gtceu:red_steel_dust", "gtceu:blue_steel_dust", "gtceu:green_steel_dust", "6x kubejs:prism_pane")
+        .outputFluids("gtceu:molten_chromatic_steel 432")
+        .duration(101.25*20)
+        .blastFurnaceTemp(15780)
+        .EUt(GTValues.VA[GTValues.UIV])
+        .circuit(3)
+    event.recipes.gtceu.alloy_blast_smelter("chromatic_steel_gas")
+        .itemInputs("gtceu:red_steel_dust", "gtceu:blue_steel_dust", "gtceu:green_steel_dust", "6x kubejs:prism_pane")
+        .inputFluids("gtceu:xenon 90")
+        .outputFluids("gtceu:molten_chromatic_steel 432")
+        .duration(67.8*20)
+        .blastFurnaceTemp(15780)
+        .EUt(GTValues.VA[GTValues.UIV])
+        .circuit(13)
 })  

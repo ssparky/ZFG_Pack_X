@@ -96,7 +96,10 @@ ServerEvents.recipes(event => {
         ["zpm", "naquadah"],
         ["uv", "duranium"],
         ["uhv", "tritanium"],
-        ["uev", "omnium"]
+        ["uev", "omnium"],
+        ["uiv", "hyperdegenerate_darconite"],
+        ["uxv", "chromatic_steel",],
+        ["opv", "stellarium"]
     ]
     reconstructorrecipe.forEach(([tier, plate]) => {
         event.shaped(`gtceu:${tier}_atomic_reconstructor`, [

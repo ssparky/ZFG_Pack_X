@@ -149,8 +149,8 @@ ServerEvents.recipes(event => {
     })
 
     const rotorHolderMaterials = [
-        { tier: "uhv", large_gear: "actinium", small_gear: "manyullyn" },
-        { tier: "uev", large_gear: "sculk_bioalloy", small_gear: "infinity" },
+        { tier: "uhv", large_gear: "gtceu:actinium", small_gear: "manyullyn" },
+        { tier: "uev", large_gear: "monilabs:transcendental_matrix", small_gear: "infinity" },
     ]
 
     rotorHolderMaterials.forEach((value) => {
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
             "SLS"
         ], {
             S: `gtceu:small_${value.small_gear}_gear`,
-            L: `gtceu:${value.large_gear}_gear`,
+            L: `${value.large_gear}_gear`,
             H: `gtceu:${value.tier}_machine_hull`
         }).id(`shaped/rotor_holder_${value.tier}`)
     })
@@ -263,11 +263,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_electric_motor")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_electric_motor")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(64, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_motor")
@@ -276,11 +275,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_electric_motor")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_electric_motor")
-            .CWUt(128, 512000)
-            .EUt(524288)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Pistons
@@ -290,11 +288,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_electric_piston")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_electric_piston")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(64, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_piston")
@@ -303,11 +300,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_electric_piston")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_electric_piston")
-            .CWUt(128, 512000)
-            .EUt(524288)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Robot Arms
@@ -317,11 +313,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_robot_arm")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_robot_arm")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(64, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_robot_arm")
@@ -330,11 +325,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_robot_arm")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_robot_arm")
-            .CWUt(128, 512000)
-            .EUt(524288)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Sensors
@@ -344,11 +338,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_sensor")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_sensor")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(72, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_sensor")
@@ -357,11 +350,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_sensor")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_sensor")
             .CWUt(128, 512000)
-            .EUt(524288)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Emitters
@@ -371,11 +363,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_emitter")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_emitter")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(72, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_emitter")
@@ -384,11 +375,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_emitter")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_emitter")
             .CWUt(128, 512000)
-            .EUt(524288)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Field Generators
@@ -398,11 +388,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_field_generator")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_field_generator")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(72, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_field_generator")
@@ -411,12 +400,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_field_generator")
         .duration(600)
         .EUt(1966080)
-
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_field_generator")
             .CWUt(128, 512000)
-            .EUt(524288)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Conveyors
@@ -426,11 +413,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_conveyor_module")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_conveyor_module")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(64, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_conveyor")
@@ -439,11 +425,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_conveyor_module")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_conveyor_module")
-            .CWUt(128, 512000)
-            .EUt(524288)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Pumps
@@ -453,11 +438,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uhv_electric_pump")
         .duration(600)
         .EUt(491520)
-
         .stationResearch(b => b
             .researchStack("gtceu:uv_electric_pump")
-            .CWUt(96, 384000)
-            .EUt(368640)
+            .CWUt(64, 384000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("uev_pump")
@@ -466,11 +450,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:uev_electric_pump")
         .duration(600)
         .EUt(1966080)
-
         .stationResearch(b => b
             .researchStack("gtceu:uhv_electric_pump")
-            .CWUt(128, 512000)
-            .EUt(524288)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Fluid Regulators

@@ -18,5 +18,8 @@ values:
   sculkVatEfficiencyMultiplier: 8.0
 
   # Fluid ID for Liquid Experience for the Sculk Vat.
-  sculkVatExperienceFluidID: enderio:xp_juice
+  sculkVatExperienceFluidID: cofh_core:experience
+
+  # Whether to include the hostile microverse tooltip for the microverse type sensor hatch.
+  hostileMicroverseTooltip: true
 

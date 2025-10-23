@@ -234,7 +234,7 @@ ServerEvents.recipes(event => {
         "TTT"
     ], {
         P: "gtceu:double_cryolobus_plate",
-        T: "kubejs:dark_soularium_thruster"
+        T: "kubejs:fluxed_thruster"
     })
 
     event.shaped("ad_astra:calorite_tank", [

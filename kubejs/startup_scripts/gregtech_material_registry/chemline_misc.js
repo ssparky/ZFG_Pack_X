@@ -235,7 +235,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .liquid(1936)
         .color(0x52a5c6).secondaryColor(0x48539b)
-        .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
         .components(GTMaterials.BlueAlloy.multiply(4), GTMaterials.Lead.multiply(2), GTMaterials.Lutetium.multiply(1))
 
 })
@@ -369,5 +369,19 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .fluid()
         .color(0xC6673A)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-        
 })
+
+// Polymer catalysts
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    event.create("samarium_iodide")
+        .dust()
+        .color(0x574ECE).secondaryColor(0x262F3C).iconSet("dull")
+        .components("1x samarium", "2x iodine")
+    
+    event.create("potassium_nonahydridorhenate")
+        .dust()
+        .color(0xC0F5EA).secondaryColor(0x8D9797).iconSet("shiny")
+        .components("2x potassium", "1x rhenium", "9x hydrogen")
+        .formula("K2[ReH9]")
+})
+

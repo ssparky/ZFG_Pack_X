@@ -186,6 +186,7 @@ global.itemNukeList = [
     "moreartifacts:golden_headgear",
     "moreartifacts:netherite_headgear",
     "relics:researching_table",
+    "relics:relic_experience_bottle",
 
     // Display delight having lazy programming
     /^displaydelight:cd_.*/,
@@ -227,19 +228,19 @@ global.itemNukeList = [
 ];
 
 // Create Compat
-// Removes machines related to processing
+// Removes machines related to processing - commented out machines that have non-processing purposes!
 if (Platform.isLoaded("create")) {
     global.itemNukeList.push(
         "create:millstone",
         "create:crushing_wheel",
-        "create:mechanical_plough",
-        "create:mechanical_crafter",
+        //"create:mechanical_plough",
+        //"create:mechanical_crafter",
         "create:mechanical_mixer",
-        "create:mechanical_saw",
-        "create:mechanical_drill",
-        "create:mechanical_harvester",
+        //"create:mechanical_saw",
+        //"create:mechanical_drill",
+        //"create:mechanical_harvester",
         "create:mechanical_press",
-        "create:mechanical_roller",
-        "create:encased_fan"
+        //"create:mechanical_roller",
+        //"create:encased_fan"
     );
 }

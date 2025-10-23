@@ -81,11 +81,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:dimensional_superassembler")
         .duration(6000)
         .EUt(13920000)
-
         .stationResearch(b => b
             .researchStack("gtceu:assembly_line")
             .CWUt(160, 1024000)
-            .EUt(1200000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
 
@@ -103,15 +102,15 @@ ServerEvents.recipes(event => {
 
     // Helical Fusion Reactor
     event.recipes.gtceu.assembly_line("gtceu:helical_fusion_reactor")
-        .itemInputs("gtceu:uv_fusion_reactor", "4x #gtceu:circuits/uev", "16x gtceu:gravi_star", "2x gtceu:double_activated_netherite_plate", "4x gtceu:uhv_field_generator", "64x kubejs:multidimensional_cpu_chip", "64x kubejs:multidimensional_cpu_chip", "64x gtceu:ruthenium_trinium_americium_neutronate_double_wire")
-        .inputFluids("gtceu:advanced_soldering_alloy 11520", "gtceu:omnium 5760", "gtceu:polyethyl_cyanoacrylate 3456")
+        .itemInputs("gtceu:uv_fusion_reactor", "4x #gtceu:circuits/uev", "8x gtceu:gravi_star", "2x gtceu:double_activated_netherite_plate", "4x gtceu:uhv_field_generator", "64x kubejs:uxpic_chip", "64x kubejs:uxpic_chip", "64x gtceu:ruthenium_trinium_americium_neutronate_single_wire")
+        .inputFluids("gtceu:advanced_soldering_alloy 1152", "gtceu:darconite 1152", "gtceu:polyethyl_cyanoacrylate 576")
         .itemOutputs("gtceu:helical_fusion_reactor")
-        .duration(6000)
+        .duration(1500)
         .EUt(GTValues.VA[GTValues.UEV])
         .stationResearch(b => b
             .researchStack("gtceu:uv_fusion_reactor")
-            .CWUt(160, 1024000)
-            .EUt(1200000)
+            .CWUt(108, 1024000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Mega Chemical Reactor
@@ -130,6 +129,79 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UV])
         )
 
+    // Neutron Chamber
+    event.recipes.gtceu.assembly_line("gtceu:neutron_chamber")
+        .itemInputs("6x kubejs:magnetron", "24x kubejs:neutron_emitter", "48x gtceu:neutron_reflector", "4x gtceu:naquadah_alloy_frame", "6x gtceu:zpm_emitter",
+            "12x gtceu:double_beryllium_plate"
+        )
+        .inputFluids("gtceu:advanced_soldering_alloy 11520", "gtceu:lubricant 3456")
+        .itemOutputs("gtceu:neutron_chamber")
+        .duration(2000)
+        .EUt(GTValues.VHA[GTValues.UV])
+        .stationResearch(b => b
+            .researchStack("gtceu:fission_reactor_breeder")
+            .CWUt(64, 768000/1.5)
+            .EUt(GTValues.VA[GTValues.ZPM])
+        )
+
+    // Gem Vat
+    event.recipes.gtceu.assembly_line("gtceu:gem_growing_vat")
+        .itemInputs("2x gtceu:molybdenum_disilicide_coil_block", "9x gtceu:small_manyullyn_gear", "3x gtceu:zpm_electric_pump", "4x gtceu:vanaderbium_rotor",
+            "8x gtceu:stainless_steel_quadruple_fluid_pipe"
+        )
+        .inputFluids("gtceu:advanced_soldering_alloy 8960", "gtceu:lubricant 2500")
+        .itemOutputs("gtceu:gem_growing_vat")
+        .duration(2000)
+        .EUt(GTValues.VHA[GTValues.ZPM])
+        .stationResearch(b => b
+            .researchStack("gtceu:large_autoclave")
+            .CWUt(48, 768000/2)
+            .EUt(GTValues.VA[GTValues.LuV])
+        )
+
+    // Hydroponics Plant
+    event.recipes.gtceu.assembly_line("gtceu:hydroponics_plant")
+        .itemInputs("10x gtceu:glowstone_plate", "24x gtceu:fine_lumium_wire", "64x gtceu:fertilizer", "32x gtceu:fertilizer", "4x gtceu:luv_electric_pump"
+        )
+        .inputFluids("gtceu:advanced_soldering_alloy 5760", "gtceu:glowstone 2560")
+        .itemOutputs("gtceu:hydroponics_plant")
+        .duration(2000)
+        .EUt(GTValues.VHA[GTValues.LuV])
+        .stationResearch(b => b
+            .researchStack("gtceu:greenhouse")
+            .CWUt(32, 768000/4)
+            .EUt(GTValues.VA[GTValues.IV])
+        )
+
+    // Ore Factory
+    event.recipes.gtceu.assembly_line("gtceu:ore_processing_factory")
+        .itemInputs("10x gtceu:titanium_frame", "2x gtceu:large_maceration_tower", "3x gtceu:large_chemical_bath", "2x gtceu:large_centrifuge",
+            "1x gtceu:large_electromagnet", "8x gtceu:niobium_titanium_nonuple_fluid_pipe", "4x gtceu:zpm_electric_motor", "2x gtceu:zpm_conveyor_module"
+        )
+        .inputFluids("gtceu:advanced_soldering_alloy 11520", "gtceu:lubricant 3456")
+        .itemOutputs("gtceu:ore_processing_factory")
+        .duration(2000)
+        .EUt(GTValues.VHA[GTValues.UV])
+        .stationResearch(b => b
+            .researchStack("gtceu:large_maceration_tower")
+            .CWUt(48, 768000/2)
+            .EUt(GTValues.VA[GTValues.ZPM])
+        )
+
+    // Synchronizer
+    event.recipes.gtceu.assembly_line("gtceu:universal_synchronizer")
+        .itemInputs("2x kubejs:field_stabilised_prismatic_pulsar_compound", "8x gtceu:uiv_sensor", "30x monilabs:double_eltz_plate",
+            "8x #gtceu:circuits/uiv", "12x ae2:spatial_anchor", "2x gtceu:helical_fusion_reactor"
+        )
+        .inputFluids("gtceu:universal_soldering_alloy 11520", "gtceu:lubricant 10000", "gtmutils:quantum_coolant 8000")
+        .itemOutputs("gtceu:universal_synchronizer")
+        .duration(2000)
+        .EUt(GTValues.VA[GTValues.UIV])
+        .stationResearch(b => b
+            .researchStack("gtceu:matter_alterator")
+            .CWUt(128, 768000*1.5)
+            .EUt(GTValues.VA[GTValues.UEV])
+        )
 
     // Blacklight
     event.shaped("gtceu:blacklight", [
@@ -208,18 +280,6 @@ ServerEvents.recipes(event => {
         .duration(200)
         .EUt(400)
 
-    // Ultimate Material
-    event.recipes.gtceu.assembly_line("kubejs:the_ultimate_material")
-        .itemInputs("kubejs:warden_heart", "4x kubejs:guardian_scale", "8x kubejs:wither_bone", "12x kubejs:ender_dragon_scale")
-        .itemOutputs("kubejs:the_ultimate_material")
-        .duration(600)
-        .EUt(491520)
-        .stationResearch(b => b
-            .researchStack("kubejs:warden_heart")
-            .CWUt(96, 384000)
-            .EUt(491520)
-        )
-
     // Flux Plating
     event.shaped("4x redstone_arsenal:flux_plating", [
         " P ",
@@ -236,27 +296,50 @@ ServerEvents.recipes(event => {
         .duration(60)
         .EUt(GTValues.VA[GTValues.EV])
 
-    // Vacuum Freezer
-    // Sculk Superconductor Wire
+    // Sculk Superconductor & Hyperdegenerate Darconite
+    const wire_forms = [
+        {multiplier:"single"},
+        {multiplier:"double"},
+        {multiplier:"quadruple"},
+        {multiplier:"octal"},
+        {multiplier:"hex"}
+    ]
+
+    // Ignoring tagPrefixes results in bugged autogenerated recipes
+    wire_forms.forEach((value) => {
+        event.remove({ output: `gtceu:sculk_superconductor_${value.multiplier}_wire`, type: "gtceu:wiremill"})
+        event.remove({ output: `gtceu:hyperdegenerate_darconite_${value.multiplier}_wire`, type: "gtceu:wiremill"})
+    })
+
     event.recipes.gtceu.vacuum_freezer("sculk_superconductor")
-        .itemInputs("gtceu:cryococcus_ingot")
-        .itemOutputs("gtceu:sculk_superconductor_double_wire")
-        .inputFluids(Fluid.of("gtceu:nether_star", 144))
-        .duration(100)
+        .itemInputs("gtceu:cryococcus_single_wire")
+        .itemOutputs("gtceu:sculk_superconductor_single_wire")
+        .inputFluids(Fluid.of("gtceu:nether_star", 72))
+        .duration(40)
         .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu.electric_blast_furnace("hyperdegenerate_darconite_wire")
-        .itemInputs("4x gtceu:darconite_single_wire")
+        .itemInputs(Item.of("gtceu:darconite_single_wire"))
         .itemOutputs("4x gtceu:hyperdegenerate_darconite_single_wire")
         .inputFluids(Fluid.of("gtceu:hyperdegenerate_matter", 40))
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .blastFurnaceTemp(10600)
 
+    event.remove({ id: "gtceu:wiremill/mill_hyperdegenerate_darconite_wire_fine"})
+
     event.recipes.gtceu.electric_blast_furnace("hyperdegenerate_darconite_foil")
         .itemInputs("8x gtceu:darconite_foil")
         .itemOutputs("8x gtceu:hyperdegenerate_darconite_foil")
         .inputFluids(Fluid.of("gtceu:hyperdegenerate_matter", 40))
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .blastFurnaceTemp(10600)
+
+    event.recipes.gtceu.electric_blast_furnace("hyperdegenerate_darconite_fine_wire")
+        .itemInputs("12x gtceu:fine_darconite_wire")
+        .itemOutputs("12x gtceu:fine_hyperdegenerate_darconite_wire")
+        .inputFluids(Fluid.of("gtceu:hyperdegenerate_matter", 30))
         .duration(100)
         .EUt(GTValues.VA[GTValues.ZPM])
         .blastFurnaceTemp(10600)
@@ -321,7 +404,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:hv_world_accelerator")
         .stationResearch(b => b.researchStack("minecraft:clock").CWUt(4, 16000))
         .duration(6000)
-        .EUt(30720)
+        .EUt(GTValues.VA[GTValues.LuV])
 
     event.recipes.gtceu.assembly_line("ev_world_accelerator")
         .itemInputs("gtceu:zpm_machine_hull", "64x gtceu:zpm_field_generator", "16x gtceu:zpm_field_generator", "20x gtceu:zpm_sensor", "20x gtceu:zpm_emitter", "16x #gtceu:circuits/zpm", "4x gtceu:double_europium_plate", "2x gtceu:dense_cryolobus_plate")
@@ -331,8 +414,8 @@ ServerEvents.recipes(event => {
         .EUt(122880)
         .stationResearch(b => b
             .researchStack("gtceu:hv_world_accelerator")
-            .CWUt(32, 128000)
-            .EUt(122880)
+            .CWUt(16, 128000)
+            .EUt(GTValues.VA[GTValues.ZPM])
         )
 
     event.recipes.gtceu.assembly_line("iv_world_accelerator")
@@ -343,8 +426,8 @@ ServerEvents.recipes(event => {
         .EUt(491520)
         .stationResearch(b => b
             .researchStack("gtceu:ev_world_accelerator")
-            .CWUt(64, 256000)
-            .EUt(491520)
+            .CWUt(48, 256000)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
     event.recipes.gtceu.assembly_line("luv_world_accelerator")
@@ -355,8 +438,8 @@ ServerEvents.recipes(event => {
         .EUt(1966080)
         .stationResearch(b => b
             .researchStack("gtceu:iv_world_accelerator")
-            .CWUt(128, 512000)
-            .EUt(1966080)
+            .CWUt(108, 512000)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Beyond this point we could probably just treat these like joke items
@@ -368,8 +451,8 @@ ServerEvents.recipes(event => {
         .EUt(7864320)
         .stationResearch(b => b
             .researchStack("gtceu:luv_world_accelerator")
-            .CWUt(128, 512000)
-            .EUt(7864320)
+            .CWUt(192, 512000)
+            .EUt(GTValues.VA[GTValues.UEV])
         )
 
     // ! Creative Items !//
@@ -451,7 +534,7 @@ ServerEvents.recipes(event => {
         .stationResearch(b => b
             .researchStack("gtceu:data_transmitter_hatch")
             .CWUt(96, 57600)
-            .EUt(1966080)
+            .EUt(GTValues.VA[GTValues.UHV])
         )
 
     // Chromodynamic Conduction Casing
@@ -507,7 +590,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UIV])
         .stationResearch(b => b
             .researchStack("gtceu:monium_plate")
-            .CWUt(96, 57600)
+            .CWUt(144, 57600)
             .EUt(GTValues.VA[GTValues.UXV])
         )
 

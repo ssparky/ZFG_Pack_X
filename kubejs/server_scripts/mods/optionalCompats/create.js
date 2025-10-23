@@ -14,9 +14,9 @@ if (Platform.isLoaded("create")) {
         event.remove({ type: "create:milling" })
         event.remove({ type: "create:crushing" })
         event.remove({ id: "create:crafting/kinetics/millstone" })
-        // event.remove({id: 'create:mechanical_crafting/crushing_wheel'}) //mechanical roller uses this for now
-        event.remove({ id: "create:crafting/kinetics/mechanical_mixer" })
-        event.remove({ id: "create:crafting/kinetics/mechanical_press" })
+        event.remove({id: 'create:mechanical_crafting/crushing_wheel'})
+        // event.remove({ id: "create:crafting/kinetics/mechanical_mixer" })
+        // event.remove({ id: "create:crafting/kinetics/mechanical_press" })
         // Remove the hand crank since it's easy to abuse contraptions using it
         event.remove({ id: "create:crafting/kinetics/hand_crank" })
 
@@ -207,7 +207,7 @@ if (Platform.isLoaded("create")) {
             return event.recipes.gtceu.rock_breaker(`kubejs:${itemName}`)
                 .notConsumable(`${modName}:${itemName}`)
                 .itemOutputs(`${modName}:${itemName}`)
-                ["adjacentFluid(net.minecraft.resources.ResourceLocation[])"]("minecraft:water", "minecraft:lava")
+                ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
                 .duration(16)
                 .EUt(EUt)
         }
@@ -301,7 +301,164 @@ if (Platform.isLoaded("create")) {
 
         event.smelting("create:cardboard", "create:pulp")
 
+        // Non-processing machine GTify
+        event.remove({id:"create:crafting/kinetics/encased_fan"})
+        event.remove({id:"create:crafting/kinetics/mechanical_drill"})
+        event.remove({id:"create:crafting/kinetics/mechanical_saw"})
 
+        event.shaped("create:encased_fan",
+            [
+                " S ",
+                " C ",
+                " R "
+            ],
+            {
+                S:"create:shaft",
+                C:"create:andesite_casing",
+                R:"gtceu:iron_rotor"
+            }
+        ).id("create:encased_fan_1")
+        event.shaped("2x create:encased_fan",
+            [
+                " S ",
+                " C ",
+                " R "
+            ],
+            {
+                S:"create:shaft",
+                C:"create:andesite_casing",
+                R:"gtceu:steel_rotor"
+            }
+        ).id("create:encased_fan_2")
+        event.shaped("4x create:encased_fan",
+            [
+                " S ",
+                " C ",
+                " R "
+            ],
+            {
+                S:"create:shaft",
+                C:"create:andesite_casing",
+                R:"gtceu:chromium_rotor"
+            }
+        ).id("create:encased_fan_3")
+        event.shaped("8x create:encased_fan",
+            [
+                " S ",
+                " C ",
+                " R "
+            ],
+            {
+                S:"create:shaft",
+                C:"create:andesite_casing",
+                R:"gtceu:stainless_steel_rotor"
+            }
+        ).id("create:encased_fan_4")
+
+        event.shaped("create:mechanical_drill",
+            [
+                " D ",
+                " M ",
+                " C "
+            ],
+            {
+                D:"gtceu:iron_drill_head",
+                C:"create:andesite_casing",
+                M:"ulvcovm:ulv_electric_motor"
+            }
+        ).id("create:mechanical_drill_1")
+        event.shaped("2x create:mechanical_drill",
+            [
+                " D ",
+                " M ",
+                " C "
+            ],
+            {
+                D:"gtceu:steel_drill_head",
+                C:"create:andesite_casing",
+                M:"gtceu:lv_electric_motor"
+            }
+        ).id("create:mechanical_drill_2")
+        event.shaped("4x create:mechanical_drill",
+            [
+                " D ",
+                " M ",
+                " C "
+            ],
+            {
+                D:"gtceu:aluminium_drill_head",
+                C:"create:andesite_casing",
+                M:"gtceu:mv_electric_motor"
+            }
+        ).id("create:mechanical_drill_3")
+        event.shaped("8x create:mechanical_drill",
+            [
+                " D ",
+                " M ",
+                " C "
+            ],
+            {
+                D:"gtceu:stainless_steel_drill_head",
+                C:"create:andesite_casing",
+                M:"gtceu:hv_electric_motor"
+            }
+        ).id("create:mechanical_drill_4")
+
+        event.shaped("create:mechanical_saw",
+            [
+                " B ",
+                " M ",
+                " C "
+            ],
+            {
+                B:"gtceu:iron_buzz_saw_blade",
+                C:"create:andesite_casing",
+                M:"ulvcovm:ulv_electric_motor"
+            }
+        ).id("create:mechanical_saw_1")
+        event.shaped("2x create:mechanical_saw",
+            [
+                " B ",
+                " M ",
+                " C "
+            ],
+            {
+                B:"gtceu:steel_buzz_saw_blade",
+                C:"create:andesite_casing",
+                M:"gtceu:lv_electric_motor"
+            }
+        ).id("create:mechanical_saw_2")
+        event.shaped("4x create:mechanical_saw",
+            [
+                " B ",
+                " M ",
+                " C "
+            ],
+            {
+                B:"gtceu:aluminium_buzz_saw_blade",
+                C:"create:andesite_casing",
+                M:"gtceu:mv_electric_motor"
+            }
+        ).id("create:mechanical_saw_3")
+        event.shaped("8x create:mechanical_saw",
+            [
+                " B ",
+                " M ",
+                " C "
+            ],
+            {
+                B:"gtceu:stainless_steel_buzz_saw_blade",
+                C:"create:andesite_casing",
+                M:"gtceu:hv_electric_motor"
+            }
+        ).id("create:mechanical_saw_4")
+
+        event.shapeless("2x create:mechanical_roller",
+            [
+                "create:andesite_casing", "create:shaft", "#minecraft:stone_tool_materials"
+            ]
+        ).id("create:mechanical_roller")
+        
     })
     console.log("Create compat scripts successfully loaded!")
 } else { console.log("Create was not found, skipping its compat scripts.") }

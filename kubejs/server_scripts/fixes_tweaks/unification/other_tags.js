@@ -59,4 +59,20 @@ ServerEvents.tags("item", event => {
     event.add("forge:raw_fishes/calamari", ["oceanic_delight:squid_tentacles", "oceanic_delight:glow_squid_tentacles"])
     event.add("forge:cooked_fishes/calamari", "oceans_delight:grilled_squid_tentacles")
     
+    // Exquisite gem color tags
+    event.add("bhc:exquisite_gems/red", ["gtceu:exquisite_pezzottaite_gem", "gtceu:exquisite_pyrope_gem", "gtceu:exquisite_manganvesuvianite_gem",
+        "gtceu:exquisite_vayrynenite_gem", "gtceu:exquisite_nambulite_gem", "gtceu:exquisite_spinel_gem", "gtceu:exquisite_red_garnet_gem",
+        "gtceu:exquisite_realgar_gem", "gtceu:exquisite_ruby_gem", "gtceu:exquisite_red_beryl_gem", "gtceu:exquisite_villiaumite_gem",
+        "gtceu:exquisite_almandine_gem", "gtceu:exquisite_cinnabar_gem"
+    ])
+    event.add("bhc:exquisite_gems/yellow", ["gtceu:exquisite_yellow_garnet_gem", "gtceu:exquisite_andradite_gem", "gtceu:exquisite_topaz_gem",
+        "gtceu:exquisite_legrandite_gem", "gtceu:exquisite_lithium_niobate_gem", "gtceu:exquisite_citrine_gem", "gtceu:exquisite_chrysoberyl_gem"
+    ])
+    event.add("bhc:exquisite_gems/green", ["gtceu:exquisite_vivianite_gem", "gtceu:exquisite_emerald_gem", "gtceu:exquisite_raw_tiberium_gem",
+        "gtceu:exquisite_ekanite_gem", "gtceu:exquisite_green_sapphire_gem", "gtceu:exquisite_uvarovite_gem", "gtceu:exquisite_titanite_gem",
+        "gtceu:exquisite_lindgrenite_gem", "gtceu:exquisite_torbernite_gem", "gtceu:exquisite_olivine_gem", "gtceu:exquisite_fluorite_gem"
+    ])
+    event.add("bhc:exquisite_gems/blue", ["gtceu:exquisite_sapphire_gem", "gtceu:exquisite_echo_shard_gem", "gtceu:exquisite_lazurite_gem",
+        "gtceu:exquisite_black_opal_gem", "gtceu:exquisite_sodalite_gem", "gtceu:exquisite_cavansite_gem"
+    ])
 })

@@ -46,6 +46,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     
     GTMaterials.Hafnium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Rhenium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    GTMaterials.Rhenium.setProperty($PropertyKey.BLAST, new $BlastProperty(8500, "higher", GTValues.VHA[GTValues.LuV], 1200, -1, -1));
     GTMaterials.Thallium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Polonium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Astatine.setProperty($PropertyKey.DUST, new $DustProperty());
@@ -94,6 +95,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.VanadiumGallium.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW)
     GTMaterials.Trinium.addFlags(GTMaterialFlags.GENERATE_SPRING)
     GTMaterials.Tritanium.addFlags(GTMaterialFlags.GENERATE_SPRING)
+    GTMaterials.Iridium.addFlags(GTMaterialFlags.GENERATE_DENSE)
 
     // Small Springs for Power Transformer recipes
     GTMaterials.RedAlloy.addFlags(GTMaterialFlags.GENERATE_SPRING_SMALL)

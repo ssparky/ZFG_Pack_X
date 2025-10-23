@@ -22,6 +22,7 @@ const solders_and_ratios = [
     ["gtceu:soldering_alloy", 1],           // Tier 1
     ["gtceu:advanced_soldering_alloy", 2],  // Tier 2
     ["gtceu:living_soldering_alloy", 4],    // Tier 3
+    ["gtceu:universal_soldering_alloy", 8], // Tier 4
 ]
 
 /**
@@ -36,7 +37,7 @@ const solders_and_ratios = [
 const solder_rules = [
     // Don't alter any solder solidifying recipes
     [(javaRecipe) => {
-        return RegExp(/^gtceu:fluid_solidifier\/solidify_(advanced_|living_)?soldering_alloy_/).test(javaRecipe.getId())
+        return RegExp(/^gtceu:fluid_solidifier\/solidify_(advanced_|living_|universal_)?soldering_alloy_/).test(javaRecipe.getId())
     }, false, 0, 0],
 
     // Remove IV+ recipes that use Liquid Tin
@@ -100,6 +101,21 @@ const solder_rules = [
         )
         return eut > GTValues.V[GTValues.ZPM] && hasSolder
     }, false, 3, 4],
+
+    // UEV+ recipes that use Living Soldering alloy get a recipe with Universal Solder
+    [(javaRecipe) => {
+        let recipe = JSON.parse(javaRecipe.json.toString())
+        let eut = recipe.tickInputs?.eu?.length
+            ? recipe.tickInputs.eu[0].content
+            : null
+        let hasSolder = recipe.inputs?.fluid && recipe.inputs.fluid.some(i =>
+            i.content.value.some(v => "tag" in v
+                ? v.tag === "forge:living_soldering_alloy"
+                : v.fluid === "gtceu:living_soldering_alloy"
+            )
+        )
+        return eut > GTValues.V[GTValues.UHV] && hasSolder
+    }, false, 4, 5],
 
     // Default behaviour: Do nothing
     [(javaRecipe) => {

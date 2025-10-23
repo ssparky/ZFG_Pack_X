@@ -111,7 +111,7 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
     event.create("taranium")
         .protons(230)
         .neutrons(350)
-        .symbol("☩")
+        .symbol("⌘")
 
     // Primal Mana
 

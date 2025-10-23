@@ -250,4 +250,43 @@ ItemEvents.tooltip(tooltip => {
 
     // TaCZ ammo molds crafting tooltip
     tooltip.add(/^kubejs:ammo_mold_.*$/, Text.translatable("kubejs:ammo_mold.tooltip"))
+
+    // Nuclear Fuel tooltips
+    const nuclearFuels = [
+        ["thorium_230", 120, 0.94, "IV"],
+        ["thorium_232", 180, 0.52, "IV"],
+        ["uranium_233", 90, 0.26, "LuV"],
+        ["uranium_235", 140, 0.88, "IV"],
+        ["uranium_238", 240, 0.78, "EV"],
+        ["neptunium_236", 70, 0.37, "LuV"],
+        ["neptunium_237", 240, 0.43, "IV"],
+        ["plutonium_238", 85, 0.98, "LuV"],
+        ["plutonium_239", 150, 0.52, "LuV"],
+        ["plutonium_241", 110, 0.67, "LuV"],
+        ["plutonium_242", 240, 0.71, "IV"],
+        ["americium_241", 60, 0.36, "ZPM"],
+        ["americium_242", 120, 0.85, "LuV"],
+        ["americium_243", 240, 0.25, "LuV"],
+        ["curium_243", 90, 0.47, "ZPM"],
+        ["curium_245", 140, 0.37, "ZPM"],
+        ["curium_246", 240, 0.31, "LuV"],
+        ["curium_247", 180, 0.29, "ZPM"],
+        ["berkelium_247", 240, 0.37, "LuV"],
+        ["berkelium_248", 65, 0.6, "ZPM"],
+        ["californium_249", 130, 0.44, "ZPM"],
+        ["californium_250", 100, 0.34, "UV"],
+        ["californium_251", 110, 0.75, "ZPM"],
+        ["californium_252", 240, 0.73, "LuV"],
+        ["einsteinium_252", 240, 0.92, "LuV"],
+        ["einsteinium_253", 135, 0.26, "UV"],
+        ["einsteinium_254", 100, 0.32, "UV"],
+        ["fermium_255", 80, 0.61, "UV"],
+        ["fermium_257", 180, 0.69, "ZPM"],
+        ["mendelevium_259", 90, 0.76, "UV"],
+        ["nobelium_259", 75, 0.36, "UHV"],
+    ]
+
+    for (const [fuel, time, power, tier] of nuclearFuels) {
+        tooltip.add(`kubejs:${fuel}_fuel_pellet`, `§eBurns for ${time} seconds, generating ${power}A @ ${tier}`)
+    }
 })
