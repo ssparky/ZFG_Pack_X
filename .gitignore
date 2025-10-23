@@ -37,6 +37,8 @@ saves/
 schematics/
 texturepacks/
 tacz_backup/
+shaderpacks/
+logs/kubejs/
 
 # Ignore files outside of folders
 emi.json

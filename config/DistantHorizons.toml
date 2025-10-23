@@ -196,7 +196,7 @@ _version = 3
 		#
 		# If enabled, the mod will log performance about the world generation process. 
 		# This can be useful for debugging.
-		logWorldGenPerformance = "LOG_ERROR_TO_CHAT_AND_INFO_TO_FILE"
+		logWorldGenPerformance = "DISABLED"
 		#
 		# If enabled, the mod will log information about network operations. 
 		# This can be useful for debugging.
@@ -330,7 +330,7 @@ _version = 3
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
