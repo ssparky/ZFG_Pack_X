@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
                 Item.of(photovoltaic, 1),
                 Item.of(ingredients[0], 4),
                 Item.of(ingredients[1], 1),
-                Item.of(ingredients[3], 1)
+                `1x ${ingredients[3]}`
             ]
         } else {
             assemblerInputs = [
@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
                 Item.of(ingredients[0], 2),
                 Item.of(ingredients[1], 1),
                 Item.of(ingredients[2], 2),
-                Item.of(ingredients[3], 1)
+                `1x ${ingredients[3]}`
             ]
         }
         event.recipes.gtceu.assembler(`sp_${index + 2}`)
@@ -215,27 +215,27 @@ ServerEvents.recipes(event => {
     event.remove({ id: /gtceu:shaped\/solar_panel_/ })
 
     // Basic conversion & reversion
-    event.shapeless("2x gtceu:solar_panel", "solarflux:sp_3").id("gtceu:solar_panel_basic_conversion")
-    event.shapeless("solarflux:sp_3", "2x gtceu:solar_panel").id("gtceu:solar_panel_basic_reversion")
+    event.shapeless("gtceu:solar_panel", "solarflux:sp_1").id("gtceu:solar_panel_basic_conversion")
+    event.shapeless("solarflux:sp_1", "gtceu:solar_panel").id("gtceu:solar_panel_basic_reversion")
 
     // Generic conversion & reversion (Note the switch for Sculk solars)
     for (let index = 0; index <= 8; index++) {
         let tiername = TIER_ID_MAPPING[index].toLowerCase();
         let solarFluxPanel;
-        if (index <= 4) {
-            solarFluxPanel = `solarflux:sp_${index + 4}`;
+        if (index <= 5) {
+            solarFluxPanel = `solarflux:sp_${index + 3}`;
         } else {
             switch (index) {
-            case 5:
+            case 6:
                 solarFluxPanel = "solarflux:sp_custom_bathyal"
                 break;
-            case 6:
+            case 7:
                 solarFluxPanel = "solarflux:sp_custom_abyssal"
                 break;
-            case 7:
+            case 8:
                 solarFluxPanel = "solarflux:sp_custom_hadal"
                 break;
-            case 8:
+            case 9:
                 solarFluxPanel = "solarflux:sp_custom_neutronium"
                 break;
             default:

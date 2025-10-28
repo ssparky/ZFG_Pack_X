@@ -30,7 +30,8 @@ if (Platform.isLoaded("fluxnetworks")) {
         event.remove({ id: "fluxnetworks:fluxcore" })
         event.recipes.gtceu.assembler("fluxnetworks:fluxcore")
             .itemOutputs("2x fluxnetworks:flux_core")
-            .itemInputs("1x minecraft:ender_eye", "4x gtceu:dense_obsidian_plate", "4x fluxnetworks:flux_dust", "1x gtceu:luv_sensor", "1x gtceu:luv_emitter", "4x gtceu:double_enderium_wire")
+            .itemInputs("1x minecraft:ender_eye", "4x gtceu:dense_obsidian_plate", "4x fluxnetworks:flux_dust", "1x gtceu:luv_sensor", "1x gtceu:luv_emitter", 
+                "4x gtceu:enderium_double_wire")
             .EUt(GTValues.VA[GTValues.LuV])
             .duration(200)
 
@@ -43,7 +44,7 @@ if (Platform.isLoaded("fluxnetworks")) {
             P: "gtceu:enriched_naquadah_plate",
             C: "fluxnetworks:flux_core",
             R: "gtceu:enriched_naquadah_rod",
-            W: "wirelesschargers:advanced_wireless_player_charger",
+            W: "gtceu:wireless_transmitter_cover",
             B: "fluxnetworks:flux_block"
         }).id("fluxnetworks:fluxcontroller")
 

@@ -1,6 +1,6 @@
-/**
- * Various end-game recipes
- */
+// /**
+//  * Various end-game recipes
+//  */
 
 ServerEvents.recipes(event => {
 
@@ -86,7 +86,6 @@ ServerEvents.recipes(event => {
             .CWUt(160, 1024000)
             .EUt(GTValues.VA[GTValues.UHV])
         )
-
 
     event.recipes.gtceu.assembly_line("gtceu:mega_alloy_blast_smelter")
         .itemInputs("gtceu:alloy_blast_smelter", "4x #gtceu:circuits/uhv", "4x gtceu:uv_field_generator", "4x #forge:springs/yttrium_barium_cuprate", "4x #forge:dense_plates/neutronium", "4x gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire")
@@ -311,6 +310,8 @@ ServerEvents.recipes(event => {
         event.remove({ output: `gtceu:hyperdegenerate_darconite_${value.multiplier}_wire`, type: "gtceu:wiremill"})
     })
 
+    event.remove({ id: "gtceu:extruder/extrude_sculk_superconductor_wire"})
+
     event.recipes.gtceu.vacuum_freezer("sculk_superconductor")
         .itemInputs("gtceu:cryococcus_single_wire")
         .itemOutputs("gtceu:sculk_superconductor_single_wire")
@@ -327,6 +328,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(10600)
 
     event.remove({ id: "gtceu:wiremill/mill_hyperdegenerate_darconite_wire_fine"})
+    event.remove({ id: "gtceu:extruder/extrude_hyperdegenerate_darconite_wire"})
 
     event.recipes.gtceu.electric_blast_furnace("hyperdegenerate_darconite_foil")
         .itemInputs("8x gtceu:darconite_foil")
@@ -478,50 +480,39 @@ ServerEvents.recipes(event => {
     // Creative Chest - TODO: check again at the end to make sure all ingredients are as difficult as can be
     event.recipes.extendedcrafting.shaped_table("2x gtceu:creative_chest", [
         "BMMMMMMMMMB",
-        "MEWwmfmwYEM",
-        "MEGCCcCCGEp",
-        "MePFIIIFPsp",
-        "hbRIDQDIRgp",
-        "hbqSGHGSZgp",
-        "hbRIDQDIRgp",
-        "MtPFIIIFPdp",
-        "MEGCCoCCGEp",
-        "MEXwmkmwVEM",
+        "MhXXFWFXXcM",
+        "MXMMMWMMMXM",
+        "MMMFGWGFMMP",
+        "HCMGALAGSmP",
+        "HCwgDQDSOmP",
+        "HCMGALAGSmP",
+        "MMMFGWGFMMP",
+        "MXMMMWMMMXM",
+        "MfXXFWFXXsM",
         "BMMMMMMMMMB"
     ], {
+        A: "monilabs:max_robot_arm",
         B: "gtceu:monium_block",
-        C: "kubejs:multiversal_processor_mainframe",
-        D: "gtceu:double_stellarium_plate",
-        E: "gtceu:tiberium_frame",
-        F: "gtceu:opv_field_generator",
-        G: "gtceu:monium_gear",
-        H: "gtceu:max_machine_hull",
-        I: "kubejs:dimensionally_stabilized_infinity_heavy_plating",
+        C: "monilabs:max_conveyor_module",
+        D: "kubejs:field_stabilised_prismatic_pulsar_compound",
+        F: "gtceu:monium_frame",
+        G: "monilabs:max_field_generator",
+        H: "gtceu:polyether_ether_ketone_huge_item_pipe", // Warped Null pipe?
+        L: "monilabs:max_4096a_laser_source_hatch",
         M: "kubejs:causality_exempt_monic_heavy_plating",
-        P: "kubejs:supercritical_prismatic_core",
-        Q: "kubejs:field_stabilised_prismatic_pulsar_compound",
-        R: "gtceu:opv_robot_arm",
-        S: "gtceu:opv_sensor",
-        V: "kubejs:infinity_file",
-        W: "kubejs:infinity_screwdriver",
-        X: "kubejs:infinity_wrench",
-        Y: "kubejs:infinity_hammer",
-        Z: "kubejs:infinity_wire_cutter",
-        b: "gtceu:opv_conveyor_module",
-        c: "monilabs:prismatic_crucible",
-        d: "gtceu:dimensional_superassembler",
-        e: "gtceu:helical_fusion_reactor",
-        f: "monilabs:prismatic_focus",
-        g: "monilabs:prism_glass",
-        h: "gtceu:polyether_ether_ketone_huge_item_pipe",
-        k: "monilabs:knowledge_transmission_array",
-        m: "gtceu:monium_frame",
-        o: "monilabs:creative_data_multi",
-        q: "gtceu:uev_quantum_chest",
-        s: "gtceu:omnic_synthesizer",
-        t: "monilabs:creative_energy_multi",
-        p: "gtceu:computer_monitor_cover",
-        w: "gtceu:monium_octal_wire",
+        O: "gtceu:object_holder",
+        P: "monilabs:prism_glass", // More advanced glass (if we add such a thing)
+        Q: "gtceu:uev_quantum_chest", // OpV quantum chest?
+        S: "monilabs:max_sensor",
+        W: "gtceu:monium_hex_wire", // Finalite/Eternium wire?
+        X: "#gtceu:circuits/max",
+        c: "kubejs:infinity_wire_cutter",
+        f: "kubejs:infinity_file",
+        g: "gtceu:monium_gear",
+        h: "kubejs:infinity_hammer",
+        m: "gtceu:computer_monitor_cover",
+        s: "kubejs:infinity_screwdriver",
+        w: "kubejs:infinity_wrench"
     })
 
     // Knowledge Transmission Array
@@ -577,13 +568,15 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UHV])
 
     event.recipes.gtceu.assembler("fieldstabilizedcompound")
-        .itemInputs("gtceu:uev_field_generator", "gtceu:uhv_field_generator", "kubejs:supercritical_prismatic_core", "10x kubejs:quasi_stable_neutron_star", "kubejs:dimensionally_stabilized_infinity_heavy_plating")
+        .itemInputs("gtceu:uev_field_generator", "gtceu:uhv_field_generator", "kubejs:supercritical_prismatic_core", "10x kubejs:quasi_stable_neutron_star", 
+            "kubejs:dimensionally_stabilized_infinity_heavy_plating")
         .itemOutputs("kubejs:field_stabilised_prismatic_pulsar_compound")
         .duration(255)
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.recipes.gtceu.assembly_line("causality_exempt_monic_plating")
-        .itemInputs("gtceu:double_monium_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", "kubejs:universe_resistant_neutronium_heavy_plating", "kubejs:elementally_infused_omnic_matrix_heavy_plating", "kubejs:dimensionally_stabilized_infinity_heavy_plating", "gtceu:double_transcendental_matrix_plate")
+        .itemInputs("6x gtceu:double_monium_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", "kubejs:universe_resistant_neutronium_heavy_plating", 
+    "kubejs:elementally_infused_omnic_matrix_heavy_plating", "kubejs:dimensionally_stabilized_infinity_heavy_plating", "6x monilabs:double_transcendental_matrix_plate")
         .inputFluids("gtceu:living_soldering_alloy 2880")
         .itemOutputs("kubejs:causality_exempt_monic_heavy_plating")
         .duration(400)
@@ -596,13 +589,15 @@ ServerEvents.recipes(event => {
 
     // Shortcut recipes for thrusters
     event.recipes.gtceu.assembler("kubejs:assembler_dark_soularium_thruster")
-        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x kubejs:prescient_crystal", "2x kubejs:weather_crystal", "kubejs:vibrant_thruster", "kubejs:flight_control_unit")
+        .itemInputs("4x gtceu:dark_soularium_plate", "6x gtceu:vibrant_alloy_plate", "2x kubejs:prescient_crystal", "2x kubejs:weather_crystal", 
+                    "kubejs:vibrant_thruster", "3x gtceu:advanced_power_thruster")
         .itemOutputs("kubejs:dark_soularium_thruster")
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
 
     event.recipes.gtceu.assembler("kubejs:assembler_flux_thruster")
-        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "kubejs:resonant_thruster", "kubejs:reinforced_thruster", "kubejs:glowstone_elevation_unit")
+        .itemInputs("3x redstone_arsenal:flux_plating", "4x gtceu:enderium_plate", "2x gtceu:signalum_plate", "kubejs:resonant_thruster", 
+                    "kubejs:reinforced_thruster", "3x gtceu:advanced_power_thruster")
         .itemOutputs("kubejs:fluxed_thruster")
         .duration(70)
         .EUt(GTValues.VA[GTValues.IV])

@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         .EUt(24)
 
     event.recipes.gtceu.implosion_compressor("implosion_star_tnt")
-        .itemInputs("4x gtceu:nether_star_dust", "2x minecraft:tnt", "gtceu:dark_ash_small_dust")
+        .itemInputs("4x gtceu:nether_star_dust", "2x minecraft:tnt", "gtceu:small_dark_ash_dust")
         .itemOutputs("3x minecraft:nether_star")
         .duration(20)
         .EUt(30)
@@ -89,23 +89,25 @@ ServerEvents.recipes(event => {
     // When replacing fluids, the quantity of the replacing fluid needs to be specified. Else it defaults to 1 bucket.
     event.replaceOutput({id: /^gtceu:alloy_blast_smelter\/kanthal.*/}, Fluid.of("gtceu:molten_kanthal"), Fluid.of("gtceu:kanthal", 432))
 
-    // Steel Machine Casing
-    event.remove({ input: "gtceu:steel_machine_casing" })
-    event.remove({ output: "gtceu:steel_machine_casing" })
+    // // Steel Machine Casing
+    // event.remove({ input: "gtceu:steel_machine_casing" })
+    // event.remove({ output: "gtceu:steel_machine_casing" })
 
-    // Ender Pearl dust Electrolysis
-    // event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ender_pearl' })
+    // // Ender Pearl dust Electrolysis
+    // // event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ender_pearl' })
 
-    // rock breaker
-    const generateRockBreakerStoneRecipe = (stoneItem) => {
-        event.recipes.gtceu.rock_breaker(`kubejs:rock_breaker_${stoneItem.replace(":", "_")}`)
-            .notConsumable(stoneItem)
-            .itemOutputs(stoneItem)
-            .duration(16)
-            .EUt(60)
-            ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
-    }
+    // // rock breaker
+    // const generateRockBreakerStoneRecipe = (stoneItem) => {
+    //     event.recipes.gtceu.rock_breaker(`kubejs:rock_breaker_${stoneItem.replace(":", "_")}`)
+    //         .notConsumable(stoneItem)
+    //         .itemOutputs(stoneItem)
+    //         .duration(16)
+    //         .EUt(60)
+    //         .adjacentFluids("minecraft:lava")
+    //         .adjacentFluids("minecraft:water")
+    //         //["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
+    // }
 
-    generateRockBreakerStoneRecipe("minecraft:calcite")
-    generateRockBreakerStoneRecipe("minecraft:tuff")
+    // generateRockBreakerStoneRecipe("minecraft:calcite")
+    // generateRockBreakerStoneRecipe("minecraft:tuff")
 })

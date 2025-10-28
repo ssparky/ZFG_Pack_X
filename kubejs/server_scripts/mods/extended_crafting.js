@@ -257,7 +257,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.extendedcrafting.combination(
         "kubejs:dimensionally_stabilized_infinity_heavy_plating",
-        "gtceu:double_infinity_plate", ["2x gtceu:activated_netherite_plate", "kubejs:quasi_stable_neutron_star", "2x gtceu:neutron_reflector", "2x kubejs:the_ultimate_material"],
+        "gtceu:double_infinity_plate", ["2x gtceu:activated_netherite_plate", "kubejs:quasi_stable_neutron_star", "2x gtceu:neutron_reflector", "2x kubejs:prism_pane"],
         16000000, 1600000
     )
 
@@ -548,7 +548,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
     event.recipes.gtceu.large_auto_crafter("mm_t12")
         .itemInputs("36x kubejs:dimensionally_stabilized_infinity_heavy_plating", "1x kubejs:extradimensional_navigator", "4x monilabs:dimensional_stabilization_netherite_casing",
-            "4x solarflux:sp_custom_infinity", "1x kubejs:field_stabilised_omnic_pulsar_compound", "11x kubejs:universe_resistant_neutronium_heavy_plating",
+            "4x solarflux:sp_custom_infinity", "1x kubejs:field_stabilised_prismatic_pulsar_compound", "11x kubejs:universe_resistant_neutronium_heavy_plating",
             "2x kubejs:omnic_matrix_coil_block", "1x gtceu:uhv_quantum_chest", "2x gtceu:large_naquadah_reactor", "6x kubejs:hadal_warp_engine"
         )
         .itemOutputs("kubejs:microminer_t12")
@@ -583,7 +583,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(1600000/160000)
     event.recipes.gtceu.large_combination_crafter("necroplasm_amulet")
-        .itemInputs("1x gtceu:exquisite_rubellite_gem", "1x moreartifacts:spetre_amulet", "1x moreartifacts:venom_amulet", 
+        .itemInputs("1x gtceu:exquisite_rubellite_gem", "1x moreartifacts:spectre_amulet", "1x moreartifacts:venom_amulet", 
             "1x moreartifacts:decay_amulet", "3x bhc:soul_heart_canister")
         .itemOutputs("1x moreartifacts:necroplasm_amulet")
         .EUt(GTValues.VA[GTValues.LuV])
@@ -634,6 +634,8 @@ ServerEvents.recipes(event => {
         .itemOutputs("1x kubejs:universe_resistant_neutronium_heavy_plating")
         .EUt(GTValues.VA[GTValues.ZPM])
         .duration(4000000/400000)
+
+        
     event.recipes.gtceu.large_combination_crafter("molten_quiver")
         .itemInputs("1x moreartifacts:magic_quiver", "1x artifacts:flame_pendant", "3x gtceu:flint_dust", "3x kubejs:pyrotheum_dust")
         .itemOutputs("1x moreartifacts:molten_quiver")
@@ -646,7 +648,7 @@ ServerEvents.recipes(event => {
         .duration(10000000/1000000)
     event.recipes.gtceu.large_combination_crafter("dimensionally_stabilized_infinity_plating")
         .itemInputs("1x gtceu:double_infinity_plate", "2x gtceu:activated_netherite_plate", "1x kubejs:quasi_stable_neutron_star", "2x gtceu:neutron_reflector",
-            "2x kubejs:the_ultimate_material"
+            "2x kubejs:prism_pane"
         )
         .itemOutputs("1x kubejs:dimensionally_stabilized_infinity_heavy_plating")
         .EUt(GTValues.VA[GTValues.UV])

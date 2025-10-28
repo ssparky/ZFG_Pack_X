@@ -58,6 +58,9 @@ ServerEvents.tags("item", event => {
     // Food tags
     event.add("forge:raw_fishes/calamari", ["oceanic_delight:squid_tentacles", "oceanic_delight:glow_squid_tentacles"])
     event.add("forge:cooked_fishes/calamari", "oceans_delight:grilled_squid_tentacles")
+    event.add("forge:mushrooms", ["natures_spirit:shiitake_mushroom", "ad_astra:aeronos_mushroom", "ad_astra:strophar_mushroom", "minecraft:crimson_fungus",
+        "minecraft:warped_fungus", "kubejs:ender_spore"
+    ])
     
     // Exquisite gem color tags
     event.add("bhc:exquisite_gems/red", ["gtceu:exquisite_pezzottaite_gem", "gtceu:exquisite_pyrope_gem", "gtceu:exquisite_manganvesuvianite_gem",

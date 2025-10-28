@@ -115,6 +115,7 @@
 		"berserk:glass_cannon" = true
 		"berserk:dash" = true
 		"berserk:survive_death" = true
+		"berserk:carnivore" = true
 
 	[origins."centaur:centaur"]
 		enabled = true

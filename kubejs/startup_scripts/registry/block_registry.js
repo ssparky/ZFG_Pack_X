@@ -228,7 +228,7 @@ StartupEvents.registry("block", event => {
         .level(16)
         .energyDiscount(16)
         .tier(8)
-        .coilMaterial(() => GTMaterials.get("hafnium")) // TODO: material
+        .coilMaterial(() => GTMaterials.get("hafnium_carbonitride"))
         .hardness(6)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
@@ -242,7 +242,7 @@ StartupEvents.registry("block", event => {
         .level(16)
         .energyDiscount(16)
         .tier(8)
-        .coilMaterial(() => GTMaterials.get("omnium")) // TODO: change to omnic rhenium-tungsten when registered
+        .coilMaterial(() => GTMaterials.get("omnic_rhenium_tungstide"))
         .hardness(6)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
@@ -255,7 +255,7 @@ StartupEvents.registry("block", event => {
         .level(32)
         .energyDiscount(32)
         .tier(9)
-        .coilMaterial(() => GTMaterials.get("eltz")) // TODO: material
+        .coilMaterial(() => GTMaterials.get("eltic_hassium"))
         .hardness(7)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")
@@ -263,12 +263,12 @@ StartupEvents.registry("block", event => {
         .soundType("metal")
 
     event.create("eternium_coil_block", "gtceu:coil")
-        .textureAll("kubejs:block/coil/eternium/coil") // TODO: texture
+        .textureAll("kubejs:block/coil/eternium/coil")
         .temperature(30000)
         .level(32)
         .energyDiscount(32)
         .tier(9)
-        .coilMaterial(() => GTMaterials.get("aetherium")) // TODO: material
+        .coilMaterial(() => GTMaterials.get("eternium"))
         .hardness(7)
         .requiresTool(true)
         .tagBlock("mineable/pickaxe")

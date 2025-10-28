@@ -47,7 +47,9 @@ ServerEvents.recipes(event => {
             .itemOutputs(`${namespace}:${output}`)
             .duration(16)
             .EUt(EUt)
-            ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"](["minecraft:lava", waterReplacement])
+            .adjacentFluids("minecraft:lava")
+            .adjacentFluids(waterReplacement)
+            //["adjacentFluid(net.minecraft.world.level.material.Fluid[])"](["minecraft:lava", waterReplacement])
             .dimension(dimension)
 
         event.recipes.gtceu.rock_cycle_simulator(`${output}`)

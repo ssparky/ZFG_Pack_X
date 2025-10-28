@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
         .itemInputs("ae2:certus_quartz_crystal")
         .itemOutputs("ae2:charged_certus_quartz_crystal")
         .duration(20)
-        .EUt(480)
+        .EUt(28)
 
     // Matter Condenser
     event.remove({ id: "ae2:network/blocks/io_condenser" })

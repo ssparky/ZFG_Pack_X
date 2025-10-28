@@ -57,6 +57,16 @@ ItemEvents.modification(event => {
         item.maxStackSize = 64
     })
 
+    // Potion stack size
+    event.modify("minecraft:potion", item => {
+        item.maxStackSize = 16
+    })
+    event.modify("minecraft:splash_potion", item => {
+        item.maxStackSize = 16
+    })
+    event.modify("minecraft:lingering_potion", item => {
+        item.maxStackSize = 16
+    })
 
     // Make Infinity and Ultimate tools work as unbreakable crafting tools
     const toolTypes = [

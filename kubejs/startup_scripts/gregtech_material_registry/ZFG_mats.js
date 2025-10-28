@@ -178,6 +178,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_FOIL)
         .cableProperties(134217728, 128, 512, false);
 
+    // TODO: BLAST FURNACE TEMPS AND RECIPE CHAINS AND WHATNOT FOR BELOW
+
     event.create("finalite") // MAX Hull / Pipe
         .ingot().fluid()
         .components("1x hssx", "2x stellarium", "9x omnium", "4x oganesson", "2x chromatic_steel")
@@ -214,16 +216,56 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xEAB3F3).secondaryColor(0x4A4A4A).iconSet("rough")
 
     event.create("warped_null") // OpV Pipe
+        .ingot()
+        .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
+        .color(0x280A0A).secondaryColor(0x000000)
+        .iconSet("meta_null")
+        .components("hyperdegenerate_matter", "meta_null")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_FRAME)
+        .fluidPipeProperties(75000, 7500, true, true, true, true)
 
     event.create("hafnium_carbonitride") // UEV Coil
+        .ingot().fluid()
+        .color(0x01514B).secondaryColor(0x200C04)
+        .iconSet("dull")
+        .components("1x carbon", "2x hafnium", "1x nitrogen")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_FINE_WIRE
+        )
+        .cableProperties(GTValues.V[GTValues.UEV], 96, 1024, false);
 
     event.create("omnic_rhenium_tungstide") // UIV Coil
+        .ingot().fluid()
+        .color(0xD4DF9E).secondaryColor(0x201C1A)
+        .iconSet("metallic")
+        .components("1x omnium", "1x rhenium", "3x tungsten")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_FINE_WIRE
+        )
+        .cableProperties(GTValues.V[GTValues.UIV], 96, 1024, false);
 
     event.create("eltic_hassium") // UXV Coil
+        .ingot().fluid()
+        .color(0x954F05).secondaryColor(0x05231C)
+        .iconSet("shiny")
+        .components("1x eltz", "3x hassium")
+        .formula("EzHs3")
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_FINE_WIRE
+        )
+        .cableProperties(GTValues.V[GTValues.UXV], 144, 2048, false);
 
-    event.create("eternium") // OpV/MAX Coil
+    event.create("true_eternium") // OpV/MAX Coil
+        .ingot().fluid()
+        .color(0xFFFFFF).secondaryColor(0x000000)
+        .iconSet("shiny")
+        // TODO components - involving aetherium and fake eternium?
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_FINE_WIRE
+        )
+        .cableProperties(GTValues.V[GTValues.OpV], 144, 2048, false);
 
-    event.create("hssx") // ZPM/UV/UHV electrode - include praseodymium perhaps?
+    event.create("hssx") // ZPM/UV/UHV electrode
         .ingot().fluid()
         .color(0x44E48C).secondaryColor(0x058263).iconSet("metallic")
         .components("3x green_steel", "6x hsse", "2x hsss", "5x praseodymium", "2x tritanium", "7x selenium")

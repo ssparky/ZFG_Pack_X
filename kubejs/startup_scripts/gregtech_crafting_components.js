@@ -148,7 +148,10 @@ GTCEuStartupEvents.craftingComponents(event => {
     setCoils("coil_heating_double", "wireGtQuadruple")
 
     event.setMaterialEntries("coil_electric", {
-        UEV: "wireGtHex:darconite",
+        UEV: "wireGtHex:hafnium_carbonitride",
+        UIV: "wireGtHex:omnic_rhenium_tungstide",
+        UXV: "wireGtHex:eltic_hassium",
+        OpV: "wireGtHex:true_eternium"
     })
 
     const magTerbium = "longRod:magnetic_terbium"
@@ -161,7 +164,10 @@ GTCEuStartupEvents.craftingComponents(event => {
     event.setMaterialEntries("rod_distillation", {
         UV: "spring:trinium",
         UHV: "spring:tritanium",
-        UEV: "spring:omnium",
+        UEV: "spring:hafnium_carbonitride",
+        UIV: "spring:omnic_rhenium_tungstide",
+        UXV: "spring:eltic_hassium",
+        OpV: "spring:true_eternium"
     })
 
     const samRod = "rod:samarium"

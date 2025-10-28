@@ -155,7 +155,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .element(GTElements.get("infinity"))
         .color(0xffffff)
         .iconSet("infinity")
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_SMALL_GEAR)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_DENSE, 
+            GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FOIL)
 
     event.create("meta_null")
         .ingot()
@@ -172,7 +173,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .element(GTElements.get("monium"))
         .color(0xffffff)
         .iconSet("monium")
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SPRING)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_GEAR, 
+            GTMaterialFlags.GENERATE_SPRING, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_SMALL_GEAR,
+            GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_ROUND)
         .cableProperties(GTValues.V[GTValues.MAX], 134217727, 0, true)
 
 
@@ -220,7 +223,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid(new GTFluidBuilder().state(GTFluidState.LIQUID).customStill())
         .element(GTElements.get("omnium"))
         .color(0xffffff).iconSet("omnium")
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW) // Generate Spring disabled, unused.
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_SPRING)
         .cableProperties(GTValues.V[GTValues.UEV], 8, 8, false)
 
 

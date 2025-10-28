@@ -43,11 +43,11 @@ recipes:
   hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: true
+  hardGlassRecipes: false
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
-  nerfPaperCrafting: true
+  nerfPaperCrafting: false
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: true
@@ -59,7 +59,7 @@ recipes:
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: true
+  harderCharcoalRecipe: false
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
@@ -179,7 +179,7 @@ worldgen:
 machines:
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: true
-  requireGTToolsForBlocks: false
+  requireGTToolsForBlocks: true
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
@@ -307,7 +307,7 @@ machines:
   # Whether the Assembly Line should require the fluid inputs to be in order.
   # (Requires Ordered Assembly Line Item Inputs to be enabled.)
   # Default: true
-  orderedAssemblyLineFluids: false
+  orderedAssemblyLineFluids: true
 
   # Default maximum parallel of steam multiblocks
   # Default: 8
@@ -571,14 +571,14 @@ compat:
 
     # The energy consumption of ME Hatch/Bus.
     # Default: 4.0AE/t
-    meHatchEnergyUsage: 1.0
+    meHatchEnergyUsage: 4.0
 
   # Config options regarding GTCEu compatibility with minimap mods
   minimap:
     # Toggle specific map mod integration on/off (need to restart for this to take effect)
     toggle:
       # FTB Chunks integration enabled
-      ftbChunksIntegration: false
+      ftbChunksIntegration: true
 
       # Journey Map integration enabled
       journeyMapIntegration: true
@@ -627,7 +627,7 @@ compat:
     # Allowed values:
     # - VERTICAL
     # - HORIZONTAL
-    direction: HORIZONTAL
+    direction: VERTICAL
 
     # How horizontally far away from the anchor to place the buttons
     # Default: 20
@@ -656,6 +656,10 @@ compat:
   # Whether dimension markers should show the dimension tier value.
   # Default: false
   showDimensionTier: false
+
+  # Whether Create compatibility will be available.
+  # Default: true
+  createCompat: true
 
 dev:
   # Debug general events? (will print recipe conficts etc. to server's debug.log)

@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
         "gtceu:flerovium_ingot",
         "gtceu:moscovium_ingot",
         "gtceu:livermorium_ingot",
-        "gtceu:tennsesine_dust",
+        "gtceu:tennessine_dust",
         "gtceu:oganesson_dust"
     ];
 
