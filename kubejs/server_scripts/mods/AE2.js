@@ -896,6 +896,19 @@ ServerEvents.recipes(event => {
         .duration(300)
         .EUt(2)
 
+    // Cutting blocks into plates
+    event.recipes.gtceu.cutter("kubejs:certus_block_to_plates")
+        .itemInputs("ae2:quartz_block")
+        .itemOutputs("4x gtceu:certus_quartz_plate")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(160)
+
+    event.recipes.gtceu.cutter("kubejs:fluix_block_to_plates")
+        .itemInputs("ae2:fluix_block")
+        .itemOutputs("4x gtceu:fluix_plate")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(160)
+
     // Vibrant Quartz Glass
     event.remove({ output: "ae2:quartz_vibrant_glass" })
     event.recipes.gtceu.alloy_smelter("kubejs:vibrant_quartz_glass")

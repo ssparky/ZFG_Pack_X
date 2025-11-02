@@ -11,6 +11,7 @@ JEIEvents.hideItems(event => {
     // Hide excess permutations of AE2 Facades
     event.hide("ae2:facade")
     event.hide(/^ae2:facade/)
+    event.hide(Item.of('ae2:facade').weakNBT())
 
     // snad
     event.hide("snad:soul_snad")

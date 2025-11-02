@@ -3,7 +3,13 @@
  */
 ServerEvents.recipes(event => {
 
-    // All of the event.remove() here should REALLY be moved to Remove_Recipes.js for consistency
+    // Technically not an ExCrafting recipe but it's also infinity ingots
+    event.recipes.gtceu.assembler("infinity_better")
+        .itemInputs("kubejs:active_prismatic_core", "4x gtceu:activated_netherite_ingot", "4x gtceu:neutronium_ingot", "8x monilabs:transcendental_matrix_ingot")
+        .inputFluids("gtceu:monium 8")
+        .itemOutputs("8x gtceu:infinity_ingot")
+        .EUt(GTValues.VA[GTValues.MAX])
+        .duration(20)
 
     // Components
     event.remove({ output: "extendedcrafting:basic_component" })
@@ -239,7 +245,7 @@ ServerEvents.recipes(event => {
     // Heavy Platings
     event.recipes.extendedcrafting.combination(
         "kubejs:quantum_fluxed_eternium_heavy_plating",
-        "gtceu:double_cryococcus_plate", ["2x redstone_arsenal:flux_plating", "3x kubejs:quantum_flux"],
+        "gtceu:double_cryococcus_plate", ["2x redstone_arsenal:flux_plating", "3x kubejs:quantum_flux", "gtceu:americium_foil"],
         1600000, 160000
     )
 
@@ -578,7 +584,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(7864320/131072)
     event.recipes.gtceu.large_combination_crafter("quantum_fluxed_eternium_plating")
-        .itemInputs("1x gtceu:double_cryococcus_plate", "3x kubejs:quantum_flux", "2x redstone_arsenal:flux_plating")
+        .itemInputs("1x gtceu:double_cryococcus_plate", "3x kubejs:quantum_flux", "2x redstone_arsenal:flux_plating", "1x gtceu:americium_foil")
         .itemOutputs("1x kubejs:quantum_fluxed_eternium_heavy_plating")
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(1600000/160000)

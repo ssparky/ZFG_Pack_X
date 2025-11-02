@@ -1031,4 +1031,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("ags_modernmarkings:chalk")
         .EUt(GTValues.VA[GTValues.LV])
         .duration(40)
+
+    // Allow mixing gallium arsenide by hand
+    event.shapeless("2x gtceu:gallium_arsenide_dust", ["gtceu:gallium_dust", "gtceu:arsenic_dust"])
 })  

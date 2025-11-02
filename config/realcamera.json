@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "isClassic": false,
   "dynamicCrosshair": false,
   "renderModel": true,
