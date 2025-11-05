@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     // Antimatter Creation
     const types = ["bosonic", "hadronic", "fermionic"]
     types.forEach((type, index) => {
-        event.recipes.gtceu.antimatter_manipulator(`${type}_upgrade`)
+        event.recipes.gtceu.antimatter_manipulation(`${type}_upgrade`)
             .inputFluidsRanged(`kubejs:${type}_antimatter`, 72, 288)
             .inputFluidsRanged(`kubejs:${types[(index + 1) % types.length]}_antimatter`, 36, 144)
             .outputFluidsRanged(`kubejs:refined_${type}_antimatter`, 36, 144)
@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
             .duration(200)
             .EUt(GTValues.VA[GTValues.ZPM])
 
-        event.recipes.gtceu.antimatter_manipulator(`${type}_downgrade`)
+        event.recipes.gtceu.antimatter_manipulation(`${type}_downgrade`)
             .itemInputs("4x kubejs:protomatter")
             .inputFluidsRanged(`kubejs:refined_${type}_antimatter`, 18, 72)
             .outputFluidsRanged(`kubejs:${type}_antimatter`, 72, 288)
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
             .requiredMicroverse(4) // Corrupted
     })
 
-    event.recipes.gtceu.antimatter_manipulator("antimatter_fuel")
+    event.recipes.gtceu.antimatter_manipulation("antimatter_fuel")
         .inputFluids("kubejs:refined_bosonic_antimatter 72", "kubejs:refined_hadronic_antimatter 72", "kubejs:refined_fermionic_antimatter 72")
         .outputFluids("kubejs:antimatter_fuel 10")
         .duration(100)
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line("antimatter_manipulator")
         .itemInputs("monilabs:bioalloy_fusion_casing", "#gtceu:circuits/uhv", "2x gtceu:uhv_field_generator", "2x monilabs:double_sculk_bioalloy_plate", "2x gtceu:uhv_emitter", "2x gtceu:uhv_electric_pump", "6x gtceu:neutronium_large_fluid_pipe", "32x gtceu:fine_ruthenium_trinium_americium_neutronate_wire")
         .inputFluids("gtceu:advanced_soldering_alloy 2304", "gtceu:omnium 576", "gtceu:polyethyl_cyanoacrylate 1152")
-        .itemOutputs("gtceu:antimatter_manipulator")
+        .itemOutputs("gtceu:antimatter_manipulation")
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b

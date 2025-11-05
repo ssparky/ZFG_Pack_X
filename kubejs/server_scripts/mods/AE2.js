@@ -60,15 +60,31 @@ ServerEvents.recipes(event => {
 
     // Patterns
     event.remove({ id: "ae2:network/crafting/patterns_blank" })
-    event.shaped(Item.of("ae2:blank_pattern", 8), [
-        "AAA",
-        "BCB",
-        "BBB"
-    ], {
-        A: "gtceu:fine_silver_wire",
-        B: "gtceu:polyethylene_plate",
-        C: "#gtceu:circuits/hv"
-    }).id("kubejs:ae2/blank_pattern")
+    const blankPatternSets = [
+        ["gtceu:fine_cupronickel_wire", "gtceu:magnalium_plate", "#gtceu:circuits/mv", 4],
+        ["gtceu:fine_silver_wire", "gtceu:polyethylene_plate", "#gtceu:circuits/hv", 8],
+        ["gtceu:fine_electrum_wire", "gtceu:polyvinyl_chloride_plate", "#gtceu:circuits/ev", 12],
+        ["gtceu:fine_tantalum_wire", "gtceu:polyvinyl_butyral_plate", "#gtceu:circuits/ev", 16], // Alt recipe for EV, to give PVB more use
+        ["gtceu:fine_hssg_wire", "gtceu:polypropylene_plate", "#gtceu:circuits/iv", 24],
+        ["gtceu:fine_europium_wire", "gtceu:polytetrafluoroethylene_plate", "#gtceu:circuits/luv", 40],
+        ["gtceu:fine_naquadria_wire", "gtceu:polyphenylene_sulfide_plate", "#gtceu:circuits/luv", 48], // Alt recipe for LUV, to give PPS more use
+        ["gtceu:fine_tritanium_wire", "gtceu:polybenzimidazole_plate", "#gtceu:circuits/zpm", 64],
+        ["gtceu:fine_shellite_wire", "gtceu:polyacrylonitrile_plate", "#gtceu:circuits/uv", 96],
+        ["gtceu:fine_hyperdegenerate_darconite_wire", "gtceu:polyethyl_cyanoacrylate_plate", "#gtceu:circuits/uhv", 128],
+        ["gtceu:fine_tiberium_wire", "gtceu:polyether_ether_ketone_plate", "#gtceu:circuits/uev", 256],
+
+    ]
+    blankPatternSets.forEach(set => {
+        event.shaped(Item.of("ae2:blank_pattern", set[3]), [
+            "AAA",
+            "BCB",
+            "BBB"
+        ], {
+            A: set[0],
+            B: set[1],
+            C: set[2]
+        }).id(`kubejs:ae2/blank_pattern_${set[1].split(":")[1]}`)
+    })
 
     // Pattern Provider
     event.remove({ id: "ae2:network/blocks/pattern_providers_interface" })
@@ -618,7 +634,7 @@ ServerEvents.recipes(event => {
     // Greg circuits
     event.recipes.gtceu.forming_press("ae2_printed_silicon_greg")
         .notConsumable("ae2:silicon_press")
-        .itemInputs("ae2:silicon")
+        .itemInputs("gtceu:silicon_dust")
         .itemOutputs("ae2:printed_silicon")
         .duration(160)
         .EUt(32)
@@ -650,6 +666,32 @@ ServerEvents.recipes(event => {
         .itemOutputs("megacells:printed_accumulation_processor")
         .duration(160)
         .EUt(32)
+
+    // More efficient laser engraver recipes for printed processors
+    event.recipes.gtceu.laser_engraver("ae2:printed_silicon")
+        .itemInputs("gtceu:silicon_plate")
+        .notConsumable("#forge:lenses/black")
+        .itemOutputs("4x ae2:printed_silicon")
+        .duration(360)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.laser_engraver("ae2:printed_engineering_processor")
+        .itemInputs("gtceu:diamond_plate")
+        .notConsumable("#forge:lenses/cyan")
+        .itemOutputs("4x ae2:printed_engineering_processor")
+        .duration(360)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.laser_engraver("ae2:printed_logic_processor")
+        .itemInputs("gtceu:gold_plate")
+        .notConsumable("#forge:lenses/yellow")
+        .itemOutputs("4x ae2:printed_logic_processor")
+        .duration(360)
+        .EUt(GTValues.VA[GTValues.EV])
+    event.recipes.gtceu.laser_engraver("ae2:printed_calculation_processor")
+        .itemInputs("gtceu:certus_quartz_plate")
+        .notConsumable("#forge:lenses/light_blue")
+        .itemOutputs("4x ae2:printed_calculation_processor")
+        .duration(360)
+        .EUt(GTValues.VA[GTValues.EV])
 
     // Processors
     // Inefficient recipes

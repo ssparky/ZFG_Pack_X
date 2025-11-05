@@ -111,6 +111,14 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     // MoniRecipeTypes.createPrismaCRecipeType("chromatic_processing")
     // MoniRecipeTypes.createPrismaCRecipeType("chromatic_transcendence")
 
+    event.create("antimatter_manipulation")
+        .category("multiblock")
+        .setEUIO("in")
+        .setMaxIOSize(1, 1, 3, 1)
+        .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.CHEMICAL)
+
     event.create("omnic_synthesis")
         .category("multiblock")
         .setEUIO("in")
@@ -840,7 +848,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     // Antimatter Manipulator
     event.create("antimatter_manipulator", "multiblock")
-        .recipeTypes(MoniRecipeTypes.ANTIMATTER_MANIPULATOR_RECIPES)
+        .recipeTypes(["antimatter_manipulation"])
         .recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
         .appearanceBlock(() => Block.getBlock("monilabs:bioalloy_casing"))
         .pattern(definition => FactoryBlockPattern.start()

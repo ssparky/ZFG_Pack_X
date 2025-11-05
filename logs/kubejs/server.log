@@ -1,415 +1,415 @@
-[14:32:13] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[14:32:13] [INIT] Loaded plugins:
-[14:32:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[14:32:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[14:32:13] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[14:32:13] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[14:32:13] [INIT] - com.almostreliable.morejs.Plugin
-[14:32:13] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[14:32:13] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[14:32:13] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[14:32:13] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[14:32:13] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[14:32:13] [INFO] _initial.js#42: Loaded Java class 'com.google.gson.JsonObject'
-[14:32:13] [INFO] _initial.js#44: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.GTRecipeComponents$FluidIngredientJS'
-[14:32:13] [INFO] Loaded script server_scripts:_initial.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/sculk.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/mission_utils.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:aa_planet_resources.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:Early_Game.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:End_Game.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:Extended_Crafting_Recipes.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:extractor_solidifer.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/delay_rmm.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/Fixes_Server.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/glass_breaking.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/hatch_revert.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/hide_facades.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/large_boiler_buff.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/no_structures.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/omnibreaker_retier.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/ore_smelting.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/snowchestite.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/Starting_Items.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/superconducting_coils.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/uev_quantum_storage.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/unification/origin_tags.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/unification/other_tags.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/unification/quest_tags.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fixes_tweaks/unification/tags.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:fleshline.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/Alloys_Recipes.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/antimatter.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/chromatic_devices.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/circuits.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/creative_multis.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/Crystal_Matrix.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/discharger.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/dye_recipes.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/energy_cores.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/fishery.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/forming_press.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/gem_vat.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/germanium.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/greenhouse.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/gtmutils.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/lapidary.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/naquadah_reactor.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/netherite.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/neutron_chamber.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/oil_catalysis.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/omnic_synthesizer.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/opticals.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/ore_plant.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/PECA.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/peek.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/polymerizer.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/post_tank_wafers.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/Post_UV_Components.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/priscore_line.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/Prismatic_Crucible.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/prism_glass.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/quintessence_infuser.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/rare_earth.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/reconstruction.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/rock_cycle_simulator.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/scrap.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/sculk_vat.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/solder.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/supercomputer.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/superfabricator.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:infinite_sources.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:Infinity_Toolset.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/advanced_missions.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/basic_missions.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/components.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/elite_missions.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/hardmode_missions.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/hyperbolic_missions.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/miners.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/projectors.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/repair.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:microverse/stabilized_miners.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Ad_Astra.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/AE2.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/artifacts_relics.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/bhc.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/buildinggadgets2.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/create_enchantment_industry.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/enchanting_infuser.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/EnderIO.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/EndRem.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/extended_crafting.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/farming_mods.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/fd_cutting.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/framedblocks.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/functionalstorage.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/gregtech.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/HostileNeuralNetworks.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Iron_Furnaces.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/kubeJS.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/medieval_siege_weapons.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/NuclearCraft.js in 0.001 s
-[14:32:13] [INFO] mods/optionalCompats/advanced_peripherals.js#8: Advanced peripherals found, loading compat scripts...
-[14:32:13] [INFO] mods/optionalCompats/advanced_peripherals.js#140: Advacned peripherals compat scripts successfully loaded!
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/advanced_peripherals.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/compactmachines.js#67: Compact Machines not found, skipping its compat scripts.
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/compactmachines.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/computercraft.js#5: Computercraft Tweaked found, loading compat scripts...
-[14:32:13] [INFO] mods/optionalCompats/computercraft.js#200: Computercraft Tweaked compat scripts successfully loaded!
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/computercraft.js in 0.001 s
-[14:32:13] [INFO] mods/optionalCompats/create.js#5: Create found, loading compat scripts...
-[14:32:13] [INFO] mods/optionalCompats/create.js#465: Create compat scripts successfully loaded!
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/create.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/createdeco.js#5: createdeco found and scripts loaded
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/createdeco.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/create_steamandrails.js#6: Create: Steam and Rails found, loading compat script...
-[14:32:13] [INFO] mods/optionalCompats/create_steamandrails.js#281: Create: Steam and Rails compat script successfully loaded!
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/create_steamandrails.js in 0.001 s
-[14:32:13] [INFO] mods/optionalCompats/fluxnetworks.js#5: Flux Networks found, loading compat scripts...
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/fluxnetworks.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/modularrouters.js#8: Modular Routers found, loading server compat scripts...
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/modularrouters.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading server compat scripts...
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[14:32:13] [INFO] mods/optionalCompats/tempad.js#35: Tempad was not found, skipping its compat scripts.
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/tempad.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/optionalCompats/xnet.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/redstone_clock.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Shrink.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Solar_Flux.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Sophisticated_Storage.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/TaCZ.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:mods/Thermal_Series.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:normal_mode.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:ore_processing_tags.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/bromine.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/eltzline.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/matrix.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/naquadah_fuels.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/scalelines.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/sculk_bioalloy.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/shellline.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/smores.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:processing_lines/witherline.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:random_ores.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:random_recipes.js in 0.001 s
-[14:32:13] [INFO] Loaded script server_scripts:Remove_Recipes.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:thrusters.js in 0.0 s
-[14:32:13] [INFO] worldgen/fluidVeins.js#5: Loaded Java class 'net.minecraft.core.registries.Registries'
-[14:32:13] [INFO] worldgen/fluidVeins.js#6: Loaded Java class 'net.minecraft.resources.ResourceKey'
-[14:32:13] [INFO] Loaded script server_scripts:worldgen/fluidVeins.js in 0.0 s
-[14:32:13] [INFO] worldgen/oreVeins.js#16: Loaded Java class 'com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers'
-[14:32:13] [INFO] Loaded script server_scripts:worldgen/oreVeins.js in 0.003 s
-[14:32:13] [INFO] Loaded script server_scripts:_hardmode/hardmode.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:_hardmode/hardmode_processing.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:_hardmode/platline.js in 0.0 s
-[14:32:13] [INFO] Loaded script server_scripts:nukelists.js in 0.001 s
-[14:32:13] [INFO] gregtech/tiered_recipes.js#14: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.ExtendedOutputItem'
-[14:32:13] [INFO] Loaded script server_scripts:gregtech/tiered_recipes.js in 0.001 s
-[14:32:13] [INFO] Loaded 138/138 KubeJS server scripts in 0.036 s with 0 errors and 0 warnings
-[14:32:13] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[14:32:13] [INIT] Loaded plugins:
-[14:32:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[14:32:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[14:32:13] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[14:32:13] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[14:32:13] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[14:32:13] [INIT] - com.almostreliable.morejs.Plugin
-[14:32:13] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[14:32:13] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[14:32:13] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
-[14:32:13] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[14:32:13] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[14:32:14] [INFO] _initial.js#42: Loaded Java class 'com.google.gson.JsonObject'
-[14:32:14] [INFO] _initial.js#44: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.GTRecipeComponents$FluidIngredientJS'
-[14:32:14] [INFO] Loaded script server_scripts:_initial.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/sculk.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/mission_utils.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:aa_planet_resources.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:Early_Game.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:End_Game.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:Extended_Crafting_Recipes.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:extractor_solidifer.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/delay_rmm.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/Fixes_Server.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/glass_breaking.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/hatch_revert.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/hide_facades.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/large_boiler_buff.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/no_structures.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/omnibreaker_retier.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/ore_smelting.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/snowchestite.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/Starting_Items.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/superconducting_coils.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/uev_quantum_storage.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/unification/origin_tags.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/unification/other_tags.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/unification/quest_tags.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fixes_tweaks/unification/tags.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:fleshline.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/Alloys_Recipes.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/antimatter.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/chromatic_devices.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/circuits.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/creative_multis.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/Crystal_Matrix.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/discharger.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/dye_recipes.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/energy_cores.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/fishery.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/forming_press.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/gem_vat.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/germanium.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/greenhouse.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/gtmutils.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/lapidary.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/naquadah_reactor.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/netherite.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/neutron_chamber.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/oil_catalysis.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/omnic_synthesizer.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/opticals.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/ore_plant.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/PECA.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/peek.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/polymerizer.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/post_tank_wafers.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/Post_UV_Components.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/priscore_line.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/Prismatic_Crucible.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/prism_glass.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/quintessence_infuser.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/rare_earth.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/reconstruction.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/rock_cycle_simulator.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/scrap.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/sculk_vat.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/solder.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/supercomputer.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/superfabricator.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:infinite_sources.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:Infinity_Toolset.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/advanced_missions.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/basic_missions.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/components.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/elite_missions.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/hardmode_missions.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/hyperbolic_missions.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/miners.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/projectors.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/repair.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:microverse/stabilized_miners.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Ad_Astra.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/AE2.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/artifacts_relics.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/bhc.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/buildinggadgets2.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/create_enchantment_industry.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/enchanting_infuser.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/EnderIO.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/EndRem.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/extended_crafting.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/farming_mods.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/fd_cutting.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/framedblocks.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/functionalstorage.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/gregtech.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/HostileNeuralNetworks.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Iron_Furnaces.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/kubeJS.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/medieval_siege_weapons.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/NuclearCraft.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/advanced_peripherals.js#8: Advanced peripherals found, loading compat scripts...
-[14:32:14] [INFO] mods/optionalCompats/advanced_peripherals.js#140: Advacned peripherals compat scripts successfully loaded!
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/advanced_peripherals.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/compactmachines.js#67: Compact Machines not found, skipping its compat scripts.
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/compactmachines.js in 0.001 s
-[14:32:14] [INFO] mods/optionalCompats/computercraft.js#5: Computercraft Tweaked found, loading compat scripts...
-[14:32:14] [INFO] mods/optionalCompats/computercraft.js#200: Computercraft Tweaked compat scripts successfully loaded!
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/computercraft.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/create.js#5: Create found, loading compat scripts...
-[14:32:14] [INFO] mods/optionalCompats/create.js#465: Create compat scripts successfully loaded!
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/create.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/createdeco.js#5: createdeco found and scripts loaded
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/createdeco.js in 0.001 s
-[14:32:14] [INFO] mods/optionalCompats/create_steamandrails.js#6: Create: Steam and Rails found, loading compat script...
-[14:32:14] [INFO] mods/optionalCompats/create_steamandrails.js#281: Create: Steam and Rails compat script successfully loaded!
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/create_steamandrails.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/fluxnetworks.js#5: Flux Networks found, loading compat scripts...
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/fluxnetworks.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/modularrouters.js#8: Modular Routers found, loading server compat scripts...
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/modularrouters.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading server compat scripts...
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
-[14:32:14] [INFO] mods/optionalCompats/tempad.js#35: Tempad was not found, skipping its compat scripts.
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/tempad.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/optionalCompats/xnet.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/redstone_clock.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Shrink.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Solar_Flux.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Sophisticated_Storage.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/TaCZ.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:mods/Thermal_Series.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:normal_mode.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:ore_processing_tags.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/bromine.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/eltzline.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/matrix.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/naquadah_fuels.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/scalelines.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/sculk_bioalloy.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/shellline.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/smores.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:processing_lines/witherline.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:random_ores.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:random_recipes.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:Remove_Recipes.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:thrusters.js in 0.0 s
-[14:32:14] [INFO] worldgen/fluidVeins.js#5: Loaded Java class 'net.minecraft.core.registries.Registries'
-[14:32:14] [INFO] worldgen/fluidVeins.js#6: Loaded Java class 'net.minecraft.resources.ResourceKey'
-[14:32:14] [INFO] Loaded script server_scripts:worldgen/fluidVeins.js in 0.0 s
-[14:32:14] [INFO] worldgen/oreVeins.js#16: Loaded Java class 'com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers'
-[14:32:14] [INFO] Loaded script server_scripts:worldgen/oreVeins.js in 0.003 s
-[14:32:14] [INFO] Loaded script server_scripts:_hardmode/hardmode.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:_hardmode/hardmode_processing.js in 0.0 s
-[14:32:14] [INFO] Loaded script server_scripts:_hardmode/platline.js in 0.001 s
-[14:32:14] [INFO] Loaded script server_scripts:nukelists.js in 0.0 s
-[14:32:14] [INFO] gregtech/tiered_recipes.js#14: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.ExtendedOutputItem'
-[14:32:14] [INFO] Loaded script server_scripts:gregtech/tiered_recipes.js in 0.001 s
-[14:32:14] [INFO] Loaded 138/138 KubeJS server scripts in 0.04 s with 0 errors and 0 warnings
-[14:32:14] [INFO] Scripts loaded
-[14:32:14] [INFO] Initializing recipe event...
-[14:32:14] [INFO] [minecraft:fluid] Found 782 tags, added 3 objects, removed 0 objects
-[14:32:14] [INFO] [minecraft:worldgen/biome] Found 394 tags, added 0 objects, removed 4 objects
-[14:32:14] [INFO] fixes_tweaks/unification/tags.js#27: [minecraft:block] Found 2361 tags, added 1145 objects, removed 0 objects
-[14:32:14] [INFO] [minecraft:item] Found 9232 tags, added 2166 objects, removed 0 objects
-[14:32:17] [INFO] Processing recipes...
-[14:32:17] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_sliding_warped_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:17] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_screen_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:17] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_dark_oak_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:17] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_crimson_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_birch_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_tiled_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_spruce_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_jungle_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_acacia_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_shack_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_warped_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
-[14:32:18] [INFO] Found 83189 recipes in 1.111 s
-[14:32:19] [WARN] gregtech/rare_earth.js#102: Trying to add more outputs than RecipeType can support, id: gtceu:chemical_reactor/re_washing_chemical_reactor, Max itemOutputs: 2
-[14:32:19] [WARN] microverse/advanced_missions.js#116: Trying to add more outputs than RecipeType can support, id: kubejs:microverse/mission_t4_7, Max itemOutputs: 9
-[14:32:19] [INFO] mods/optionalCompats/create.js#203: Steam and Rails is present, letting its compat script handle the track recipes.
-[14:32:20] [WARN] random_ores.js#26: Trying to add more outputs than RecipeType can support, id: kubejs:centrifuge/centrifuge_labyrinthite, Max itemOutputs: 6
-[14:32:20] [WARN] random_ores.js#26: Trying to add more outputs than RecipeType can support, id: kubejs:centrifuge/centrifuge_labyrinthite, Max itemOutputs: 6
-[14:32:24] [INFO] gregtech/tiered_recipes.js#476: GTM pass: 130 new recipes were added!
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/bosonic_upgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/bosonic_downgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/hadronic_upgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/hadronic_downgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/fermionic_upgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/fermionic_downgrade
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/kubejs_fusion_crafting_core
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_kubejs_bathyal_energy_core","dataItem":{"id":"gtceu:data_stick","Count":1}}],"type":"research"}}],"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:hsse_frame"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:tungsten_carbide_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"minecraft:nether_star"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:iv_sensor"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"tag":"gtceu:circuits/iv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":8,"ingredient":{"tag":"forge:storage_blocks/diamatine"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":30720,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:dischargement_core"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/simulation_quantumcomputer
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_gtceu_simulation_supercomputer","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:atomic_casing"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:trinaquadalloy_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:simulation_supercomputer"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:heart_of_a_universe"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"tag":"gtceu:circuits/uhv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_robot_arm"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_field_generator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:abyssal_energy_core","nbt":"{Damage:4000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":1966080,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:simulation_quantumcomputer"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/loot_quantumfabricator
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_gtceu_loot_superfabricator","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:atomic_casing"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:trinaquadalloy_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:loot_superfabricator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:heart_of_a_universe"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"tag":"gtceu:circuits/uhv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_robot_arm"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_emitter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:abyssal_energy_core","nbt":"{Damage:4000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":1966080,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:loot_quantumfabricator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/gravitational_amplifier
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
-[14:32:24] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1000,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_ae2_singularity","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"item":[{"content":{"type":"gtceu:sized","count":8,"ingredient":{"item":"ae2:singularity"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:gravi_star"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:hadal_energy_core","nbt":"{Damage:8000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:zpm_field_generator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":12,"ingredient":{"item":"redstone_arsenal:flux_plating"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":16,"ingredient":{"item":"gtceu:enderium_foil"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":16,"ingredient":{"item":"gtceu:darmstadtium_bolt"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":5,"ingredient":{"item":"gtceu:fusion_glass"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1728,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":576,"value":[{"fluid":"gtceu:naquadria"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":288,"value":[{"fluid":"gtceu:polybenzimidazole"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":491520,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:gravitational_amplifier"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:25] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for tacz:assembler/tris_overclocking_upgrade
-[14:32:25] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
-[14:32:25] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":100,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"tag":"gtceu:circuits/luv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":3,"ingredient":{"item":"gtceu:fine_americium_wire"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":8,"ingredient":{"item":"gtceu:advanced_smd_capacitor"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"gtceu:circuit","configuration":24}},"chance":0,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":3840,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:nbt","item":"tacz:attachment","count":1,"nbt":"{AttachmentId:\"trisdyna:stock_tris2\"}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
-[14:32:25] [INFO] gregtech/tiered_recipes.js#499: KubeJS pass: 140 new recipes were added, 11 failed to add
-[14:32:25] [INFO] gregtech/tiered_recipes.js#499: KubeJS pass: 0 new recipes were added, 0 failed to add
-[14:32:25] [INFO] Posted recipe events in 6.431 s
-[14:32:25] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
-[14:32:25] [WARN] Error parsing recipe gtceu:chemical_reactor/cobalt_chloride[gtceu:chemical_reactor]: {"type":"gtceu:chemical_reactor","inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:cobalt_carbonate_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:hydrochloric_acid"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":3000,"value":[{"fluid":"gtceu:distilled_water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:cobalt_chloride_hexahydride_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:carbon_dioxide"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":500,"value":[{"fluid":"minecraft:water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}: No key duration in MapLike[{"type":"gtceu:chemical_reactor","inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:cobalt_carbonate_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:hydrochloric_acid"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":3000,"value":[{"fluid":"gtceu:distilled_water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:cobalt_chloride_hexahydride_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:carbon_dioxide"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":500,"value":[{"fluid":"minecraft:water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}]
-[14:32:25] [WARN] Error parsing recipe farmersdelight:kjs/evrd04prhvz9npf7mmel3y7ob[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"natures_spirit:joshua_wood"}],"result":[{"item":"natures_spirit:stripped_joshua_wood"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","tool":{"type":"farmersdelight:tool_action","action":"axe_strip"}}: Unknown item 'natures_spirit:joshua_wood'
-[14:32:26] [INFO] Added 7422 recipes, removed 2496 recipes, modified 411 recipes, with 3 failed recipes in 1.133 s
-[14:32:53] [INFO] Server resource reload complete!
+[20:08:17] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:08:17] [INIT] Loaded plugins:
+[20:08:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:08:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:08:17] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:08:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:08:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:08:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:08:17] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[20:08:17] [INIT] - com.almostreliable.morejs.Plugin
+[20:08:17] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:08:17] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:08:17] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:08:17] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[20:08:17] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[20:08:17] [INFO] _initial.js#42: Loaded Java class 'com.google.gson.JsonObject'
+[20:08:17] [INFO] _initial.js#44: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.GTRecipeComponents$FluidIngredientJS'
+[20:08:17] [INFO] Loaded script server_scripts:_initial.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/sculk.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/mission_utils.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:aa_planet_resources.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:Early_Game.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:End_Game.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:Extended_Crafting_Recipes.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:extractor_solidifer.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/delay_rmm.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/Fixes_Server.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/glass_breaking.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/hatch_revert.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/hide_facades.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/large_boiler_buff.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/no_structures.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/omnibreaker_retier.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/ore_smelting.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/snowchestite.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/Starting_Items.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/superconducting_coils.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/uev_quantum_storage.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/unification/origin_tags.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/unification/other_tags.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/unification/quest_tags.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fixes_tweaks/unification/tags.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:fleshline.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/Alloys_Recipes.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/antimatter.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/chromatic_devices.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/circuits.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/creative_multis.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/Crystal_Matrix.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/discharger.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/dye_recipes.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/energy_cores.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/fishery.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/forming_press.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/gem_vat.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/germanium.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/greenhouse.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/gtmutils.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/lapidary.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/naquadah_reactor.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/netherite.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/neutron_chamber.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/oil_catalysis.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/omnic_synthesizer.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/opticals.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/ore_plant.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/PECA.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/peek.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/polymerizer.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/post_tank_wafers.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/Post_UV_Components.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/priscore_line.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/Prismatic_Crucible.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/prism_glass.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/quintessence_infuser.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/rare_earth.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/reconstruction.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/rock_cycle_simulator.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/scrap.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/sculk_vat.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/solder.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/supercomputer.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/superfabricator.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:infinite_sources.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:Infinity_Toolset.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/advanced_missions.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/basic_missions.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/components.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/elite_missions.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/hardmode_missions.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/hyperbolic_missions.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/miners.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/projectors.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/repair.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:microverse/stabilized_miners.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Ad_Astra.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/AE2.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/artifacts_relics.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/bhc.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/buildinggadgets2.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/create_enchantment_industry.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/enchanting_infuser.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/EnderIO.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/EndRem.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/extended_crafting.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/farming_mods.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/fd_cutting.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/framedblocks.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/functionalstorage.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/gregtech.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/HostileNeuralNetworks.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Iron_Furnaces.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/kubeJS.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/medieval_siege_weapons.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/NuclearCraft.js in 0.001 s
+[20:08:17] [INFO] mods/optionalCompats/advanced_peripherals.js#8: Advanced peripherals found, loading compat scripts...
+[20:08:17] [INFO] mods/optionalCompats/advanced_peripherals.js#140: Advacned peripherals compat scripts successfully loaded!
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/advanced_peripherals.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/compactmachines.js#67: Compact Machines not found, skipping its compat scripts.
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/compactmachines.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/computercraft.js#5: Computercraft Tweaked found, loading compat scripts...
+[20:08:17] [INFO] mods/optionalCompats/computercraft.js#200: Computercraft Tweaked compat scripts successfully loaded!
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/computercraft.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/create.js#5: Create found, loading compat scripts...
+[20:08:17] [INFO] mods/optionalCompats/create.js#465: Create compat scripts successfully loaded!
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/create.js in 0.001 s
+[20:08:17] [INFO] mods/optionalCompats/createdeco.js#5: createdeco found and scripts loaded
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/createdeco.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/create_steamandrails.js#6: Create: Steam and Rails found, loading compat script...
+[20:08:17] [INFO] mods/optionalCompats/create_steamandrails.js#281: Create: Steam and Rails compat script successfully loaded!
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/create_steamandrails.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/fluxnetworks.js#5: Flux Networks found, loading compat scripts...
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/fluxnetworks.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/modularrouters.js#8: Modular Routers found, loading server compat scripts...
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/modularrouters.js in 0.001 s
+[20:08:17] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading server compat scripts...
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[20:08:17] [INFO] mods/optionalCompats/tempad.js#35: Tempad was not found, skipping its compat scripts.
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/tempad.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/optionalCompats/xnet.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/redstone_clock.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Shrink.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Solar_Flux.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Sophisticated_Storage.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/TaCZ.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:mods/Thermal_Series.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:normal_mode.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:ore_processing_tags.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/bromine.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/eltzline.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/matrix.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/naquadah_fuels.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/scalelines.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/sculk_bioalloy.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/shellline.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/smores.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:processing_lines/witherline.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:random_ores.js in 0.001 s
+[20:08:17] [INFO] Loaded script server_scripts:random_recipes.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:Remove_Recipes.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:thrusters.js in 0.0 s
+[20:08:17] [INFO] worldgen/fluidVeins.js#5: Loaded Java class 'net.minecraft.core.registries.Registries'
+[20:08:17] [INFO] worldgen/fluidVeins.js#6: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[20:08:17] [INFO] Loaded script server_scripts:worldgen/fluidVeins.js in 0.001 s
+[20:08:17] [INFO] worldgen/oreVeins.js#16: Loaded Java class 'com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers'
+[20:08:17] [INFO] Loaded script server_scripts:worldgen/oreVeins.js in 0.002 s
+[20:08:17] [INFO] Loaded script server_scripts:_hardmode/hardmode.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:_hardmode/hardmode_processing.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:_hardmode/platline.js in 0.0 s
+[20:08:17] [INFO] Loaded script server_scripts:nukelists.js in 0.0 s
+[20:08:17] [INFO] gregtech/tiered_recipes.js#14: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.ExtendedOutputItem'
+[20:08:17] [INFO] Loaded script server_scripts:gregtech/tiered_recipes.js in 0.001 s
+[20:08:17] [INFO] Loaded 138/138 KubeJS server scripts in 0.032 s with 0 errors and 0 warnings
+[20:08:18] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:08:18] [INIT] Loaded plugins:
+[20:08:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:08:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:08:18] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:08:18] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:08:18] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:08:18] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:08:18] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[20:08:18] [INIT] - com.almostreliable.morejs.Plugin
+[20:08:18] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:08:18] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:08:18] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:08:18] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[20:08:18] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
+[20:08:18] [INFO] _initial.js#42: Loaded Java class 'com.google.gson.JsonObject'
+[20:08:18] [INFO] _initial.js#44: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.GTRecipeComponents$FluidIngredientJS'
+[20:08:18] [INFO] Loaded script server_scripts:_initial.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/sculk.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/mission_utils.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:aa_planet_resources.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:Early_Game.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:End_Game.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:Extended_Crafting_Recipes.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:extractor_solidifer.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/delay_rmm.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/Fixes_Server.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/glass_breaking.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/hatch_revert.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/hide_facades.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/large_boiler_buff.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/no_structures.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/omnibreaker_retier.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/ore_smelting.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/snowchestite.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/Starting_Items.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/superconducting_coils.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/uev_quantum_storage.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/unification/origin_tags.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/unification/other_tags.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/unification/quest_tags.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fixes_tweaks/unification/tags.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:fleshline.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/Alloys_Recipes.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/antimatter.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/chromatic_devices.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/circuits.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/creative_multis.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/Crystal_Matrix.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/discharger.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/dye_recipes.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/energy_cores.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/fishery.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/forming_press.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/gem_vat.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/germanium.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/greenhouse.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/gtmutils.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/lapidary.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/naquadah_reactor.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/netherite.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/neutron_chamber.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/oil_catalysis.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/omnic_synthesizer.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/opticals.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/ore_plant.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/PECA.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/peek.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/polymerizer.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/post_tank_wafers.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/Post_UV_Components.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/priscore_line.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/Prismatic_Crucible.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/prism_glass.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/quintessence_infuser.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/rare_earth.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/reconstruction.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/rock_cycle_simulator.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/scrap.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/sculk_vat.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/solder.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/supercomputer.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/superfabricator.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:infinite_sources.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:Infinity_Toolset.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/advanced_missions.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/basic_missions.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/components.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/elite_missions.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/hardmode_missions.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/hyperbolic_missions.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/miners.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/projectors.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/repair.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:microverse/stabilized_miners.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Ad_Astra.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/AE2.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/artifacts_relics.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/bhc.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/buildinggadgets2.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/create_enchantment_industry.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/enchanting_infuser.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/EnderIO.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/EndRem.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/extended_crafting.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/farming_mods.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/fd_cutting.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/framedblocks.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/functionalstorage.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/gregtech.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/HostileNeuralNetworks.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Iron_Furnaces.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/kubeJS.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/medieval_siege_weapons.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/NuclearCraft.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/advanced_peripherals.js#8: Advanced peripherals found, loading compat scripts...
+[20:08:18] [INFO] mods/optionalCompats/advanced_peripherals.js#140: Advacned peripherals compat scripts successfully loaded!
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/advanced_peripherals.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/compactmachines.js#67: Compact Machines not found, skipping its compat scripts.
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/compactmachines.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/computercraft.js#5: Computercraft Tweaked found, loading compat scripts...
+[20:08:18] [INFO] mods/optionalCompats/computercraft.js#200: Computercraft Tweaked compat scripts successfully loaded!
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/computercraft.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/create.js#5: Create found, loading compat scripts...
+[20:08:18] [INFO] mods/optionalCompats/create.js#465: Create compat scripts successfully loaded!
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/create.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/createdeco.js#5: createdeco found and scripts loaded
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/createdeco.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/create_steamandrails.js#6: Create: Steam and Rails found, loading compat script...
+[20:08:18] [INFO] mods/optionalCompats/create_steamandrails.js#281: Create: Steam and Rails compat script successfully loaded!
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/create_steamandrails.js in 0.001 s
+[20:08:18] [INFO] mods/optionalCompats/fluxnetworks.js#5: Flux Networks found, loading compat scripts...
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/fluxnetworks.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/modularrouters.js#8: Modular Routers found, loading server compat scripts...
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/modularrouters.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/projectred_transmission.js#6: Project Red: Transmission found, loading server compat scripts...
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/projectred_transmission.js in 0.0 s
+[20:08:18] [INFO] mods/optionalCompats/tempad.js#35: Tempad was not found, skipping its compat scripts.
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/tempad.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/optionalCompats/xnet.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/redstone_clock.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Shrink.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Solar_Flux.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Sophisticated_Storage.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/TaCZ.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:mods/Thermal_Series.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:normal_mode.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:ore_processing_tags.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/bromine.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/eltzline.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/matrix.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/naquadah_fuels.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/scalelines.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/sculk_bioalloy.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/shellline.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/smores.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:processing_lines/witherline.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:random_ores.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:random_recipes.js in 0.001 s
+[20:08:18] [INFO] Loaded script server_scripts:Remove_Recipes.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:thrusters.js in 0.0 s
+[20:08:18] [INFO] worldgen/fluidVeins.js#5: Loaded Java class 'net.minecraft.core.registries.Registries'
+[20:08:18] [INFO] worldgen/fluidVeins.js#6: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[20:08:18] [INFO] Loaded script server_scripts:worldgen/fluidVeins.js in 0.0 s
+[20:08:18] [INFO] worldgen/oreVeins.js#16: Loaded Java class 'com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers'
+[20:08:18] [INFO] Loaded script server_scripts:worldgen/oreVeins.js in 0.002 s
+[20:08:18] [INFO] Loaded script server_scripts:_hardmode/hardmode.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:_hardmode/hardmode_processing.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:_hardmode/platline.js in 0.0 s
+[20:08:18] [INFO] Loaded script server_scripts:nukelists.js in 0.0 s
+[20:08:18] [INFO] gregtech/tiered_recipes.js#14: Loaded Java class 'com.gregtechceu.gtceu.integration.kjs.recipe.components.ExtendedOutputItem'
+[20:08:18] [INFO] Loaded script server_scripts:gregtech/tiered_recipes.js in 0.001 s
+[20:08:18] [INFO] Loaded 138/138 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
+[20:08:18] [INFO] Scripts loaded
+[20:08:18] [INFO] Initializing recipe event...
+[20:08:18] [INFO] [minecraft:fluid] Found 782 tags, added 3 objects, removed 0 objects
+[20:08:18] [INFO] [minecraft:worldgen/biome] Found 394 tags, added 0 objects, removed 4 objects
+[20:08:19] [INFO] fixes_tweaks/unification/tags.js#27: [minecraft:block] Found 2363 tags, added 1145 objects, removed 0 objects
+[20:08:19] [INFO] [minecraft:item] Found 9232 tags, added 2166 objects, removed 0 objects
+[20:08:23] [INFO] Processing recipes...
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_sliding_warped_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_screen_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_dark_oak_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_crimson_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_birch_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:23] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_tiled_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_spruce_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_jungle_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_acacia_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_shack_mangrove_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [WARN] Failed to parse recipe 'dramaticdoors:tall_chipped_modern_warped_door[minecraft:crafting_shaped]'! Falling back to vanilla: Map 'key' can't be empty!
+[20:08:24] [INFO] Found 83190 recipes in 1.386 s
+[20:08:25] [WARN] gregtech/rare_earth.js#102: Trying to add more outputs than RecipeType can support, id: gtceu:chemical_reactor/re_washing_chemical_reactor, Max itemOutputs: 2
+[20:08:25] [WARN] microverse/advanced_missions.js#116: Trying to add more outputs than RecipeType can support, id: kubejs:microverse/mission_t4_7, Max itemOutputs: 9
+[20:08:25] [INFO] mods/optionalCompats/create.js#203: Steam and Rails is present, letting its compat script handle the track recipes.
+[20:08:26] [WARN] random_ores.js#26: Trying to add more outputs than RecipeType can support, id: kubejs:centrifuge/centrifuge_labyrinthite, Max itemOutputs: 6
+[20:08:26] [WARN] random_ores.js#26: Trying to add more outputs than RecipeType can support, id: kubejs:centrifuge/centrifuge_labyrinthite, Max itemOutputs: 6
+[20:08:30] [INFO] gregtech/tiered_recipes.js#476: GTM pass: 130 new recipes were added!
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/bosonic_upgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/bosonic_downgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/hadronic_upgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/hadronic_downgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:hadronic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/fermionic_upgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"data":{"antimatterRandom":1},"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:bosonic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":36,"max_inclusive":144}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:antimatter_manipulator/fermionic_downgrade
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: TypeError: Cannot call method "some" of undefined
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":200,"inputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":18,"max_inclusive":72}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:refined_fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"kubejs:protomatter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":122880,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"count_provider":{"type":"minecraft:uniform","value":{"min_inclusive":72,"max_inclusive":288}},"inner":{"amount":1000,"value":[{"fluid":"kubejs:fermionic_antimatter"}]},"sampledCount":-1},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/kubejs_fusion_crafting_core
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
+[20:08:30] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_kubejs_bathyal_energy_core","dataItem":{"id":"gtceu:data_stick","Count":1}}],"type":"research"}}],"inputs":{"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:hsse_frame"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:tungsten_carbide_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"minecraft:nether_star"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:iv_sensor"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"tag":"gtceu:circuits/iv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":8,"ingredient":{"tag":"forge:storage_blocks/diamatine"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:bathyal_energy_core","nbt":"{Damage:2000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":30720,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:dischargement_core"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/simulation_quantumcomputer
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_gtceu_simulation_supercomputer","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:atomic_casing"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:trinaquadalloy_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:simulation_supercomputer"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:heart_of_a_universe"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"tag":"gtceu:circuits/uhv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_robot_arm"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_field_generator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:abyssal_energy_core","nbt":"{Damage:4000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":1966080,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:simulation_quantumcomputer"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/loot_quantumfabricator
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1200,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_gtceu_loot_superfabricator","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"fluid":[{"content":{"amount":1152,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:atomic_casing"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":6,"ingredient":{"item":"gtceu:trinaquadalloy_plate"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:loot_superfabricator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:heart_of_a_universe"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"tag":"gtceu:circuits/uhv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_robot_arm"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":2,"ingredient":{"item":"gtceu:uv_emitter"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:abyssal_energy_core","nbt":"{Damage:4000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":1966080,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:loot_quantumfabricator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for gtceu:assembly_line/gravitational_amplifier
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":1000,"recipeConditions":[{"type":"research","data":{"research":[{"researchId":"1x_ae2_singularity","dataItem":{"id":"gtceu:data_module","Count":1}}],"type":"research"}}],"inputs":{"fluid":[{"content":{"amount":1728,"value":[{"fluid":"gtceu:advanced_soldering_alloy"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":576,"value":[{"fluid":"gtceu:naquadria"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":288,"value":[{"fluid":"gtceu:polybenzimidazole"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":8,"ingredient":{"item":"ae2:singularity"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:gravi_star"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:partial_nbt","item":"kubejs:hadal_energy_core","nbt":"{Damage:8000000}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:zpm_field_generator"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":12,"ingredient":{"item":"redstone_arsenal:flux_plating"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":16,"ingredient":{"item":"gtceu:enderium_foil"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":16,"ingredient":{"item":"gtceu:darmstadtium_bolt"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":5,"ingredient":{"item":"gtceu:fusion_glass"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":491520,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"kubejs:gravitational_amplifier"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Failed to generate recipe for tacz:assembler/tris_overclocking_upgrade
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: Error: Recipe uses complicated item stack, I'd rather explode
+[20:08:31] [INFO] gregtech/tiered_recipes.js#490: {"type":"unknown","duration":100,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"tag":"gtceu:circuits/luv"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":3,"ingredient":{"item":"gtceu:fine_americium_wire"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":8,"ingredient":{"item":"gtceu:advanced_smd_capacitor"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"gtceu:circuit","configuration":24}},"chance":0,"maxChance":10000,"tierChanceBoost":0}]},"tickInputs":{"eu":[{"content":3840,"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:nbt","item":"tacz:attachment","count":1,"nbt":"{AttachmentId:\"trisdyna:stock_tris2\"}"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}
+[20:08:31] [INFO] gregtech/tiered_recipes.js#499: KubeJS pass: 140 new recipes were added, 11 failed to add
+[20:08:31] [INFO] gregtech/tiered_recipes.js#499: KubeJS pass: 0 new recipes were added, 0 failed to add
+[20:08:31] [INFO] Posted recipe events in 6.566 s
+[20:08:31] [WARN] Error parsing recipe farmersrespite:chilidog_alt[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersrespite:blazing_chili"},{"item":"mynethersdelight:hotdog"},{"item":"mynethersdelight:hotdog"}],"result":{"count":2,"item":"mynethersdelight:chilidog"}}: Unknown item 'farmersrespite:blazing_chili'
+[20:08:31] [WARN] Error parsing recipe gtceu:chemical_reactor/cobalt_chloride[gtceu:chemical_reactor]: {"type":"gtceu:chemical_reactor","inputs":{"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:hydrochloric_acid"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":3000,"value":[{"fluid":"gtceu:distilled_water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:cobalt_carbonate_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:carbon_dioxide"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":500,"value":[{"fluid":"minecraft:water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:cobalt_chloride_hexahydride_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}: No key duration in MapLike[{"type":"gtceu:chemical_reactor","inputs":{"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:hydrochloric_acid"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":3000,"value":[{"fluid":"gtceu:distilled_water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:cobalt_carbonate_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]},"outputs":{"fluid":[{"content":{"amount":1000,"value":[{"fluid":"gtceu:carbon_dioxide"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0},{"content":{"amount":500,"value":[{"fluid":"minecraft:water"}]},"chance":10000,"maxChance":10000,"tierChanceBoost":0}],"item":[{"content":{"type":"gtceu:sized","count":4,"ingredient":{"item":"gtceu:cobalt_chloride_hexahydride_dust"}},"chance":10000,"maxChance":10000,"tierChanceBoost":0}]}}]
+[20:08:31] [WARN] Error parsing recipe farmersdelight:kjs/evrd04prhvz9npf7mmel3y7ob[farmersdelight:cutting]: {"type":"farmersdelight:cutting","ingredients":[{"item":"natures_spirit:joshua_wood"}],"result":[{"item":"natures_spirit:stripped_joshua_wood"},{"item":"farmersdelight:tree_bark"}],"sound":"minecraft:item.axe.strip","tool":{"type":"farmersdelight:tool_action","action":"axe_strip"}}: Unknown item 'natures_spirit:joshua_wood'
+[20:08:32] [INFO] Added 7441 recipes, removed 2496 recipes, modified 411 recipes, with 3 failed recipes in 1.487 s
+[20:09:02] [INFO] Server resource reload complete!

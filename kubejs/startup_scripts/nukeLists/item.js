@@ -46,6 +46,7 @@ global.itemNukeList = [
     "ae2:vibration_chamber",
     "ae2:charger",
     "ae2:inscriber",
+    "ae2:silicon",
 
     // Better Angel Ring
     "better_angel_ring:ring",
