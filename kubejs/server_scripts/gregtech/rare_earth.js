@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
 
     // Washing step
-    event.recipes.gtceu.chemical_reactor("re_washing_chemical_reactor")
+    event.recipes.gtceu.large_chemical_reactor("re_washing_chemical_reactor")
         .inputFluids("gtceu:rare_earth_sulfate_solution 1000", "gtceu:distilled_water 2000")
         .chancedOutput("gtceu:gypsum_dust", 5000, 0)
         .chancedOutput("gtceu:thorium_dust", 2000, 0)
@@ -507,7 +507,7 @@ ServerEvents.recipes(event => {
     // Dilute solution distillations
     event.recipes.gtceu.distillation_tower("diluted_oxalic_acid_distillation")
         .inputFluids("gtceu:diluted_oxalic_acid 1200")
-        .outputFluids("minecraft:water 900", "gtceu:oxalic_acid 300")
+        .outputFluids("minecraft:water 900", "gtceu:oxalic_acid_solution 300")
         .duration(160)
         .EUt(GTValues.VA[GTValues.MV])
 

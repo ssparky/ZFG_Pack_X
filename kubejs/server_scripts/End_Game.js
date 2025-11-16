@@ -575,8 +575,9 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UEV])
 
     event.recipes.gtceu.assembly_line("causality_exempt_monic_plating")
-        .itemInputs("6x gtceu:double_monium_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", "kubejs:universe_resistant_neutronium_heavy_plating", 
-    "kubejs:elementally_infused_omnic_matrix_heavy_plating", "kubejs:dimensionally_stabilized_infinity_heavy_plating", "6x monilabs:double_transcendental_matrix_plate")
+        .itemInputs("6x gtceu:double_monium_plate", "8x monilabs:double_eltz_plate", "kubejs:quantum_fluxed_eternium_heavy_plating", 
+            "kubejs:universe_resistant_neutronium_heavy_plating", "kubejs:elementally_infused_omnic_matrix_heavy_plating", 
+            "kubejs:dimensionally_stabilized_infinity_heavy_plating", "6x monilabs:double_transcendental_matrix_plate")
         .inputFluids("gtceu:living_soldering_alloy 2880")
         .itemOutputs("kubejs:causality_exempt_monic_heavy_plating")
         .duration(400)

@@ -226,6 +226,10 @@ global.itemNukeList = [
 
     // ME Beam Former
     "me_beam_former:wireless_energy_tower",
+
+    // Nature's Spirit
+    /^natures_spirit:.*_ore/,
+    /^natures_spirit:ore_.*/,
 ];
 
 // Create Compat

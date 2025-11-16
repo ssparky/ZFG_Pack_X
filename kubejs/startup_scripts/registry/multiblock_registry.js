@@ -567,8 +567,10 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
 
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
-            .where("C", Predicates.blocks("monilabs:cryolobus_casing").setMinGlobalLimited(85)
-                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+            .where("C", Predicates.blocks("monilabs:cryolobus_casing").setMinGlobalLimited(70)
+                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setPreviewCount(1))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
             .where("c", Predicates.blocks("monilabs:cryolobus_casing"))
@@ -761,7 +763,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             .where("O", Predicates.blocks(GTBlocks.CASING_ASSEMBLY_LINE.get()))
             .where("F", Predicates.blocks("monilabs:bioalloy_fusion_casing"))
             .where("R", Predicates.blocks(GTBlocks.CASING_GRATE.get())
-                .or(Predicates.abilities(PartAbility.DATA_ACCESS).setExactLimit(1)))
+                .or(Predicates.abilities([PartAbility.DATA_ACCESS, PartAbility.OPTICAL_DATA_RECEPTION]).setExactLimit(1)))
             .where("M", Predicates.blocks("monilabs:eltz_casing"))
             .where("I", Predicates.blocks("monilabs:transcendental_matrix_frame"))
             .where(" ", Predicates.air())

@@ -343,14 +343,6 @@ StartupEvents.registry("item", event => {
     }
 
     // Misc Items
-    event.create("ender_star")
-        .texture("kubejs:item/ender_star")
-        .glow(true)
-    event.create("endest_star")
-        .texture("kubejs:item/endest_star")
-        .glow(true)
-    event.create("grains_of_innocence")
-        .texture("kubejs:item/mod/enderio/grains_of_innocence")
     event.create("radium_salt")
         .rarity("Epic")
         .texture("kubejs:item/radium_salt")
@@ -574,14 +566,6 @@ StartupEvents.registry("item", event => {
         .texture("kubejs:item/lines/matrix/carbon_nanotubes")
     event.create("adhered_matrix_mesh")
         .texture("kubejs:item/lines/matrix/adhered_matrix_mesh")
-
-    // Terbium Line
-    event.create("rare_earth_sulfate")
-        .texture("kubejs:item/lines/terbium/rare_earth_sulfate")
-    event.create("rare_earth_oxide")
-        .texture("kubejs:item/lines/terbium/rare_earth_oxide")
-    event.create("rare_earth_salt")
-        .texture("kubejs:item/lines/terbium/rare_earth_salt")
 
     // Alien Scrapline
     event.create("alien_scrap")
@@ -937,9 +921,11 @@ StartupEvents.registry("item", event => {
     event.create("prescient_crystal")
         .displayName("Prescient Crystal")
         .texture("kubejs:item/prescient_crystal")
+        .glow(true);
     event.create("weather_crystal")
         .displayName("Weather Crystal")
         .texture("kubejs:item/weather_crystal")
+        .glow(true);
 
     // Coils - TODO: UIV/UXV/OPV
     event.create("uhv_voltage_coil")
@@ -1002,5 +988,23 @@ StartupEvents.registry("item", event => {
             .displayName(`${name} Soul Vial`)
             .textureJson({layer0: "kubejs:item/vials/empty_soul_vial", layer1: "kubejs:item/vials/soul_vial_underlay"})
             .color(1, color)
+            .glow(true)
     }
+
+    // Transcendental matrix Stuff
+    event.create("transcendental_soul_vial")
+        .texture("kubejs:item/lines/tsmatrix/transcendant_soul_vial")
+        .displayName("Transcendental Soul Vial")
+        .glow(true)
+
+    event.create("crushed_circuit")
+        .texture("kubejs:item/lines/tsmatrix/crushed_circuit")
+        .displayName("Crushed Circuit")
+
+    event.create("sparks_of_conscience")
+        .textureJson({
+            layer0: "kubejs:item/lines/tsmatrix/of_conscience",
+            layer1: "kubejs:item/lines/tsmatrix/sparks_"
+        })
+        .displayName("Sparks of Conscience")
 })

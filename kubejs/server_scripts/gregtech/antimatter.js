@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line("antimatter_manipulator")
         .itemInputs("monilabs:bioalloy_fusion_casing", "#gtceu:circuits/uhv", "2x gtceu:uhv_field_generator", "2x monilabs:double_sculk_bioalloy_plate", "2x gtceu:uhv_emitter", "2x gtceu:uhv_electric_pump", "6x gtceu:neutronium_large_fluid_pipe", "32x gtceu:fine_ruthenium_trinium_americium_neutronate_wire")
         .inputFluids("gtceu:advanced_soldering_alloy 2304", "gtceu:omnium 576", "gtceu:polyethyl_cyanoacrylate 1152")
-        .itemOutputs("gtceu:antimatter_manipulation")
+        .itemOutputs("gtceu:antimatter_manipulator")
         .duration(200)
         .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b

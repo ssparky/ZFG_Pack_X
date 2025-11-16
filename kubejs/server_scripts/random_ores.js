@@ -15,15 +15,29 @@ ServerEvents.recipes(event => {
 
     // Labyrinthite decomp
     event.recipes.gtceu.centrifuge('kubejs:centrifuge_labyrinthite')
-        .itemInputs('187x gtceu:labyrinthite_dust')
+        .itemInputs('328x gtceu:labyrinthite_dust')
+        .EUt(1024)
+        .duration(600)
+        .outputFluids("gtceu:oxygen 27000", "gtceu:sodium_potassium 70000", "gtceu:chlorine 3000", "minecraft:water 27000")
+        .itemOutputs("70x gtceu:strontium_dust", "24x gtceu:quicklime_dust", "3x gtceu:hematite_dust", 
+            "10x gtceu:zircon_dust", "2x gtceu:rutile_dust", "92x gtceu:silicon_dioxide_dust")
+
+    // Manganvesuvianite decomp
+    event.recipes.gtceu.electrolyzer('kubejs:electrolyze_manganvesuvianite')
+        .itemInputs("289x gtceu:manganvesuvianite_dust")
         .EUt(256)
         .duration(400)
-        .outputFluids("gtceu:oxygen 58000", "gtceu:hydrogen 9000", "gtceu:chlorine 3000", "minecraft:water 9000")
-        .itemOutputs("12x gtceu:calcium_dust", "3x gtceu:iron_dust", "6x gtceu:zirconium_dust", "1x gtceu:rutile_dust", "51x gtceu:silicon_dioxide_dust")
-        .chancedOutput("35x gtceu:sodium_dust", 3333, 0)
-        .chancedOutput("35x gtceu:potassium_dust", 3333, 0)
-        .chancedOutput("35x gtceu:strontium_dust", 3333, 0)
-        .chancedItemOutputLogic(ChanceLogic.XOR)
+        .outputFluids("gtceu:oxygen 19000", "minecraft:water 18000")
+        .itemOutputs("76x gtceu:quicklime_dust", "52x gtceu:manganese_dust", "20x gtceu:bauxite_dust", "40x gtceu:iron_dust", 
+            "8x gtceu:magnesia_dust", "56x gtceu:silicon_dioxide_dust")
+
+    // Rubellite decomp
+    event.recipes.gtceu.electrolyzer('kubejs:electrolyze_rubellite')
+        .itemInputs("38x gtceu:rubellite_dust")
+        .EUt(256)
+        .duration(400)
+        .outputFluids("gtceu:oxygen 6000", "minecraft:water 3000")
+        .itemOutputs("2x gtceu:sodium_hydroxide_dust", "2x gtceu:lithium_dust", "7x gtceu:bauxite_dust", "12x gtceu:silicon_dioxide_dust", "6x gtceu:boron_dust")
 
     // Anatase and Brookite -> TiCL4
     event.recipes.gtceu.chemical_reactor('titanium_tetrachloride_anatase')
@@ -65,6 +79,43 @@ ServerEvents.recipes(event => {
         .itemOutputs("7x gtceu:tungstic_acid_dust", "3x gtceu:manganese_ii_chloride_dust")
         .duration(210)
         .EUt(GTValues.VHA[GTValues.EV])
+
+    // Extra platline ores
+    event.recipes.gtceu.chemical_reactor("pgs_from_mohite")
+        .itemInputs("gtceu:purified_mohite_ore")
+        .inputFluids("gtceu:nitric_acid 100")
+        .itemOutputs("2x gtceu:platinum_group_sludge_dust")
+        .outputFluids("gtceu:sulfuric_copper_solution 1000")
+        .EUt(30)
+        .duration(50)
+    event.recipes.gtceu.chemical_reactor("pgs_from_ullmannite")
+        .itemInputs("gtceu:purified_ullmannite_ore")
+        .inputFluids("gtceu:nitric_acid 100")
+        .itemOutputs("2x gtceu:platinum_group_sludge_dust")
+        .outputFluids("gtceu:sulfuric_nickel_solution 1000")
+        .EUt(30)
+        .duration(50)
+    event.recipes.gtceu.chemical_reactor("pgs_from_germanite")
+        .itemInputs("gtceu:purified_germanite_ore")
+        .inputFluids("gtceu:nitric_acid 400")
+        .itemOutputs("2x gtceu:platinum_group_sludge_dust")
+        .outputFluids("gtceu:sulfuric_copper_solution 4000")
+        .EUt(30)
+        .duration(50)
+    event.recipes.gtceu.chemical_reactor("pgs_from_cuprorhodsite")
+        .itemInputs("gtceu:purified_cuprorhodsite_ore")
+        .inputFluids("gtceu:nitric_acid 100")
+        .itemOutputs("4x gtceu:platinum_group_sludge_dust")
+        .outputFluids("gtceu:rhodium_sulfate_solution 1000")
+        .EUt(30)
+        .duration(50)
+    event.recipes.gtceu.chemical_reactor("pgs_from_rhodplumsite")
+        .itemInputs("gtceu:purified_rhodplumsite_ore")
+        .inputFluids("gtceu:nitric_acid 100")
+        .itemOutputs("4x gtceu:platinum_group_sludge_dust")
+        .outputFluids("gtceu:rhodium_sulfate_solution 1000")
+        .EUt(30)
+        .duration(50)
 
     // Stones that dont have a decomp yet
     // Tuff

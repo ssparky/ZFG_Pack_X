@@ -18,7 +18,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("soul_binding")
         .category("binding")
         .setEUIO("in")
-        .setMaxIOSize(2, 2, 1, 0)
+        .setMaxIOSize(2, 2, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.ARROW_INPUT_OVERLAY)
         .setProgressBar(MoniGuiTextures.PROGRESS_BAR_XP, FillDirection.DOWN_TO_UP)
         .setSound(GTSoundEntries.CENTRIFUGE)

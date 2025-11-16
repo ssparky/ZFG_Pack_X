@@ -1011,4 +1011,15 @@ ServerEvents.recipes(event => {
     event.remove({id:"ae2:inscriber/fluix_dust"})
     event.remove({id:"ae2:inscriber/calculation_processor_print"})
     event.remove({id:"ae2:inscriber/sky_stone_dust"})
+
+    // Meteorite Compass
+    event.remove({id:"ae2:charger/meteorite_compass"})
+    event.shaped(Item.of("ae2:meteorite_compass"), [
+        " I ",
+        "IQI",
+        " I "
+    ], {
+        I: "gtceu:electrical_steel_plate",
+        Q: "ae2:charged_certus_quartz_crystal"
+    }).id("kubejs:ae2/meteorite_compass")
 })

@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     processOre("bismite", "nitric_acid", "tin", "bismuth", "bismuth", "bismuth", "normal", null, null, null)
     processOre("black_opal", "distilled_water", "opal", "opal", "quartzite", "yellow_limonite", "normal", null, null, null)
     processOre("blue_topaz", "distilled_water", "topaz", "topaz", "topaz", "topaz", "gem", null, null, "gtceu:blue_topaz_gem")
-    processOre("borax", "distilled_Water", "salt", "salt", "boron", "rock_salt", "normal", null, null, null)
+    processOre("borax", "distilled_water", "salt", "salt", "boron", "rock_salt", "normal", null, null, null)
     processOre("bornite", "mercury", "pyrite", "gold", "cobalt", "cadmium", "normal", null, null, null)
     processOre("briartite", "distilled_water", "copper", "copper", "sphalerite", "germanium_disulfide", "normal", null, null, null)
     processOre("brookite", "mercury", "hematite", "tantalite", "niobium", "tantalite", "gem", null, null, "gtceu:brookite_gem")
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
     processOre("euclase", "distilled_water", "charged_certus_quartz", "fluorite", "fluorite", "anatase", "gem", null, null, "gtceu:euclase_gem")
     processOre("ferberite", "mercury", "magnetite", "tungstite", "hubnerite", "wolframite", "gem", null, null, "gtceu:ferberite_gem")
     processOre("fergusonite", "distilled_water", "scandium", "scandium", "tantalite", "thorium", "normal", null, null, null)
-    processOre("fluorite", "distilled_water", "calcite", "calcite", "barite", "barite", "gem", null, null, "fluorite_gem")
+    processOre("fluorite", "distilled_water", "calcite", "calcite", "barite", "barite", "gem", null, null, "gtceu:fluorite_gem")
     processOre("fluoroapatite", "distilled_water", "fluorite", "fluorite", "apatite", "monazite", "gem", null, null, "gtceu:fluoroapatite_gem")
     processOre("fullers_earth", "distilled_water", "aluminium", "aluminium", "silicon", "magnesium", "normal", null, null, null)
     processOre("gadolinite", "hexafluorosilicic_acid", "beryllium_oxide", "gadolinium", "thorium_232", "monazite", "normal", null, null, null)
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
     processOre("garnet_sand", "distilled_water", "red_garnet", "red_garnet", "yellow_garnet", "yellow_garnet", "normal", null, null, null)
     processOre("garnierite", "distilled_water", "iron", "iron", "nickel", "nickel", "normal", null, null, null)
     processOre("germanite", "sodium_persulfate", "molybdenite", "briartite", "realgar", "gallium", "normal", null, null, null)
-    processOre("glauconite_sand", "distilled_water", "sodium", "sodium", "aluminum", "iron", "magnetic", "iron", "minecraft:iron_nugget", null)
+    processOre("glauconite_sand", "distilled_water", "sodium", "sodium", "aluminium", "iron", "magnetic", "iron", "minecraft:iron_nugget", null)
     processOre("goethite", "distilled_water", "malachite", "malachite", "yellow_limonite", "yellow_limonite", "magnetic", "iron", "minecraft:iron_nugget", null)
     processOre("gold", "mercury", "copper", "silver", "nickel", "silver", "normal", null, null, null)
     processOre("granitic_mineral_sand", "distilled_water", "deepslate", "deepslate", "magnetite", "magnetite", "magnetic", "gold", "minecraft:gold_nugget", null)
@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
     processOre("hematite", "distilled_water", "magnetite", "magnetite", "calcium", "magnesium", "magnetic", "iron", "minecraft:iron_nugget", null)
     processOre("heptasartorite", "mercury", "selenium", "cobaltite", "tellurium", "lorandite", "normal", null, null, null)
     processOre("herderite", "distilled_water", "fluoroapatite", "fluoroapatite", "fluorite", "iodine", "gem", null, null, "gtceu:herderite_gem")
-    processOre("hexagonite", "distilled_water", "magnesite", "magnesite", "zincite", "magnanese", "gem", null, null, "gtceu:hexagonite_gem")
+    processOre("hexagonite", "distilled_water", "magnesite", "magnesite", "zincite", "manganese", "gem", null, null, "gtceu:hexagonite_gem")
     processOre("hubnerite", "mercury", "pyrolusite", "brookite", "ferberite", "wolframite", "normal", null, null, null)
     processOre("ilmenite", "sodium_persulfate", "iron", "ilmenite_slag", "rutile", "rutile", "magnetic", "iron", "minecraft:iron_nugget", null)
     processOre("indite", "hydrobromic_acid", "spinel", "dzhalindite", "pyrite", "tellurium", "normal", null, null, null)
@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
     processOre("mottramite", "sodium_persulfate", "calcite", "russellite", "vanadinite", "vanadium_magnetite", "normal", null, null, null)
     processOre("musgravite", "distilled_water", "taaffeite", "taaffeite", "morganite", "thorium", "gem", null, null, "gtceu:musgravite_gem")
     processOre("nambulite", "hexafluorosilicic_acid", "aragonite", "magnesite", "almandine", "grossular", "gem", null, null, "gtceu:nambulite_gem")
-    processOre("naquadah", "distilled_water", "sulfur", "sulfur", "barite", "enriched_naquadah", "magnetic", "enriched_naquadah", "enriched_naquadah", null)
+    processOre("naquadah", "distilled_water", "sulfur", "sulfur", "barite", "enriched_naquadah", "magnetic", "enriched_naquadah", "gtceu:enriched_naquadah_dust", null)
     processOre("neodymium", "distilled_water", "rare_earth", "rare_earth", "rare_earth", "rare_earth", "normal", null, null, null)
     processOre("nether_quartz", "distilled_water", "quartzite", "quartzite", "quartzite", "quartzite", "gem", null, null, "minecraft:quartz")
     processOre("netherite_scrap", "distilled_water", "obsidian", "obsidian", "obsidian", "rarest_metal_mixture", "normal", null, null, null)
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
     processOre("pyrochlore", "distilled_water", "apatite", "apatite", "calcium", "niobium", "normal", null, null, null)
     processOre("pyrolusite", "distilled_water", "manganese", "manganese", "tantalite", "niobium", "normal", null, null, null)
     processOre("pyrope", "distilled_water", "red_garnet", "red_garnet", "magnesium", "magnesium", "gem", null, null, "gtceu:pyrope_gem")
-    processOre("quartzite", "distilled_water", "certus_quartz", "certus_quartz", "barite", "barite", "gem", null, null, "gtceu:quartzite_gem")
+    //processOre("quartzite", "distilled_water", "certus_quartz", "certus_quartz", "barite", "barite", "gem", null, null, "gtceu:quartzite_gem")
     processOre("realgar", "distilled_water", "sulfur", "sulfur", "antimony", "barite", "gem", null, null, "gtceu:realgar_gem")
     processOre("red_beryl", "distilled_water", "emerald", "emerald", "pyrolusite", "pezzottaite", "gem", null, null, "gtceu:red_beryl_gem")
     processOre("red_garnet", "distilled_water", "spessartine", "spessartine", "pyrope", "almandine", "gem", null, null, "gtceu:red_garnet_gem")
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
     processOre("samarskite-yb", "distilled_water", "yellow_garnet", "yellow_garnet", "uraninite", "yttrium", "normal", null, null, null)
     processOre("sapphire", "distilled_water", "aluminium", "aluminium", "green_sapphire", "green_sapphire", "gem", null, null, "gtceu:sapphire_gem")
     processOre("scheelite", "distilled_water", "manganese", "manganese", "molybdenum", "calcium", "normal", null, null, null)
-    processOre("schizolite", "hexafluorosilicic_acid", "spodumene", "pollucite", "sodalite", "lapis", "gem", null, null, "schizolite_gem")
+    processOre("schizolite", "hexafluorosilicic_acid", "spodumene", "pollucite", "sodalite", "lapis", "gem", null, null, "gtceu:schizolite_gem")
     processOre("selenite", "distilled_water", "gypsum", "gypsum", "calcite", "selenium", "gem", null, null, "gtceu:selenite_gem")
     processOre("cooperite", "mercury", "nickel", "palladium", "nickel", "cobalt", "normal", null, null, null)
     processOre("silver", "mercury", "lead", "gold", "sulfur", "sulfur", "normal", null, null, null)
@@ -294,6 +294,19 @@ ServerEvents.recipes(event => {
             `45x ae2:certus_quartz_crystal`,
             `13x gtceu:flawless_certus_quartz_gem`,
             `4x gtceu:exquisite_certus_quartz_gem`)
+        .duration(240)
+        .EUt(GTValues.VA[GTValues.ZPM])
+    event.recipes.gtceu.ore_processing_factory(`quartzite_full_processing`)
+        .itemInputs(`128x gtceu:crushed_quartzite_ore`)
+        .inputFluids(`gtceu:distilled_water 8000`)
+        .itemOutputs(`256x gtceu:quartzite_dust`, 
+            `50x ae2:certus_quartz_dust`,
+            `90x ae2:certus_quartz_dust`,
+            `82x gtceu:barite_dust`,
+            `18x gtceu:barite_dust`,
+            `45x ae2:certus_quartz_crystal`,
+            `13x gtceu:flawless_quartzite_gem`,
+            `4x gtceu:exquisite_quartzite_gem`)
         .duration(240)
         .EUt(GTValues.VA[GTValues.ZPM])
     event.recipes.gtceu.ore_processing_factory(`electrotine_full_processing`)

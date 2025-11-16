@@ -34,6 +34,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Zirconium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Lutetium.setProperty($PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Technetium.setProperty($PropertyKey.INGOT, new $IngotProperty());
+    addFluid(GTMaterials.Technetium, $FluidStorageKeys.LIQUID, 2430);
     GTMaterials.Tellurium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Praseodymium.setProperty($PropertyKey.DUST, new $DustProperty());
     GTMaterials.Promethium.setProperty($PropertyKey.INGOT, new $IngotProperty());
@@ -47,6 +48,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Hafnium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Rhenium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Rhenium.setProperty($PropertyKey.BLAST, new $BlastProperty(8500, "higher", GTValues.VHA[GTValues.LuV], 1200, -1, -1));
+    addFluid(GTMaterials.Rhenium, $FluidStorageKeys.LIQUID, 3459);
     GTMaterials.Thallium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Polonium.setProperty($PropertyKey.INGOT, new $IngotProperty());
     GTMaterials.Astatine.setProperty($PropertyKey.DUST, new $DustProperty());
@@ -125,6 +127,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Thorium.setMaterialARGB(0x273420)
     addFluid(GTMaterials.Actinium, $FluidStorageKeys.LIQUID, 1324);
     GTMaterials.Einsteinium.setProperty($PropertyKey.INGOT, new $IngotProperty())
+    addFluid(GTMaterials.Einsteinium, $FluidStorageKeys.LIQUID, 1133);
 
     addFluid(GTMaterials.Oganesson, $FluidStorageKeys.LIQUID, 1029);
     GTMaterials.Oganesson.setMaterialARGB(0x272727)

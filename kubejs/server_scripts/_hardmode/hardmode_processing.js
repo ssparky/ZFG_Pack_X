@@ -385,10 +385,10 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(120)
 
-    event.recipes.gtceu.chemical_reactor("dimethylformamide")
-        .inputFluids("gtceu:carbon_monoxide 1000", "gtceu:dimethylamine 1000")
-        .outputFluids("gtceu:dimethylformamide 1000")
-        .duration(200).EUt(480);
+    // event.recipes.gtceu.chemical_reactor("dimethylformamide")
+    //     .inputFluids("gtceu:carbon_monoxide 1000", "gtceu:dimethylamine 1000")
+    //     .outputFluids("gtceu:dimethylformamide 1000")
+    //     .duration(200).EUt(480);
 
     event.recipes.gtceu.chemical_reactor("pyrometillic_dianhydride")
         .inputFluids("gtceu:durene 250", "gtceu:oxygen 1500")

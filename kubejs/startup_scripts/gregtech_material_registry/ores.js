@@ -202,7 +202,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components(GTMaterials.Titanium.multiply(1), GTMaterials.Oxygen.multiply(2))
         .addOreByproducts(GTMaterials.Magnetite, GTMaterials.Rutile, GTMaterials.Zirconium)
         .washedIn(GTMaterials.Mercury)
-        .flags(GTMaterialFlags.GENERATE_LENS)
+        .flags(GTMaterialFlags.GENERATE_LENS, GTMaterialFlags.DISABLE_DECOMPOSITION)
     
     event.create("black_opal")
         .gem().ore(3, 1)
@@ -219,6 +219,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components(GTMaterials.Titanium.multiply(1), GTMaterials.Oxygen.multiply(2))
         .addOreByproducts(GTMaterials.Hematite, GTMaterials.Niobium, GTMaterials.Tantalite)
         .washedIn(GTMaterials.Mercury)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create('cavansite')
         .gem().ore(1, 1)

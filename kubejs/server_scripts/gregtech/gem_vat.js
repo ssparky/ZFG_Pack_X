@@ -1058,7 +1058,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:topaz_gem", 5000, 0)
         .chancedOutput("gtceu:topaz_gem", 2000, 0)
         .chancedOutput("gtceu:flawless_topaz_gem", 750, 0)
-        .chancedOutput("gtceu:exquisite_topaze_gem", 250, 0)
+        .chancedOutput("gtceu:exquisite_topaz_gem", 250, 0)
         .circuit(1)
         .EUt(GTValues.VHA[GTValues.ZPM])
         .duration(1500)

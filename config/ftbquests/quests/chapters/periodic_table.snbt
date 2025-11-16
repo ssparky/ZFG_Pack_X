@@ -1704,7 +1704,10 @@
 			tasks: [{
 				count: 100L
 				id: "0EF10F6FA5D18A48"
-				item: { Count: 100, id: "gtceu:sculk_superconductor_dust" }
+				item: {
+					Count: 100
+					id: "gtceu:sculk_superconductor_dust"
+				}
 				type: "item"
 			}]
 			title: "-2: Sculk Superconductor"

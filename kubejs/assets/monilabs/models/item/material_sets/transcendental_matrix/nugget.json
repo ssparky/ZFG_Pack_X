@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "all": "gtceu:item/material_sets/transcendental_matrix/nugget"
+    }
+}

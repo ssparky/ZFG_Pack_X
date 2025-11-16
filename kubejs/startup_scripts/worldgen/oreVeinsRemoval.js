@@ -24,9 +24,32 @@ WorldgenEvents.remove(event => {
         "ad_astra:venus_gold_ore",
         "ad_astra:venus_diamond_ore",
         "ad_astra:venus_calorite_ore",
-        "evenbetternether:nether_ruby_ore",
-        "evenbetternether:nether_pyrite_ore",
-        "evenbetternether:nether_lignite_ore"
+        "natures_spirit:ore_coal",
+        "natures_spirit:ore_coal_buried",
+        "natures_spirit:ore_coal_lower",
+        "natures_spirit:ore_coal_upper",
+        "natures_spirit:ore_copper",
+        "natures_spirit:ore_copper_small",
+        "natures_spirit:ore_copper_large",
+        "natures_spirit:ore_diamond",
+        "natures_spirit:ore_diamond_small",
+        "natures_spirit:ore_diamond_large",
+        "natures_spirit:ore_diamond_buried",
+        "natures_spirit:ore_emerald",
+        "natures_spirit:ore_gold",
+        "natures_spirit:ore_gold_buried",
+        "natures_spirit:ore_gold_extra",
+        "natures_spirit:ore_gold_lower",
+        "natures_spirit:ore_iron",
+        "natures_spirit:ore_iron_middle",
+        "natures_spirit:ore_iron_small",
+        "natures_spirit:ore_iron_large",
+        "natures_spirit:ore_iron_upper",
+        "natures_spirit:ore_lapis",
+        "natures_spirit:ore_lapis_buried",
+        "natures_spirit:ore_redstone",
+        "natures_spirit:ore_redstone_extra",
+        "natures_spirit:ore_redstone_lower"
     ])
 })
 
@@ -46,7 +69,7 @@ WorldgenEvents.remove(event => {
             "ad_astra:venus_coal_ore",
             "ad_astra:venus_gold_ore",
             "ad_astra:venus_diamond_ore",
-            "ad_astra:venus_calorite_ore"
+            "ad_astra:venus_calorite_ore",
         ]
     })
 })

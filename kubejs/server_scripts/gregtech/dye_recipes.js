@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.large_chemical_reactor("cobalt_carbonate")
         .itemInputs("gtceu:cobalt_dust", "gtceu:sodium_bicarbonate_dust")
         .inputFluids("gtceu:sulfuric_acid 1000", "minecraft:water 2000")
-        .itemOutputs("gtceu:cobalt_carbonate_dust", "gtceu:sodium_sulfate_dust")
+        .itemOutputs("gtceu:cobalt_carbonate_dust", "gtceu:sodium_sulfide_dust")
         .outputFluids("minecraft:water 1000", "gtceu:carbon_dioxide 1000", "gtceu:hydrogen 1000")
         .EUt(GTValues.VHA[GTValues.EV])
         .duration(380)
@@ -135,6 +135,8 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:hydrochloric_acid 1000", "gtceu:distilled_water 3000")
         .itemOutputs("4x gtceu:cobalt_chloride_hexahydride_dust")
         .outputFluids("gtceu:carbon_dioxide 1000", "minecraft:water 500")
+        .EUt(GTValues.VHA[GTValues.EV])
+        .duration(380)
     // Molybdenum Dioxide
     event.recipes.gtceu.electric_blast_furnace("molybdenum_dioxide")
         .itemInputs("2x gtceu:molybdenum_trioxide_dust", "1x gtceu:molybdenum_dust")

@@ -3,7 +3,7 @@
  */
 ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line("kubejs:creative_power")
-        .itemInputs("4x #gtceu:circuits/uev", "8x kubejs:dimensionally_stabilized_infinity_heavy_plating", "4x monilabs:dimensional_stabilization_netherite_casing", "4x gtceu:uhv_field_generator", "8x gtceu:uhv_emitter", "4x gtceu:max_battery")
+        .itemInputs("4x #gtceu:circuits/opv", "8x kubejs:dimensionally_stabilized_infinity_heavy_plating", "4x monilabs:dimensional_stabilization_netherite_casing", "4x gtceu:uxv_field_generator", "8x gtceu:uxv_emitter", "4x gtceu:max_battery")
         .inputFluids("gtceu:advanced_soldering_alloy 1152", "gtceu:polyethyl_cyanoacrylate 1152")
         .itemOutputs("monilabs:creative_energy_multi")
         .stationResearch(b => b
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         .EUt(1966080)
 
     event.recipes.gtceu.assembly_line("omniscience_research_beacon")
-        .itemInputs("gtceu:computation_receiver_hatch", "8x gtceu:europium_hex_cable", "4x gtceu:research_station", "16x gtceu:advanced_computer_casing", "16x #gtceu:circuits/uhv", "3x gtceu:uhv_sensor", "kubejs:universal_navigator", "4x gtceu:uhv_field_generator", "4x monilabs:sculk_bioalloy_plate", "64x gtceu:normal_optical_pipe", "64x gtceu:fine_ruridit_wire", "32x gtceu:ruthenium_trinium_americium_neutronate_single_wire")
+        .itemInputs("gtceu:computation_receiver_hatch", "8x gtceu:europium_hex_cable", "4x gtceu:research_station", "16x gtceu:advanced_computer_casing", "16x #gtceu:circuits/uiv", "3x gtceu:uiv_sensor", "kubejs:universal_navigator", "4x gtceu:uiv_field_generator", "4x monilabs:sculk_bioalloy_plate", "64x gtceu:normal_optical_pipe", "64x gtceu:fine_ruridit_wire", "32x gtceu:ruthenium_trinium_americium_neutronate_single_wire")
         .inputFluids("gtceu:advanced_soldering_alloy 2304", "gtceu:omnium 4608", "gtceu:polyethyl_cyanoacrylate 2304")
         .itemOutputs("monilabs:creative_data_multi")
         .stationResearch(b => b

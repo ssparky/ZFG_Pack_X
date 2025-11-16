@@ -145,7 +145,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("taranium")
         .ingot().fluid()
-        .element(GTElements.get("tiberium"))
+        .element(GTElements.get("taranium"))
         .color(0xDA40DA).secondaryColor(0x831474).iconSet("bright")
         .blastTemp(10000, "higher", GTValues.VA[GTValues.UHV], 400)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FOIL)
