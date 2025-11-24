@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
 
     // Initial mass separation step
     event.recipes.gtceu.centrifuge("rare_earth_mass_separation")
-        .itemInputs("2x gtceu:phthalic_anhydride_dust")
+        .chancedInput("gtceu:phthalic_anhydride_dust", 2500, 0)
         .inputFluids("gtceu:rare_earth_chloride_tbp_mix 1000")
         .chancedOutput("gtceu:cadmium_dust", 3000, 0)
         .outputFluidsRanged("gtceu:light_rare_earths_organic_phase", 300, 900) 
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
 
     // Light REE oxalate mixing
-    event.recipes.gtceu.chemical_reactor("light_ree_oxalate_cr")
+    event.recipes.gtceu.large_chemical_reactor("light_ree_oxalate_cr")
         .inputFluids("gtceu:light_rare_earth_nitrate_solution 1000", "gtceu:oxalic_acid_solution 1000")
         .outputFluids("gtceu:light_rare_earth_oxalate_slurry 1000", "gtceu:diluted_nitric_acid 1000", "gtceu:diluted_oxalic_acid 1000")
         .duration(240)

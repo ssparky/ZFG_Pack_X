@@ -97,7 +97,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 // Harder Fluoroantiamonic Acid Processing
 GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("antimony_pentafluoride")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0xe3f1f1)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
         .components("antimony", "5x fluorine")

@@ -23,6 +23,9 @@
 	#The camera FOV when in shoulder surfing perspective. Depends on config option 'fov_override_enabled'.
 	#Range: 30.0 ~ 110.0
 	fov_override = 70.0
+	#Whether to apply view bobbing in shoulder surfing perspective. Set to INHERIT to inherit vanilla setting.
+	#Allowed Values: INHERIT, ON, OFF
+	view_bobbing_mode = "INHERIT"
 
 	[camera.offset]
 		#Third person camera x-offset.
@@ -215,7 +218,7 @@
 [perspective]
 	#The default perspective when you load the game.
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
-	default_perspective = "FIRST_PERSON"
+	default_perspective = "THIRD_PERSON_BACK"
 	#Whether or not to remember the last perspective used.
 	remember_last_perspective = true
 	#Whether or not to replace the default third person perspective.

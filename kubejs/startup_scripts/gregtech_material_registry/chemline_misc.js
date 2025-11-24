@@ -244,14 +244,14 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("omnic_acid")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0xff00ff)
         .iconSet("shiny")
         .components("5x carbon", "4x hydrogen", "3x oxygen", "4x omnium")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("hydrobromic_acid")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0x9E5229)
         .components("1x hydrogen", "1x bromine")
 

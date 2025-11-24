@@ -38,6 +38,12 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:methyl_formate 1000")
         .duration(16).EUt(30)
 
+    event.recipes.gtceu.chemical_reactor("methyl_formate_large")
+        .itemInputs("gtceu:sodium_methoxide_dust")
+        .inputFluids("gtceu:methanol 9000", "gtceu:carbon_dioxide 9000")
+        .outputFluids("gtceu:methyl_formate 9000")
+        .duration(16).EUt(30)
+
     event.recipes.gtceu.chemical_reactor("formic_acid")
         .inputFluids("gtceu:methyl_formate 1000", "minecraft:water 3000")
         .outputFluids("gtceu:formic_acid 1000", "gtceu:methanol 1000")
@@ -63,6 +69,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("11x gtceu:potassium_pyrosulfate_dust")
         .outputFluids("minecraft:water 1000")
         .duration(30).EUt(64)
+        .circuit(1)
 
     event.recipes.gtceu.chemical_reactor("potassium_sulfate_to_potassium_pyrosulfate")
         .itemInputs("7x gtceu:potassium_sulfate_dust")

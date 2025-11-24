@@ -3,6 +3,10 @@
  */
 
 ServerEvents.recipes(event => {
+    // I'm steeling it uoohhhh
+    event.shapeless("gtceu:steel_dust", ["gtceu:wrought_iron_dust", "gtceu:coal_dust"])
+    event.shapeless("gtceu:steel_dust", ["gtceu:wrought_iron_dust", "gtceu:charcoal_dust"])
+    event.shapeless("gtceu:steel_dust", ["gtceu:wrought_iron_dust", "gtceu:carbon_dust"])
     // Aluminum EBF recipe rebuild
     event.remove({ id: "gtceu:electric_blast_furnace/blast_aluminium" })
     event.remove({ id: "gtceu:electric_blast_furnace/blast_aluminium_gas" })
@@ -147,4 +151,36 @@ ServerEvents.recipes(event => {
     CobbleToGravel("cobbletogravel", "minecraft:cobblestone", "minecraft:gravel")
     CobbleToGravel("blackstonetogravel", "minecraft:blackstone", "minecraft:gravel")
     CobbleToGravel("deepslatetogravel", "minecraft:cobbled_deepslate", "minecraft:gravel")
+
+    // ULV Coil hand-craftable
+    event.shaped("gtceu:ulv_voltage_coil", [
+        "AAA",
+        "ABA",
+        "AAA"
+    ], {
+        A: "gtceu:lead_single_wire",
+        B: "gtceu:magnetic_iron_rod"
+    })
+
+    // Induction boiler - TODO: bugfix somehow
+    event.recipes.gtceu.induction_boiler("boil_water")
+        .inputFluids("minecraft:water 7")
+        .outputFluids("gtceu:steam 250")
+        .EUt(8)
+        .duration(1)
+    event.recipes.gtceu.induction_boiler("boil_distilled_water")
+        .inputFluids("gtceu:distilled_water 7")
+        .outputFluids("gtceu:steam 250")
+        .EUt(4)
+        .duration(1)
+
+    event.shaped("gtceu:induction_boiler", [
+        "CBC",
+        "BAB",
+        "CBC"
+    ], {
+        A: "create:brass_casing",
+        B: "gtceu:magnetic_iron_rod",
+        C: "gtceu:lead_octal_wire"
+    })
 })

@@ -354,7 +354,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("acrylic_acid")
-        .fluid().color(0x7A8376)
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
+        .color(0x7A8376)
         .formula("C3H4O2")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
     

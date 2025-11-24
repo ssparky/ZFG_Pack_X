@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ignoredTagPrefixes([TagPrefix.dustTiny, TagPrefix.dustSmall])
 
     event.create("chloroplatinic_acid")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0xfef0c2)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
         .components("2x hydrogen", "platinum", "6x chlorine")
@@ -31,7 +31,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("rhodium_sulfate", "water");
 
     event.create("acidic_iridium_dioxide_solution")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0x27284e)
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
         .components("iridium_dioxide_residue", "4x hydrochloric_acid")

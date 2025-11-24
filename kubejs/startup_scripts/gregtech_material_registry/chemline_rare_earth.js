@@ -61,7 +61,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("diluted_nitric_acid")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0xA9A374)
         .formula("(HNO3)(H2O)3")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
@@ -222,7 +222,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 
     event.create("diluted_oxalic_acid")
-        .fluid()
+        .liquid(new GTFluidBuilder().attribute($FluidAttributes.ACID))
         .color(0xcacac7)
         .components("1x oxalic_acid", "3x water")
         .formula("(H2C2O4)(H2O)3")
